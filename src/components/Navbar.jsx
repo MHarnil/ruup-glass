@@ -10,7 +10,8 @@ import {
   ShieldCheck, 
   Truck,
   Sparkles,
-  Settings
+  Settings,
+  Home
 } from 'lucide-react';
 import { useProducts } from '../context/ProductContext';
 import { useCart } from '../context/CartContext';
@@ -20,7 +21,7 @@ import { COMPANY_INFO } from '../data/categories';
 const SHOW_ADMIN_ICON = false;
 
 export const Navbar = () => {
-  const { searchQuery, setSearchQuery, setIsRfqOpen, setIsAdminOpen } = useProducts();
+  const { searchQuery, setSearchQuery, setIsRfqOpen, setIsAdminOpen, goToHome, currentView } = useProducts();
   const { uniqueItemsCount, totalCartons, setIsCartOpen } = useCart();
   const [isSearchFocused, setIsSearchFocused] = useState(false);
 
@@ -67,7 +68,10 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3">
         <div className="flex items-center justify-between gap-3 md:gap-8">
           {/* Logo & Brand Name */}
-          <a href="#" className="flex items-center gap-2.5 group shrink-0">
+          <button 
+            onClick={goToHome}
+            className="flex items-center gap-2.5 group shrink-0 text-left cursor-pointer focus:outline-none"
+          >
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-700 to-brand-500 flex items-center justify-center text-white shadow-md shadow-brand-500/20 group-hover:scale-105 transition-transform">
               <svg className="w-6 h-6 stroke-current" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M6 2h12a2 2 0 0 1 2 2v2a8 8 0 0 1-8 8 8 8 0 0 1-8-8V4a2 2 0 0 1 2-2Z"/>
@@ -83,7 +87,7 @@ export const Navbar = () => {
                 Glassware & Jars Wholesale
               </p>
             </div>
-          </a>
+          </button>
 
           {/* Search Bar with Live Clear */}
           <div className="flex-1 max-w-xl relative">

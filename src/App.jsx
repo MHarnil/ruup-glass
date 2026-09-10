@@ -3,6 +3,7 @@ import { ProductProvider, useProducts } from './context/ProductContext';
 import { CartProvider, useCart } from './context/CartContext';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
+import { CategoryGrid } from './components/CategoryGrid';
 import { CategoryFilter } from './components/CategoryFilter';
 import { FilterSidebar } from './components/FilterSidebar';
 import { ProductCard } from './components/ProductCard';
@@ -12,7 +13,7 @@ import { RfqModal } from './components/RfqModal';
 import { AdminModal } from './components/AdminModal';
 import { LogisticsSection } from './components/LogisticsSection';
 import { Footer } from './components/Footer';
-import { COMPANY_INFO } from './data/categories';
+import { COMPANY_INFO, CATEGORIES } from './data/categories';
 import { 
   PackageSearch, 
   MessageCircle, 
@@ -20,13 +21,15 @@ import {
   Layers, 
   SlidersHorizontal,
   ChevronDown,
-  ArrowRight
+  ArrowRight,
+  ArrowLeft,
+  Home
 } from 'lucide-react';
 
 const PAGE_SIZE = 32; // Balanced for 4-column desktop and 2-column mobile
 
 const CatalogContent = () => {
-  const { filteredProducts, searchQuery, selectedCategory, setSelectedCategory, setSearchQuery } = useProducts();
+  const { filteredProducts, searchQuery, selectedCategory, setSelectedCategory, setSearchQuery, goToHome } = useProducts();
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
@@ -35,12 +38,56 @@ const CatalogContent = () => {
     setVisibleCount(PAGE_SIZE);
   }, [selectedCategory, searchQuery]);
 
+  const currentCategoryObj = CATEGORIES.find(c => c.id === selectedCategory);
+  const categoryTitle = selectedCategory === 'all' 
+    ? 'All Glassware Products' 
+    : (currentCategoryObj ? currentCategoryObj.name : 'Category Products');
+
   const displayedProducts = filteredProducts.slice(0, visibleCount);
   const hasMore = visibleCount < filteredProducts.length;
 
   return (
     <div id="catalog-section" className="max-w-7xl mx-auto px-3 sm:px-6 py-6 sm:py-10">
       
+      {/* Category Title & Breadcrumbs Banner */}
+      <div className="mb-6 pb-4 border-b border-slate-200 flex flex-wrap items-center justify-between gap-3">
+        <div className="space-y-1">
+          <div className="flex items-center gap-2 text-xs text-slate-500 font-medium">
+            <button 
+              onClick={goToHome}
+              className="inline-flex items-center gap-1 hover:text-brand-600 font-semibold cursor-pointer"
+            >
+              <Home className="w-3.5 h-3.5" />
+              <span>Home</span>
+            </button>
+            <span>/</span>
+            <button 
+              onClick={goToHome}
+              className="hover:text-brand-600 font-semibold cursor-pointer"
+            >
+              Categories
+            </button>
+            <span>/</span>
+            <span className="text-slate-800 font-bold">{categoryTitle}</span>
+          </div>
+
+          <h1 className="text-xl sm:text-2xl font-extrabold text-slate-900">
+            {categoryTitle}
+            <span className="text-xs sm:text-sm font-semibold text-slate-500 ml-2.5">
+              ({filteredProducts.length} items)
+            </span>
+          </h1>
+        </div>
+
+        <button
+          onClick={goToHome}
+          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-white border border-slate-200 text-slate-700 hover:text-brand-600 hover:border-brand-300 font-bold text-xs shadow-xs transition-all"
+        >
+          <ArrowLeft className="w-3.5 h-3.5" />
+          <span>Back to All Categories</span>
+        </button>
+      </div>
+
       {/* Mobile Filter Toggle Bar */}
       <div className="flex md:hidden items-center justify-between gap-2 mb-3 pb-2.5 border-b border-slate-200">
         <button
@@ -138,27 +185,30 @@ const CatalogContent = () => {
 };
 
 const MainLayout = () => {
-  const { activeProduct, closeProductPage } = useProducts();
+  const { currentView, activeProduct, closeProductPage } = useProducts();
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 relative selection:bg-brand-500 selection:text-white">
       <Navbar />
       
-      {activeProduct ? (
+      {currentView === 'product' && activeProduct ? (
         /* Dedicated Full Product Page View */
         <main className="flex-1">
           <ProductPage product={activeProduct} onBack={closeProductPage} />
         </main>
-      ) : (
-        /* Catalog & Homepage View */
-        <>
-          <Hero />
+      ) : currentView === 'catalog' ? (
+        /* Category Products Catalog View */
+        <main className="flex-1">
           <CategoryFilter />
-          <main className="flex-1">
-            <CatalogContent />
-            <LogisticsSection />
-          </main>
-        </>
+          <CatalogContent />
+        </main>
+      ) : (
+        /* Home Page: Hero + Category Grid + Surat Godown Info (NO products listed on homepage) */
+        <main className="flex-1">
+          <Hero />
+          <CategoryGrid />
+          <LogisticsSection />
+        </main>
       )}
 
       <Footer />

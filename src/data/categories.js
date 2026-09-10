@@ -1,11 +1,52 @@
 export const CATEGORIES = [
-  { id: 'all', name: 'All Products', icon: 'Layers' },
-  { id: 'jars', name: 'Glass Jars & Storage', icon: 'Container' },
-  { id: 'bottles', name: 'Milk & Water Bottles', icon: 'Milk' },
-  { id: 'drinkware', name: 'Drinkware & Barware', icon: 'Wine' },
-  { id: 'decanters', name: 'Luxury Decanter Sets', icon: 'Sparkles' },
-  { id: 'caps', name: 'Lug & Plastic Caps', icon: 'Disc' },
-  { id: 'bowls', name: 'Bowls & Tableware', icon: 'Soup' },
+  { 
+    id: 'jars', 
+    name: 'Glass Jars & Storage', 
+    icon: 'Container',
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80',
+    description: 'Food-grade storage jars, ghee & honey jars, spice containers, pop jars & square canisters.',
+    popular: '1.5KG Round Jar, 1KG Ghee Jar, Pop Jar Sets, Wooden Lid Jars'
+  },
+  { 
+    id: 'drinkware', 
+    name: 'Drinkware & Barware', 
+    icon: 'Wine',
+    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80',
+    description: 'Whisky tumblers, wine glasses, beer mugs, teapots with glass strainers, sippers & coffee mugs.',
+    popular: 'Tiger Whisky Glass, Deli Wine Glass, Green Tea Kettles, Animal Base Glasses'
+  },
+  { 
+    id: 'bottles', 
+    name: 'Milk & Water Bottles', 
+    icon: 'Milk',
+    image: 'https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=800&q=80',
+    description: 'Commercial milk bottles, glass water flasks, oil dispensers, beverage & juice bottles.',
+    popular: '200ml GM Milk Bottle, Like Glass Bottle, Oil Can Round, Straw Bottles'
+  },
+  { 
+    id: 'bowls', 
+    name: 'Bowls & Tableware', 
+    icon: 'Soup',
+    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&q=80',
+    description: 'Crystal glass serving bowls, dessert sets, baking dishes, trays & glass ashtrays.',
+    popular: 'Serving Bowl Round F, Square Baking Dish, Lotus Dessert Bowl'
+  },
+  { 
+    id: 'decanters', 
+    name: 'Luxury Decanter Sets', 
+    icon: 'Sparkles',
+    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80',
+    description: 'Premium handcrafted luxury liquor decanters, wooden stand display bottles & gift sets.',
+    popular: 'Airplane Decanter Set, AK47 Rifle Decanter, Globe Decanter'
+  },
+  { 
+    id: 'caps', 
+    name: 'Lug & Plastic Caps', 
+    icon: 'Disc',
+    image: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80',
+    description: 'Air-tight metal lug caps, spice plastic flip caps, silicone seals & bottle closures.',
+    popular: '101mm Red Plastic Cap, 38mm Spice Black Cap, Golden Lug Closures'
+  },
 ];
 
 export const COMPANY_INFO = {
