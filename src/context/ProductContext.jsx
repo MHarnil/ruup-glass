@@ -6,7 +6,7 @@ const ProductContext = createContext();
 export const ProductProvider = ({ children }) => {
   const [products, setProducts] = useState(() => {
     try {
-      const saved = localStorage.getItem('ruup_products_v6');
+      const saved = localStorage.getItem('ruup_products_v7');
       if (saved) {
         const parsed = JSON.parse(saved);
         if (parsed.length >= INITIAL_PRODUCTS.length && parsed[0].images && parsed[0].images.length > 0) {
@@ -32,7 +32,7 @@ export const ProductProvider = ({ children }) => {
   // Sync to localStorage
   useEffect(() => {
     try {
-      localStorage.setItem('ruup_products_v6', JSON.stringify(products));
+      localStorage.setItem('ruup_products_v7', JSON.stringify(products));
     } catch (e) {
       console.error('Failed to save products:', e);
     }
@@ -44,7 +44,7 @@ export const ProductProvider = ({ children }) => {
       const hash = window.location.hash;
       if (hash.startsWith('#product-')) {
         const codeOrId = hash.replace('#product-', '');
-        const found = products.find(p => String(p.itemCode) === codeOrId || p.id === codeOrId);
+        const found = products.find(p => String(p.itemCode) === codeOrId || p.id === codeOrId || p.id === `prod-${codeOrId}`);
         if (found) {
           setActiveProduct(found);
         }
@@ -93,7 +93,7 @@ export const ProductProvider = ({ children }) => {
 
   const resetToDefault = () => {
     setProducts(INITIAL_PRODUCTS);
-    localStorage.removeItem('ruup_products_v6');
+    localStorage.removeItem('ruup_products_v7');
   };
 
   // Filtered and Sorted products
@@ -111,7 +111,7 @@ export const ProductProvider = ({ children }) => {
       if (p.price < priceRange.min || p.price > priceRange.max) {
         return false;
       }
-      // Search query across name, code, alias, tags, brahmani categories
+      // Search query across name, code, alias, tags, brahmani/jds categories
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase();
         const matchesName = p.name?.toLowerCase().includes(q);
