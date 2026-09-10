@@ -6,10 +6,10 @@ const ProductContext = createContext();
 export const ProductProvider = ({ children }) => {
   const [products, setProducts] = useState(() => {
     try {
-      const saved = localStorage.getItem('ruup_products_v5');
+      const saved = localStorage.getItem('ruup_products_v6');
       if (saved) {
         const parsed = JSON.parse(saved);
-        if (parsed.length > 0 && parsed[0].images && parsed[0].images.length > 0) {
+        if (parsed.length >= INITIAL_PRODUCTS.length && parsed[0].images && parsed[0].images.length > 0) {
           return parsed;
         }
       }
@@ -23,7 +23,7 @@ export const ProductProvider = ({ children }) => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [inStockOnly, setInStockOnly] = useState(false);
-  const [priceRange, setPriceRange] = useState({ min: 0, max: 5000 });
+  const [priceRange, setPriceRange] = useState({ min: 0, max: 10000 });
   const [sortBy, setSortBy] = useState('featured');
   const [activeProduct, setActiveProduct] = useState(null);
   const [isRfqOpen, setIsRfqOpen] = useState(false);
@@ -32,7 +32,7 @@ export const ProductProvider = ({ children }) => {
   // Sync to localStorage
   useEffect(() => {
     try {
-      localStorage.setItem('ruup_products_v5', JSON.stringify(products));
+      localStorage.setItem('ruup_products_v6', JSON.stringify(products));
     } catch (e) {
       console.error('Failed to save products:', e);
     }
@@ -93,7 +93,7 @@ export const ProductProvider = ({ children }) => {
 
   const resetToDefault = () => {
     setProducts(INITIAL_PRODUCTS);
-    localStorage.removeItem('ruup_products_v5');
+    localStorage.removeItem('ruup_products_v6');
   };
 
   // Filtered and Sorted products
@@ -111,7 +111,7 @@ export const ProductProvider = ({ children }) => {
       if (p.price < priceRange.min || p.price > priceRange.max) {
         return false;
       }
-      // Search query across name, code, alias, tags
+      // Search query across name, code, alias, tags, brahmani categories
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase();
         const matchesName = p.name?.toLowerCase().includes(q);
@@ -119,7 +119,8 @@ export const ProductProvider = ({ children }) => {
         const matchesAlias = String(p.aliasName || '').toLowerCase().includes(q);
         const matchesTags = p.tags?.some(tag => tag.toLowerCase().includes(q));
         const matchesCat = p.categoryName?.toLowerCase().includes(q);
-        if (!matchesName && !matchesCode && !matchesAlias && !matchesTags && !matchesCat) {
+        const matchesBrahmaniCat = p.brahmaniCategories?.some(bc => bc.toLowerCase().includes(q));
+        if (!matchesName && !matchesCode && !matchesAlias && !matchesTags && !matchesCat && !matchesBrahmaniCat) {
           return false;
         }
       }

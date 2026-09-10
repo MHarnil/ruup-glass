@@ -1,0 +1,350 @@
+[
+  {
+    "id": "16f5c732-0ceb-4673-a112-56dad464bb38",
+    "itemCode": "23265",
+    "aliasName": null,
+    "name": "101MM RED PLASTIC CAP",
+    "categories": [
+      {
+        "name": "GLASS CHINA",
+        "label": "GLASSWARE"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/23265/25a052b6-bd14-49f8-af44-eaf194aa0ecb@full.webp",
+    "price": 7,
+    "piecesPerCarton": null,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "d7467a3a-e24e-4088-9663-2989790ee900",
+    "itemCode": "23258",
+    "aliasName": null,
+    "name": "2700ML SQUARE JAR",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/23258/2961d66d-e3fa-4ee4-ab55-8c6fccf06a6f@full.webp",
+    "price": 80,
+    "piecesPerCarton": 15,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "02711a1d-8f10-444c-9a92-b163cb11681e",
+    "itemCode": "23085",
+    "aliasName": "GBC15/3SETS",
+    "name": "3 PCS POP JAR SET 350ML BOX PACK",
+    "categories": [
+      {
+        "name": "CHINA",
+        "label": "CHINA"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/23085/4ad5aff3-233f-4290-b85d-d42d630f5877@full.webp",
+    "price": 130,
+    "piecesPerCarton": 24,
+    "stockStatus": "in_transit",
+    "arrivalDate": "2026-09-25"
+  },
+  {
+    "id": "0fabdd95-9a55-4e7e-b982-7542a40dc26a",
+    "itemCode": "22949",
+    "aliasName": null,
+    "name": "300GMS FUDKOR JAR",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/22949/72f04643-ca88-4749-8641-19dc572eda3e@full.webp",
+    "price": 15,
+    "piecesPerCarton": 33,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "22cddf8f-4311-45c6-8e9c-25a5051ee258",
+    "itemCode": "22967",
+    "aliasName": null,
+    "name": "300ML FRUITY JAR",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/22967/711239ea-b473-4b1d-a659-22e005cc1af4@full.webp",
+    "price": 14,
+    "piecesPerCarton": 48,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "e79655af-ed17-443e-87a9-3bfae16f5754",
+    "itemCode": "23105",
+    "aliasName": null,
+    "name": "38MM SPICE BLACK VERGINE PLASTIC CAP",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/23105/0@full.webp",
+    "price": 3,
+    "piecesPerCarton": null,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "0c443bb1-e160-4bd7-9f26-2ede1f77b64b",
+    "itemCode": "22584",
+    "aliasName": null,
+    "name": "3D WALLPAPER BRICKS WHITE",
+    "categories": [
+      {
+        "name": "CHINA",
+        "label": "CHINA"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/22584/0@full.webp",
+    "price": 45,
+    "piecesPerCarton": 150,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "9512d0ad-96be-49a9-ab79-be0caebe491d",
+    "itemCode": "23236",
+    "aliasName": "H33551-2",
+    "name": "400ML SS JAR SET ON STAND 2PCS SET",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/23236/6fb09024-9fb6-42c5-bede-9d1c2d9157f6@full.webp",
+    "price": 227,
+    "piecesPerCarton": 18,
+    "stockStatus": "in_transit",
+    "arrivalDate": "2026-09-10"
+  },
+  {
+    "id": "9af573a9-7a75-4908-8d94-21b12c9205ce",
+    "itemCode": "23263",
+    "aliasName": null,
+    "name": "43MM GOLDEN COLOR LUG CAPS",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/23263/2bd8024d-47a5-41e8-92c0-9d457e2bca2f@full.webp",
+    "price": 3,
+    "piecesPerCarton": null,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "bbde0922-7bf1-4323-a8d1-30dce3843c60",
+    "itemCode": "22597",
+    "aliasName": null,
+    "name": "5 IN 1 TILES CLEANER",
+    "categories": [
+      {
+        "name": "CHINA",
+        "label": "CHINA"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/22597/0@full.webp",
+    "price": 52,
+    "piecesPerCarton": 120,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "9287c2ab-349b-408f-8c9b-f060ebd40613",
+    "itemCode": "22952",
+    "aliasName": null,
+    "name": "500ML GM MILK BOTTLES",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/22952/0d0397d1-9fe3-4901-97af-e66501473003@full.webp",
+    "price": 16,
+    "piecesPerCarton": 35,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "8319302f-385b-43ca-ab8a-cd40ca13de48",
+    "itemCode": "22948",
+    "aliasName": null,
+    "name": "500ML SG WATER BOTTLES",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/22948/ae26ee24-bcba-41c1-b7d6-a624820b63a1@full.webp",
+    "price": 19,
+    "piecesPerCarton": 36,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "b81eef73-b0ee-4d3e-9de6-d2238cc0086f",
+    "itemCode": "22989",
+    "aliasName": null,
+    "name": "53D BLACK VERGINE PLASTIC CAP",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/22989/0@full.webp",
+    "price": 7,
+    "piecesPerCarton": 1800,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "27022a14-07f5-4145-bdaa-12a6f9a9a319",
+    "itemCode": "22947",
+    "aliasName": null,
+    "name": "750ML SG WATER BOTTLES",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/22947/7b1cf485-9a89-481e-99dd-917b08747750@full.webp",
+    "price": 30,
+    "piecesPerCarton": 24,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "5fabfab2-c77c-458d-8b75-e4187481f1e7",
+    "itemCode": "22997",
+    "aliasName": null,
+    "name": "82MM GOLDEN COLOR LUG CAPS",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/22997/0@full.webp",
+    "price": 6.5,
+    "piecesPerCarton": null,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "7e263a65-76cd-4f68-8a0f-0da3c62517a8",
+    "itemCode": "22965",
+    "aliasName": null,
+    "name": "95ML IPL SQUARE JAR",
+    "categories": [],
+    "image": "https://assets.brahmanicrm.com/products/22965/cc0c56ef-5de4-42d8-9c4d-aa3858008304@full.webp",
+    "price": 9,
+    "piecesPerCarton": 99,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "54d6f293-0069-4f52-aee0-5f483e574aa1",
+    "itemCode": "23292",
+    "aliasName": "XZG-046",
+    "name": "AIRPLANE DECANTER SET OF 2 GLASSES",
+    "categories": [
+      {
+        "name": "CHINA",
+        "label": "CHINA"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/23292/ecccd416-759c-4c1c-b1ca-7053b6f2833b@full.webp",
+    "price": 4500,
+    "piecesPerCarton": 1,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "6424f081-8fe9-43b3-b22a-748ca4ff0682",
+    "itemCode": "21664",
+    "aliasName": "LX-09",
+    "name": "AK47 GUN DECANTER SET 5PCS",
+    "categories": [
+      {
+        "name": "CHINA",
+        "label": "CHINA"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/21664/d9386437-7bcd-4732-95ed-2ac50b594451@full.webp",
+    "price": 3200,
+    "piecesPerCarton": 4,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "df232252-6f27-4f24-b838-ca56ed57c428",
+    "itemCode": "23073",
+    "aliasName": null,
+    "name": "ASTRONAUT KING SIPPER BOTTLE 450ML",
+    "categories": [
+      {
+        "name": "CHINA",
+        "label": "CHINA"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/23073/0@full.webp",
+    "price": 60,
+    "piecesPerCarton": 70,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "0482015c-b8d5-4ff2-9141-7f6f516ac21a",
+    "itemCode": "22678",
+    "aliasName": "FXKP-0.9L",
+    "name": "BAKING DISH 0.9 SQUARE",
+    "categories": [
+      {
+        "name": "DIAMONDS",
+        "label": "DIAMONDS"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/22678/0@full.webp",
+    "price": 100,
+    "piecesPerCarton": 36,
+    "stockStatus": "in_transit",
+    "arrivalDate": "2026-09-29"
+  },
+  {
+    "id": "b4793ffb-6c77-4a2f-93ef-c34fbcbbc325",
+    "itemCode": "22659",
+    "aliasName": "CXKP-1.0L",
+    "name": "BAKING DISH 1.0LTR  RECTANGLE",
+    "categories": [
+      {
+        "name": "DIAMONDS",
+        "label": "DIAMONDS"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/22659/26ceb033-ad44-45ad-8392-4a164d55d8f7@full.webp",
+    "price": 122,
+    "piecesPerCarton": 24,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "5d752024-7467-4f2f-9365-8194e5280d44",
+    "itemCode": "22680",
+    "aliasName": "CXKP-1.6L",
+    "name": "BAKING DISH 1.6 RECTANGLE",
+    "categories": [
+      {
+        "name": "DIAMONDS",
+        "label": "DIAMONDS"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/22680/5cb79d91-cacf-42e8-a80e-741a8969925c@full.webp",
+    "price": 170,
+    "piecesPerCarton": 18,
+    "stockStatus": "in_transit",
+    "arrivalDate": "2026-09-29"
+  },
+  {
+    "id": "c899c7d2-b070-4d74-b85b-dcae1f8ad5e1",
+    "itemCode": "22896",
+    "aliasName": "FP-1600",
+    "name": "BAKING DISH 1.6L SQUARE",
+    "categories": [
+      {
+        "name": "GLASS CHINA",
+        "label": "GLASSWARE"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/22896/2e1d8455-7f70-4c83-a928-44c9e1b8ed87@full.webp",
+    "price": 175,
+    "piecesPerCarton": 12,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  },
+  {
+    "id": "0177bd23-483f-41fd-be89-18c472d70292",
+    "itemCode": "22850",
+    "aliasName": "H2150-3",
+    "name": "BAKING DISH RECTANGLE 3PCS (10,11.5,13.5 INCH)",
+    "categories": [
+      {
+        "name": "CHINA",
+        "label": "CHINA"
+      }
+    ],
+    "image": "https://assets.brahmanicrm.com/products/22850/79e88286-77c1-4bb8-979e-8cd4b56df962@full.webp",
+    "price": 510,
+    "piecesPerCarton": 6,
+    "stockStatus": "in_stock",
+    "arrivalDate": null
+  }
+]

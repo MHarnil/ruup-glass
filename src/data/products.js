@@ -1,50 +1,27 @@
 export const INITIAL_PRODUCTS = [
   {
-    "id": "51d72342-ca74-4aa8-aefc-d12665b2142a",
-    "itemCode": "23256",
-    "aliasName": null,
-    "name": "1.5KG ROUND JAR",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 70,
-    "piecesPerCarton": 12,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23256/56630af2-538b-48f2-97c9-8802503a06fa.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23256/56630af2-538b-48f2-97c9-8802503a06fa.jpg",
-      "https://assets.brahmanicrm.com/products/23256/bd02b89f-2f92-416a-bb6d-0dbb25688a7e.webp",
-      "https://assets.brahmanicrm.com/products/23256/00e7c28e-e376-46f8-9f07-92394f88d5c2.jpg"
-    ],
-    "description": "Upgrade your kitchen organization with our elegant and durable 1.5kg Round Glass Storage Jar. Designed to blend seamlessly into any modern aesthetic, this versatile container is perfect for keeping your pantry neat and your ingredients fresh. Whether you are storing everyday spices, aromatic tea blends, or crunchy dry fruits, this jar offers the perfect balance of functionality and style.\n\nSay goodbye to cluttered plastic containers and elevate your kitchen counter with this premium, eco-friendly glass storage solution!",
-    "capacity": "1.5KG",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": true,
-    "tags": [
-      "1.5KG",
-      "ROUND",
-      "JAR"
-    ]
-  },
-  {
     "id": "16f5c732-0ceb-4673-a112-56dad464bb38",
     "itemCode": "23265",
     "aliasName": null,
     "name": "101MM RED PLASTIC CAP",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 27,
+    "basePrice": 7,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23265/25a052b6-bd14-49f8-af44-eaf194aa0ecb.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23265/25a052b6-bd14-49f8-af44-eaf194aa0ecb@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23265/25a052b6-bd14-49f8-af44-eaf194aa0ecb.jpg",
-      "https://assets.brahmanicrm.com/products/23265/e08343e3-211d-42f4-a4f8-2119465e42ad.jpg",
-      "https://assets.brahmanicrm.com/products/23265/e2c0bf19-814f-4c71-b3c0-3089c33adac4.jpg",
-      "https://assets.brahmanicrm.com/products/23265/9a4569fc-9ffb-4a6d-b1f4-4b16bf57e0fa.jpg"
+      "https://assets.brahmanicrm.com/products/23265/25a052b6-bd14-49f8-af44-eaf194aa0ecb@full.webp",
+      "https://assets.brahmanicrm.com/products/23265/e08343e3-211d-42f4-a4f8-2119465e42ad@full.webp",
+      "https://assets.brahmanicrm.com/products/23265/e2c0bf19-814f-4c71-b3c0-3089c33adac4@full.webp",
+      "https://assets.brahmanicrm.com/products/23265/9a4569fc-9ffb-4a6d-b1f4-4b16bf57e0fa@full.webp",
+      "https://assets.brahmanicrm.com/products/23265/ced41513-bde6-45c5-90d1-e16ef5374e60@full.webp"
     ],
-    "description": "Upgrade your storage solutions and product packaging with our Premium 101mm Red Plastic Screw Cap. Whether you are packaging wholesale glassware, organizing kitchen containers, or preparing custom corporate gifts, this wide-mouth lid offers the perfect blend of durability and style.",
+    "description": "Designed with a precise 101mm standard diameter to ensure a perfect fit on compatible bottles and jars.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "101MM Neck / Closure",
     "material": "Clear Soda Lime Flint Glass",
@@ -54,66 +31,8 @@ export const INITIAL_PRODUCTS = [
       "101MM",
       "RED",
       "PLASTIC",
-      "CAP"
-    ]
-  },
-  {
-    "id": "4ff78b34-6f37-4876-85f5-67b13c74cfe8",
-    "itemCode": "22959",
-    "aliasName": null,
-    "name": "1KG GHEE JAR",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 52,
-    "piecesPerCarton": 12,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22959/0.png",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22959/0.png",
-      "https://assets.brahmanicrm.com/products/22959/1.jpg",
-      "https://assets.brahmanicrm.com/products/22959/2.jpg",
-      "https://assets.brahmanicrm.com/products/22959/3.jpg",
-      "https://assets.brahmanicrm.com/products/22959/4.jpg"
-    ],
-    "description": "Perfect for storing ghee, oil, butter, desi ghee, honey, pickles, and other food items Store your ghee safely and hygienically with this 1KG Ghee Jar",
-    "capacity": "1KG",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": true,
-    "tags": [
-      "1KG",
-      "GHEE",
-      "JAR"
-    ]
-  },
-  {
-    "id": "0b266ea4-c3b5-4bf1-a366-5f386855391d",
-    "itemCode": "22951",
-    "aliasName": null,
-    "name": "200ML GM MILK BOTTLES",
-    "category": "bottles",
-    "categoryName": "Milk & Water Bottles",
-    "price": 31,
-    "piecesPerCarton": 48,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22951/cd16f4da-ca11-4e46-95a6-abed19619c03.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22951/cd16f4da-ca11-4e46-95a6-abed19619c03.jpg",
-      "https://assets.brahmanicrm.com/products/22951/175ec8f0-0029-4626-8220-96e1753a54a9.jpg",
-      "https://assets.brahmanicrm.com/products/22951/717cbe89-2a43-4c16-be14-225a59b54df8.jpg",
-      "https://assets.brahmanicrm.com/products/22951/a7e56360-8083-4cfb-9c9c-db313a7a7b93.jpg"
-    ],
-    "description": "This 200ML GM Milk Bottle is designed for safe storage and attractive serving of milk and other beverages Ideal for milk, flavored milk, lassi, buttermilk, juice, shakes, and beverages",
-    "capacity": "200ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": true,
-    "tags": [
-      "200ML",
-      "MILK",
-      "BOTTLES"
+      "CAP",
+      "GLASSWARE"
     ]
   },
   {
@@ -123,16 +42,21 @@ export const INITIAL_PRODUCTS = [
     "name": "2700ML SQUARE JAR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 100,
+    "basePrice": 80,
     "piecesPerCarton": 15,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23258/0eeb975b-aeab-44ed-944a-a28e70df6201.png",
+    "image": "https://assets.brahmanicrm.com/products/23258/2961d66d-e3fa-4ee4-ab55-8c6fccf06a6f@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23258/0eeb975b-aeab-44ed-944a-a28e70df6201.png",
-      "https://assets.brahmanicrm.com/products/23258/54a4a169-99ab-4abe-895b-8dfc44398244.png",
-      "https://assets.brahmanicrm.com/products/23258/04f5167b-9a68-4f15-8f67-28d7815ef040.png"
+      "https://assets.brahmanicrm.com/products/23258/2961d66d-e3fa-4ee4-ab55-8c6fccf06a6f@full.webp",
+      "https://assets.brahmanicrm.com/products/23258/d3c09fa3-0cd7-462c-bf79-af5d396deceb@full.webp",
+      "https://assets.brahmanicrm.com/products/23258/41d60d6d-92f3-4e89-99b3-563e44df3a3c@full.webp",
+      "https://assets.brahmanicrm.com/products/23258/5d243e04-355f-4cc0-8218-14f86d585144@full.webp",
+      "https://assets.brahmanicrm.com/products/23258/2b3f66ae-6e6b-4236-8bd6-e4edf159df4e@full.webp",
+      "https://assets.brahmanicrm.com/products/23258/be5f995e-a5b4-4d65-9520-f67324eb0686@full.webp"
     ],
-    "description": "Upgrade your kitchen organization and bring a touch of minimalist elegance to your space with our Premium 2700ML Square Glass Storage Jar. Designed for both aesthetics and everyday functionality, this large-capacity jar is the perfect solution for keeping your pantry neat, visible, and fresh.\n\nWhether you are storing bulk dry goods, displaying colorful cereals, or organizing your countertop, the sleek square design maximizes your shelf space while looking effortlessly stylish. Made from high-quality, crystal-clear glass, it allows you to easily identify contents and keep track of your stock at a glance.",
+    "description": "Features an extra-large 2700ml capacity, making it perfect for storing large quantities of pulses, grains, sugar, flour, or pickles.",
     "capacity": "2700ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -151,18 +75,23 @@ export const INITIAL_PRODUCTS = [
     "name": "3 PCS POP JAR SET 350ML BOX PACK",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 150,
+    "basePrice": 130,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23085/4ad5aff3-233f-4290-b85d-d42d630f5877.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23085/4ad5aff3-233f-4290-b85d-d42d630f5877@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23085/4ad5aff3-233f-4290-b85d-d42d630f5877.jpg",
-      "https://assets.brahmanicrm.com/products/23085/32769101-9964-4dd8-8e0f-50231771e949.jpg",
-      "https://assets.brahmanicrm.com/products/23085/6750cb21-1871-4688-bedc-609198344656.jpg",
-      "https://assets.brahmanicrm.com/products/23085/ff635337-e690-4833-ab06-230552cb2e2f.jpg",
-      "https://assets.brahmanicrm.com/products/23085/b6280116-02ec-47aa-a2f0-d6e19b3ce441.jpg"
+      "https://assets.brahmanicrm.com/products/23085/4ad5aff3-233f-4290-b85d-d42d630f5877@full.webp",
+      "https://assets.brahmanicrm.com/products/23085/32769101-9964-4dd8-8e0f-50231771e949@full.webp",
+      "https://assets.brahmanicrm.com/products/23085/6750cb21-1871-4688-bedc-609198344656@full.webp",
+      "https://assets.brahmanicrm.com/products/23085/ff635337-e690-4833-ab06-230552cb2e2f@full.webp",
+      "https://assets.brahmanicrm.com/products/23085/b6280116-02ec-47aa-a2f0-d6e19b3ce441@full.webp",
+      "https://assets.brahmanicrm.com/products/23085/3d4a5a1e-ec3a-4d04-8b2c-46a7efe97c57@full.webp"
     ],
-    "description": "Pop Glass jar Kitchen Storage Container -3 PCS\nThe Best quality Glass Jar Capacity 350 ml Suitable For Storing Food Items.",
+    "description": "Design: Clear glass jars featuring vertical ribbed patterns and matching glass lids with round handles.",
     "capacity": "3 PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -173,7 +102,10 @@ export const INITIAL_PRODUCTS = [
       "POP",
       "JAR",
       "SET",
-      "350ML"
+      "350ML",
+      "BOX",
+      "PACK",
+      "CHINA"
     ]
   },
   {
@@ -183,19 +115,20 @@ export const INITIAL_PRODUCTS = [
     "name": "300GMS FUDKOR JAR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 35,
+    "basePrice": 15,
     "piecesPerCarton": 33,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22949/f820b00e-66a6-464d-ab57-38a7e86738d7.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22949/72f04643-ca88-4749-8641-19dc572eda3e@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22949/f820b00e-66a6-464d-ab57-38a7e86738d7.jpg",
-      "https://assets.brahmanicrm.com/products/22949/1541b5dc-dfb0-4ff1-9a87-e58b52e4d25a.jpg",
-      "https://assets.brahmanicrm.com/products/22949/770032ec-c9d9-45ce-b8cc-ce185cb5b1d9.jpg",
-      "https://assets.brahmanicrm.com/products/22949/6d6cb4b4-73d5-4a93-87f6-a78150706aa1.jpg",
-      "https://assets.brahmanicrm.com/products/22949/eb718f5c-5edf-46cb-90e2-afa667a7de15.jpg",
-      "https://assets.brahmanicrm.com/products/22949/bb01803d-ca4f-49cb-a54f-92f1ad3c4dc9.jpg"
+      "https://assets.brahmanicrm.com/products/22949/72f04643-ca88-4749-8641-19dc572eda3e@full.webp",
+      "https://assets.brahmanicrm.com/products/22949/1816b535-7330-41b2-955c-6a19b5e71cc5@full.webp",
+      "https://assets.brahmanicrm.com/products/22949/63c7652a-3b29-4c3a-a4a1-f9f4a8926957@full.webp",
+      "https://assets.brahmanicrm.com/products/22949/8d7abdbc-c8b0-48ba-bbb2-3b90b1c7c2c5@full.webp",
+      "https://assets.brahmanicrm.com/products/22949/71fc2c1c-ca5b-4cb7-926e-92773186ccb2@full.webp"
     ],
-    "description": "Suitable for fudkor, namkeen, farsan, mixture, snacks, dry fruits, sweets, and cookies Its compact size and strong glass build make it perfect for daily use as well as retail and commercial storage",
+    "description": "Product Type: Two clear glass storage jars shown side-by-side against a plain white background.",
     "capacity": "300GMS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -214,18 +147,21 @@ export const INITIAL_PRODUCTS = [
     "name": "300ML FRUITY JAR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 34,
+    "basePrice": 14,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22967/ed3a7924-eae8-4561-869e-fa1ebc318cc6.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22967/711239ea-b473-4b1d-a659-22e005cc1af4@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22967/ed3a7924-eae8-4561-869e-fa1ebc318cc6.jpg",
-      "https://assets.brahmanicrm.com/products/22967/bdf1f063-d5ae-4671-be4f-9e7898716162.jpg",
-      "https://assets.brahmanicrm.com/products/22967/445e8c24-1d25-4f2a-9c2a-b7448adb9262.jpg",
-      "https://assets.brahmanicrm.com/products/22967/98600ed7-9f01-439d-8fa3-66d76af7eadd.jpg",
-      "https://assets.brahmanicrm.com/products/22967/adda5722-449b-4114-8550-edb10c066cfa.jpg"
+      "https://assets.brahmanicrm.com/products/22967/711239ea-b473-4b1d-a659-22e005cc1af4@full.webp",
+      "https://assets.brahmanicrm.com/products/22967/4e1cd294-42e3-4c17-9ca2-2dc8179944f8@full.webp",
+      "https://assets.brahmanicrm.com/products/22967/ab5c7d52-d2f5-4f60-8fe0-9da6dd058061@full.webp",
+      "https://assets.brahmanicrm.com/products/22967/1e675cce-7df8-4f48-87fa-90b799e08b79@full.webp",
+      "https://assets.brahmanicrm.com/products/22967/1bcc411a-f1fd-4615-92bb-22ef55b93a10@full.webp",
+      "https://assets.brahmanicrm.com/products/22967/8b5c6498-4b9b-4f74-8c98-5f8b84e04ba1@full.webp"
     ],
-    "description": "Add a fresh and colorful touch to your kitchen with this 300ML Fruity Jar, designed for both storage and serving. Its compact size and attractive fruity design make it perfect for daily use at home, cafés, hotels, or gifting.",
+    "description": "Features an ideal 300ml capacity, perfectly sized for storing jam, honey, pickles, spreads, or dry fruits.",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -238,53 +174,28 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "6894eaf5-53ea-4722-95a6-26c32621f2d4",
-    "itemCode": "22958",
-    "aliasName": null,
-    "name": "370ML OCTAGONAL JAR",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 35,
-    "piecesPerCarton": 32,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22958/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22958/0.jpg",
-      "https://assets.brahmanicrm.com/products/22958/1.jpg",
-      "https://assets.brahmanicrm.com/products/22958/2.jpg",
-      "https://assets.brahmanicrm.com/products/22958/3.jpg"
-    ],
-    "description": "Ideal for storing spices, dry fruits, cookies, sugar, snacks, candies, pulses, and pickles Its unique octagonal shape enhances shelf appeal while offering practical storage for everyday kitchen needs.",
-    "capacity": "370ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": true,
-    "tags": [
-      "370ML",
-      "OCTAGONAL",
-      "JAR"
-    ]
-  },
-  {
     "id": "e79655af-ed17-443e-87a9-3bfae16f5754",
     "itemCode": "23105",
     "aliasName": null,
     "name": "38MM SPICE BLACK VERGINE PLASTIC CAP",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [],
     "price": 23,
+    "basePrice": 3,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23105/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23105/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23105/0.jpg",
-      "https://assets.brahmanicrm.com/products/23105/1.jpg",
-      "https://assets.brahmanicrm.com/products/23105/2.jpg",
-      "https://assets.brahmanicrm.com/products/23105/3.jpg",
-      "https://assets.brahmanicrm.com/products/23105/4.jpg"
+      "https://assets.brahmanicrm.com/products/23105/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23105/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23105/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23105/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23105/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23105/9e8f2733-222f-4e98-a8e4-148faeed1de9@full.webp",
+      "https://assets.brahmanicrm.com/products/23105/e25628c8-7b48-4936-a7c7-5d409fb64bdc@full.webp"
     ],
-    "description": "Upgrade your spice storage with these high-quality, versatile Replacement Spice Jar Caps. Designed for functionality and convenience, this set includes two durable black caps featuring a unique, multi-sieve rotating design. Whether you are dispensing fine powders, coarse herbs, or whole spices, these caps give you precise control over your pour.\n\nKey Features:",
+    "description": "Special Features: Dual-Flap Shaker Design, Food-Grade, Airtight Flip Top, Leak-Resistant",
     "capacity": "Standard Trade Spec",
     "mouthSize": "38MM Neck / Closure",
     "material": "Clear Soda Lime Flint Glass",
@@ -295,7 +206,8 @@ export const INITIAL_PRODUCTS = [
       "SPICE",
       "BLACK",
       "VERGINE",
-      "PLASTIC"
+      "PLASTIC",
+      "CAP"
     ]
   },
   {
@@ -305,17 +217,22 @@ export const INITIAL_PRODUCTS = [
     "name": "3D WALLPAPER BRICKS WHITE",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 65,
+    "basePrice": 45,
     "piecesPerCarton": 150,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22584/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22584/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22584/0.jpg",
-      "https://assets.brahmanicrm.com/products/22584/1.jpg",
-      "https://assets.brahmanicrm.com/products/22584/2.jpg",
-      "https://assets.brahmanicrm.com/products/22584/3.jpg"
+      "https://assets.brahmanicrm.com/products/22584/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22584/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22584/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22584/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22584/21d69044-3141-43ed-96f4-d22e0c48e568@full.webp"
     ],
-    "description": "Give your space a fantastic upgrade with this realistic textured brick wallpaper. Enjoy the look of exposed brick with simple installation – just peel and stick! A perfect solution for an affordable and impactful room refresh.",
+    "description": "Design & Texture: Features a textured, embossed brick design that provides a realistic faux-brick look and tactile feel.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -324,39 +241,42 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "WALLPAPER",
       "BRICKS",
-      "WHITE"
+      "WHITE",
+      "CHINA"
     ]
   },
   {
-    "id": "779cab75-87a3-49cb-ba3d-d75c066529a6",
-    "itemCode": "22994",
-    "aliasName": null,
-    "name": "43MM BLACK COLOR LUG CAPS",
-    "category": "caps",
-    "categoryName": "Lug & Plastic Caps",
-    "price": 23,
-    "piecesPerCarton": 1,
+    "id": "9512d0ad-96be-49a9-ab79-be0caebe491d",
+    "itemCode": "23236",
+    "aliasName": "H33551-2",
+    "name": "400ML SS JAR SET ON STAND 2PCS SET",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 247,
+    "basePrice": 227,
+    "piecesPerCarton": 18,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22994/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23236/6fb09024-9fb6-42c5-bede-9d1c2d9157f6@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22994/0.jpg",
-      "https://assets.brahmanicrm.com/products/22994/1.jpg",
-      "https://assets.brahmanicrm.com/products/22994/2.jpg",
-      "https://assets.brahmanicrm.com/products/22994/3.jpg",
-      "https://assets.brahmanicrm.com/products/22994/4.jpg"
+      "https://assets.brahmanicrm.com/products/23236/6fb09024-9fb6-42c5-bede-9d1c2d9157f6@full.webp",
+      "https://assets.brahmanicrm.com/products/23236/b298ab8a-7810-4923-8fa6-c2e9cde065a9@full.webp",
+      "https://assets.brahmanicrm.com/products/23236/70f0c02a-a737-4355-aecf-c6006512c024@full.webp",
+      "https://assets.brahmanicrm.com/products/23236/41406188-466e-4ac2-9e46-d70a3403a28d@full.webp",
+      "https://assets.brahmanicrm.com/products/23236/e6d9e6a1-5b94-4c89-b0d1-2ce673b384a2@full.webp"
     ],
-    "description": "Air tight Glass Jar cap for all Glass having 43 mm mouth.\nLaminated caps which makes it rust-proof. Glass Jar Lids only\nLeak Proof and Food Grade Quality",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "43MM Neck / Closure",
+    "description": "72 SET CTN \nDining Spice Rack Set Pepper and Salt Sprinkle Container Storage Jar Multipurpose Spice Container 2 Pieces Condiment Set Masala Box GLASS SPICE JAR SET 2PCS",
+    "capacity": "400ML",
+    "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": true,
     "tags": [
-      "43MM",
-      "BLACK",
-      "COLOR",
-      "LUG",
-      "CAPS"
+      "400ML",
+      "JAR",
+      "SET",
+      "STAND",
+      "2PCS"
     ]
   },
   {
@@ -366,17 +286,19 @@ export const INITIAL_PRODUCTS = [
     "name": "43MM GOLDEN COLOR LUG CAPS",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [],
     "price": 23,
+    "basePrice": 3,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23263/2bd8024d-47a5-41e8-92c0-9d457e2bca2f.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23263/2bd8024d-47a5-41e8-92c0-9d457e2bca2f@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23263/2bd8024d-47a5-41e8-92c0-9d457e2bca2f.jpg",
-      "https://assets.brahmanicrm.com/products/23263/7d5920b3-e95a-477d-81a0-82d616476581.jpg",
-      "https://assets.brahmanicrm.com/products/23263/cbf4a822-b76d-47ca-8108-34c4980e734e.jpg",
-      "https://assets.brahmanicrm.com/products/23263/3d9bd3cf-795c-49c9-8d8a-4cad74c8da6c.jpg"
+      "https://assets.brahmanicrm.com/products/23263/2bd8024d-47a5-41e8-92c0-9d457e2bca2f@full.webp",
+      "https://assets.brahmanicrm.com/products/23263/7d5920b3-e95a-477d-81a0-82d616476581@full.webp",
+      "https://assets.brahmanicrm.com/products/23263/cbf4a822-b76d-47ca-8108-34c4980e734e@full.webp",
+      "https://assets.brahmanicrm.com/products/23263/3d9bd3cf-795c-49c9-8d8a-4cad74c8da6c@full.webp"
     ],
-    "description": "Elevate your skincare and cosmetic brand with our Premium Glass Cosmetic Jar with Brushed Gold Cap. Designed specifically for \"luxury and beauty,\" this exquisite container perfectly balances functionality with high-end aesthetics. The durable, transparent glass base allows the natural richness of your creams, body butters, or specialty cosmetics to shine through, while the textured, brushed gold lid provides a striking, sophisticated contrast.\n\nWhether you are launching a new luxury skincare line, packaging artisanal lip balms, or looking to upgrade your current brand presentation, this elegant jar ensures your product commands attention on any vanity or retail shelf. Give your customers the premium experience they deserve with packaging that speaks volumes about the quality inside.",
+    "description": "Seal & Protection: Features a silicone coating inside to make it airtight and leakproof.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "43MM Neck / Closure",
     "material": "Clear Soda Lime Flint Glass",
@@ -397,18 +319,24 @@ export const INITIAL_PRODUCTS = [
     "name": "5 IN 1 TILES CLEANER",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 72,
+    "basePrice": 52,
     "piecesPerCarton": 120,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22597/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22597/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22597/0.jpg",
-      "https://assets.brahmanicrm.com/products/22597/1.jpg",
-      "https://assets.brahmanicrm.com/products/22597/2.jpg",
-      "https://assets.brahmanicrm.com/products/22597/3.jpg",
-      "https://assets.brahmanicrm.com/products/22597/4.jpg"
+      "https://assets.brahmanicrm.com/products/22597/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22597/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22597/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22597/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22597/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22597/88ad6184-c6e8-496a-907f-24e57c9dbcee@full.webp",
+      "https://assets.brahmanicrm.com/products/22597/59e06783-569c-4d5c-b7df-9fe2e2cbc79c@full.webp"
     ],
-    "description": "Effortlessly clean tight spots and tricky crevices with this innovative multi-purpose brush! Its slim design and durable bristles are perfect for window tracks, sink edges, and door frames. Make forgotten corners sparkle again!",
+    "description": "Featuring a versatile 5-in-1 multifunctional design, this cleaning tool is ideal for tackling tiles, grout lines, corners, bathroom walls, and floors effortlessly.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -416,7 +344,8 @@ export const INITIAL_PRODUCTS = [
     "featured": true,
     "tags": [
       "TILES",
-      "CLEANER"
+      "CLEANER",
+      "CHINA"
     ]
   },
   {
@@ -426,17 +355,21 @@ export const INITIAL_PRODUCTS = [
     "name": "500ML GM MILK BOTTLES",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [],
     "price": 36,
+    "basePrice": 16,
     "piecesPerCarton": 35,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22952/ae57b3fc-c615-4c9f-8381-b6065dd32011.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22952/0d0397d1-9fe3-4901-97af-e66501473003@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22952/ae57b3fc-c615-4c9f-8381-b6065dd32011.jpg",
-      "https://assets.brahmanicrm.com/products/22952/b4471e4b-910f-45e5-8d5c-af052422c15c.webp",
-      "https://assets.brahmanicrm.com/products/22952/9fa14bb0-4024-42f7-8408-7fbfc3670208.jpg",
-      "https://assets.brahmanicrm.com/products/22952/6c28ee0a-c5c1-49cb-991e-e13764ed02d5.webp"
+      "https://assets.brahmanicrm.com/products/22952/0d0397d1-9fe3-4901-97af-e66501473003@full.webp",
+      "https://assets.brahmanicrm.com/products/22952/9c4e425e-ce92-4a7f-96aa-3ff1c92cd1f7@full.webp",
+      "https://assets.brahmanicrm.com/products/22952/66b39c35-2908-4d9d-a92d-8bba6ca40812@full.webp",
+      "https://assets.brahmanicrm.com/products/22952/8c29e75c-a72e-45cb-9636-8da91de06375@full.webp",
+      "https://assets.brahmanicrm.com/products/22952/e32b7c25-5a4f-47de-b198-c85edde61874@full.webp",
+      "https://assets.brahmanicrm.com/products/22952/6f1d6d04-d5ea-46bc-99df-bb9084cc7215@full.webp"
     ],
-    "description": "The 500ML GM Milk Bottle is a durable and hygienic solution for storing and serving milk and other beverages. Its classic design and high-quality glass construction make it perfect for home use, cafés, and commercial dairies.",
+    "description": "Features an ideal 500ml capacity, perfectly sized for storing milk, milkshakes, juices, cold beverages, or lassi.",
     "capacity": "500ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -455,18 +388,20 @@ export const INITIAL_PRODUCTS = [
     "name": "500ML SG WATER BOTTLES",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [],
     "price": 39,
-    "piecesPerCarton": 30,
+    "basePrice": 19,
+    "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22948/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22948/ae26ee24-bcba-41c1-b7d6-a624820b63a1@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22948/0.jpg",
-      "https://assets.brahmanicrm.com/products/22948/1.jpg",
-      "https://assets.brahmanicrm.com/products/22948/2.jpg",
-      "https://assets.brahmanicrm.com/products/22948/3.jpg",
-      "https://assets.brahmanicrm.com/products/22948/4.jpg"
+      "https://assets.brahmanicrm.com/products/22948/ae26ee24-bcba-41c1-b7d6-a624820b63a1@full.webp",
+      "https://assets.brahmanicrm.com/products/22948/8b9f7970-ab9d-4106-a4e8-c17f27af26fc@full.webp",
+      "https://assets.brahmanicrm.com/products/22948/a9b70c10-b121-4150-b89e-cda8d5523ee2@full.webp",
+      "https://assets.brahmanicrm.com/products/22948/b83aaed0-1447-49fe-9f3f-32c6af49409a@full.webp",
+      "https://assets.brahmanicrm.com/products/22948/abc225ca-3ace-4ae6-a6d6-74c7730ceb11@full.webp"
     ],
-    "description": "Ideal for water, juice, lemon water, infused drinks, and cold beverages Made from high-quality, food-grade glass, it offers safe storage and elegant serving for water and other beverages.",
+    "description": "Features an ideal 500ml capacity, making it perfectly sized for storing water, juices, detox water, milkshakes,",
     "capacity": "500ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -485,22 +420,25 @@ export const INITIAL_PRODUCTS = [
     "name": "53D BLACK VERGINE PLASTIC CAP",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [],
     "price": 27,
+    "basePrice": 7,
     "piecesPerCarton": 1800,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22989/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22989/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22989/0.jpg",
-      "https://assets.brahmanicrm.com/products/22989/1.jpg",
-      "https://assets.brahmanicrm.com/products/22989/2.jpg",
-      "https://assets.brahmanicrm.com/products/22989/3.jpg"
+      "https://assets.brahmanicrm.com/products/22989/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22989/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22989/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22989/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22989/69955d44-cdba-4d70-bae9-f16f29fa625b@full.webp"
     ],
-    "description": "Engineered for ultimate durability and versatility, these Heavy-Duty Reinforced Black Plastic Caps are the perfect solution for your industrial, commercial, or custom project needs. The interior of each cap is structurally reinforced with a web of sturdy ribs, ensuring exceptional support and resistance to pressure.\n\nOn the outside, the caps feature a sleek, non-reflective matte black finish that blends seamlessly into professional environments. Whether you are capping large cylindrical tubes, building sturdy bases for displays, or sourcing reliable protective covers for manufacturing, these premium plastic components deliver the perfect balance of rugged strength and clean aesthetics.",
+    "description": "Designed with a precise 53D size specification, ensuring a perfect and snug fit on compatible containers or jars.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
-    "featured": false,
+    "featured": true,
     "tags": [
       "53D",
       "BLACK",
@@ -510,91 +448,35 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "495c41ba-917f-4746-9c0e-b42f833c156b",
-    "itemCode": "22995",
-    "aliasName": null,
-    "name": "63MM GOLDEN COLOR LUG CAPS",
-    "category": "caps",
-    "categoryName": "Lug & Plastic Caps",
-    "price": 24.5,
-    "piecesPerCarton": 1500,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22995/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22995/0.jpg",
-      "https://assets.brahmanicrm.com/products/22995/1.jpg",
-      "https://assets.brahmanicrm.com/products/22995/2.jpg"
-    ],
-    "description": "Lids and covers. metal lug cap for glass jars\nAir tight Glass Jar cap for all Glass having 63 mm mouth.\nLaminated caps which makes it rust-proof. Glass Jar Lids only\nLeak Proof and Food Grade Quality",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "63MM Neck / Closure",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "63MM",
-      "GOLDEN",
-      "COLOR",
-      "LUG",
-      "CAPS"
-    ]
-  },
-  {
     "id": "27022a14-07f5-4145-bdaa-12a6f9a9a319",
     "itemCode": "22947",
     "aliasName": null,
     "name": "750ML SG WATER BOTTLES",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [],
     "price": 50,
+    "basePrice": 30,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22947/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22947/7b1cf485-9a89-481e-99dd-917b08747750@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22947/0.jpg",
-      "https://assets.brahmanicrm.com/products/22947/1.jpg",
-      "https://assets.brahmanicrm.com/products/22947/2.jpg"
+      "https://assets.brahmanicrm.com/products/22947/7b1cf485-9a89-481e-99dd-917b08747750@full.webp",
+      "https://assets.brahmanicrm.com/products/22947/0f3a7b37-442f-4336-af99-a5725a090985@full.webp",
+      "https://assets.brahmanicrm.com/products/22947/34c0f7d4-0bc3-4662-837e-0ba3f74a8836@full.webp",
+      "https://assets.brahmanicrm.com/products/22947/29fa1208-51a7-47dc-981c-9a0ae928065c@full.webp",
+      "https://assets.brahmanicrm.com/products/22947/8cdddba1-fa5c-4f75-8527-a8d1811cf6c7@full.webp"
     ],
-    "description": "Ideal for water, juice, lemon water, infused drinks, and cold beverages Made from high-quality, food-grade glass, it offers safe storage and elegant serving for water and other beverages.",
+    "description": "Features a generous 750ml capacity, making it perfect for storing an ample amount of water, juices, or detox water to keep you hydrated all day long.",
     "capacity": "750ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
-    "featured": false,
+    "featured": true,
     "tags": [
       "750ML",
       "WATER",
       "BOTTLES"
-    ]
-  },
-  {
-    "id": "84209a38-68e0-4fbd-b6dc-a2d153378c05",
-    "itemCode": "22998",
-    "aliasName": null,
-    "name": "82MM BLACK COLOR LUG CAPS",
-    "category": "caps",
-    "categoryName": "Lug & Plastic Caps",
-    "price": 26.5,
-    "piecesPerCarton": 800,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22998/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22998/0.jpg",
-      "https://assets.brahmanicrm.com/products/22998/1.jpg",
-      "https://assets.brahmanicrm.com/products/22998/2.jpg"
-    ],
-    "description": "Upgrade your spice storage with these high-quality, versatile Replacement Spice Jar Caps. Designed for functionality and convenience, this set includes two durable black caps featuring a unique, multi-sieve rotating design. Whether you are dispensing fine powders, coarse herbs, or whole spices, these caps give you precise control over your pour.",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "82MM Neck / Closure",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "82MM",
-      "BLACK",
-      "COLOR",
-      "LUG",
-      "CAPS"
     ]
   },
   {
@@ -604,22 +486,25 @@ export const INITIAL_PRODUCTS = [
     "name": "82MM GOLDEN COLOR LUG CAPS",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [],
     "price": 26.5,
+    "basePrice": 6.5,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22997/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22997/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22997/0.jpg",
-      "https://assets.brahmanicrm.com/products/22997/1.jpg",
-      "https://assets.brahmanicrm.com/products/22997/2.jpg",
-      "https://assets.brahmanicrm.com/products/22997/3.jpg"
+      "https://assets.brahmanicrm.com/products/22997/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22997/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22997/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22997/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22997/eed74b60-0603-4c52-a6de-bb380ef1c4f7@full.webp"
     ],
-    "description": "Leak Proof and Food Grade Quality\nAir tight Glass Jar cap for all Glass having 82 mm mouth.\nGlass Jar Lids only",
+    "description": "Seal & Protection: Features an internal silicon coating to make it airtight and leakproof.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "82MM Neck / Closure",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
-    "featured": false,
+    "featured": true,
     "tags": [
       "82MM",
       "GOLDEN",
@@ -635,23 +520,27 @@ export const INITIAL_PRODUCTS = [
     "name": "95ML IPL SQUARE JAR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 29,
+    "basePrice": 9,
     "piecesPerCarton": 99,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22965/0.png",
+    "image": "https://assets.brahmanicrm.com/products/22965/cc0c56ef-5de4-42d8-9c4d-aa3858008304@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22965/0.png",
-      "https://assets.brahmanicrm.com/products/22965/1.jpg",
-      "https://assets.brahmanicrm.com/products/22965/2.jpg",
-      "https://assets.brahmanicrm.com/products/22965/3.jpg",
-      "https://assets.brahmanicrm.com/products/22965/4.jpg"
+      "https://assets.brahmanicrm.com/products/22965/cc0c56ef-5de4-42d8-9c4d-aa3858008304@full.webp",
+      "https://assets.brahmanicrm.com/products/22965/0f06b1ad-6dd2-4167-baa7-837c3c553426@full.webp",
+      "https://assets.brahmanicrm.com/products/22965/ed23945f-3157-4539-ad68-c3d0e8be1f72@full.webp",
+      "https://assets.brahmanicrm.com/products/22965/41a09245-b94c-4f66-bb8d-31681b75d137@full.webp",
+      "https://assets.brahmanicrm.com/products/22965/8d45e796-899d-4e20-9e88-b29ef88dbbda@full.webp",
+      "https://assets.brahmanicrm.com/products/22965/b056449e-ed61-4a52-a80d-a6ecf818e4f3@full.webp",
+      "https://assets.brahmanicrm.com/products/22965/c68cf17f-c97f-4d31-add5-22799db9c9d1@full.webp"
     ],
-    "description": "The 95ML IPL Square Jar is a compact and stylish storage jar, perfect for small-quantity food items and samples. Its square shape offers a modern look and efficient space usage, making it ideal for both home and commercial applications.",
+    "description": "Features a compact 95ml capacity, perfectly sized for storing spices, turmeric, fennel seeds, cinnamon, or other small kitchen herbs.",
     "capacity": "95ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
-    "featured": false,
+    "featured": true,
     "tags": [
       "95ML",
       "IPL",
@@ -666,18 +555,24 @@ export const INITIAL_PRODUCTS = [
     "name": "AIRPLANE DECANTER SET OF 2 GLASSES",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 4520,
+    "basePrice": 4500,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23292/ecccd416-759c-4c1c-b1ca-7053b6f2833b.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23292/ecccd416-759c-4c1c-b1ca-7053b6f2833b@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23292/ecccd416-759c-4c1c-b1ca-7053b6f2833b.jpg",
-      "https://assets.brahmanicrm.com/products/23292/ee7a768c-c94d-4756-8111-8b23b8b2e98c.jpg",
-      "https://assets.brahmanicrm.com/products/23292/5ac44464-ab4d-458c-bfd5-484e25d030ec.jpg",
-      "https://assets.brahmanicrm.com/products/23292/c569334d-9ac7-476e-8337-a903f4c62cad.jpg",
-      "https://assets.brahmanicrm.com/products/23292/42fdeea5-bab6-46ed-9cc6-4a8c395bbb5f.jpg"
+      "https://assets.brahmanicrm.com/products/23292/ecccd416-759c-4c1c-b1ca-7053b6f2833b@full.webp",
+      "https://assets.brahmanicrm.com/products/23292/ee7a768c-c94d-4756-8111-8b23b8b2e98c@full.webp",
+      "https://assets.brahmanicrm.com/products/23292/5ac44464-ab4d-458c-bfd5-484e25d030ec@full.webp",
+      "https://assets.brahmanicrm.com/products/23292/c569334d-9ac7-476e-8337-a903f4c62cad@full.webp",
+      "https://assets.brahmanicrm.com/products/23292/42fdeea5-bab6-46ed-9cc6-4a8c395bbb5f@full.webp",
+      "https://assets.brahmanicrm.com/products/23292/088c5336-cb59-4045-bbdb-4a0f67525670@full.webp",
+      "https://assets.brahmanicrm.com/products/23292/96478eb0-fde4-4bc3-9836-11406c0cc895@full.webp"
     ],
-    "description": "The Lead free Whiskey Decanter enters with an exclusive design - The decanter is made with high-end borosilicate glass for both durability & because borosilicate glass is an ideal host for refined liquors.",
+    "description": "Pack Contains: 1 Airplane Decanter, 2 Matching Glasses, 1 Wooden Base Stand",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -687,7 +582,8 @@ export const INITIAL_PRODUCTS = [
       "AIRPLANE",
       "DECANTER",
       "SET",
-      "GLASSES"
+      "GLASSES",
+      "CHINA"
     ]
   },
   {
@@ -697,21 +593,21 @@ export const INITIAL_PRODUCTS = [
     "name": "AK47 GUN DECANTER SET 5PCS",
     "category": "decanters",
     "categoryName": "Luxury Decanter Sets",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 3220,
+    "basePrice": 3200,
     "piecesPerCarton": 4,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21664/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21664/d9386437-7bcd-4732-95ed-2ac50b594451@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21664/0.jpg",
-      "https://assets.brahmanicrm.com/products/21664/1.jpg",
-      "https://assets.brahmanicrm.com/products/21664/2.jpg",
-      "https://assets.brahmanicrm.com/products/21664/3.jpg",
-      "https://assets.brahmanicrm.com/products/21664/4.jpg",
-      "https://assets.brahmanicrm.com/products/21664/5.jpg",
-      "https://assets.brahmanicrm.com/products/21664/6.jpg",
-      "https://assets.brahmanicrm.com/products/21664/7.jpg"
+      "https://assets.brahmanicrm.com/products/21664/d9386437-7bcd-4732-95ed-2ac50b594451@full.webp",
+      "https://assets.brahmanicrm.com/products/21664/c2270436-3c41-4d04-96c9-c41781caaf8f@full.webp",
+      "https://assets.brahmanicrm.com/products/21664/f14348b6-5907-4e3a-a23f-f1664d069686@full.webp",
+      "https://assets.brahmanicrm.com/products/21664/f0321973-56ef-4327-be61-6daed46dabcf@full.webp"
     ],
-    "description": "Luxury Rifle Whiskey Decanter Set\nElevate your home bar or surprise someone special with this uniquely styled, premium whiskey decanter set. Crafted for those who appreciate fine spirits and distinct design, this set is a perfect conversation starter and a true centerpiece.\n\nKey Features:\nExquisite Design: Features a detailed, rifle-shaped glass decanter that beautifully holds and displays your favorite whiskey, bourbon, scotch, or spirit.\n\nBullet-Embedded Glasses: Comes with four high-quality shot/whiskey glasses, each uniquely designed with a realistic bullet embedded in the side.\n\nPremium Wooden Display: Includes a sleek, custom-fitted wooden base that securely holds the decanter and all four glasses for a clean and striking presentation.\n\nPerfect Gift Idea: An ideal gift for groomsmen, anniversaries, Father's Day, birthdays, or for military and gun enthusiasts.",
+    "description": "Set Includes: 1x Gun Decanter, 4x Glasses, 6x Chilling Stones with Holder, 1x Wooden Stand",
     "capacity": "5PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -722,70 +618,8 @@ export const INITIAL_PRODUCTS = [
       "GUN",
       "DECANTER",
       "SET",
-      "5PCS"
-    ]
-  },
-  {
-    "id": "277802a7-c4dd-4d96-8a4e-7ffce6f06143",
-    "itemCode": "23226",
-    "aliasName": "AMORE-325ML",
-    "name": "AMORE WHISKY GLASS 325ML 6PCS  SET",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 250,
-    "piecesPerCarton": 6,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23226/2c85428a-8eb2-4a05-a083-9c915448bd8f.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23226/2c85428a-8eb2-4a05-a083-9c915448bd8f.jpg",
-      "https://assets.brahmanicrm.com/products/23226/805032cb-7237-4c89-bc6a-0cc975bad3ec.jpg",
-      "https://assets.brahmanicrm.com/products/23226/32b11e67-4999-4f4d-a62c-d34ed7eff463.jpg"
-    ],
-    "description": "Elevate your drinking experience with this 6-piece Double Old Fashion Whisky Glass Set (325ml) — thoughtfully designed for whisky lovers, cocktail enthusiasts, and stylish entertaining. These glasses are the perfect blend of classic design and modern durability.",
-    "capacity": "325ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "AMORE",
-      "WHISKY",
-      "GLASS",
-      "325ML",
-      "6PCS"
-    ]
-  },
-  {
-    "id": "2b68fa3f-d237-4e03-908b-cfefb1ebf841",
-    "itemCode": "21215",
-    "aliasName": "SD-916",
-    "name": "ANCHOR HOCKING WHISKY 310ML 6PCS",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 240,
-    "piecesPerCarton": 8,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21215/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/21215/0.jpg",
-      "https://assets.brahmanicrm.com/products/21215/1.jpg",
-      "https://assets.brahmanicrm.com/products/21215/2.jpg",
-      "https://assets.brahmanicrm.com/products/21215/3.jpg",
-      "https://assets.brahmanicrm.com/products/21215/4.jpg",
-      "https://assets.brahmanicrm.com/products/21215/5.jpg"
-    ],
-    "description": "Unbreakable Stemless Wine & Whiskey Glasses Set of 6 Shatterproof Glassware 310 ML",
-    "capacity": "310ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "ANCHOR",
-      "HOCKING",
-      "WHISKY",
-      "310ML",
-      "6PCS"
+      "5PCS",
+      "CHINA"
     ]
   },
   {
@@ -795,18 +629,23 @@ export const INITIAL_PRODUCTS = [
     "name": "ASTRONAUT KING SIPPER BOTTLE 450ML",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 80,
+    "basePrice": 60,
     "piecesPerCarton": 70,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23073/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23073/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23073/0.jpg",
-      "https://assets.brahmanicrm.com/products/23073/1.jpg",
-      "https://assets.brahmanicrm.com/products/23073/2.jpg",
-      "https://assets.brahmanicrm.com/products/23073/3.jpg",
-      "https://assets.brahmanicrm.com/products/23073/4.jpg"
+      "https://assets.brahmanicrm.com/products/23073/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23073/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23073/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23073/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23073/7713aa24-e2ed-4fd3-a229-87f65644a2a4@full.webp",
+      "https://assets.brahmanicrm.com/products/23073/4c56c50b-fd02-4a76-aebf-bb75f3915398@full.webp"
     ],
-    "description": "Durable, transparent glass for long-lasting and eco-friendly use. Secure, leak-resistant plastic lid ensures safe and hygienic drinking.",
+    "description": "Designed with a convenient 450ml capacity, making it perfectly sized for school, lunchboxes, or daily home use by kids.",
     "capacity": "450ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -817,7 +656,45 @@ export const INITIAL_PRODUCTS = [
       "KING",
       "SIPPER",
       "BOTTLE",
-      "450ML"
+      "450ML",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "0482015c-b8d5-4ff2-9141-7f6f516ac21a",
+    "itemCode": "22678",
+    "aliasName": "FXKP-0.9L",
+    "name": "BAKING DISH 0.9 SQUARE",
+    "category": "bowls",
+    "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "DIAMONDS"
+    ],
+    "price": 120,
+    "basePrice": 100,
+    "piecesPerCarton": 36,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22678/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22678/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22678/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22678/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22678/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22678/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22678/eadeb8b4-3c16-4d52-a4d1-926a6d7dff45@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "BAKING",
+      "DISH",
+      "0.9",
+      "SQUARE",
+      "DIAMONDS"
     ]
   },
   {
@@ -827,21 +704,22 @@ export const INITIAL_PRODUCTS = [
     "name": "BAKING DISH 1.0LTR  RECTANGLE",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "DIAMONDS"
+    ],
     "price": 142,
+    "basePrice": 122,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22659/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22659/26ceb033-ad44-45ad-8392-4a164d55d8f7@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22659/0.jpg",
-      "https://assets.brahmanicrm.com/products/22659/1.jpg",
-      "https://assets.brahmanicrm.com/products/22659/2.jpg",
-      "https://assets.brahmanicrm.com/products/22659/3.jpg",
-      "https://assets.brahmanicrm.com/products/22659/4.jpg",
-      "https://assets.brahmanicrm.com/products/22659/5.jpg",
-      "https://assets.brahmanicrm.com/products/22659/6.jpg",
-      "https://assets.brahmanicrm.com/products/22659/7.jpg"
+      "https://assets.brahmanicrm.com/products/22659/26ceb033-ad44-45ad-8392-4a164d55d8f7@full.webp",
+      "https://assets.brahmanicrm.com/products/22659/1cad71f9-4d6f-4e99-b141-4073f3193dbe@full.webp",
+      "https://assets.brahmanicrm.com/products/22659/23044668-fbfb-4e21-a17a-93a657df3767@full.webp",
+      "https://assets.brahmanicrm.com/products/22659/123787ae-0bc2-4dc9-aa9f-4f378845193a@full.webp",
+      "https://assets.brahmanicrm.com/products/22659/e02388c3-f750-484e-a545-e4ff08712c26@full.webp"
     ],
-    "description": "Cook, bake, and serve your favorite dishes with this Rectangle Baking Dish 1 Litre, designed for even heating, durability, and elegant table presentation. Ideal for daily home baking as well as professional kitchen use.",
+    "description": "Features a perfect 1.0 Litre capacity, ideally sized for small families to bake cakes, pasta, lasagna, or roast vegetables.",
     "capacity": "1.0LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -851,7 +729,8 @@ export const INITIAL_PRODUCTS = [
       "BAKING",
       "DISH",
       "1.0LTR",
-      "RECTANGLE"
+      "RECTANGLE",
+      "DIAMONDS"
     ]
   },
   {
@@ -861,17 +740,22 @@ export const INITIAL_PRODUCTS = [
     "name": "BAKING DISH 1.6 RECTANGLE",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "DIAMONDS"
+    ],
     "price": 190,
+    "basePrice": 170,
     "piecesPerCarton": 18,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22680/5cb79d91-cacf-42e8-a80e-741a8969925c.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22680/5cb79d91-cacf-42e8-a80e-741a8969925c@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22680/5cb79d91-cacf-42e8-a80e-741a8969925c.jpg",
-      "https://assets.brahmanicrm.com/products/22680/aaa54629-3b2b-4c25-996d-90ff27bbb5cf.jpg",
-      "https://assets.brahmanicrm.com/products/22680/af69d8bc-a422-4b5b-8bc0-df8e9ccaebb4.jpg",
-      "https://assets.brahmanicrm.com/products/22680/2f4c8647-ab03-46fd-aa2d-64b84888f631.jpg"
+      "https://assets.brahmanicrm.com/products/22680/5cb79d91-cacf-42e8-a80e-741a8969925c@full.webp",
+      "https://assets.brahmanicrm.com/products/22680/aaa54629-3b2b-4c25-996d-90ff27bbb5cf@full.webp",
+      "https://assets.brahmanicrm.com/products/22680/af69d8bc-a422-4b5b-8bc0-df8e9ccaebb4@full.webp",
+      "https://assets.brahmanicrm.com/products/22680/33cd5bfe-f55c-4142-b70b-c11e2726d2e1@full.webp",
+      "https://assets.brahmanicrm.com/products/22680/6c89da56-1127-4909-82cb-1168fc780bb7@full.webp"
     ],
-    "description": "This 1.6L Rectangle Baking Dish is perfect for baking and serving lasagna, pasta, casseroles, desserts, and more. Made from high-quality heat-resistant glass, it ensures even cooking and easy cleaning. Its sleek design adds elegance to your kitchen or dining table. Microwave, oven, freezer, and dishwasher safe.",
+    "description": "Features a generous 1.6 Litre capacity, perfectly sized for medium to large families to bake, prepare pasta, lasagna, or serve meals.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -881,7 +765,43 @@ export const INITIAL_PRODUCTS = [
       "BAKING",
       "DISH",
       "1.6",
-      "RECTANGLE"
+      "RECTANGLE",
+      "DIAMONDS"
+    ]
+  },
+  {
+    "id": "c899c7d2-b070-4d74-b85b-dcae1f8ad5e1",
+    "itemCode": "22896",
+    "aliasName": "FP-1600",
+    "name": "BAKING DISH 1.6L SQUARE",
+    "category": "bowls",
+    "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 195,
+    "basePrice": 175,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22896/2e1d8455-7f70-4c83-a928-44c9e1b8ed87@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22896/2e1d8455-7f70-4c83-a928-44c9e1b8ed87@full.webp",
+      "https://assets.brahmanicrm.com/products/22896/78bf2f40-e181-4642-807c-520420242a79@full.webp",
+      "https://assets.brahmanicrm.com/products/22896/e0739210-e81c-4594-bf53-cb79ff78b97d@full.webp",
+      "https://assets.brahmanicrm.com/products/22896/c3f0b82a-5c5f-4613-bae0-039e2fb9e11c@full.webp"
+    ],
+    "description": "Safety Features: Oven, Microwave, Freezer, and Dishwasher Safe",
+    "capacity": "1.6L",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "BAKING",
+      "DISH",
+      "1.6L",
+      "SQUARE",
+      "GLASSWARE"
     ]
   },
   {
@@ -891,17 +811,23 @@ export const INITIAL_PRODUCTS = [
     "name": "BAKING DISH RECTANGLE 3PCS (10,11.5,13.5 INCH)",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 530,
+    "basePrice": 510,
     "piecesPerCarton": 6,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22850/1c5ab53f-c0b4-4852-a686-22e6f47cf3f0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22850/79e88286-77c1-4bb8-979e-8cd4b56df962@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22850/1c5ab53f-c0b4-4852-a686-22e6f47cf3f0.jpg",
-      "https://assets.brahmanicrm.com/products/22850/f7d0272f-810a-41ba-9c0a-e6f1007646b6.jpg",
-      "https://assets.brahmanicrm.com/products/22850/2724491d-82a3-459c-9954-93348db4aba0.jpg",
-      "https://assets.brahmanicrm.com/products/22850/e6df5444-b6ac-40f7-b8ec-cdbe06b22816.jpg"
+      "https://assets.brahmanicrm.com/products/22850/79e88286-77c1-4bb8-979e-8cd4b56df962@full.webp",
+      "https://assets.brahmanicrm.com/products/22850/4502a404-74e3-4440-8898-b48711805b5f@full.webp",
+      "https://assets.brahmanicrm.com/products/22850/cbcd13cc-3d9a-4b2c-af96-ae8ec06d0b23@full.webp",
+      "https://assets.brahmanicrm.com/products/22850/99404aa3-ad58-46a3-9334-3acbc3688255@full.webp",
+      "https://assets.brahmanicrm.com/products/22850/0960550a-2720-4f84-ab58-36cdc7249e17@full.webp",
+      "https://assets.brahmanicrm.com/products/22850/c21bf32b-c138-4edf-82b4-166bfe3d6d90@full.webp"
     ],
-    "description": "A high-quality rectangular baking dish designed for perfect baking and stylish serving. Made from durable, heat-resistant glass/ceramic (as per your product), it ensures even heat distribution for consistent cooking results.",
+    "description": "Comes as a complete 3-piece set featuring three different rectangular sizes (10, 11.5, and 13.5 inches) to cater to all your baking and cooking needs.",
     "capacity": "3PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -912,7 +838,9 @@ export const INITIAL_PRODUCTS = [
       "DISH",
       "RECTANGLE",
       "3PCS",
-      "(10,11.5,13.5"
+      "(10,11.5,13.5",
+      "INCH)",
+      "CHINA"
     ]
   },
   {
@@ -922,18 +850,23 @@ export const INITIAL_PRODUCTS = [
     "name": "BEER GLAS 1",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 50,
+    "basePrice": 30,
     "piecesPerCarton": 196,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23288/d3aeae59-b8c6-4be9-a1e1-f19d62ab4a1d.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23288/0d87e002-19f9-450d-897a-c44d230757d7@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23288/d3aeae59-b8c6-4be9-a1e1-f19d62ab4a1d.jpg",
-      "https://assets.brahmanicrm.com/products/23288/49bb8c6f-d944-460b-a641-8562d1abea08.jpg",
-      "https://assets.brahmanicrm.com/products/23288/f830adc3-38e2-43cf-927e-3eb8c02fb6fa.jpg",
-      "https://assets.brahmanicrm.com/products/23288/fef85f7a-25d3-4547-be44-2af8150b4886.jpg",
-      "https://assets.brahmanicrm.com/products/23288/cb271c2a-ece9-4c1b-96bf-309d51a8f61c.jpg"
+      "https://assets.brahmanicrm.com/products/23288/0d87e002-19f9-450d-897a-c44d230757d7@full.webp",
+      "https://assets.brahmanicrm.com/products/23288/15d93014-f994-4fad-add8-6128424e6aac@full.webp",
+      "https://assets.brahmanicrm.com/products/23288/c716e672-8fd1-48af-9610-6a335d122c19@full.webp",
+      "https://assets.brahmanicrm.com/products/23288/9cf76efe-a3ce-4e39-a8fb-f8266caa56b5@full.webp",
+      "https://assets.brahmanicrm.com/products/23288/dfbfb00e-3819-4d6d-bdc2-9eb9fe795cc3@full.webp",
+      "https://assets.brahmanicrm.com/products/23288/3834c516-dd1c-404c-971c-bd33438f5efb@full.webp"
     ],
-    "description": "Elegant Ribbed Glass Mug\nAdd a touch of vintage style to your drinks. This beautiful, vertically ribbed glass mug is perfect for showing off your favorite hot coffee, tea, or cold beverages while adding elegance to your table.\n\nKey Highlights\nChic Ribbed Design: Textured vertical stripes offer a stylish look and a comfortable, non-slip grip.\n\nPremium Clarity: Made from clear, high-quality glass to beautifully display your drinks.\n\nComfortable Handle: Designed with a smooth, sturdy handle for a secure and safe hold.\n\nHot & Cold Versatile: Perfect for hot lattes, morning tea, or refreshing iced drinks.\n\nPerfect Gift Idea: An aesthetic choice for homes, offices, or gifting to coffee lovers.",
+    "description": "Special Features: Ergonomic Handle, Heat and Cold Resistant, Lead-Free, Durable Build",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -941,7 +874,8 @@ export const INITIAL_PRODUCTS = [
     "featured": false,
     "tags": [
       "BEER",
-      "GLAS"
+      "GLAS",
+      "CHINA"
     ]
   },
   {
@@ -951,18 +885,22 @@ export const INITIAL_PRODUCTS = [
     "name": "BEER GLASS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 50,
+    "basePrice": 30,
     "piecesPerCarton": 196,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23287/7e4f6a76-8555-4381-bceb-2b07d6a3409c.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23287/9068215c-929f-4cfb-900c-d426c573e79b@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23287/7e4f6a76-8555-4381-bceb-2b07d6a3409c.jpg",
-      "https://assets.brahmanicrm.com/products/23287/3fc847a8-2df9-4857-b775-bb4ac35c4da0.jpg",
-      "https://assets.brahmanicrm.com/products/23287/9068215c-929f-4cfb-900c-d426c573e79b.jpg",
-      "https://assets.brahmanicrm.com/products/23287/1dec286c-1ab1-4a70-a4bc-27742f1b3900.jpg",
-      "https://assets.brahmanicrm.com/products/23287/49f9ea4a-326d-41b8-b729-c2dbf9f798b5.jpg"
+      "https://assets.brahmanicrm.com/products/23287/9068215c-929f-4cfb-900c-d426c573e79b@full.webp",
+      "https://assets.brahmanicrm.com/products/23287/1dec286c-1ab1-4a70-a4bc-27742f1b3900@full.webp",
+      "https://assets.brahmanicrm.com/products/23287/49f9ea4a-326d-41b8-b729-c2dbf9f798b5@full.webp",
+      "https://assets.brahmanicrm.com/products/23287/892f8815-039f-40bd-9e9a-203fc94ade77@full.webp",
+      "https://assets.brahmanicrm.com/products/23287/d815ada1-ac2c-4a08-ae22-3f6d8f7f993e@full.webp"
     ],
-    "description": "Elegant Ribbed Glass Mug\nAdd a touch of vintage style to your drinks. This beautiful, vertically ribbed glass mug is perfect for showing off your favorite hot coffee, tea, or cold beverages while adding elegance to your table.\n\nKey Highlights\nChic Ribbed Design: Textured vertical stripes offer a stylish look and a comfortable, non-slip grip.\n\nPremium Clarity: Made from clear, high-quality glass to beautifully display your drinks.\n\nComfortable Handle: Designed with a smooth, sturdy handle for a secure and safe hold.\n\nHot & Cold Versatile: Perfect for hot lattes, morning tea, or refreshing iced drinks.\n\nPerfect Gift Idea: An aesthetic choice for homes, offices, or gifting to coffee lovers.",
+    "description": "Special Features: Heavy-Duty Build, Ergonomic Handle, Crystal-Clear Transparency, Lead-Free",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -970,7 +908,77 @@ export const INITIAL_PRODUCTS = [
     "featured": false,
     "tags": [
       "BEER",
-      "GLASS"
+      "GLASS",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "67857d98-b99c-4825-a4f5-2192f089d9af",
+    "itemCode": "20094",
+    "aliasName": "Y5812",
+    "name": "BEER MUG 2PCS 400ML YUJING",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 188,
+    "basePrice": 168,
+    "piecesPerCarton": 18,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20094/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20094/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20094/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20094/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20094/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20094/4@full.webp"
+    ],
+    "description": "Comes as a set of 2 mugs with a 400ml capacity each, perfectly sized for enjoying drinks with friends at parties or gatherings.",
+    "capacity": "2PCS",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "BEER",
+      "MUG",
+      "2PCS",
+      "400ML",
+      "YUJING"
+    ]
+  },
+  {
+    "id": "d38b5080-62a0-40bd-ae3e-41b48d3c58ae",
+    "itemCode": "22634",
+    "aliasName": "DZB33-L6",
+    "name": "BEER MUG 370ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 340,
+    "basePrice": 320,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22634/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22634/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22634/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22634/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22634/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22634/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22634/5@full.webp"
+    ],
+    "description": "Elevate your beverage experience with this classic, heavy-duty dimpled glass mug. Featuring a traditional paneled design, this mug is perfect for serving beer, cider, iced coffee, or your favorite cold drinks. Crafted from premium transparent glass, it offers both durability and a comfortable grip, making it a staple for home bars, parties, or everyday use.",
+    "capacity": "370ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "BEER",
+      "MUG",
+      "370ML",
+      "6PCS",
+      "SET"
     ]
   },
   {
@@ -980,17 +988,20 @@ export const INITIAL_PRODUCTS = [
     "name": "BEER MUG 410ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 500,
+    "basePrice": 480,
     "piecesPerCarton": 4,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21917/46fe2568-51a9-4ecd-909d-5381cb4975f0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21917/b0729792-cc67-4e94-8059-569d980331cd@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21917/46fe2568-51a9-4ecd-909d-5381cb4975f0.jpg",
-      "https://assets.brahmanicrm.com/products/21917/62ccf637-7b93-44a7-af1d-f1cf2cb78e3f.jpg",
-      "https://assets.brahmanicrm.com/products/21917/d15e0345-4540-4820-811e-e6482df790d6.jpg",
-      "https://assets.brahmanicrm.com/products/21917/28c75447-8965-4aed-8b58-2f632a9db73a.jpg"
+      "https://assets.brahmanicrm.com/products/21917/b0729792-cc67-4e94-8059-569d980331cd@full.webp",
+      "https://assets.brahmanicrm.com/products/21917/39fc9ddb-115a-413d-ad7a-7ed2da7b3356@full.webp",
+      "https://assets.brahmanicrm.com/products/21917/c769a2e0-458a-47e9-a8c1-d03669012aa2@full.webp",
+      "https://assets.brahmanicrm.com/products/21917/45926353-104c-4223-924e-372c1fced0fe@full.webp",
+      "https://assets.brahmanicrm.com/products/21917/1f353e7d-4c3c-48d3-bcaf-a8b10a249054@full.webp"
     ],
-    "description": "Glass Beer Mug with Handle, Large Beer Glass Mug, Beer Mug Drinking Glass Pub Drinking Mug for Alcohol Beverages, Juice, Smoothies, Clear.",
+    "description": "Special Features: Ergonomic Handle, Thick Weighted Base, Pub-Style Design",
     "capacity": "410ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1004,23 +1015,98 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "c4305c3e-77ee-4161-a65a-c8691fed0cb9",
+    "itemCode": "20925",
+    "aliasName": "Y5819-3",
+    "name": "BEER MUG HANDLE 270ML 6PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 415,
+    "basePrice": 395,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20925/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20925/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20925/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20925/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20925/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20925/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20925/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20925/6@full.webp",
+      "https://assets.brahmanicrm.com/products/20925/0de8a372-754f-418a-8a40-854d66b3cf2c@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "270ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "BEER",
+      "MUG",
+      "HANDLE",
+      "270ML",
+      "6PCS"
+    ]
+  },
+  {
+    "id": "b4b404ef-51ad-4742-b5cb-9fa296b76e55",
+    "itemCode": "20593",
+    "aliasName": "Y5819-2",
+    "name": "BEER MUG HANDLE 400ML 2PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 195,
+    "basePrice": 175,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20593/8509613c-1da0-4234-9670-e87959e666f3@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20593/8509613c-1da0-4234-9670-e87959e666f3@full.webp",
+      "https://assets.brahmanicrm.com/products/20593/3840a202-3d7c-4ae6-8d6f-50cf7a972842@full.webp",
+      "https://assets.brahmanicrm.com/products/20593/6780b867-00e1-44d9-a159-1e433aa8ba96@full.webp",
+      "https://assets.brahmanicrm.com/products/20593/ba9cfb56-0f73-4baf-ad6f-0d27046fd843@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "400ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "BEER",
+      "MUG",
+      "HANDLE",
+      "400ML",
+      "2PCS"
+    ]
+  },
+  {
     "id": "9a5d05ae-562f-46b6-aee0-9fa3b7e1f2c0",
     "itemCode": "23225",
     "aliasName": null,
     "name": "BEVARAGE JAR WITH CORK LID DISPENCER",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 600,
+    "basePrice": 580,
     "piecesPerCarton": 6,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23225/04a128ef-b5f9-4f63-ad62-b1baf6ed7097.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23225/d5430977-399e-4688-877f-3281abac5483@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23225/04a128ef-b5f9-4f63-ad62-b1baf6ed7097.jpg",
-      "https://assets.brahmanicrm.com/products/23225/d5430977-399e-4688-877f-3281abac5483.jpg",
-      "https://assets.brahmanicrm.com/products/23225/f6fcabf9-3f95-4e27-86a2-f6b80f653583.jpg",
-      "https://assets.brahmanicrm.com/products/23225/e5c940cb-5b14-463a-a3b8-eb29d873ebc4.jpg"
+      "https://assets.brahmanicrm.com/products/23225/d5430977-399e-4688-877f-3281abac5483@full.webp",
+      "https://assets.brahmanicrm.com/products/23225/f6fcabf9-3f95-4e27-86a2-f6b80f653583@full.webp",
+      "https://assets.brahmanicrm.com/products/23225/e5c940cb-5b14-463a-a3b8-eb29d873ebc4@full.webp",
+      "https://assets.brahmanicrm.com/products/23225/226b9f7e-887a-43ca-a57e-f86dc52c6cd0@full.webp",
+      "https://assets.brahmanicrm.com/products/23225/f2b60576-e76f-47c9-b52d-08a4e0ce468c@full.webp"
     ],
-    "description": "Elevate your next gathering with this elegant, vintage-inspired Yorkshire Glassware Beverage Dispenser. Whether you are serving refreshing ice-cold lemonade at a summer garden party or a spiced iced tea at an evening get-together, this dispenser adds a perfect touch of rustic charm to any setting.",
+    "description": "Material: High-Grade Clear Glass, Metal Stand, Wooden Handles",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1031,7 +1117,9 @@ export const INITIAL_PRODUCTS = [
       "JAR",
       "WITH",
       "CORK",
-      "LID"
+      "LID",
+      "DISPENCER",
+      "CHINA"
     ]
   },
   {
@@ -1041,18 +1129,22 @@ export const INITIAL_PRODUCTS = [
     "name": "BEVERAGE JAR WITH RACK  DISPENSER 3LTR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 510,
+    "basePrice": 490,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22382/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22382/7672a91e-1edb-4d5f-a361-01828bd6c872@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22382/0.jpg",
-      "https://assets.brahmanicrm.com/products/22382/1.jpg",
-      "https://assets.brahmanicrm.com/products/22382/2.jpg",
-      "https://assets.brahmanicrm.com/products/22382/3.jpg",
-      "https://assets.brahmanicrm.com/products/22382/4.jpg"
+      "https://assets.brahmanicrm.com/products/22382/7672a91e-1edb-4d5f-a361-01828bd6c872@full.webp",
+      "https://assets.brahmanicrm.com/products/22382/64e47762-538b-4dc4-885e-1ba358597712@full.webp",
+      "https://assets.brahmanicrm.com/products/22382/b5864b31-6f13-4435-9e0f-dd787dab70f4@full.webp",
+      "https://assets.brahmanicrm.com/products/22382/4c262ce2-74e8-4200-b194-8996e9aad8e4@full.webp",
+      "https://assets.brahmanicrm.com/products/22382/9059a0b0-c236-4698-a08c-17cc2f22d2ae@full.webp"
     ],
-    "description": "Glass Beverage Dispenser 3ltr with Leak-Proof Spigot, Drink Dispenser Barrel with Sturdy Bamboo Stand, Cold Drink Kettle Container for Fridge, Iced Tea, Lemonade, Bar.",
+    "description": "Special Features: Barrel Shape, Elevated Wooden Stand, Leak-Proof Tap, Easy Pour Design",
     "capacity": "3LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1063,7 +1155,9 @@ export const INITIAL_PRODUCTS = [
       "JAR",
       "WITH",
       "RACK",
-      "DISPENSER"
+      "DISPENSER",
+      "3LTR",
+      "CHINA"
     ]
   },
   {
@@ -1073,16 +1167,19 @@ export const INITIAL_PRODUCTS = [
     "name": "BIG3 TEA CUP 190ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 200,
+    "basePrice": 180,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20597/42cc3b11-dc45-4af0-97c2-29e9a71ec357.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20597/42cc3b11-dc45-4af0-97c2-29e9a71ec357@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20597/42cc3b11-dc45-4af0-97c2-29e9a71ec357.jpg",
-      "https://assets.brahmanicrm.com/products/20597/9a23591c-9043-457a-95fd-2482af4aba55.jpg",
-      "https://assets.brahmanicrm.com/products/20597/8aa48ada-ab94-4016-bbb5-90677ccc66a6.jpg"
+      "https://assets.brahmanicrm.com/products/20597/42cc3b11-dc45-4af0-97c2-29e9a71ec357@full.webp",
+      "https://assets.brahmanicrm.com/products/20597/9a23591c-9043-457a-95fd-2482af4aba55@full.webp",
+      "https://assets.brahmanicrm.com/products/20597/8aa48ada-ab94-4016-bbb5-90677ccc66a6@full.webp",
+      "https://assets.brahmanicrm.com/products/20597/bc972390-abfe-45d3-9d6d-68010ca0362f@full.webp"
     ],
-    "description": "Tea Cups, Coffee Mugs with Handle Transparent Drinking Cup for Milk, Cappuccino, Hot Chocolate & Cold Beverages (190ml)Tea Cups.",
+    "description": "Comes as a value pack of 6 cups with a 190ml capacity each, perfectly sized for enjoying tea, coffee, or milk with family.",
     "capacity": "190ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1103,16 +1200,21 @@ export const INITIAL_PRODUCTS = [
     "name": "BLACK BASALT ICE CUBES SET OF 8 WITH ONE RUBBER TONG",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 265,
+    "basePrice": 245,
     "piecesPerCarton": 64,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23291/346b92e4-a2e7-4acb-98e8-448b141745a3.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23291/346b92e4-a2e7-4acb-98e8-448b141745a3@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23291/346b92e4-a2e7-4acb-98e8-448b141745a3.jpg",
-      "https://assets.brahmanicrm.com/products/23291/fe35f8b3-2f16-45d7-aad0-b84964303cd6.jpg",
-      "https://assets.brahmanicrm.com/products/23291/7f4a3822-68d3-48c5-94fc-8a82a2d541be.jpg"
+      "https://assets.brahmanicrm.com/products/23291/346b92e4-a2e7-4acb-98e8-448b141745a3@full.webp",
+      "https://assets.brahmanicrm.com/products/23291/fe35f8b3-2f16-45d7-aad0-b84964303cd6@full.webp",
+      "https://assets.brahmanicrm.com/products/23291/7f4a3822-68d3-48c5-94fc-8a82a2d541be@full.webp",
+      "https://assets.brahmanicrm.com/products/23291/b9a3f2dd-631f-4cc8-abe5-351fdc247225@full.webp"
     ],
-    "description": "Premium Soapstone Chilling Cubes Set\nUpgrade your drinking experience with our premium soapstone chilling cubes. Designed for true connoisseurs, these reusable stones cool your favorite spirits perfectly without diluting the rich, authentic flavor of your drink.\n\nKey Features:\nZero Dilution: Unlike regular ice cubes, these natural soapstone cubes chill your drink perfectly without melting, preserving the full strength and taste from the first sip to the last.\n\nPremium Quality & Safe: Made from 100% natural, food-grade soapstone. They are non-porous, odorless, tasteless, and feature smooth edges to ensure your glassware remains completely scratch-free.\n\nComplete Serving Set: The set includes 10 soapstone chilling cubes, a pair of handy stainless steel tongs for hygienic serving, and a durable, clear storage tray to keep them organized in your freezer.\n\nEasy to Use & Clean: Simply freeze the cubes for 3 to 4 hours before use, add them to your drink using the tongs, and rinse them with water after use for easy cleanup.",
+    "description": "These cooling cubes are crafted from natural black basalt stone, keeping your drinks chilled for a long time without diluting them.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1123,7 +1225,47 @@ export const INITIAL_PRODUCTS = [
       "BASALT",
       "ICE",
       "CUBES",
-      "SET"
+      "SET",
+      "WITH",
+      "ONE",
+      "RUBBER"
+    ]
+  },
+  {
+    "id": "9dc0b24e-4ba4-41d7-91d5-9223c1cf9643",
+    "itemCode": "22645",
+    "aliasName": "KQBYB-L2",
+    "name": "BLUE ICE CREAM CUP 220ML 2PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 140,
+    "basePrice": 120,
+    "piecesPerCarton": 30,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22645/bbd6a20e-28da-42ec-9738-1f1fad0a2ab6@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22645/bbd6a20e-28da-42ec-9738-1f1fad0a2ab6@full.webp",
+      "https://assets.brahmanicrm.com/products/22645/1d0f8218-04ae-432f-86eb-15daf9ddc8ea@full.webp",
+      "https://assets.brahmanicrm.com/products/22645/21f1dd50-bd74-455b-b90d-d6f224160a2a@full.webp"
+    ],
+    "description": "Special Features: Elegant Blue Color, Stemmed Base, Stylish Pattern",
+    "capacity": "220ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "BLUE",
+      "ICE",
+      "CREAM",
+      "CUP",
+      "220ML",
+      "2PCS",
+      "SET",
+      "GLASSWARE"
     ]
   },
   {
@@ -1133,22 +1275,27 @@ export const INITIAL_PRODUCTS = [
     "name": "BOAT DECANTER 850ML 5PCS",
     "category": "decanters",
     "categoryName": "Luxury Decanter Sets",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 2720,
+    "basePrice": 2700,
     "piecesPerCarton": 4,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22146/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22146/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22146/0.jpg",
-      "https://assets.brahmanicrm.com/products/22146/1.jpg",
-      "https://assets.brahmanicrm.com/products/22146/2.jpg",
-      "https://assets.brahmanicrm.com/products/22146/3.jpg",
-      "https://assets.brahmanicrm.com/products/22146/4.jpg",
-      "https://assets.brahmanicrm.com/products/22146/5.jpg",
-      "https://assets.brahmanicrm.com/products/22146/6.jpg",
-      "https://assets.brahmanicrm.com/products/22146/7.jpg",
-      "https://assets.brahmanicrm.com/products/22146/8.jpg"
+      "https://assets.brahmanicrm.com/products/22146/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22146/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22146/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22146/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22146/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22146/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22146/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22146/7@full.webp",
+      "https://assets.brahmanicrm.com/products/22146/8@full.webp",
+      "https://assets.brahmanicrm.com/products/22146/17674bc9-90d1-4898-ab9f-9488642b59d2@full.webp"
     ],
-    "description": "The Voyager's Cask | Premium Ship-in-a-Bottle Decanter with Dispenser Spigot\nSet Sail on a Premium Pour\nElevate your home bar or listing with The Voyager's Cask Glass Decanter. Perfect for connoisseurs of fine spirits and nautical design, this masterfully crafted centerpiece elegantly displays your favorite wines, whiskeys, or bourbons, creating an instant focal point in any room.\n\nKey Features\nIntricate Ship-in-a-Bottle Design: Features a beautifully detailed, hand-blown glass sailing ship inside the barrel-shaped decanter, capturing the spirit of adventure with every pour.\n\nFunctional Precision Spigot: Equipped with a sleek, metallic metallic spigot for effortless, drip-free dispensing directly into your glass.\n\nPremium Display Base: Set on a custom, matte-black wooden stand designed with dedicated slots to safely hold your matching glassware, ensuring a clean and highly organized presentation.\n\nElegant Accents: Detailed with a traditional etched compass rose on the glass side-profile and a matching ground-glass stopper to seal in freshness.",
+    "description": "Features a generous 850ml capacity with a beautifully crafted miniature ship intricately designed inside the glass bottle for storing whiskey or wine.",
     "capacity": "850ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1158,7 +1305,8 @@ export const INITIAL_PRODUCTS = [
       "BOAT",
       "DECANTER",
       "850ML",
-      "5PCS"
+      "5PCS",
+      "CHINA"
     ]
   },
   {
@@ -1168,17 +1316,22 @@ export const INITIAL_PRODUCTS = [
     "name": "BOOK COVER STICKER",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 135,
+    "basePrice": 115,
     "piecesPerCarton": 50,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23266/90e95fed-7f19-4803-ae01-770e55024a1a.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23266/90e95fed-7f19-4803-ae01-770e55024a1a@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23266/90e95fed-7f19-4803-ae01-770e55024a1a.jpg",
-      "https://assets.brahmanicrm.com/products/23266/22a0d7bc-70fa-4d6c-8edb-131dc1d24cf4.jpg",
-      "https://assets.brahmanicrm.com/products/23266/539282b8-4fb2-490a-ae6f-d5a9f384d976.jpg",
-      "https://assets.brahmanicrm.com/products/23266/d3ab4875-32ae-4599-95d7-a280fd00f8a7.jpg"
+      "https://assets.brahmanicrm.com/products/23266/90e95fed-7f19-4803-ae01-770e55024a1a@full.webp",
+      "https://assets.brahmanicrm.com/products/23266/22a0d7bc-70fa-4d6c-8edb-131dc1d24cf4@full.webp",
+      "https://assets.brahmanicrm.com/products/23266/539282b8-4fb2-490a-ae6f-d5a9f384d976@full.webp",
+      "https://assets.brahmanicrm.com/products/23266/d3ab4875-32ae-4599-95d7-a280fd00f8a7@full.webp",
+      "https://assets.brahmanicrm.com/products/23266/abf3c12e-8ef6-44ae-b87b-4f1ab91cf5a0@full.webp"
     ],
-    "description": "Keep your books and documents looking brand new with our Premium Self-Adhesive Clear Book Cover Film. Designed for both students and professionals, this transparent protective wrap acts as a shield against water, dust, and general wear and tear.\n\nSay goodbye to messy glue and tape! Our book film comes with a strong self-adhesive backing that is easy to apply. The backing paper is printed with measuring grid lines, allowing you to cut the perfect size every time. Simply peel, stick, and use a scraper to smooth out any air bubbles for a flawless, professional finish.\n\nWhether you need to protect school textbooks, important office files, or your favorite recipe book in the kitchen, this versatile protective film is the perfect solution.",
+    "description": "These book cover stickers are self-adhesive and very easy to apply, allowing you to stick them directly onto notebooks or books without needing extra glue or tape.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1187,7 +1340,8 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "BOOK",
       "COVER",
-      "STICKER"
+      "STICKER",
+      "CHINA"
     ]
   },
   {
@@ -1197,18 +1351,23 @@ export const INITIAL_PRODUCTS = [
     "name": "BOROSILICATE  GLASS WATER  BOTTLE  500ML",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 110,
+    "basePrice": 90,
     "piecesPerCarton": 80,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23240/2014a25c-749a-4af1-ba20-2de5b1ec829d.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23240/2014a25c-749a-4af1-ba20-2de5b1ec829d@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23240/2014a25c-749a-4af1-ba20-2de5b1ec829d.jpg",
-      "https://assets.brahmanicrm.com/products/23240/f9431b29-8059-47e3-940f-f55f48ac02af.jpg",
-      "https://assets.brahmanicrm.com/products/23240/d005f4ab-cf98-4cd3-bc79-629f604139c9.jpg",
-      "https://assets.brahmanicrm.com/products/23240/5cb7cae7-859f-4b1f-9998-b9c0354fe165.jpg",
-      "https://assets.brahmanicrm.com/products/23240/aa9aa426-fd97-4843-ae81-9a9b0eac3479.jpg"
+      "https://assets.brahmanicrm.com/products/23240/2014a25c-749a-4af1-ba20-2de5b1ec829d@full.webp",
+      "https://assets.brahmanicrm.com/products/23240/f9431b29-8059-47e3-940f-f55f48ac02af@full.webp",
+      "https://assets.brahmanicrm.com/products/23240/d005f4ab-cf98-4cd3-bc79-629f604139c9@full.webp",
+      "https://assets.brahmanicrm.com/products/23240/5cb7cae7-859f-4b1f-9998-b9c0354fe165@full.webp",
+      "https://assets.brahmanicrm.com/products/23240/aa9aa426-fd97-4843-ae81-9a9b0eac3479@full.webp",
+      "https://assets.brahmanicrm.com/products/23240/e892ed12-cb9b-4322-ad7e-5de4061f5f64@full.webp"
     ],
-    "description": "The glass cup looks delicate and beautiful, known for its bright texture and clean lines.The glass cup high transparency.",
+    "description": "Special Features: Motivational Time Tracker, Leak-Proof Lid, 100% BPA-Free, Eco-Friendly",
     "capacity": "500ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1219,39 +1378,8 @@ export const INITIAL_PRODUCTS = [
       "GLASS",
       "WATER",
       "BOTTLE",
-      "500ML"
-    ]
-  },
-  {
-    "id": "a1159ea8-3951-43fb-8847-0e81c963e921",
-    "itemCode": "22676",
-    "aliasName": null,
-    "name": "BOROSILICATE CHUTNEY BRUSH JAR 300ML",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 60,
-    "piecesPerCarton": 90,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22676/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22676/0.jpg",
-      "https://assets.brahmanicrm.com/products/22676/1.jpg",
-      "https://assets.brahmanicrm.com/products/22676/2.jpg",
-      "https://assets.brahmanicrm.com/products/22676/3.jpg",
-      "https://assets.brahmanicrm.com/products/22676/4.jpg"
-    ],
-    "description": "The container jar with lid is dustproof & moistureproof,The spoon and lid are integrated, and easily taken without opening ,Its handle is very comfortable and it is very convenient to use.",
-    "capacity": "300ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "BOROSILICATE",
-      "CHUTNEY",
-      "BRUSH",
-      "JAR",
-      "300ML"
+      "500ML",
+      "CHINA"
     ]
   },
   {
@@ -1261,16 +1389,21 @@ export const INITIAL_PRODUCTS = [
     "name": "BOROSILICATE CHUTNEY SPOON JAR 300ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 52,
+    "basePrice": 32,
     "piecesPerCarton": 90,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20145/ba2dbfa4-284c-4aea-9066-e7ee443877b1.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20145/ba2dbfa4-284c-4aea-9066-e7ee443877b1@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20145/ba2dbfa4-284c-4aea-9066-e7ee443877b1.jpg",
-      "https://assets.brahmanicrm.com/products/20145/871063b8-ed78-416e-830e-92558353432a.jpg",
-      "https://assets.brahmanicrm.com/products/20145/5b8e98be-91db-47a2-bcf2-2e51663aaa6a.jpg"
+      "https://assets.brahmanicrm.com/products/20145/ba2dbfa4-284c-4aea-9066-e7ee443877b1@full.webp",
+      "https://assets.brahmanicrm.com/products/20145/871063b8-ed78-416e-830e-92558353432a@full.webp",
+      "https://assets.brahmanicrm.com/products/20145/5b8e98be-91db-47a2-bcf2-2e51663aaa6a@full.webp",
+      "https://assets.brahmanicrm.com/products/20145/ee1601c5-e61f-48cc-86de-8a994cdf48d9@full.webp"
     ],
-    "description": "The container jar with lid is dustproof & moistureproof,The spoon and lid are integrated, and easily taken without opening ,Its handle is very comfortable and it is very convenient to use.",
+    "description": "Material: Premium Borosilicate Glass & Food-Grade Plastic Lid/Spoon",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1281,37 +1414,8 @@ export const INITIAL_PRODUCTS = [
       "CHUTNEY",
       "SPOON",
       "JAR",
-      "300ML"
-    ]
-  },
-  {
-    "id": "e3873733-5814-41b7-b288-ae95f27c06df",
-    "itemCode": "22873",
-    "aliasName": "GOOD MOMENTS-550",
-    "name": "BOROSILICATE WATER BOTTLE 550ML",
-    "category": "bottles",
-    "categoryName": "Milk & Water Bottles",
-    "price": 100,
-    "piecesPerCarton": 80,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22873/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22873/0.jpg",
-      "https://assets.brahmanicrm.com/products/22873/1.jpg",
-      "https://assets.brahmanicrm.com/products/22873/2.jpg",
-      "https://assets.brahmanicrm.com/products/22873/3.jpg"
-    ],
-    "description": "The cute water bottle means you can take it anywhere, and it's very lightweight. Whether it's going to the gym, outdoors, office, hiking, yoga, or meditation, this time marked water bottle is sure to leave a deep impression.",
-    "capacity": "550ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "BOROSILICATE",
-      "WATER",
-      "BOTTLE",
-      "550ML"
+      "300ML",
+      "CHINA"
     ]
   },
   {
@@ -1321,18 +1425,23 @@ export const INITIAL_PRODUCTS = [
     "name": "BOTTLE JUICER NEW MODEL 1",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 385,
+    "basePrice": 365,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22591/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22591/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22591/0.jpg",
-      "https://assets.brahmanicrm.com/products/22591/1.jpg",
-      "https://assets.brahmanicrm.com/products/22591/2.jpg",
-      "https://assets.brahmanicrm.com/products/22591/3.jpg",
-      "https://assets.brahmanicrm.com/products/22591/4.jpg"
+      "https://assets.brahmanicrm.com/products/22591/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22591/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22591/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22591/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22591/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22591/6c6ebffc-d042-47da-957d-d78ace687d92@full.webp"
     ],
-    "description": "Our portable blender is equipped with 4 blades of 304 stainless steel and a 30 W rated motor. Double click to start blending, it takes only 38 s to easily crush fruits and get a cup of fresh juice, protein shake with delicate taste.",
+    "description": "Design: Modern Ribbed Cylindrical Bottle with Built-in Blades",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1342,7 +1451,8 @@ export const INITIAL_PRODUCTS = [
       "BOTTLE",
       "JUICER",
       "NEW",
-      "MODEL"
+      "MODEL",
+      "CHINA"
     ]
   },
   {
@@ -1352,16 +1462,21 @@ export const INITIAL_PRODUCTS = [
     "name": "BOTTLE JUICER NEW MODEL 2",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 405,
+    "basePrice": 385,
     "piecesPerCarton": 30,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22592/3bb62b43-847c-47ba-a5e3-c44f87effbbe.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22592/3bb62b43-847c-47ba-a5e3-c44f87effbbe@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22592/3bb62b43-847c-47ba-a5e3-c44f87effbbe.jpg",
-      "https://assets.brahmanicrm.com/products/22592/4a319e52-5e20-4b24-8ca1-cd397939034e.jpg",
-      "https://assets.brahmanicrm.com/products/22592/7eacad44-169b-4aa8-b167-ff12fef2fd56.jpg"
+      "https://assets.brahmanicrm.com/products/22592/3bb62b43-847c-47ba-a5e3-c44f87effbbe@full.webp",
+      "https://assets.brahmanicrm.com/products/22592/4a319e52-5e20-4b24-8ca1-cd397939034e@full.webp",
+      "https://assets.brahmanicrm.com/products/22592/7eacad44-169b-4aa8-b167-ff12fef2fd56@full.webp",
+      "https://assets.brahmanicrm.com/products/22592/61ee15cf-1cc9-4456-acf5-120f06f5d97e@full.webp"
     ],
-    "description": "\"Whip up healthy drinks instantly with this versatile portable blender bottle. Ideal for gym, office, or travel. Easy to use and clean, making your healthy lifestyle effortlessly convenient. Grab it now!\"",
+    "description": "Special Features: Wireless, One-Touch Operation, Portable, Easy Grip Handle",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1371,7 +1486,8 @@ export const INITIAL_PRODUCTS = [
       "BOTTLE",
       "JUICER",
       "NEW",
-      "MODEL"
+      "MODEL",
+      "CHINA"
     ]
   },
   {
@@ -1381,16 +1497,17 @@ export const INITIAL_PRODUCTS = [
     "name": "BRANDING OVER LEATHER",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 35,
+    "basePrice": 15,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22547/58933d33-e506-46ff-80f0-cfb53600443c.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22547/bfd73a50-83e7-42e3-98b1-b8285be6ff49@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22547/58933d33-e506-46ff-80f0-cfb53600443c.jpg",
-      "https://assets.brahmanicrm.com/products/22547/7198bc05-43a3-487d-8dac-f7005251bb07.jpg",
-      "https://assets.brahmanicrm.com/products/22547/8711b011-d981-4773-ad28-21e28abee109.jpg"
+      "https://assets.brahmanicrm.com/products/22547/bfd73a50-83e7-42e3-98b1-b8285be6ff49@full.webp",
+      "https://assets.brahmanicrm.com/products/22547/528d8634-a9ae-415b-a70e-0a2ac2a7bb8b@full.webp"
     ],
-    "description": "Product Type: Premium Glass Tumbler with Leather Sleeve and Matching Straw\n\nBranding & Customization: Features a custom debossed leather grip sleeve displaying the \"Brahmani Impex\" logo with a Trishul emblem.\n\nDesign & Materials: Crafted from tinted brown glass, paired with a secure lid and a reusable metal/glass straw for convenient sipping.\n\nAesthetic Appeal: Designed with an earthy, modern, and aesthetic look, perfect for everyday use or cafe-style beverages.\n\nUsage: Ideal for iced coffee, smoothies, juices, cold brew, or your favorite daily refreshments on the go.",
+    "description": "Technique: Heat-Pressed Embossing / Debossing with Border Stitching",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1409,14 +1526,16 @@ export const INITIAL_PRODUCTS = [
     "name": "BRANDING OVER METAL",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 35,
+    "basePrice": 15,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
+    "image": "https://assets.brahmanicrm.com/products/22545/1fffdacb-2c0d-4c44-92c2-62c5cd034abe@full.webp",
     "images": [
-      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
+      "https://assets.brahmanicrm.com/products/22545/1fffdacb-2c0d-4c44-92c2-62c5cd034abe@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Application: Glass Jars, Canisters, Metal Containers, and Packaging Caps",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1435,14 +1554,18 @@ export const INITIAL_PRODUCTS = [
     "name": "BRANDING OVER WOODEN",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 35,
+    "basePrice": 15,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
+    "image": "https://assets.brahmanicrm.com/products/22546/95dcb1d6-f6a2-40b3-9437-d20a6119831c@full.webp",
     "images": [
-      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
+      "https://assets.brahmanicrm.com/products/22546/95dcb1d6-f6a2-40b3-9437-d20a6119831c@full.webp",
+      "https://assets.brahmanicrm.com/products/22546/b38ab5f3-cff1-4189-8d04-8307e922c94b@full.webp",
+      "https://assets.brahmanicrm.com/products/22546/53029941-0b7f-4577-9555-4c3df3b95ed9@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Material Support: Natural Wood & Bamboo Lids (Round & Square Shapes)",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1461,7 +1584,9 @@ export const INITIAL_PRODUCTS = [
     "name": "BRANDING WITH STICKER",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 35,
+    "basePrice": 15,
     "piecesPerCarton": 1,
     "moqCartons": 1,
     "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
@@ -1481,35 +1606,35 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "9b23f451-0a0b-469e-b748-8937731880a4",
-    "itemCode": "23045",
-    "aliasName": "BRILLIANT",
-    "name": "BRILLIANT WHISKEY GLASS 325ML 6PCS SET",
+    "id": "e1a938b1-c048-4eaa-b4c5-f51d840fc143",
+    "itemCode": "23346",
+    "aliasName": "EJ5401",
+    "name": "BRANDY GLASS 140ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 250,
+    "brahmaniCategories": [],
+    "price": 340,
+    "basePrice": 320,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23045/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23346/dc0d1a2d-d225-4ce1-8678-131da139f895@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23045/0.jpg",
-      "https://assets.brahmanicrm.com/products/23045/1.jpg",
-      "https://assets.brahmanicrm.com/products/23045/2.jpg",
-      "https://assets.brahmanicrm.com/products/23045/3.jpg",
-      "https://assets.brahmanicrm.com/products/23045/4.jpg",
-      "https://assets.brahmanicrm.com/products/23045/5.jpg"
+      "https://assets.brahmanicrm.com/products/23346/dc0d1a2d-d225-4ce1-8678-131da139f895@full.webp",
+      "https://assets.brahmanicrm.com/products/23346/e78e65b8-0a17-4bdd-8dae-77dc00d64768@full.webp",
+      "https://assets.brahmanicrm.com/products/23346/86d742fe-7153-45f1-aca9-1761524a580e@full.webp",
+      "https://assets.brahmanicrm.com/products/23346/95e60dfa-989a-44e2-8f33-fdd75d7c555c@full.webp",
+      "https://assets.brahmanicrm.com/products/23346/3b1aab97-3971-461a-ba6f-c2f1a121111b@full.webp"
     ],
-    "description": "Elevate your drinking experience with this sophisticated, luxury whiskey tumbler. Meticulously crafted with a stunning diamond-textured mid-section, this glass offers a perfect blend of modern style and timeless elegance. The thick-walled, heavy-based construction ensures a premium feel in your hand, making it the ideal choice for sipping whiskey, bourbon, scotch, or craft cocktails.",
-    "capacity": "325ML",
+    "description": "Special Features: Classic Snifter Shape, Short Stem, Ergonomic Palm Grip",
+    "capacity": "140ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "BRILLIANT",
-      "WHISKEY",
+      "BRANDY",
       "GLASS",
-      "325ML",
+      "140ML",
       "6PCS"
     ]
   },
@@ -1520,18 +1645,22 @@ export const INITIAL_PRODUCTS = [
     "name": "BRUSH JAR 300ML 1 PCS BOX PACK",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 58,
+    "basePrice": 38,
     "piecesPerCarton": 90,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23134/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23134/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23134/0.jpg",
-      "https://assets.brahmanicrm.com/products/23134/1.jpg",
-      "https://assets.brahmanicrm.com/products/23134/2.jpg",
-      "https://assets.brahmanicrm.com/products/23134/3.jpg",
-      "https://assets.brahmanicrm.com/products/23134/4.jpg"
+      "https://assets.brahmanicrm.com/products/23134/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23134/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23134/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23134/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23134/4@full.webp"
     ],
-    "description": "The BRUSH and lid are integrated, and easily taken without opening, Its handle is very comfortable and it is very convenient to use. One more replacement brush included.",
+    "description": "Featuring an ideal 300ml capacity, this oil and sauce jar is perfectly sized for daily use in the kitchen.",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1542,7 +1671,75 @@ export const INITIAL_PRODUCTS = [
       "JAR",
       "300ML",
       "PCS",
-      "BOX"
+      "BOX",
+      "PACK",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "27f9a98d-022d-4ec1-ac97-ba7bc0ab2f5b",
+    "itemCode": "23222",
+    "aliasName": "BT036A",
+    "name": "BUCKET WITH HANDEL 930ML 1PCS",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 202,
+    "basePrice": 182,
+    "piecesPerCarton": 18,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23222/a5b3a34b-c851-4152-be1a-e012f3e27ff5@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23222/a5b3a34b-c851-4152-be1a-e012f3e27ff5@full.webp",
+      "https://assets.brahmanicrm.com/products/23222/6f8f2928-b1b8-4e07-874c-f7222c4cc8d2@full.webp",
+      "https://assets.brahmanicrm.com/products/23222/a5228479-be25-445d-adea-575836878908@full.webp"
+    ],
+    "description": "Special Features: Textured Body, Easy-Carry Handle, Stable Heavy Bottom",
+    "capacity": "930ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "BUCKET",
+      "WITH",
+      "HANDEL",
+      "930ML",
+      "1PCS"
+    ]
+  },
+  {
+    "id": "4b72cfb2-549b-4920-97b2-b8e5dee16925",
+    "itemCode": "23102",
+    "aliasName": "DSN001-L1",
+    "name": "CANDY JAR 270ML 1PCS BOX PACK",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 152,
+    "basePrice": 132,
+    "piecesPerCarton": 18,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23102/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23102/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23102/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23102/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23102/3@full.webp"
+    ],
+    "description": "Crystal Candy Box Candy Dishes with Lids Crystal Candy Box Sugar Bowl Cookie Jar (Medium/Clear) Glass Bowl with Lid and Home Decoration Bowl Pack of (1)",
+    "capacity": "270ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "CANDY",
+      "JAR",
+      "270ML",
+      "1PCS",
+      "BOX",
+      "PACK"
     ]
   },
   {
@@ -1552,25 +1749,31 @@ export const INITIAL_PRODUCTS = [
     "name": "CAP 1",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 40,
+    "basePrice": 20,
     "piecesPerCarton": 1000,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23142/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23142/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23142/0.jpg",
-      "https://assets.brahmanicrm.com/products/23142/1.jpg",
-      "https://assets.brahmanicrm.com/products/23142/2.jpg",
-      "https://assets.brahmanicrm.com/products/23142/3.jpg",
-      "https://assets.brahmanicrm.com/products/23142/4.jpg"
+      "https://assets.brahmanicrm.com/products/23142/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23142/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23142/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23142/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23142/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23142/b65c434e-bd21-4900-906d-4d54b92e0f72@full.webp"
     ],
-    "description": "Bamboo Mason Jar Lids with Straw Hole Reusable Bamboo Caps Leak-Proof Glass Canning Drinking Storage Jars Lid Covers",
+    "description": ": Crafted from high-quality and eco-friendly natural bamboo, giving the lid an attractive and premium aesthetic look.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "CAP"
+      "CAP",
+      "CHINA"
     ]
   },
   {
@@ -1580,14 +1783,20 @@ export const INITIAL_PRODUCTS = [
     "name": "CAP 3 GLASS WATER BOTTLE",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
-    "price": 40,
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 50,
+    "basePrice": 30,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
+    "image": "https://assets.brahmanicrm.com/products/23167/c06d2d65-62e2-4b0d-a119-828f7060d3de@full.webp",
     "images": [
-      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
+      "https://assets.brahmanicrm.com/products/23167/c06d2d65-62e2-4b0d-a119-828f7060d3de@full.webp",
+      "https://assets.brahmanicrm.com/products/23167/5542acbc-e77f-4f53-950f-a56c8c70488d@full.webp",
+      "https://assets.brahmanicrm.com/products/23167/f2a402b3-7280-4c5b-8260-e0d0fc3f46f8@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Special Features: Central Straw Hole, Airtight Fit, Eco-Friendly, Leak-Resistant",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1597,7 +1806,44 @@ export const INITIAL_PRODUCTS = [
       "CAP",
       "GLASS",
       "WATER",
-      "BOTTLE"
+      "BOTTLE",
+      "GLASSWARE"
+    ]
+  },
+  {
+    "id": "9cc5eb62-d52a-4a76-b692-1066940809f1",
+    "itemCode": "22370",
+    "aliasName": "BW-001L",
+    "name": "CASEROLLE 1 LTR DM",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "DIAMONDS"
+    ],
+    "price": 170,
+    "basePrice": 150,
+    "piecesPerCarton": 18,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22370/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22370/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22370/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22370/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22370/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22370/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22370/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22370/6@full.webp"
+    ],
+    "description": "Upgrade your kitchen essentials with this premium glass casserole dish, designed for seamless transitions from microwave cooking to elegant table serving. Crafted from high-quality, heat-resistant borosilicate glass, this dish is specifically engineered for safe and efficient cooking, reheating, and serving. Whether you are preparing a creamy paneer curry or a hearty vegetable stew, this versatile casserole ensures even heating and beautiful presentation.",
+    "capacity": "1 LTR",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "CASEROLLE",
+      "LTR",
+      "DIAMONDS"
     ]
   },
   {
@@ -1607,18 +1853,21 @@ export const INITIAL_PRODUCTS = [
     "name": "CASEROLLE 1.5LTR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 280,
+    "brahmaniCategories": [],
+    "price": 285,
+    "basePrice": 265,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20542/201caf33-f537-4428-b5ac-e02b9800469b.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20542/201caf33-f537-4428-b5ac-e02b9800469b@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20542/201caf33-f537-4428-b5ac-e02b9800469b.jpg",
-      "https://assets.brahmanicrm.com/products/20542/7b8bff9f-6964-4d4c-845f-473a012160bd.jpg",
-      "https://assets.brahmanicrm.com/products/20542/25f54ff7-0b8b-4149-8f75-6f8cca563ac6.jpg",
-      "https://assets.brahmanicrm.com/products/20542/469cc7be-2b1b-4a39-b6ba-198405d8aa71.jpg",
-      "https://assets.brahmanicrm.com/products/20542/8ce56dad-0cb2-4c98-9bd8-71f0a3b274e0.jpg"
+      "https://assets.brahmanicrm.com/products/20542/201caf33-f537-4428-b5ac-e02b9800469b@full.webp",
+      "https://assets.brahmanicrm.com/products/20542/7b8bff9f-6964-4d4c-845f-473a012160bd@full.webp",
+      "https://assets.brahmanicrm.com/products/20542/25f54ff7-0b8b-4149-8f75-6f8cca563ac6@full.webp",
+      "https://assets.brahmanicrm.com/products/20542/469cc7be-2b1b-4a39-b6ba-198405d8aa71@full.webp",
+      "https://assets.brahmanicrm.com/products/20542/8ce56dad-0cb2-4c98-9bd8-71f0a3b274e0@full.webp",
+      "https://assets.brahmanicrm.com/products/20542/1e46b15c-b4b7-4712-a2fc-96e97ec09bfb@full.webp"
     ],
-    "description": "12 PCS CTN\n1.5 l Toughened Glass Microwave Dishwasher Safe Pot Serving Bowl Casserole with Lid Glass Serving Bowl (Clear, Pack of 1).",
+    "description": "Special Features: Matching Glass Lid, Side Grip Handles, Crystal Clear Finish, Heat-Resistant",
     "capacity": "1.5LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1636,20 +1885,18 @@ export const INITIAL_PRODUCTS = [
     "name": "CASEROLLE 1LTR 1PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 205,
+    "basePrice": 185,
     "piecesPerCarton": 16,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20588/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20588/10c5c92d-862b-4f4c-aef5-0ea9d333ad18@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20588/0.jpg",
-      "https://assets.brahmanicrm.com/products/20588/1.jpg",
-      "https://assets.brahmanicrm.com/products/20588/2.jpg",
-      "https://assets.brahmanicrm.com/products/20588/3.jpg",
-      "https://assets.brahmanicrm.com/products/20588/4.jpg",
-      "https://assets.brahmanicrm.com/products/20588/5.jpg",
-      "https://assets.brahmanicrm.com/products/20588/6.jpg"
+      "https://assets.brahmanicrm.com/products/20588/10c5c92d-862b-4f4c-aef5-0ea9d333ad18@full.webp",
+      "https://assets.brahmanicrm.com/products/20588/00524a02-9779-475d-8267-651de08a1008@full.webp",
+      "https://assets.brahmanicrm.com/products/20588/c7b93e43-3ba3-4a0b-b199-0fdc34c3cb6e@full.webp"
     ],
-    "description": "1000ml Glass Casserole with Glass Lid 1-LTR, Oven And Microwave Safe Serving Bowl with Lid, Mixing Bowl for Snacks, Cereals, Rice, Sambar, Salad PacK-1    16pc cartoon",
+    "description": "Featuring an ideal 1 Litre capacity, this glass casserole is perfectly sized for storing or serving cooked meals for a small family on the dining table.",
     "capacity": "1LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1668,17 +1915,20 @@ export const INITIAL_PRODUCTS = [
     "name": "CASEROLLE 2.5LTR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 372,
+    "basePrice": 352,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20541/ebb26948-9980-4561-9bbf-d68b12b90fca.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20541/ebb26948-9980-4561-9bbf-d68b12b90fca@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20541/ebb26948-9980-4561-9bbf-d68b12b90fca.jpg",
-      "https://assets.brahmanicrm.com/products/20541/be1a0155-977d-4e29-b99d-24aec72945c6.jpg",
-      "https://assets.brahmanicrm.com/products/20541/11ac9a65-b914-4b68-bc09-31af2129494a.jpg",
-      "https://assets.brahmanicrm.com/products/20541/e33624de-674f-4434-b024-fa8d8944c545.jpg"
+      "https://assets.brahmanicrm.com/products/20541/ebb26948-9980-4561-9bbf-d68b12b90fca@full.webp",
+      "https://assets.brahmanicrm.com/products/20541/be1a0155-977d-4e29-b99d-24aec72945c6@full.webp",
+      "https://assets.brahmanicrm.com/products/20541/11ac9a65-b914-4b68-bc09-31af2129494a@full.webp",
+      "https://assets.brahmanicrm.com/products/20541/e33624de-674f-4434-b024-fa8d8944c545@full.webp",
+      "https://assets.brahmanicrm.com/products/20541/5a9de1b9-a52e-4fa1-8ebb-9b8a4683d3a5@full.webp"
     ],
-    "description": "Toughened Glass Microwave Dishwasher Safe Pot Serving Bowl Casserole with Lid Glass Serving Bowl (Clear)",
+    "description": "Featuring a large 2.5 Litre capacity, this glass casserole is ideal for storing and serving meals or sweets (like gulab jamun) for a large family or guests.",
     "capacity": "2.5LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1696,17 +1946,21 @@ export const INITIAL_PRODUCTS = [
     "name": "CASEROLLE DIRECT HEAT HEART PINK",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 410,
+    "basePrice": 390,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22714/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22714/becd6aaa-553b-4f42-803e-c61a4a4c870b@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22714/0.jpg",
-      "https://assets.brahmanicrm.com/products/22714/1.jpg",
-      "https://assets.brahmanicrm.com/products/22714/2.jpg",
-      "https://assets.brahmanicrm.com/products/22714/3.jpg"
+      "https://assets.brahmanicrm.com/products/22714/becd6aaa-553b-4f42-803e-c61a4a4c870b@full.webp",
+      "https://assets.brahmanicrm.com/products/22714/3437d422-a1b8-4eca-8dc6-e1cecac92b6a@full.webp",
+      "https://assets.brahmanicrm.com/products/22714/4b14843c-cc6d-41bd-abe9-773bb977f888@full.webp",
+      "https://assets.brahmanicrm.com/products/22714/a450e771-79d8-4b55-9757-e71d721070cf@full.webp"
     ],
-    "description": "Impress your guests by cooking delicious meals in a masterpiece in Quality and Design, the glass cookware saucepan set is made of food-grade high borosilicate glass",
+    "description": "Features an attractive pink tint finish and a charming heart-shaped knob on the lid, giving a gorgeous and aesthetic look to your kitchen and dining table.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1717,30 +1971,35 @@ export const INITIAL_PRODUCTS = [
       "DIRECT",
       "HEAT",
       "HEART",
-      "PINK"
+      "PINK",
+      "CHINA"
     ]
   },
   {
-    "id": "0886d6a2-850c-4c72-974b-b001a82132bd",
-    "itemCode": "22923",
-    "aliasName": "WD60-1600",
-    "name": "CASEROLLE DIRECT HEAT LININIG 1.6 LTR",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 270,
+    "id": "d119df3d-b20c-4c15-a891-9568ec745465",
+    "itemCode": "22530",
+    "aliasName": "GPP60-1600",
+    "name": "CASEROLLE DIRECT HEAT LINING 1600ML",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 260,
+    "basePrice": 240,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22923/2.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22530/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22923/2.jpg",
-      "https://assets.brahmanicrm.com/products/22923/3.jpg",
-      "https://assets.brahmanicrm.com/products/22923/4.jpg",
-      "https://assets.brahmanicrm.com/products/22923/5.jpg",
-      "https://assets.brahmanicrm.com/products/22923/6.jpg",
-      "https://assets.brahmanicrm.com/products/22923/c320e8cf-c36f-4336-8301-9810e6f7e0ba.jpg"
+      "https://assets.brahmanicrm.com/products/22530/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22530/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22530/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22530/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22530/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22530/5@full.webp"
     ],
-    "description": "Cook, serve, and reheat with ease using this Casserole Direct Heat Lining 1.6 Litre, specially designed for modern kitchens that need both cooking and serving convenience in one product.",
-    "capacity": "1.6 LTR",
+    "description": "Capacity:** 1600ml, perfect for soups, stews, vegetables, and more.",
+    "capacity": "1600ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
@@ -1749,41 +2008,9 @@ export const INITIAL_PRODUCTS = [
       "CASEROLLE",
       "DIRECT",
       "HEAT",
-      "LININIG",
-      "1.6"
-    ]
-  },
-  {
-    "id": "3e2e4d9c-8081-41e8-9088-7024ff13fa5b",
-    "itemCode": "22614",
-    "aliasName": null,
-    "name": "CASEROLLE WOOD TOP LID 1800ML",
-    "category": "caps",
-    "categoryName": "Lug & Plastic Caps",
-    "price": 265,
-    "piecesPerCarton": 36,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22614/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22614/0.jpg",
-      "https://assets.brahmanicrm.com/products/22614/1.jpg",
-      "https://assets.brahmanicrm.com/products/22614/2.jpg",
-      "https://assets.brahmanicrm.com/products/22614/3.jpg",
-      "https://assets.brahmanicrm.com/products/22614/4.jpg",
-      "https://assets.brahmanicrm.com/products/22614/5.jpg"
-    ],
-    "description": "Clear Glass Cooking Pot with lid Clear Pots for Cooking,Saucepan Glass Pot for Cooking,Heat Resistant Glass Pots for Cooking on Stove,Multi-Function Stew Pot Glass Pot for Cooking 1800 ML",
-    "capacity": "1800ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "CASEROLLE",
-      "WOOD",
-      "TOP",
-      "LID",
-      "1800ML"
+      "LINING",
+      "1600ML",
+      "GLASSWARE"
     ]
   },
   {
@@ -1793,18 +2020,24 @@ export const INITIAL_PRODUCTS = [
     "name": "CERAMIC BUTTER DISH WITH BAMBOO LID",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 370,
+    "basePrice": 350,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23297/dac3f6c9-6374-4e91-b76f-fc81b184b61c.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23297/dac3f6c9-6374-4e91-b76f-fc81b184b61c@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23297/dac3f6c9-6374-4e91-b76f-fc81b184b61c.jpg",
-      "https://assets.brahmanicrm.com/products/23297/cf254235-fde4-4f9c-87e4-5b5b6560ac30.jpg",
-      "https://assets.brahmanicrm.com/products/23297/7e3f41f1-8f76-4c41-a04b-7b319410ad1e.jpg",
-      "https://assets.brahmanicrm.com/products/23297/a8f8df3f-a126-41ca-b392-314d8e28208b.jpg",
-      "https://assets.brahmanicrm.com/products/23297/3ee6bc13-05ec-4561-860a-614eb7625a02.jpg"
+      "https://assets.brahmanicrm.com/products/23297/dac3f6c9-6374-4e91-b76f-fc81b184b61c@full.webp",
+      "https://assets.brahmanicrm.com/products/23297/cf254235-fde4-4f9c-87e4-5b5b6560ac30@full.webp",
+      "https://assets.brahmanicrm.com/products/23297/7e3f41f1-8f76-4c41-a04b-7b319410ad1e@full.webp",
+      "https://assets.brahmanicrm.com/products/23297/a8f8df3f-a126-41ca-b392-314d8e28208b@full.webp",
+      "https://assets.brahmanicrm.com/products/23297/3ee6bc13-05ec-4561-860a-614eb7625a02@full.webp",
+      "https://assets.brahmanicrm.com/products/23297/7863eea0-6343-45d1-aaa9-19138e07fb05@full.webp",
+      "https://assets.brahmanicrm.com/products/23297/c7d34ff8-348b-4149-9304-d8678e259f3c@full.webp"
     ],
-    "description": "Elevate Your Breakfast Table with Our Premium Ceramic Butter Dish\n\nSay goodbye to hard, unspreadable butter and messy wrappers. Our thoughtfully designed Ceramic Butter Dish is the perfect solution for keeping your favorite butter fresh, soft, and beautifully displayed on your kitchen counter or dining table.\n\nMade from heavy-duty, food-grade ceramic, this butter box features a contemporary white design that complements any kitchen aesthetic. What sets this butter keeper apart is its multi-functional bamboo lid. Not only does it provide a natural, rustic touch, but it also features a custom-molded resting slot for the included stainless steel spreader knife. No more searching drawers for a knife—everything you need is right perfectly organized in one place.",
+    "description": "Crafted from high-grade premium ceramic with an elegant \"BUTTER\" print on the front, giving a modern and stylish look to your kitchen and dining table",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1815,7 +2048,9 @@ export const INITIAL_PRODUCTS = [
       "BUTTER",
       "DISH",
       "WITH",
-      "BAMBOO"
+      "BAMBOO",
+      "LID",
+      "GLASSWARE"
     ]
   },
   {
@@ -1825,45 +2060,21 @@ export const INITIAL_PRODUCTS = [
     "name": "CERAMIC COFFEE MUG & SAUCER",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 340,
+    "basePrice": 320,
     "piecesPerCarton": 30,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23311/34e5dbf6-8b3b-41b5-a3c1-dce0b3bed608.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23311/34e5dbf6-8b3b-41b5-a3c1-dce0b3bed608@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23311/34e5dbf6-8b3b-41b5-a3c1-dce0b3bed608.jpg",
-      "https://assets.brahmanicrm.com/products/23311/d57a16ea-7f1f-435a-994c-73ed69d21ba9.jpg"
+      "https://assets.brahmanicrm.com/products/23311/34e5dbf6-8b3b-41b5-a3c1-dce0b3bed608@full.webp",
+      "https://assets.brahmanicrm.com/products/23311/d57a16ea-7f1f-435a-994c-73ed69d21ba9@full.webp",
+      "https://assets.brahmanicrm.com/products/23311/0b58189b-2808-43d8-aa14-29480b219705@full.webp",
+      "https://assets.brahmanicrm.com/products/23311/a0436140-3f32-48af-a20b-2edd61559717@full.webp"
     ],
-    "description": "Product Name: Aesthetic Ceramic Pink Mug and Cloud Saucer Set\n\nMaterial: Premium quality glazed ceramic with a smooth, glossy finish\n\nDesign & Aesthetics: Features a charming pastel pink design complete with a unique rounded handle and a cloud-shaped or bubble-rimmed saucer engraved with subtle branding\n\nFunctionality: Perfect for enjoying hot beverages like tea, coffee, or lattes, providing both a comfortable grip and a stable, stylish resting base\n\nStyling & Decor: Ideal for cozy morning routines, aesthetic table settings, or as an elegant decorative piece for your kitchen or living space",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "CERAMIC",
-      "COFFEE",
-      "MUG",
-      "SAUCER"
-    ]
-  },
-  {
-    "id": "0ff87e9f-eeb4-4372-bac4-a46cedecaa6c",
-    "itemCode": "23310",
-    "aliasName": null,
-    "name": "CERAMIC COFFEE MUG & SAUCER WHITE",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 340,
-    "piecesPerCarton": 30,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23310/e27a854b-953b-4d77-93d5-933230699ae7.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23310/e27a854b-953b-4d77-93d5-933230699ae7.jpg",
-      "https://assets.brahmanicrm.com/products/23310/aa1a3e71-ecc0-4469-aa3e-fe65a2d4ee32.jpg",
-      "https://assets.brahmanicrm.com/products/23310/70e3c555-3eb3-4818-bd78-5da22486d351.jpg",
-      "https://assets.brahmanicrm.com/products/23310/ed9b5f47-8727-4237-88c5-8e0313a9326f.jpg"
-    ],
-    "description": "Product Name: Aesthetic Ceramic Pink Mug and Cloud Saucer Set\n\nMaterial: Premium quality glazed ceramic with a smooth, glossy finish\n\nDesign & Aesthetics: Features a charming pastel pink design complete with a unique rounded handle and a cloud-shaped or bubble-rimmed saucer engraved with subtle branding\n\nFunctionality: Perfect for enjoying hot beverages like tea, coffee, or lattes, providing both a comfortable grip and a stable, stylish resting base\n\nStyling & Decor: Ideal for cozy morning routines, aesthetic table settings, or as an elegant decorative piece for your kitchen or living space",
+    "description": "This charming pink coffee mug and saucer set is crafted from premium ceramic, giving it a trendy and aesthetic look.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1874,24 +2085,67 @@ export const INITIAL_PRODUCTS = [
       "COFFEE",
       "MUG",
       "SAUCER",
-      "WHITE"
+      "GLASSWARE"
+    ]
+  },
+  {
+    "id": "0ff87e9f-eeb4-4372-bac4-a46cedecaa6c",
+    "itemCode": "23310",
+    "aliasName": null,
+    "name": "CERAMIC COFFEE MUG & SAUCER WHITE",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 340,
+    "basePrice": 320,
+    "piecesPerCarton": 30,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23310/e27a854b-953b-4d77-93d5-933230699ae7@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23310/e27a854b-953b-4d77-93d5-933230699ae7@full.webp",
+      "https://assets.brahmanicrm.com/products/23310/aa1a3e71-ecc0-4469-aa3e-fe65a2d4ee32@full.webp",
+      "https://assets.brahmanicrm.com/products/23310/70e3c555-3eb3-4818-bd78-5da22486d351@full.webp",
+      "https://assets.brahmanicrm.com/products/23310/ed9b5f47-8727-4237-88c5-8e0313a9326f@full.webp",
+      "https://assets.brahmanicrm.com/products/23310/4aa7b938-da2a-4a30-a6e4-ae2d6c06ced5@full.webp"
+    ],
+    "description": "This premium white coffee mug and saucer set is crafted from high-quality ceramic, offering a classy and elegant look for your dining table.",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "CERAMIC",
+      "COFFEE",
+      "MUG",
+      "SAUCER",
+      "WHITE",
+      "GLASSWARE"
     ]
   },
   {
     "id": "cecc64d2-e9ba-4c78-ad05-ffc078edaf59",
     "itemCode": "23300",
     "aliasName": null,
-    "name": "CERAMIC COFFEE MUG WITH SAUCER GREEN",
+    "name": "CERAMIC COFFEE MUG WITH SAUCER PINK",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 370,
+    "basePrice": 350,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
+    "image": "https://assets.brahmanicrm.com/products/23300/b9bb5afd-9378-4eb5-8179-c7131815e59f@full.webp",
     "images": [
-      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
+      "https://assets.brahmanicrm.com/products/23300/b9bb5afd-9378-4eb5-8179-c7131815e59f@full.webp",
+      "https://assets.brahmanicrm.com/products/23300/8634d984-1583-4a40-b552-37ba143525c3@full.webp",
+      "https://assets.brahmanicrm.com/products/23300/e7d3eb92-3724-4885-9382-2c28f58aa28b@full.webp",
+      "https://assets.brahmanicrm.com/products/23300/eac3b35b-e46d-4faf-94d8-50da89b55fc2@full.webp",
+      "https://assets.brahmanicrm.com/products/23300/5c81cc9c-9204-4a44-b8fe-cf8bad83291b@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Special Features: Fluted Ribbed Design, Heat-Resistant, Glossy Finish",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1902,7 +2156,8 @@ export const INITIAL_PRODUCTS = [
       "COFFEE",
       "MUG",
       "WITH",
-      "SAUCER"
+      "SAUCER",
+      "PINK"
     ]
   },
   {
@@ -1912,15 +2167,21 @@ export const INITIAL_PRODUCTS = [
     "name": "CERAMIC CUP AND SAUCER",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 410,
+    "basePrice": 390,
     "piecesPerCarton": 30,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23305/46a4c860-85f3-4e6f-b8ea-5d8ffed2a4d0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23305/fac2ae1d-dac9-41d4-89e9-5da43578441c@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23305/46a4c860-85f3-4e6f-b8ea-5d8ffed2a4d0.jpg",
-      "https://assets.brahmanicrm.com/products/23305/f363defa-d4e0-4b09-954c-97a8f8b712ca.png"
+      "https://assets.brahmanicrm.com/products/23305/fac2ae1d-dac9-41d4-89e9-5da43578441c@full.webp",
+      "https://assets.brahmanicrm.com/products/23305/2b8c11b6-7ee0-44a1-9936-4526ee1ca32a@full.webp",
+      "https://assets.brahmanicrm.com/products/23305/cd0634a5-e5c4-4c37-be7b-a8a545009cfd@full.webp",
+      "https://assets.brahmanicrm.com/products/23305/7df56831-415a-41c0-9716-1246deb6aaf3@full.webp"
     ],
-    "description": "Aesthetic Ceramic Coffee Mug and Saucer Set with Butterfly Handle, Cute 'Love' Floral Print Tea Cup with Gift Box, Perfect Gift for Women, Girls, and Coffee Lovers",
+    "description": "This ceramic cup features a charming blue 3D butterfly-shaped handle, making it exceptionally aesthetic and cute in appearance.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1930,7 +2191,8 @@ export const INITIAL_PRODUCTS = [
       "CERAMIC",
       "CUP",
       "AND",
-      "SAUCER"
+      "SAUCER",
+      "GLASSWARE"
     ]
   },
   {
@@ -1940,16 +2202,21 @@ export const INITIAL_PRODUCTS = [
     "name": "CERAMIC CUP AND SAUCER PURPLE",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 390,
+    "basePrice": 370,
     "piecesPerCarton": 30,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23301/1f4fe4c4-bacc-4841-a4e4-188ac5588a78.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23301/1f4fe4c4-bacc-4841-a4e4-188ac5588a78@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23301/1f4fe4c4-bacc-4841-a4e4-188ac5588a78.jpg",
-      "https://assets.brahmanicrm.com/products/23301/bc66e539-2443-4370-bfe7-65dda126581b.jpg",
-      "https://assets.brahmanicrm.com/products/23301/4f38813b-f590-466e-9c35-5b4286c5024d.jpg"
+      "https://assets.brahmanicrm.com/products/23301/1f4fe4c4-bacc-4841-a4e4-188ac5588a78@full.webp",
+      "https://assets.brahmanicrm.com/products/23301/bc66e539-2443-4370-bfe7-65dda126581b@full.webp",
+      "https://assets.brahmanicrm.com/products/23301/4f38813b-f590-466e-9c35-5b4286c5024d@full.webp",
+      "https://assets.brahmanicrm.com/products/23301/3fea520d-f396-4512-a9d2-71f7dc288084@full.webp"
     ],
-    "description": "Aesthetic Ceramic Coffee Mug and Saucer Set with Butterfly Handle, Cute 'Love' Floral Print Tea Cup with Gift Box, Perfect Gift for Women, Girls, and Coffee Lovers",
+    "description": "Features an aesthetic purple color with a charming checkered pattern, giving a modern and cute look to your table setup.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1960,7 +2227,8 @@ export const INITIAL_PRODUCTS = [
       "CUP",
       "AND",
       "SAUCER",
-      "PURPLE"
+      "PURPLE",
+      "GLASSWARE"
     ]
   },
   {
@@ -1970,15 +2238,20 @@ export const INITIAL_PRODUCTS = [
     "name": "CERAMIC CUP AND SAUCER WHITE",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 410,
+    "basePrice": 390,
     "piecesPerCarton": 30,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23306/e9c2de2e-da90-4bfb-a756-c8c13c9bc9a2.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23306/e9c2de2e-da90-4bfb-a756-c8c13c9bc9a2@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23306/e9c2de2e-da90-4bfb-a756-c8c13c9bc9a2.jpg",
-      "https://assets.brahmanicrm.com/products/23306/71546a9a-4ce9-42f1-b097-34df1e4fe50a.jpg"
+      "https://assets.brahmanicrm.com/products/23306/e9c2de2e-da90-4bfb-a756-c8c13c9bc9a2@full.webp",
+      "https://assets.brahmanicrm.com/products/23306/71546a9a-4ce9-42f1-b097-34df1e4fe50a@full.webp",
+      "https://assets.brahmanicrm.com/products/23306/8dea21ba-e163-45f5-903b-9ceece9220e1@full.webp"
     ],
-    "description": "Aesthetic Ceramic Coffee Mug and Saucer Set with Butterfly Handle, Cute 'Love' Floral Print Tea Cup with Gift Box, Perfect Gift for Women, Girls, and Coffee Lovers",
+    "description": "This ceramic cup features a charming pink 3D butterfly-shaped handle, giving it an exceptionally cute and premium look",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -1989,7 +2262,8 @@ export const INITIAL_PRODUCTS = [
       "CUP",
       "AND",
       "SAUCER",
-      "WHITE"
+      "WHITE",
+      "GLASSWARE"
     ]
   },
   {
@@ -1999,16 +2273,21 @@ export const INITIAL_PRODUCTS = [
     "name": "CERAMIC CUP WITH LOTUS SAUCER 350ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 440,
+    "basePrice": 420,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23308/ad144c8a-a16a-4ae0-b32f-7dfd2bc4df60.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23308/ad144c8a-a16a-4ae0-b32f-7dfd2bc4df60@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23308/ad144c8a-a16a-4ae0-b32f-7dfd2bc4df60.jpg",
-      "https://assets.brahmanicrm.com/products/23308/3cd3cb83-6090-4726-8c17-2a64c61c8b45.jpg",
-      "https://assets.brahmanicrm.com/products/23308/9aa2b6a3-7366-4e1f-89ed-beaae3fbdc36.jpg"
+      "https://assets.brahmanicrm.com/products/23308/ad144c8a-a16a-4ae0-b32f-7dfd2bc4df60@full.webp",
+      "https://assets.brahmanicrm.com/products/23308/3cd3cb83-6090-4726-8c17-2a64c61c8b45@full.webp",
+      "https://assets.brahmanicrm.com/products/23308/9aa2b6a3-7366-4e1f-89ed-beaae3fbdc36@full.webp",
+      "https://assets.brahmanicrm.com/products/23308/2905d11e-ead7-4503-a214-c325307d4386@full.webp"
     ],
-    "description": "Bring a touch of charm and elegance to your daily tea or coffee ritual with this delightful Aesthetic Floral Ceramic Mug and Saucer Set. Featuring handcrafted floral details and a unique heart-shaped handle, this set is designed to brighten up your morning routine and elevate your home decor.",
+    "description": "Featuring an ideal 350ml capacity, this ceramic cup is perfectly sized for your favorite coffee, tea, hot chocolate, or green tea.",
     "capacity": "350ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2019,7 +2298,9 @@ export const INITIAL_PRODUCTS = [
       "CUP",
       "WITH",
       "LOTUS",
-      "SAUCER"
+      "SAUCER",
+      "350ML",
+      "GLASSWARE"
     ]
   },
   {
@@ -2029,16 +2310,21 @@ export const INITIAL_PRODUCTS = [
     "name": "CERAMIC FLOWER CUP AND SACUER",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 360,
+    "basePrice": 340,
     "piecesPerCarton": 30,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23307/5ef620a4-a65c-4035-8bf6-9dcdc7d1e07f.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23307/5ef620a4-a65c-4035-8bf6-9dcdc7d1e07f@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23307/5ef620a4-a65c-4035-8bf6-9dcdc7d1e07f.jpg",
-      "https://assets.brahmanicrm.com/products/23307/9726361f-3c0a-4c03-8da2-27bed97f03dd.jpg",
-      "https://assets.brahmanicrm.com/products/23307/046145f7-58ee-42f9-a325-bd5cc4ccdd8c.jpg"
+      "https://assets.brahmanicrm.com/products/23307/5ef620a4-a65c-4035-8bf6-9dcdc7d1e07f@full.webp",
+      "https://assets.brahmanicrm.com/products/23307/9726361f-3c0a-4c03-8da2-27bed97f03dd@full.webp",
+      "https://assets.brahmanicrm.com/products/23307/046145f7-58ee-42f9-a325-bd5cc4ccdd8c@full.webp",
+      "https://assets.brahmanicrm.com/products/23307/922fefa9-7aa6-4ac4-b8fd-b509cd84d147@full.webp"
     ],
-    "description": "Bring a touch of charm and elegance to your daily tea or coffee ritual with this delightful Aesthetic Floral Ceramic Mug and Saucer Set. Featuring handcrafted floral details and a unique heart-shaped handle, this set is designed to brighten up your morning routine and elevate your home decor.",
+    "description": "Features a charming ceramic build with aesthetic 3D floral details and patterns, giving a cute and stylish look to your table decor.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2049,7 +2335,8 @@ export const INITIAL_PRODUCTS = [
       "FLOWER",
       "CUP",
       "AND",
-      "SACUER"
+      "SACUER",
+      "GLASSWARE"
     ]
   },
   {
@@ -2059,16 +2346,21 @@ export const INITIAL_PRODUCTS = [
     "name": "CERAMIC MUG WITH LOTUS SAUCER",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 270,
+    "basePrice": 250,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23309/d3cadc81-99f9-49a5-aa40-eb6687253b95.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23309/d3cadc81-99f9-49a5-aa40-eb6687253b95@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23309/d3cadc81-99f9-49a5-aa40-eb6687253b95.jpg",
-      "https://assets.brahmanicrm.com/products/23309/8dfc4cbd-c983-4fd7-beca-114960fbb387.jpg",
-      "https://assets.brahmanicrm.com/products/23309/cdcdc86c-b831-436b-8fa0-f864bc4f1828.jpg"
+      "https://assets.brahmanicrm.com/products/23309/d3cadc81-99f9-49a5-aa40-eb6687253b95@full.webp",
+      "https://assets.brahmanicrm.com/products/23309/8dfc4cbd-c983-4fd7-beca-114960fbb387@full.webp",
+      "https://assets.brahmanicrm.com/products/23309/cdcdc86c-b831-436b-8fa0-f864bc4f1828@full.webp",
+      "https://assets.brahmanicrm.com/products/23309/57a5aefc-54f2-49bf-8884-6ccc4e8d0f1f@full.webp"
     ],
-    "description": "Bring a touch of charm and elegance to your daily tea or coffee ritual with this delightful Aesthetic Floral Ceramic Mug and Saucer Set. Featuring handcrafted floral details and a unique heart-shaped handle, this set is designed to brighten up your morning routine and elevate your home decor.",
+    "description": "Special Features: Lotus Flower Mug Design, Leaf-Shaped Saucer, Aesthetic Pastel Finish",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2079,38 +2371,8 @@ export const INITIAL_PRODUCTS = [
       "MUG",
       "WITH",
       "LOTUS",
-      "SAUCER"
-    ]
-  },
-  {
-    "id": "3ee5ce4f-a67e-4ad6-abd5-37f989e07c04",
-    "itemCode": "23224",
-    "aliasName": null,
-    "name": "CERAMIC PANDA CUP",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 240,
-    "piecesPerCarton": 60,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23224/14a2aec0-7403-4d5a-838d-68bce024c87d.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23224/14a2aec0-7403-4d5a-838d-68bce024c87d.jpg",
-      "https://assets.brahmanicrm.com/products/23224/76cf10e1-b29a-4b3e-9e5e-6372bf6e5fed.jpg",
-      "https://assets.brahmanicrm.com/products/23224/f81bee3d-12db-4814-a9b2-17e17ddb86af.jpg",
-      "https://assets.brahmanicrm.com/products/23224/298c7d92-2262-4117-bf6c-8ab4319a37c9.jpg",
-      "https://assets.brahmanicrm.com/products/23224/cb7dfb2f-ed99-4f44-af9e-588b3e49fecf.jpg",
-      "https://assets.brahmanicrm.com/products/23224/083e24d4-371d-4446-b414-cec6fc3f3ed7.jpg"
-    ],
-    "description": "Add a touch of joy to your daily beverage routine with this adorable Pastel Pink Panda Ceramic Mug. Designed with a beautifully printed panda holding a balloon and the inspiring word \"DREAM,\" this mug is perfect for enjoying coffee, tea, hot chocolate, or milk.\n\nThe mug comes as a complete 3-piece set, featuring a sleek stainless steel stirring spoon and a matching white ceramic lid. The lid is topped with a charming 3D resting panda figure, which not only adds to the aesthetic appeal but also keeps your drinks warm and safe from dust. Crafted from high-quality, food-grade ceramic with a smooth finish, this mug is highly durable and comfortable to hold.\n\nWith its premium look and kawaii design, this mug is an excellent choice for retail or as a memorable item for corporate gifting, birthdays, and special occasions.",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "CERAMIC",
-      "PANDA",
-      "CUP"
+      "SAUCER",
+      "GLASSWARE"
     ]
   },
   {
@@ -2120,18 +2382,22 @@ export const INITIAL_PRODUCTS = [
     "name": "CERAMIC SNACK SERVING BOWL ROUND BOC PACK  (10INCH ,5INCH )",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 540,
+    "basePrice": 520,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22938/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22938/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22938/0.jpg",
-      "https://assets.brahmanicrm.com/products/22938/1.jpg",
-      "https://assets.brahmanicrm.com/products/22938/2.jpg",
-      "https://assets.brahmanicrm.com/products/22938/3.jpg",
-      "https://assets.brahmanicrm.com/products/22938/4.jpg"
+      "https://assets.brahmanicrm.com/products/22938/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22938/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22938/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22938/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22938/4@full.webp"
     ],
-    "description": "This Ceramic Snack Serving Bowl Pack isn’t just functional — it enhances your presentation and makes every serving moment stylish and inviting. From everyday meals to festive celebrations, this set is versatile, quality-built, and designed to impress.",
+    "description": "This combo set includes a large 10-inch serving bowl attached with a 5-inch divided dip bowl, making it perfect for serving snacks and appetizers",
     "capacity": "10INCH",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2142,7 +2408,85 @@ export const INITIAL_PRODUCTS = [
       "SNACK",
       "SERVING",
       "BOWL",
-      "ROUND"
+      "ROUND",
+      "BOC",
+      "PACK",
+      "(10INCH"
+    ]
+  },
+  {
+    "id": "e9a03e16-9d0b-482f-aad6-80d5f8498a6d",
+    "itemCode": "23302",
+    "aliasName": null,
+    "name": "CERAMIC TEDDY CUP WITH HANDLE",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 260,
+    "basePrice": 240,
+    "piecesPerCarton": 60,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23302/868a9c5e-666f-4f29-a503-1fadfaeb3cae@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23302/868a9c5e-666f-4f29-a503-1fadfaeb3cae@full.webp",
+      "https://assets.brahmanicrm.com/products/23302/ac88b1a6-2004-4263-a1e3-31f87b532f71@full.webp",
+      "https://assets.brahmanicrm.com/products/23302/4916cea1-2494-4789-bdc0-4443f10c6163@full.webp",
+      "https://assets.brahmanicrm.com/products/23302/a4488f8a-81a3-4a52-a938-8ad3df64f2b7@full.webp",
+      "https://assets.brahmanicrm.com/products/23302/836770b3-130d-41af-b9be-84e50d8aaf51@full.webp",
+      "https://assets.brahmanicrm.com/products/23302/17ce99f5-ade6-4d30-9aec-6d8c6b2da9f9@full.webp"
+    ],
+    "description": "Special Features: 3D Teddy Bear Design, Matching Lid, Ergonomic Handle, Food-Safe",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "CERAMIC",
+      "TEDDY",
+      "CUP",
+      "WITH",
+      "HANDLE",
+      "GLASSWARE"
+    ]
+  },
+  {
+    "id": "00a5788c-e17e-44db-a0ab-a781e35652d7",
+    "itemCode": "21725",
+    "aliasName": "GL3096.",
+    "name": "CHAMPAGNE WINE GLASS 165ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 401,
+    "basePrice": 381,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/21725/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/21725/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21725/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21725/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21725/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21725/4@full.webp",
+      "https://assets.brahmanicrm.com/products/21725/5@full.webp",
+      "https://assets.brahmanicrm.com/products/21725/6@full.webp"
+    ],
+    "description": "Elegant Crystal Champagne Glass Flutes with Stem Stylish and Unique Wine Glass Long Champ 165 ML - Set of (6)",
+    "capacity": "165ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "CHAMPAGNE",
+      "WINE",
+      "GLASS",
+      "165ML",
+      "6PCS",
+      "SET"
     ]
   },
   {
@@ -2152,17 +2496,22 @@ export const INITIAL_PRODUCTS = [
     "name": "CHAMPAGNE WINE STRAIGHT 175ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 410,
+    "basePrice": 390,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23313/7b00400d-c682-4a42-838d-df3f54957b8a.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23313/7b00400d-c682-4a42-838d-df3f54957b8a@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23313/7b00400d-c682-4a42-838d-df3f54957b8a.jpg",
-      "https://assets.brahmanicrm.com/products/23313/643a6419-875a-4ff8-8e59-43ed6460fed8.jpg",
-      "https://assets.brahmanicrm.com/products/23313/5270c1d8-1a1d-41e0-a52f-ee95ca24d226.jpg",
-      "https://assets.brahmanicrm.com/products/23313/af4fdf8f-8b9b-4c07-905b-ae7d987d4ac7.jpg"
+      "https://assets.brahmanicrm.com/products/23313/7b00400d-c682-4a42-838d-df3f54957b8a@full.webp",
+      "https://assets.brahmanicrm.com/products/23313/643a6419-875a-4ff8-8e59-43ed6460fed8@full.webp",
+      "https://assets.brahmanicrm.com/products/23313/5270c1d8-1a1d-41e0-a52f-ee95ca24d226@full.webp",
+      "https://assets.brahmanicrm.com/products/23313/af4fdf8f-8b9b-4c07-905b-ae7d987d4ac7@full.webp",
+      "https://assets.brahmanicrm.com/products/23313/d26a4c29-d3e6-429e-9d63-095b5df498b5@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Featuring an ideal 175ml capacity, these glasses are perfectly sized for serving champagne, sparkling wine, or cocktails.",
     "capacity": "175ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2173,66 +2522,73 @@ export const INITIAL_PRODUCTS = [
       "WINE",
       "STRAIGHT",
       "175ML",
-      "6PCS"
+      "6PCS",
+      "GLASSWARE"
     ]
   },
   {
-    "id": "d884bdf8-d19d-48e1-b1a9-bdac42fda895",
-    "itemCode": "22482",
-    "aliasName": "EPB78-L1-BB",
-    "name": "COLA CAN TUMBLER LINING WOODEN LID 510ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 115,
-    "piecesPerCarton": 72,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22482/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22482/0.jpg",
-      "https://assets.brahmanicrm.com/products/22482/1.jpg"
-    ],
-    "description": "We have upgraded the material of our iced coffee glasses. which is less prone to breakage and makes you safer and more at ease when using it. the glass cups with straws will stay crystal clear even after long-term use. You can also put the glass cup and straw in the dishwasher to clean, which makes these glass coffee cups with lids and straws perfect for your daily use.",
-    "capacity": "510ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "COLA",
-      "CAN",
-      "TUMBLER",
-      "LINING",
-      "WOODEN"
-    ]
-  },
-  {
-    "id": "6a0db85f-8984-4e2f-a07f-197d926d7354",
-    "itemCode": "22589",
-    "aliasName": null,
-    "name": "CORNER GUARD STICKER",
+    "id": "7d665cb5-dc9f-48e7-a9f5-f63207194a6b",
+    "itemCode": "23260",
+    "aliasName": "H2360C-3",
+    "name": "CLIP JAR 130ML 3PC KIVVI",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 23,
-    "piecesPerCarton": 5000,
+    "brahmaniCategories": [],
+    "price": 226,
+    "basePrice": 206,
+    "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22589/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23260/4b1398ca-1bf1-47d6-a4fb-6ccdaf7542df@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22589/0.jpg",
-      "https://assets.brahmanicrm.com/products/22589/1.jpg",
-      "https://assets.brahmanicrm.com/products/22589/2.jpg",
-      "https://assets.brahmanicrm.com/products/22589/3.jpg",
-      "https://assets.brahmanicrm.com/products/22589/4.jpg"
+      "https://assets.brahmanicrm.com/products/23260/4b1398ca-1bf1-47d6-a4fb-6ccdaf7542df@full.webp",
+      "https://assets.brahmanicrm.com/products/23260/8292b2f5-1f92-430e-9bc2-41aa384dc5ed@full.webp",
+      "https://assets.brahmanicrm.com/products/23260/22425dba-3263-4e60-9017-302bf66cbeab@full.webp",
+      "https://assets.brahmanicrm.com/products/23260/2a95c221-c4df-4abc-80de-4d8a0115dac7@full.webp"
     ],
-    "description": "Protect your little ones from bumps and bruises with these essential clear corner guards! Easily apply them to sharp table and furniture edges for instant safety. Give yourself peace of mind in a child-friendly home.",
-    "capacity": "Standard Trade Spec",
+    "description": "Upgrade your kitchen storage and keep your ingredients perfectly fresh with this 3-Piece Glass Storage Canister Set. Designed with both aesthetics and functionality in mind, these jars feature a classic clear glass body paired with vibrant, colorful ceramic lids (Red, Green, and Blue) that add a delightful pop of color to your kitchen counter, pantry, or dining table.\n\nWhether you are storing colorful candies, daily spices, dry fruits, coffee beans, or tea leaves, the transparent design allows you to easily identify the contents at a glance. Equipped with a premium stainless steel clamp and an airtight silicone seal, these jars lock in freshness, keeping moisture and air out. Packaged beautifully, this set is also an excellent choice for corporate gifting, housewarmings, or festive presents.",
+    "capacity": "130ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "CORNER",
-      "GUARD",
-      "STICKER"
+      "CLIP",
+      "JAR",
+      "130ML",
+      "3PC",
+      "KIVVI"
+    ]
+  },
+  {
+    "id": "16792e77-2c12-46a7-943a-b38856d781be",
+    "itemCode": "23348",
+    "aliasName": "SMG-27",
+    "name": "COFFEE MUG 250ML 1PC",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 117,
+    "basePrice": 97,
+    "piecesPerCarton": 50,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23348/53cc4fb8-4712-449d-be22-2b04ec48030b@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23348/53cc4fb8-4712-449d-be22-2b04ec48030b@full.webp",
+      "https://assets.brahmanicrm.com/products/23348/3d32c694-4a31-43bd-a4b9-877b976a0f9e@full.webp",
+      "https://assets.brahmanicrm.com/products/23348/4f0f6f06-78e4-4f32-b6ff-7356a65bbbfd@full.webp",
+      "https://assets.brahmanicrm.com/products/23348/154d95c8-d583-46dc-b5c9-c63e0399603c@full.webp"
+    ],
+    "description": "Design: Double-Walled Insulated, Clear Transparent Body with Handle",
+    "capacity": "250ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "COFFEE",
+      "MUG",
+      "250ML",
+      "1PC"
     ]
   },
   {
@@ -2242,18 +2598,21 @@ export const INITIAL_PRODUCTS = [
     "name": "CRUMPLE WHISKEY TUMBLER 280ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 250,
+    "basePrice": 230,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21121/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21121/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21121/0.jpg",
-      "https://assets.brahmanicrm.com/products/21121/1.jpg",
-      "https://assets.brahmanicrm.com/products/21121/2.jpg",
-      "https://assets.brahmanicrm.com/products/21121/3.jpg",
-      "https://assets.brahmanicrm.com/products/21121/4.jpg"
+      "https://assets.brahmanicrm.com/products/21121/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21121/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21121/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21121/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21121/4@full.webp",
+      "https://assets.brahmanicrm.com/products/21121/bfef1807-80d2-4d34-bb9f-7fb759e7727e@full.webp"
     ],
-    "description": "CRUMPLE Whiskey Tumbler 280ML 6PCS || Crystal Cut Barware Drinking Glasses for Whisky, Bourbon, Scotch, Liquor, Wine, Cocktail Drinks - Transparent Old.",
+    "description": "Featuring an ideal 280ml capacity, these glasses are perfectly sized for serving whiskey, scotch, bourbon, or cocktails.",
     "capacity": "280ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2268,25 +2627,198 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "aa533aa2-f33a-4df6-ace6-bed8fc755a04",
+    "itemCode": "20093",
+    "aliasName": "Y3201-6",
+    "name": "CRYSTAL BRANDY GLASS 6PCS 190ML",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 320,
+    "basePrice": 300,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20093/94f37ab4-7100-4c99-be89-26e9b4e1458b@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20093/94f37ab4-7100-4c99-be89-26e9b4e1458b@full.webp",
+      "https://assets.brahmanicrm.com/products/20093/59a1f660-32c8-4481-96d8-3d36aebee4dc@full.webp",
+      "https://assets.brahmanicrm.com/products/20093/2c8f12f7-7df5-42bb-8e63-df9431c6d82b@full.webp",
+      "https://assets.brahmanicrm.com/products/20093/43639bb8-09d8-4624-b105-90e16e031e4b@full.webp"
+    ],
+    "description": "Special Features: Textured Cut Design, Elegant Stem Base, Premium Finish",
+    "capacity": "6PCS",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "CRYSTAL",
+      "BRANDY",
+      "GLASS",
+      "6PCS",
+      "190ML"
+    ]
+  },
+  {
+    "id": "fe83b3ef-1415-4cff-b7c3-1e1e525d43d4",
+    "itemCode": "22144",
+    "aliasName": "TG1032-4",
+    "name": "CRYSTAL CANDY JAR 2 425G",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 90,
+    "basePrice": 70,
+    "piecesPerCarton": 48,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22144/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22144/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22144/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22144/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22144/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22144/4@full.webp"
+    ],
+    "description": "Stylish Crystal Glass Sugar Candy Mukhwas Jar with Lid/Attractive Designer Multi-Purpose Bowl/Round Kitchen Storage Pickle Containers/Home Decor Glass Candy Box",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "CRYSTAL",
+      "CANDY",
+      "JAR",
+      "425G"
+    ]
+  },
+  {
+    "id": "dcaa9dad-9cb9-4b22-ae9c-7d5cfe507192",
+    "itemCode": "22175",
+    "aliasName": "TG1030-2.5",
+    "name": "CRYSTAL CANDY JAR 2.5MM",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 68,
+    "basePrice": 48,
+    "piecesPerCarton": 72,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22175/af220f8c-aada-4f94-bdaa-87f3d554b708@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22175/af220f8c-aada-4f94-bdaa-87f3d554b708@full.webp",
+      "https://assets.brahmanicrm.com/products/22175/d41d4762-c37b-4a4d-b9b1-d142929c7f9d@full.webp",
+      "https://assets.brahmanicrm.com/products/22175/2b9d60ed-787f-4460-a35b-1c9cf33ebcca@full.webp",
+      "https://assets.brahmanicrm.com/products/22175/f4fae065-99da-4210-9992-f3cab2ab6855@full.webp",
+      "https://assets.brahmanicrm.com/products/22175/e65b7b06-c5e0-4f0e-b3ca-b875917b5256@full.webp",
+      "https://assets.brahmanicrm.com/products/22175/e2e9b0a1-1d9f-403d-be18-9b47f7c8c409@full.webp"
+    ],
+    "description": "Compact size measuring 7cm x 7cm x 11cm with a lightweight design of 0.270 kg, making it very convenient to handle.",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "5MM Neck / Closure",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "CRYSTAL",
+      "CANDY",
+      "JAR",
+      "2.5MM"
+    ]
+  },
+  {
+    "id": "580e9978-c6cd-4986-9484-2cc3fcae7aac",
+    "itemCode": "22722",
+    "aliasName": "T611-2",
+    "name": "CRYSTL BRANDY SHOT GLASS 55ML 6PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 165,
+    "basePrice": 145,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22722/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22722/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22722/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22722/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22722/7@full.webp",
+      "https://assets.brahmanicrm.com/products/22722/a61fcbb3-4abb-4422-85e5-b2255af63585@full.webp"
+    ],
+    "description": "24 set CTN\nPremium crystal shot glasses with an elegant vintage design, perfect for serving brandy, whiskey, vodka, or cocktails. Each 55ml glass is finely crafted for durability and style, making them ideal for parties, bars, or home use. A classy addition to your drinkware collection.",
+    "capacity": "55ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "CRYSTL",
+      "BRANDY",
+      "SHOT",
+      "GLASS",
+      "55ML",
+      "6PCS"
+    ]
+  },
+  {
+    "id": "3ae9780d-0219-4777-9b89-2e5f647394a7",
+    "itemCode": "22908",
+    "aliasName": "KTZB43",
+    "name": "CUT TEA CUP 150ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 180,
+    "basePrice": 160,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22908/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22908/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22908/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22908/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22908/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22908/4@full.webp"
+    ],
+    "description": "Capacity:** 150ml per cup, perfect for standard tea or coffee servings",
+    "capacity": "150ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "CUT",
+      "TEA",
+      "CUP",
+      "150ML",
+      "6PCS",
+      "SET"
+    ]
+  },
+  {
     "id": "40ada416-337c-4188-aa4d-d799e51efff5",
     "itemCode": "20378",
     "aliasName": "ES7018-1",
     "name": "CUT WHISKY 390ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 250,
+    "basePrice": 230,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20378/1.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20378/0ef9f6df-9867-48a8-8c4b-77c38352dbc8@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20378/1.jpg",
-      "https://assets.brahmanicrm.com/products/20378/2.jpg",
-      "https://assets.brahmanicrm.com/products/20378/3.jpg",
-      "https://assets.brahmanicrm.com/products/20378/4.jpg",
-      "https://assets.brahmanicrm.com/products/20378/5a91928d-d7ec-480a-91dc-08f9b00dcc87.jpg",
-      "https://assets.brahmanicrm.com/products/20378/2cf75968-0b34-421c-80a8-5efc6ac50ce4.jpg"
+      "https://assets.brahmanicrm.com/products/20378/0ef9f6df-9867-48a8-8c4b-77c38352dbc8@full.webp",
+      "https://assets.brahmanicrm.com/products/20378/00d6b5ef-455b-4f7a-8cfa-af88db97ff7f@full.webp",
+      "https://assets.brahmanicrm.com/products/20378/1732090c-46c9-48b4-8881-2ae1fd8bb387@full.webp",
+      "https://assets.brahmanicrm.com/products/20378/b4d99db6-61fa-486a-8fad-9b4617d8c14e@full.webp",
+      "https://assets.brahmanicrm.com/products/20378/f10b719a-3e78-494b-a9db-8c17631ff0fc@full.webp",
+      "https://assets.brahmanicrm.com/products/20378/4bdfa56f-c57d-4f29-b182-425f821440f7@full.webp",
+      "https://assets.brahmanicrm.com/products/20378/4f18040b-1ab3-4b39-b55e-db12d12940bf@full.webp"
     ],
-    "description": "Minimalist & Modern Silhouette: Designed with a sleek, rounded, and stemless contour that offers a comfortable grip and a contemporary aesthetic.\n\nCrystal-Clear Glassware: Crafted from high-transparency glass to beautifully showcase vibrant beverages like fresh juices, infused water, iced tea, or milk.\n\nVersatile Everyday Use: Perfectly sized for a variety of drinks, making it an ideal choice for breakfast tables, casual gatherings, or aesthetic lifestyle setups.\n\nCharming Table Styling: Beautifully complemented by natural elements like fresh citrus slices and minimalist props, giving it an inviting and elegant presentation.",
+    "description": "Special Features: Stylish Cut Design, Ergonomic Shape, Weighted Base",
     "capacity": "390ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2300,23 +2832,128 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "b2303ec8-5d47-4aa4-94bb-25bb49d81bc3",
+    "itemCode": "22505",
+    "aliasName": "TKB512A-BOT",
+    "name": "DANCING A WHISKY  190ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 195,
+    "basePrice": 175,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22505/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22505/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22505/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22505/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22505/3@full.webp"
+    ],
+    "description": "Special Features: Rotating / Tumbling Base, Intricate Cut Design",
+    "capacity": "190ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "DANCING",
+      "WHISKY",
+      "190ML",
+      "6PCS",
+      "SET",
+      "GLASSWARE"
+    ]
+  },
+  {
     "id": "9b5880ad-b198-4f3a-83a8-1965414e355d",
     "itemCode": "22506",
     "aliasName": "TKB512B-BOT",
     "name": "DANCING B WHISKY  190ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 190,
+    "basePrice": 170,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22506/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22506/a054fb10-dddf-40f0-8414-2a3f4f39ca4b@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22506/0.jpg",
-      "https://assets.brahmanicrm.com/products/22506/1.jpg",
-      "https://assets.brahmanicrm.com/products/22506/2.jpg",
-      "https://assets.brahmanicrm.com/products/22506/3.jpg"
+      "https://assets.brahmanicrm.com/products/22506/a054fb10-dddf-40f0-8414-2a3f4f39ca4b@full.webp",
+      "https://assets.brahmanicrm.com/products/22506/afb8378a-dbe7-4caa-9568-692a5a2cadbe@full.webp",
+      "https://assets.brahmanicrm.com/products/22506/51678d21-a7b7-4164-bcb1-60b2e15fcbbc@full.webp",
+      "https://assets.brahmanicrm.com/products/22506/c1b27751-b1e9-4c53-ad1e-4f3f1a59a753@full.webp",
+      "https://assets.brahmanicrm.com/products/22506/1e2dc3d7-3e4c-4316-96d0-ddbeac1b45fe@full.webp"
     ],
-    "description": "Elevate Whiskey Enjoyment: Crafted for whisky enthusiasts, these old-fashioned tumblers enhance the drinking experience.",
+    "description": "Capacity: 190ml per glass, perfectly sized for serving whisky, scotch, bourbon, cocktails, or mocktails.",
+    "capacity": "190ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "DANCING",
+      "WHISKY",
+      "190ML",
+      "6PCS",
+      "SET"
+    ]
+  },
+  {
+    "id": "b79b62de-b22a-4228-a81f-2e3c5f4a9fe4",
+    "itemCode": "22508",
+    "aliasName": "TKB512D-BOT",
+    "name": "DANCING D WHISKY  190ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 195,
+    "basePrice": 175,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22508/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22508/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22508/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22508/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22508/3@full.webp"
+    ],
+    "description": "Special Features: Rotating / Tumbling Base, Interlocking Textured Design",
+    "capacity": "190ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "DANCING",
+      "WHISKY",
+      "190ML",
+      "6PCS",
+      "SET"
+    ]
+  },
+  {
+    "id": "f49cc6a7-5039-48e5-b07a-8b1fe72fb868",
+    "itemCode": "22509",
+    "aliasName": "TKB512E-BOT",
+    "name": "DANCING E WHISKY  190ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 195,
+    "basePrice": 175,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22509/984b2761-827a-4a46-a626-c187940d78e9@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22509/984b2761-827a-4a46-a626-c187940d78e9@full.webp",
+      "https://assets.brahmanicrm.com/products/22509/83d2d83b-d0a9-477c-974a-d2887268603b@full.webp",
+      "https://assets.brahmanicrm.com/products/22509/316a81b3-28e9-4efc-ab31-fa9b36467574@full.webp",
+      "https://assets.brahmanicrm.com/products/22509/2a0470b1-c4df-49ae-81ae-379b0a5ba655@full.webp"
+    ],
+    "description": "Special Features: Rotating / Tumbling Base, Intricate Cut Design",
     "capacity": "190ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2337,18 +2974,19 @@ export const INITIAL_PRODUCTS = [
     "name": "DANCING F WHISKY  190ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 195,
+    "basePrice": 175,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22510/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22510/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22510/0.jpg",
-      "https://assets.brahmanicrm.com/products/22510/1.jpg",
-      "https://assets.brahmanicrm.com/products/22510/2.jpg",
-      "https://assets.brahmanicrm.com/products/22510/3.jpg",
-      "https://assets.brahmanicrm.com/products/22510/4.jpg"
+      "https://assets.brahmanicrm.com/products/22510/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22510/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22510/b435d855-dfba-49e1-b501-b6cbcea85004@full.webp",
+      "https://assets.brahmanicrm.com/products/22510/a7c3b86a-582a-45de-a5ca-471210687d4f@full.webp"
     ],
-    "description": "New Release Elegant Whiskey Glasses：This crystal whiskey glass made of original best quality lead-free crystal glass. Lattice detailing for texture and brilliant refraction, Sparkle beautifully in the light! The whiskey glass offers excellent clarity perfect for scotch, bourbon, cocktail, rum, vodka, cognac, mixed drinks and Irish whisky.",
+    "description": "Capacity: 190ml per glass, perfectly sized for serving whisky, scotch, bourbon, cocktails, or spirits.",
     "capacity": "190ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2363,22 +3001,96 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "397ba688-347d-4214-986d-b95faf7dc5af",
+    "itemCode": "22511",
+    "aliasName": "TKB512G-BOT",
+    "name": "DANCING G WHISKY  190ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 195,
+    "basePrice": 175,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22511/3bc30dda-8a2d-44bb-bc3d-cd827436511e@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22511/3bc30dda-8a2d-44bb-bc3d-cd827436511e@full.webp",
+      "https://assets.brahmanicrm.com/products/22511/27498d39-288a-4aec-a168-608e79bbc112@full.webp",
+      "https://assets.brahmanicrm.com/products/22511/780dc19c-903e-42b4-8add-b9f942ee1966@full.webp",
+      "https://assets.brahmanicrm.com/products/22511/bbd90ed9-0301-43d4-bd0c-53d15c981fa5@full.webp"
+    ],
+    "description": "Special Features: Rotating / Tumbling Base, Intricate Diamond Cut Design",
+    "capacity": "190ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "DANCING",
+      "WHISKY",
+      "190ML",
+      "6PCS",
+      "SET"
+    ]
+  },
+  {
+    "id": "89d0ecbc-3add-4943-b67d-a899e18fa446",
+    "itemCode": "22778",
+    "aliasName": "TKB512H-BOT",
+    "name": "DANCING H WHIKSY 190ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 195,
+    "basePrice": 175,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22778/a2ba1e22-514c-4f3f-bd06-08836ec1996c@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22778/a2ba1e22-514c-4f3f-bd06-08836ec1996c@full.webp",
+      "https://assets.brahmanicrm.com/products/22778/34013067-9ced-495a-95db-5fb379ed9818@full.webp",
+      "https://assets.brahmanicrm.com/products/22778/3420d8d5-d060-4232-af19-cdd1f2e82670@full.webp",
+      "https://assets.brahmanicrm.com/products/22778/89a01447-582a-450a-a80d-e590ecac372c@full.webp",
+      "https://assets.brahmanicrm.com/products/22778/51febcac-ce1b-45c5-b7ff-2e01c6dc2c3d@full.webp"
+    ],
+    "description": "Special Features: Rotating / Tumbling Base, Wavy Melting Ice Texture",
+    "capacity": "190ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "DANCING",
+      "WHIKSY",
+      "190ML",
+      "6PCS",
+      "SET",
+      "GLASSWARE"
+    ]
+  },
+  {
     "id": "520c2175-3bc5-4a98-b6d9-bdbb0ed1ed5e",
     "itemCode": "23014",
     "aliasName": "DY5011",
     "name": "DELI JUICE GLASS 155ML 6 PC SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 135,
+    "basePrice": 115,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23014/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23014/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23014/0.jpg",
-      "https://assets.brahmanicrm.com/products/23014/1.jpg",
-      "https://assets.brahmanicrm.com/products/23014/2.jpg"
+      "https://assets.brahmanicrm.com/products/23014/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23014/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23014/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23014/ab12649c-ef63-4d27-8d4a-bc680f589da9@full.webp",
+      "https://assets.brahmanicrm.com/products/23014/1b055a83-0a18-403b-b1a8-5a1db797c88e@full.webp"
     ],
-    "description": "This 6 pcs Deli juice glass set offers a perfect combination of simplicity, durability, and convenience for everyday drink serving.",
+    "description": "Capacity: 155ml per glass, perfectly sized for serving fresh fruit juices, water, mocktails, buttermilk (chaas), or spirits.",
     "capacity": "155ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2399,21 +3111,23 @@ export const INITIAL_PRODUCTS = [
     "name": "DELI JUICE WATER GLASS 278ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 270,
+    "brahmaniCategories": [],
+    "price": 282,
+    "basePrice": 262,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22266/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22266/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22266/0.jpg",
-      "https://assets.brahmanicrm.com/products/22266/1.jpg",
-      "https://assets.brahmanicrm.com/products/22266/2.jpg",
-      "https://assets.brahmanicrm.com/products/22266/3.jpg",
-      "https://assets.brahmanicrm.com/products/22266/4.jpg",
-      "https://assets.brahmanicrm.com/products/22266/5.jpg",
-      "https://assets.brahmanicrm.com/products/22266/6.jpg",
-      "https://assets.brahmanicrm.com/products/22266/7.jpg"
+      "https://assets.brahmanicrm.com/products/22266/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22266/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22266/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22266/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22266/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22266/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22266/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22266/7@full.webp"
     ],
-    "description": "278ml Mojito Glass Set - Crystal Glassware for Cocktails, Whiskey, Wine and Juice - Home and Kitchen Party Glasses, Aesthetic Drinking Glasses - Includes Transparent Glasses for Water.",
+    "description": "Capacity: 278ml per glass, perfectly sized for serving water, fresh fruit juices, mocktails, iced tea, cocktails, or beverages.",
     "capacity": "278ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2424,64 +3138,7 @@ export const INITIAL_PRODUCTS = [
       "JUICE",
       "WATER",
       "GLASS",
-      "278ML"
-    ]
-  },
-  {
-    "id": "6a4bec8d-56f3-41d0-8273-a07999cabdc4",
-    "itemCode": "21162",
-    "aliasName": null,
-    "name": "DELIVERY CHARGES",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 120,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
-    ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "DELIVERY",
-      "CHARGES"
-    ]
-  },
-  {
-    "id": "56029ac0-f06a-47ce-9e94-ca2d8071d79e",
-    "itemCode": "21939",
-    "aliasName": "QY312",
-    "name": "DIAMOD SHOT GLASS 70ML 6PCS SET",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 130,
-    "piecesPerCarton": 24,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21939/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/21939/0.jpg",
-      "https://assets.brahmanicrm.com/products/21939/1.jpg",
-      "https://assets.brahmanicrm.com/products/21939/2.jpg",
-      "https://assets.brahmanicrm.com/products/21939/3.jpg",
-      "https://assets.brahmanicrm.com/products/21939/4.jpg",
-      "https://assets.brahmanicrm.com/products/21939/5.jpg"
-    ],
-    "description": "Thick Shot Glass Heavy Base Shot Glass Set, Crystal Heavy Shot Glass Transparent 80 ml Tall Glass Set for Whiskey, Small Glass Shot Cups (pack of 6)",
-    "capacity": "70ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "DIAMOD",
-      "SHOT",
-      "GLASS",
-      "70ML",
+      "278ML",
       "6PCS"
     ]
   },
@@ -2492,18 +3149,23 @@ export const INITIAL_PRODUCTS = [
     "name": "DIAMOND DECANTER WITH GLASS 3 PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 2010,
+    "basePrice": 1990,
     "piecesPerCarton": 6,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23289/f50b1297-cbfa-4c8b-8560-60e3ffb73a91.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23289/f50b1297-cbfa-4c8b-8560-60e3ffb73a91@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23289/f50b1297-cbfa-4c8b-8560-60e3ffb73a91.jpg",
-      "https://assets.brahmanicrm.com/products/23289/3a482c67-dfc4-48f8-8fa7-3a53ba68f326.jpg",
-      "https://assets.brahmanicrm.com/products/23289/e342247a-b303-46b7-9080-ea6bb4d192ee.jpg",
-      "https://assets.brahmanicrm.com/products/23289/70ef8aa9-73af-44d9-8b50-d385e9517b97.jpg",
-      "https://assets.brahmanicrm.com/products/23289/51f8a8f1-e5b4-4ce6-84e1-909a9c976c4d.jpg"
+      "https://assets.brahmanicrm.com/products/23289/f50b1297-cbfa-4c8b-8560-60e3ffb73a91@full.webp",
+      "https://assets.brahmanicrm.com/products/23289/3a482c67-dfc4-48f8-8fa7-3a53ba68f326@full.webp",
+      "https://assets.brahmanicrm.com/products/23289/e342247a-b303-46b7-9080-ea6bb4d192ee@full.webp",
+      "https://assets.brahmanicrm.com/products/23289/70ef8aa9-73af-44d9-8b50-d385e9517b97@full.webp",
+      "https://assets.brahmanicrm.com/products/23289/51f8a8f1-e5b4-4ce6-84e1-909a9c976c4d@full.webp",
+      "https://assets.brahmanicrm.com/products/23289/955656f6-5981-4b57-bdb6-1516af5941e2@full.webp"
     ],
-    "description": "Elegant Diamond Decanter Set with Matching Geometric Glasses\nElevate your home bar or gifting game with this exquisitely crafted, diamond-shaped whiskey decanter set. Blending artistic geometry with premium functionality, this set is designed to turn every pour into a luxurious experience.\n\nKey Features\nStunning Diamond Design: Features a unique, diamond-faceted glass decanter that catches the light beautifully, making it a standout centerpiece on any bar or table.\n\nMatching Geometric Glasses: Includes two meticulously crafted diamond-cut glasses that rest gracefully at a tilted angle, allowing you to swirl your favorite spirit effortlessly.\n\nPremium Quality & Functionality: Made from high-quality, lead-free glass to ensure clarity and durability. Comes with a fitted glass stopper to preserve the rich flavor and aroma of your liquor.\n\nSophisticated Display Base: Sits elegantly on a sleek, matte black stand that perfectly holds the decanter, creating a captivating and balanced presentation.",
+    "description": "Product Type: Diamond-shaped crystal whiskey decanter and matching glasses set.",
     "capacity": "3 PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2514,7 +3176,43 @@ export const INITIAL_PRODUCTS = [
       "DECANTER",
       "WITH",
       "GLASS",
-      "PCS"
+      "PCS",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "338e5121-c31b-47e0-aeb3-5f306587e9f8",
+    "itemCode": "23247",
+    "aliasName": "DMYC02",
+    "name": "DIAMOND JUICE GLASS 170ML 6PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "DIAMONDS"
+    ],
+    "price": 170,
+    "basePrice": 150,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23247/bbd848e2-0ef8-4919-bf81-b48dcc3277f5@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23247/bbd848e2-0ef8-4919-bf81-b48dcc3277f5@full.webp",
+      "https://assets.brahmanicrm.com/products/23247/1213044a-a8df-4244-8b8b-26279c0e5719@full.webp",
+      "https://assets.brahmanicrm.com/products/23247/0086ad1e-326c-4257-9519-7d4b3a578d8e@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "170ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "DIAMOND",
+      "JUICE",
+      "GLASS",
+      "170ML",
+      "6PCS",
+      "DIAMONDS"
     ]
   },
   {
@@ -2524,17 +3222,20 @@ export const INITIAL_PRODUCTS = [
     "name": "DIAMOND1 GLASS 2PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 140,
+    "basePrice": 120,
     "piecesPerCarton": 18,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20202/008a3d19-a506-463a-a036-f648f5932d7f.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20202/008a3d19-a506-463a-a036-f648f5932d7f@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20202/008a3d19-a506-463a-a036-f648f5932d7f.jpg",
-      "https://assets.brahmanicrm.com/products/20202/2f3bf74d-a5b3-4ecf-90e9-7e41fc181c3d.jpg",
-      "https://assets.brahmanicrm.com/products/20202/caef4403-26d4-443e-b385-9e307a291f11.webp",
-      "https://assets.brahmanicrm.com/products/20202/3c272c45-7515-45e3-8c2f-b57b3a27d631.jpg"
+      "https://assets.brahmanicrm.com/products/20202/008a3d19-a506-463a-a036-f648f5932d7f@full.webp",
+      "https://assets.brahmanicrm.com/products/20202/2f3bf74d-a5b3-4ecf-90e9-7e41fc181c3d@full.webp",
+      "https://assets.brahmanicrm.com/products/20202/caef4403-26d4-443e-b385-9e307a291f11@full.webp",
+      "https://assets.brahmanicrm.com/products/20202/3c272c45-7515-45e3-8c2f-b57b3a27d631@full.webp",
+      "https://assets.brahmanicrm.com/products/20202/a0c16044-50a1-472c-b0ed-2929f5d785b7@full.webp"
     ],
-    "description": "Whiskey Glasses Diamond Shaped Whiskey Glass, Unique Cool Crystal Rocks Whiskey Glasses Set for Scotch, Bourbon, Vodka, Liquor (Diamond)",
+    "description": "Special Features: Diamond Cut Pattern, Heavy Bottom Base, Ergonomic Shape",
     "capacity": "2PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2548,33 +3249,77 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "852dbac6-2028-44cb-a86e-57c750d48c87",
-    "itemCode": "20705",
-    "aliasName": "DSKB041",
-    "name": "DIAMOND4 WHISKY GLASS 310ML",
+    "id": "f485d3fc-2a43-4d34-91e0-2e187b9acd40",
+    "itemCode": "23207",
+    "aliasName": "FOP-001-L10",
+    "name": "DISPENSER 3PCS TANK WITH WOODEN STAND & 6PCS MUG (2LTR;280ML )",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 275,
-    "piecesPerCarton": 6,
+    "brahmaniCategories": [],
+    "price": 1398,
+    "basePrice": 1378,
+    "piecesPerCarton": 5,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20705/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23207/770d18ee-4bb2-4214-bd70-d65ae55ba68e@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20705/0.jpg",
-      "https://assets.brahmanicrm.com/products/20705/1.jpg",
-      "https://assets.brahmanicrm.com/products/20705/2.jpg",
-      "https://assets.brahmanicrm.com/products/20705/3.jpg"
+      "https://assets.brahmanicrm.com/products/23207/770d18ee-4bb2-4214-bd70-d65ae55ba68e@full.webp",
+      "https://assets.brahmanicrm.com/products/23207/e63e619e-942f-41eb-b46a-932186c8f528@full.webp",
+      "https://assets.brahmanicrm.com/products/23207/0fc6d773-bbdc-4f58-84de-0cd72d30d62c@full.webp",
+      "https://assets.brahmanicrm.com/products/23207/4dafea54-53a8-480f-83c8-be3ddd34df29@full.webp",
+      "https://assets.brahmanicrm.com/products/23207/cec957ef-0aa2-4cb0-a0d2-cfa568cb5add@full.webp"
     ],
-    "description": "Diamond Crystal Cut Whiskey Glasses Set of 6 pcs 320 ml Bar Glass for Drinking Bourbon, Whisky, Scotch, Cocktails, Cognac Old Fashioned Tumblers Whisky Glass 6PCS",
-    "capacity": "310ML",
+    "description": "DISPENSER 3PCS TANK WITH WOODEN STAND & 6PCS MUG (2LTR;280ML )",
+    "capacity": "3PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "DIAMOND4",
-      "WHISKY",
-      "GLASS",
-      "310ML"
+      "DISPENSER",
+      "3PCS",
+      "TANK",
+      "WITH",
+      "WOODEN",
+      "STAND",
+      "6PCS",
+      "MUG"
+    ]
+  },
+  {
+    "id": "5d58d2c5-6b80-4194-9499-df763caff007",
+    "itemCode": "23201",
+    "aliasName": "GPH234-1750-B-L3",
+    "name": "DISPENSER 3PCS TANK WITH WOODEN STAND 1750ML",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 1285,
+    "basePrice": 1265,
+    "piecesPerCarton": 4,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23201/809323d1-529c-4828-b807-fc2b53441fd6@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23201/809323d1-529c-4828-b807-fc2b53441fd6@full.webp",
+      "https://assets.brahmanicrm.com/products/23201/67ff4930-2898-4cfe-8f98-65214cddaa45@full.webp",
+      "https://assets.brahmanicrm.com/products/23201/29969a96-a4a4-49d6-9e7d-ec6754df4a1d@full.webp",
+      "https://assets.brahmanicrm.com/products/23201/e3dcceab-f8c9-41b8-aef0-afc9d4519e06@full.webp",
+      "https://assets.brahmanicrm.com/products/23201/b58e1b89-404e-457f-af04-a5f1edf9d34d@full.webp",
+      "https://assets.brahmanicrm.com/products/23201/ff5f6969-a73c-48a3-a148-a845c3b15dfb@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "3PCS",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "DISPENSER",
+      "3PCS",
+      "TANK",
+      "WITH",
+      "WOODEN",
+      "STAND",
+      "1750ML"
     ]
   },
   {
@@ -2584,23 +3329,26 @@ export const INITIAL_PRODUCTS = [
     "name": "DOLPHINE MUG LONG 470ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 100,
+    "basePrice": 80,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20543/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20543/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20543/0.jpg",
-      "https://assets.brahmanicrm.com/products/20543/1.jpg",
-      "https://assets.brahmanicrm.com/products/20543/2.jpg",
-      "https://assets.brahmanicrm.com/products/20543/3.jpg",
-      "https://assets.brahmanicrm.com/products/20543/4.jpg",
-      "https://assets.brahmanicrm.com/products/20543/5.jpg",
-      "https://assets.brahmanicrm.com/products/20543/6.jpg",
-      "https://assets.brahmanicrm.com/products/20543/7.jpg",
-      "https://assets.brahmanicrm.com/products/20543/8.jpg",
-      "https://assets.brahmanicrm.com/products/20543/9.jpg"
+      "https://assets.brahmanicrm.com/products/20543/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20543/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20543/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20543/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20543/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20543/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20543/6@full.webp",
+      "https://assets.brahmanicrm.com/products/20543/7@full.webp",
+      "https://assets.brahmanicrm.com/products/20543/8@full.webp",
+      "https://assets.brahmanicrm.com/products/20543/9@full.webp",
+      "https://assets.brahmanicrm.com/products/20543/09f5af55-3eed-498d-a1ee-c6337558cda9@full.webp"
     ],
-    "description": "Big Transparent Glass Mug/Cup for Girls and Boys (Kids) with Straw, Glass Cup/Mug for Kids with a Random Design Cartoon Print of Dolphin and Other Cartoons, Comes with a Single Set of 470ml.",
+    "description": "Featuring a large 470ml capacity, this glass tumbler is perfectly sized for serving juice, milkshakes, iced coffee, or smoothies.",
     "capacity": "470ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2614,35 +3362,41 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "e6feee40-94be-4741-ba24-68836fd6cf7c",
-    "itemCode": "22500",
-    "aliasName": "TKB512B",
-    "name": "DOT WHISKY GLASS 190ML 6PCS SET",
+    "id": "dcda265c-d1ff-474f-94f0-fbd2de186e53",
+    "itemCode": "22901",
+    "aliasName": "KTY6240-1",
+    "name": "DOUBLE OLD FASHION WHISKY GLASS 325ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 215,
-    "piecesPerCarton": 12,
+    "brahmaniCategories": [],
+    "price": 305,
+    "basePrice": 285,
+    "piecesPerCarton": 6,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22500/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22901/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22500/0.jpg",
-      "https://assets.brahmanicrm.com/products/22500/1.jpg",
-      "https://assets.brahmanicrm.com/products/22500/2.jpg",
-      "https://assets.brahmanicrm.com/products/22500/3.jpg",
-      "https://assets.brahmanicrm.com/products/22500/4.jpg"
+      "https://assets.brahmanicrm.com/products/22901/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22901/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22901/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22901/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22901/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22901/5@full.webp"
     ],
-    "description": "Crystal whisky glasses with elegant ribbed pattern, perfect for serving spirits and cocktails with sophisticated style and clarity",
-    "capacity": "190ML",
+    "description": "With a 325ml capacity, these \"double old fashioned\" glasses are perfectly sized for serving whiskey, scotch, bourbon, or cocktails with ice cubes.",
+    "capacity": "325ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "DOT",
+      "DOUBLE",
+      "OLD",
+      "FASHION",
       "WHISKY",
       "GLASS",
-      "190ML",
-      "6PCS"
+      "325ML",
+      "6PCS",
+      "SET"
     ]
   },
   {
@@ -2652,21 +3406,20 @@ export const INITIAL_PRODUCTS = [
     "name": "DRY FRUIT BOWL 6.5INCH",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [],
     "price": 250,
+    "basePrice": 230,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20219/1615ac15-44ab-43a3-98b4-70411bade0e9.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20219/1b835901-201b-466b-9332-874ce3c83e11@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20219/1615ac15-44ab-43a3-98b4-70411bade0e9.jpg",
-      "https://assets.brahmanicrm.com/products/20219/9a8dda8e-6c49-4466-9dfc-09185e7e9644.jpg",
-      "https://assets.brahmanicrm.com/products/20219/e9258412-6016-4f6a-b4c1-400dbf3e9d45.jpg",
-      "https://assets.brahmanicrm.com/products/20219/4bfc73ac-39cc-4ea5-ba1f-06a9f67ab318.jpg",
-      "https://assets.brahmanicrm.com/products/20219/4aecbeb1-5952-4b90-a6cf-6dd4b91e1d40.jpg",
-      "https://assets.brahmanicrm.com/products/20219/2be399f8-e21d-4f2a-b3c6-88302aa09742.jpg",
-      "https://assets.brahmanicrm.com/products/20219/f3f8261a-8bca-4f14-999a-4673d2a33ee0.jpg",
-      "https://assets.brahmanicrm.com/products/20219/8869378f-18dc-4c78-9f8e-bd230ec43c2d.jpg"
+      "https://assets.brahmanicrm.com/products/20219/1b835901-201b-466b-9332-874ce3c83e11@full.webp",
+      "https://assets.brahmanicrm.com/products/20219/ada5710c-04d4-47a8-a73e-ca4274685a13@full.webp",
+      "https://assets.brahmanicrm.com/products/20219/2eaeafd0-9efc-4e2a-a26c-2ee499c5285c@full.webp",
+      "https://assets.brahmanicrm.com/products/20219/507e555b-a5af-487f-8dd4-d0ebee3b164d@full.webp",
+      "https://assets.brahmanicrm.com/products/20219/e1fe9499-52e2-4d84-8165-5f2d35ae2593@full.webp"
     ],
-    "description": "Premium Slanted Glass Bowl Set of 6 (6.5 Inch / 18cm) – Modern Clear Glass Serving Bowls for Ice Cream, Desserts, Dry Fruits & Snacks\n\nKey Features:\n\nComplete Set of 6: Comes as a pack of 6 elegant glass bowls, perfect for serving ice cream, fruit salads, puddings, dry fruits, and appetizers to family and guests.\n\nModern Slanted Design: Features an aesthetic angled rim that adds a sophisticated touch to your table presentation and allows easy scooping.\n\nHigh-Definition Clear Glass: Crafted from premium, ultra-clear glass that highlights the colors and layers of your culinary creations.\n\nDurable & Food Safe: Made with thick, sturdy glass designed for daily use, catering, dinner parties, and special occasions.\n\nDimensions: Top Diameter: 18 cm (6.5 Inches) | Total Height: 12.5 cm | Base Diameter: 6.5 cm.\n\nOption 2: Short & Catchy Format (Best for Meesho & E-commerce)\nProduct Description:\n\nElevate your serving style with this 6-Piece Aesthetic Slanted Glass Bowl Set. Designed with an eye-catching angled top, these crystal-clear glass bowls bring a modern, high-end restaurant presentation right to your dining table. Ideal for desserts, ice cream, fresh fruit, dry fruits, and snacks.\n\nPackage Contents: 6 Glass Bowls\n\nMaterial: Premium Transparent Glass\n\nSize: 18 cm Top Diameter (6.5 Inch)\n\nStyle: Modern Slanted / Angled Rim\n\nIdeal For: Ice Cream, Desserts, Dry Fruits, Fruit Salads & Party Snacks",
+    "description": "Featuring an ideal 6.5-inch size, this bowl is perfectly designed for serving dry fruits, sweets, salads, ice cream, or snacks.",
     "capacity": "6.5INCH",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2680,34 +3433,38 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "7f4e2eae-99da-4af4-afee-98a435ab5bc7",
-    "itemCode": "22642",
-    "aliasName": "EH1002-1-C",
-    "name": "DUCK  WATER JUG PRINT DELI 1.5LTR",
+    "id": "19867005-266f-4835-9e24-3d7d45e848cc",
+    "itemCode": "22176",
+    "aliasName": "H54-500",
+    "name": "DUAL4 GLASS MUG 500ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 175,
-    "piecesPerCarton": 12,
+    "brahmaniCategories": [],
+    "price": 95,
+    "basePrice": 75,
+    "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22642/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22176/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22642/0.jpg",
-      "https://assets.brahmanicrm.com/products/22642/1.jpg",
-      "https://assets.brahmanicrm.com/products/22642/2.jpg",
-      "https://assets.brahmanicrm.com/products/22642/3.jpg"
+      "https://assets.brahmanicrm.com/products/22176/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22176/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22176/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22176/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22176/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22176/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22176/6@full.webp"
     ],
-    "description": "12PCS CTN\nServe in style with the Jug, featuring a unique duck print design and diamond-cut textured body. Made from high-quality clear glass, this jug is ideal for water, juice, lemonade, or cold beverages – perfect for daily use and table serving.",
-    "capacity": "1.5LTR",
+    "description": "Special Features: Anti-Slip Silicone Sleeve, Leak-Proof Flip Lid, Dual-Tone Design",
+    "capacity": "500ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "DUCK",
-      "WATER",
-      "JUG",
-      "PRINT",
-      "DELI"
+      "DUAL4",
+      "GLASS",
+      "MUG",
+      "500ML"
     ]
   },
   {
@@ -2717,18 +3474,21 @@ export const INITIAL_PRODUCTS = [
     "name": "DUCK 2 WATER JUG 1300ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 155,
+    "basePrice": 135,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22419/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22419/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22419/0.jpg",
-      "https://assets.brahmanicrm.com/products/22419/1.jpg",
-      "https://assets.brahmanicrm.com/products/22419/2.jpg",
-      "https://assets.brahmanicrm.com/products/22419/3.jpg",
-      "https://assets.brahmanicrm.com/products/22419/4.jpg"
+      "https://assets.brahmanicrm.com/products/22419/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22419/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22419/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22419/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22419/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22419/4604e799-2579-4503-becc-04d9298420c8@full.webp"
     ],
-    "description": "Glass Water/Juice Jug Pitcher Carafe with Handle and Plastic Lid for Drinking Beverages, Serving Kitchen and Dining/Tableware-Milk, Juice, Water- 1.3LTR, 1Pcs Transparent",
+    "description": "Featuring a large 1300ml capacity, this water and juice jug is perfectly sized for serving water, juices, milkshakes, or cold beverages.",
     "capacity": "1300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2748,20 +3508,23 @@ export const INITIAL_PRODUCTS = [
     "name": "DUCK 3 WATER JUG 1.3LTR",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 180,
+    "basePrice": 160,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21276/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21276/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21276/0.jpg",
-      "https://assets.brahmanicrm.com/products/21276/1.jpg",
-      "https://assets.brahmanicrm.com/products/21276/2.jpg",
-      "https://assets.brahmanicrm.com/products/21276/3.jpg",
-      "https://assets.brahmanicrm.com/products/21276/4.jpg",
-      "https://assets.brahmanicrm.com/products/21276/5.jpg",
-      "https://assets.brahmanicrm.com/products/21276/6.jpg"
+      "https://assets.brahmanicrm.com/products/21276/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21276/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21276/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21276/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21276/4@full.webp",
+      "https://assets.brahmanicrm.com/products/21276/5@full.webp",
+      "https://assets.brahmanicrm.com/products/21276/6@full.webp",
+      "https://assets.brahmanicrm.com/products/21276/ad6c00a5-7ee3-4375-a15f-7863ad561945@full.webp"
     ],
-    "description": "The jug is ideal for everyday serving on a home or dining table. Water (plain, lemon-infused, or infused with fruits/herbs) Juice Milk Iced tea The jug has a clear, modern design with a wide base tapering towards the top, a handle for easy pouring, and a matching glass lid.",
+    "description": "Featuring a large 1.3-liter capacity, this water and juice jug is perfectly sized for serving water, juices, iced tea, milkshakes, or cold beverages.",
     "capacity": "1.3LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2781,14 +3544,21 @@ export const INITIAL_PRODUCTS = [
     "name": "DW BEER PILSNER GLASS 100ML 1PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 110,
+    "basePrice": 90,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22036/2e8b08b4-21b7-49a0-a4c7-baa14c7a60e6.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22036/2e8b08b4-21b7-49a0-a4c7-baa14c7a60e6@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22036/2e8b08b4-21b7-49a0-a4c7-baa14c7a60e6.jpg"
+      "https://assets.brahmanicrm.com/products/22036/2e8b08b4-21b7-49a0-a4c7-baa14c7a60e6@full.webp",
+      "https://assets.brahmanicrm.com/products/22036/b7ce4adc-5a0f-463a-bd3a-98bce243ea6e@full.webp",
+      "https://assets.brahmanicrm.com/products/22036/8661c593-c855-4f19-9959-e8aeecdb9dd7@full.webp",
+      "https://assets.brahmanicrm.com/products/22036/98ac89d9-dabc-473f-857d-0bf14efa8ea9@full.webp"
     ],
-    "description": "DW BEER PILSNER GLASS 100ML 1PCS - High-clarity commercial glassware for wholesale trade supply, packaged by the carton in Surat warehouse.",
+    "description": "Featuring a compact 100ml capacity, this pilsner glass is perfectly sized for tastings, shots, or small beverage servings.",
     "capacity": "100ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2799,7 +3569,8 @@ export const INITIAL_PRODUCTS = [
       "PILSNER",
       "GLASS",
       "100ML",
-      "1PCS"
+      "1PCS",
+      "CHINA"
     ]
   },
   {
@@ -2809,17 +3580,22 @@ export const INITIAL_PRODUCTS = [
     "name": "DW CHAMPAGNE DEINKING GLASS 150ML WITHE BOX 1PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 165,
+    "basePrice": 145,
     "piecesPerCarton": 72,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22969/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22969/9fb87c30-b1da-4b3e-9229-b7b9597f4ad9@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22969/0.jpg",
-      "https://assets.brahmanicrm.com/products/22969/1.jpg",
-      "https://assets.brahmanicrm.com/products/22969/2.jpg",
-      "https://assets.brahmanicrm.com/products/22969/3.jpg"
+      "https://assets.brahmanicrm.com/products/22969/9fb87c30-b1da-4b3e-9229-b7b9597f4ad9@full.webp",
+      "https://assets.brahmanicrm.com/products/22969/e24ed771-f6d8-4dd9-a2b1-9c0f30cea557@full.webp",
+      "https://assets.brahmanicrm.com/products/22969/066c5b2c-a85c-4511-b4c8-205df889041f@full.webp",
+      "https://assets.brahmanicrm.com/products/22969/46e247b8-7e9d-4515-b3a9-bdb36031c2d2@full.webp",
+      "https://assets.brahmanicrm.com/products/22969/6614017d-f4fc-45df-902a-4c60b084305b@full.webp"
     ],
-    "description": "Crystal Wine Glasses Double Wall Party for 150 ml Insulated Drinking Glasses for Wine and Champagne Glasses White Wine Red Wine Glasses for Party Restaurants Set of (Double Wall)",
+    "description": "Special Features: Double-Wall Insulated, Floating Flute Design, Anti-Condensation",
     "capacity": "150ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2830,34 +3606,10 @@ export const INITIAL_PRODUCTS = [
       "DEINKING",
       "GLASS",
       "150ML",
-      "WITHE"
-    ]
-  },
-  {
-    "id": "458173b4-e80a-409a-9018-c4f7fc56cdec",
-    "itemCode": "23149",
-    "aliasName": null,
-    "name": "DW GLASS 350 ML NEW",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 120,
-    "piecesPerCarton": 100,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23149/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23149/0.jpg",
-      "https://assets.brahmanicrm.com/products/23149/1.jpg",
-      "https://assets.brahmanicrm.com/products/23149/2.jpg"
-    ],
-    "description": "The Product: A premium, modern double-walled glass designed to hold hot or cold beverages. The insulation effect keeps the outside cool to touch while showcasing the drink beautifully inside.\n\nThe Drink: The glass is filled with a refreshing, bubbly dark cola poured over fresh, sparkling ice cubes.\n\nThe Setting: Set on an aesthetic, warm wooden kitchen countertop. In the background, there is a soft, blurry view of a stylish espresso machine and freshly baked goods under a glass dome, giving it a cozy café vibe.\n\nThe Set: The final image displays a beautiful 2-piece set, featuring one completely clear, empty double-walled glass alongside one glass filled with the cold beverage.",
-    "capacity": "350 ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GLASS",
-      "NEW"
+      "WITHE",
+      "BOX",
+      "1PCS",
+      "CHINA"
     ]
   },
   {
@@ -2867,17 +3619,19 @@ export const INITIAL_PRODUCTS = [
     "name": "DW GLASS 350ML ECHOU",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 135,
+    "basePrice": 115,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23055/adf730ac-0c05-4aac-a69a-16baea2c6b45.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23055/adf730ac-0c05-4aac-a69a-16baea2c6b45@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23055/adf730ac-0c05-4aac-a69a-16baea2c6b45.jpg",
-      "https://assets.brahmanicrm.com/products/23055/af3df04c-26d5-47d0-87cb-726e57a83b47.jpg",
-      "https://assets.brahmanicrm.com/products/23055/cb1938c2-3525-4ea1-afb7-eb62732cdac1.jpg",
-      "https://assets.brahmanicrm.com/products/23055/ebb31137-e163-4c1f-bf2c-88e94086ade2.jpg"
+      "https://assets.brahmanicrm.com/products/23055/adf730ac-0c05-4aac-a69a-16baea2c6b45@full.webp",
+      "https://assets.brahmanicrm.com/products/23055/af3df04c-26d5-47d0-87cb-726e57a83b47@full.webp",
+      "https://assets.brahmanicrm.com/products/23055/cb1938c2-3525-4ea1-afb7-eb62732cdac1@full.webp",
+      "https://assets.brahmanicrm.com/products/23055/ebb31137-e163-4c1f-bf2c-88e94086ade2@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Design & Structure: Features a curved double-wall insulating glass construction with a smooth rim and flat base.",
     "capacity": "350ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2896,20 +3650,25 @@ export const INITIAL_PRODUCTS = [
     "name": "DW GLASS HEART 170ML 1PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 108,
+    "basePrice": 88,
     "piecesPerCarton": 100,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20857/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20857/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20857/0.jpg",
-      "https://assets.brahmanicrm.com/products/20857/1.jpg",
-      "https://assets.brahmanicrm.com/products/20857/2.jpg",
-      "https://assets.brahmanicrm.com/products/20857/3.jpg",
-      "https://assets.brahmanicrm.com/products/20857/4.jpg",
-      "https://assets.brahmanicrm.com/products/20857/5.jpg",
-      "https://assets.brahmanicrm.com/products/20857/6.jpg"
+      "https://assets.brahmanicrm.com/products/20857/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20857/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20857/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20857/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20857/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20857/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20857/6@full.webp",
+      "https://assets.brahmanicrm.com/products/20857/0be8f12f-0195-4199-9a38-674a367d6946@full.webp"
     ],
-    "description": "Heart Shape Double Wall Glass Coffee Mugs, Clear Glass with Handle.Glassware,Insulated,Coffee,Cappuccino,Tea,Latte Cups,Beverage Glasses Heat Resistant.",
+    "description": "Featuring an ideal 170ml capacity, this cup is perfectly sized for serving tea, coffee, espresso, or green tea.",
     "capacity": "170ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -2919,185 +3678,104 @@ export const INITIAL_PRODUCTS = [
       "GLASS",
       "HEART",
       "170ML",
-      "1PCS"
-    ]
-  },
-  {
-    "id": "b76408fe-2eb4-4efc-ad97-d1777401d647",
-    "itemCode": "23140",
-    "aliasName": "GDN58-80",
-    "name": "DW GLASS MUG  80ML 1PCS",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 80,
-    "piecesPerCarton": 210,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23140/1.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23140/1.jpg",
-      "https://assets.brahmanicrm.com/products/23140/2.jpg",
-      "https://assets.brahmanicrm.com/products/23140/5da39a6f-3f36-49bf-a921-1db75712dec1.jpg"
-    ],
-    "description": "Double Walled Insulated Glass Coffee Mugs Set of 1, Double Layer Tea Cups with Handle for Latte, Cappuccino, Espresso, Mocha Dishwasher & Microwave Safe",
-    "capacity": "80ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GLASS",
-      "MUG",
-      "80ML",
-      "1PCS"
-    ]
-  },
-  {
-    "id": "3081ff54-3613-4b7f-baa5-56288328ac2c",
-    "itemCode": "21658",
-    "aliasName": "LX-03",
-    "name": "DW GLASS MUG 80ML 1PCS SET",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 80,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21658/c5b4a5b7-89d6-4dfa-b541-8f66178d4b16.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/21658/c5b4a5b7-89d6-4dfa-b541-8f66178d4b16.jpg",
-      "https://assets.brahmanicrm.com/products/21658/3289ade8-a2cf-4bcd-9bc6-c75deb4bba69.jpg"
-    ],
-    "description": "Double-Wall Insulation: Features an innovative dual-layer glass design that keeps your hot beverages warm and cold drinks chilled longer while preventing condensation on the outer surface.\n\nHeat-Resistant Borosilicate Glass: Crafted from premium, durable glass that is lightweight yet sturdy, ensuring safe daily use for coffee, tea, or lattes.\n\nComfortable Ergonomic Handle: Designed with a smooth, loop-style handle that offers a secure and comfortable grip while keeping your hands away from hot temperatures.\n\nAesthetic Presentation: Showcases a crystal-clear, modern look that highlights the rich color of your drink, perfectly complemented by a cozy kitchen backdrop.",
-    "capacity": "80ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GLASS",
-      "MUG",
-      "80ML",
       "1PCS",
-      "SET"
+      "CHINA"
     ]
   },
   {
-    "id": "cdf909c9-4a81-4d2c-aa02-681c9f683bbb",
-    "itemCode": "23139",
-    "aliasName": "GDN58-250",
-    "name": "DW GLASS MUG HANDL 250ML 1PCS",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 100,
-    "piecesPerCarton": 100,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23139/69717375-b762-46f1-b76d-a79e04c8e957.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23139/69717375-b762-46f1-b76d-a79e04c8e957.jpg",
-      "https://assets.brahmanicrm.com/products/23139/87193329-5b19-420b-98a9-ce63dd436613.jpg",
-      "https://assets.brahmanicrm.com/products/23139/48b5bb71-27af-4b4c-aacb-46c50c1f6873.jpg",
-      "https://assets.brahmanicrm.com/products/23139/af292e0c-ac53-45d0-814a-54714ff7abd1.jpg",
-      "https://assets.brahmanicrm.com/products/23139/05695229-5013-4382-acea-b24ac2c1d7dd.jpg"
-    ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "250ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GLASS",
-      "MUG",
-      "HANDL",
-      "250ML",
-      "1PCS"
-    ]
-  },
-  {
-    "id": "624dae5c-1b04-47a8-a7c1-b6bd3042a9c0",
-    "itemCode": "21221",
-    "aliasName": "GPB210-350",
-    "name": "DW GLASS TUMBLER 350ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 140,
-    "piecesPerCarton": 48,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21221/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/21221/0.jpg",
-      "https://assets.brahmanicrm.com/products/21221/1.jpg",
-      "https://assets.brahmanicrm.com/products/21221/2.jpg",
-      "https://assets.brahmanicrm.com/products/21221/3.jpg"
-    ],
-    "description": "DW Glass Tumbler (350ML) || Crystal Cut Tall Highball Glass Tumblers, Ideal for Water, Juice, Beer, Cocktails",
-    "capacity": "350ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GLASS",
-      "TUMBLER",
-      "350ML"
-    ]
-  },
-  {
-    "id": "d3aa3313-0e9a-42de-b860-7d86202710da",
-    "itemCode": "23118",
-    "aliasName": "E521-48",
-    "name": "ELEGENT FRUIT LEAF PLATE 48 PCS",
-    "category": "bowls",
-    "categoryName": "Bowls & Tableware",
-    "price": 80,
-    "piecesPerCarton": 48,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23118/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23118/0.jpg",
-      "https://assets.brahmanicrm.com/products/23118/1.jpg",
-      "https://assets.brahmanicrm.com/products/23118/2.jpg",
-      "https://assets.brahmanicrm.com/products/23118/3.jpg",
-      "https://assets.brahmanicrm.com/products/23118/4.jpg"
-    ],
-    "description": "These salad plates are a thick beautiful glass. Durable and not too heavy, young and old can lift these plates.Microwave safe, Leakproof, Freezer safe, Dishwasher safe, Rust proof, High Polish, Ultra Durability; Heat resistant up to temperatures of 140 degree centigrade",
-    "capacity": "48 PCS",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "ELEGENT",
-      "FRUIT",
-      "LEAF",
-      "PLATE",
-      "PCS"
-    ]
-  },
-  {
-    "id": "160456bc-87d3-41b5-ab27-c4ea6f4a72ac",
-    "itemCode": "19932",
+    "id": "458173b4-e80a-409a-9018-c4f7fc56cdec",
+    "itemCode": "23149",
     "aliasName": null,
-    "name": "EMPTY BOX AND SHEET",
+    "name": "DW NEW",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 240,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
+    "brahmaniCategories": [
+      "CHINA"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "price": 120,
+    "basePrice": 100,
+    "piecesPerCarton": 100,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23149/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23149/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23149/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23149/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23149/515621f0-e1af-4af7-8cd3-3f8d6310ef1d@full.webp"
+    ],
+    "description": "Featuring an ideal 350ml capacity, these glasses are perfectly sized for serving iced coffee, juices, iced tea, or hot beverages.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "EMPTY",
-      "BOX",
-      "AND",
-      "SHEET"
+      "NEW",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "bc92f165-d7af-4174-ad0c-9fe13057d8bd",
+    "itemCode": "19885",
+    "aliasName": null,
+    "name": "EGG SEATER",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 205,
+    "basePrice": 185,
+    "piecesPerCarton": 1,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/19885/e3ad40bf-3b1e-4fa9-bf69-4f7b2747d5e4@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/19885/e3ad40bf-3b1e-4fa9-bf69-4f7b2747d5e4@full.webp",
+      "https://assets.brahmanicrm.com/products/19885/84bcfa73-51eb-4449-a35f-0e470c2bd522@full.webp",
+      "https://assets.brahmanicrm.com/products/19885/42222fa8-0d38-4220-a23c-0f13b04b0935@full.webp",
+      "https://assets.brahmanicrm.com/products/19885/71545228-c25a-4976-b2c7-bae4a86117dc@full.webp"
+    ],
+    "description": "Special Features: Honeycomb Air-Flow Design, Pressure Relief, Ergonomic Build",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "EGG",
+      "SEATER"
+    ]
+  },
+  {
+    "id": "ae51d516-cda1-4dbb-82d8-9f666fd5546a",
+    "itemCode": "22577",
+    "aliasName": null,
+    "name": "ELECTRIC SPRAY MASSAGE BRUSH",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 85,
+    "basePrice": 65,
+    "piecesPerCarton": 1,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22577/1bdba39c-71b3-4fb4-bfdf-3801dbc20a48@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22577/1bdba39c-71b3-4fb4-bfdf-3801dbc20a48@full.webp",
+      "https://assets.brahmanicrm.com/products/22577/0e4ff17a-1f17-4fd7-8ae0-a3f5c9a20345@full.webp",
+      "https://assets.brahmanicrm.com/products/22577/13e31f2b-b5f4-4037-9018-fd5d870d90fa@full.webp",
+      "https://assets.brahmanicrm.com/products/22577/d947936d-49fa-4c31-8b96-6aa3024c5141@full.webp",
+      "https://assets.brahmanicrm.com/products/22577/912d9b01-55a7-4b27-a572-5cc3c6f3ceb3@full.webp",
+      "https://assets.brahmanicrm.com/products/22577/928b64ab-f835-423d-8943-b696e4512095@full.webp"
+    ],
+    "description": "Dimensions: Approx. 12cm x 6.5cm x 4.5cm (Length with handle: 19.5cm)",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "ELECTRIC",
+      "SPRAY",
+      "MASSAGE",
+      "BRUSH"
     ]
   },
   {
@@ -3107,16 +3785,20 @@ export const INITIAL_PRODUCTS = [
     "name": "EMPTY GLASS STRAW BLACK BROWN BULK",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 28,
+    "basePrice": 8,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22481/1.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22481/c1f37453-7c83-4d73-a8cd-a49a35438138@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22481/1.jpg",
-      "https://assets.brahmanicrm.com/products/22481/a9881cbc-c24d-45d7-b9aa-a3ef36d8472d.jpg",
-      "https://assets.brahmanicrm.com/products/22481/3174fd02-47d9-42b4-85ae-a80180dc59d8.jpg"
+      "https://assets.brahmanicrm.com/products/22481/c1f37453-7c83-4d73-a8cd-a49a35438138@full.webp",
+      "https://assets.brahmanicrm.com/products/22481/1098ce3c-2588-4e48-ae4f-07cd2681b474@full.webp",
+      "https://assets.brahmanicrm.com/products/22481/330cdf7b-2721-4f6d-a19a-7f0b7f295070@full.webp"
     ],
-    "description": "Perfect match for various beverages: smoothies, milkshakes, frozen drinks,water, Iced coffee, tea, milk and cocktails.",
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3127,7 +3809,9 @@ export const INITIAL_PRODUCTS = [
       "GLASS",
       "STRAW",
       "BLACK",
-      "BROWN"
+      "BROWN",
+      "BULK",
+      "CHINA"
     ]
   },
   {
@@ -3137,19 +3821,24 @@ export const INITIAL_PRODUCTS = [
     "name": "EMPTY GLASS STRAW WHITE",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 28,
+    "basePrice": 8,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22970/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22970/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22970/0.jpg",
-      "https://assets.brahmanicrm.com/products/22970/1.jpg",
-      "https://assets.brahmanicrm.com/products/22970/2.jpg",
-      "https://assets.brahmanicrm.com/products/22970/3.jpg",
-      "https://assets.brahmanicrm.com/products/22970/4.jpg",
-      "https://assets.brahmanicrm.com/products/22970/5.jpg"
+      "https://assets.brahmanicrm.com/products/22970/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22970/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22970/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22970/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22970/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22970/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22970/c7bf7e00-c099-4e56-a84f-33ed4b8cdd7a@full.webp"
     ],
-    "description": "High borosilicate glass material are lighter and more durable than ordinary glass, high temperature resistant and breakage resistant. It is also more transparent, suitable for making drinks and reuse. clear straws are perfect for your need for fresh color.",
+    "description": "Crafted from high-clarity transparent glass, offering a clean, sophisticated, and premium look for all your drinks.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3159,7 +3848,8 @@ export const INITIAL_PRODUCTS = [
       "EMPTY",
       "GLASS",
       "STRAW",
-      "WHITE"
+      "WHITE",
+      "CHINA"
     ]
   },
   {
@@ -3169,18 +3859,23 @@ export const INITIAL_PRODUCTS = [
     "name": "EMPTY STRAW BRUSH",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 27,
+    "basePrice": 7,
     "piecesPerCarton": 4000,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22971/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22971/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22971/0.jpg",
-      "https://assets.brahmanicrm.com/products/22971/1.jpg",
-      "https://assets.brahmanicrm.com/products/22971/2.jpg",
-      "https://assets.brahmanicrm.com/products/22971/3.jpg",
-      "https://assets.brahmanicrm.com/products/22971/4.jpg"
+      "https://assets.brahmanicrm.com/products/22971/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22971/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22971/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22971/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22971/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22971/6c999061-71ea-402f-9a98-a9cd01479820@full.webp"
     ],
-    "description": "Simply insert it into the pipe, rotate it, remove and wash it. With the long, soft but durable bristles, it can be used to clean each size of pipe you have and does not scratch the inside of straws. Moreover, it doesn’t leave a lot of fuzz behind in the pipe like Chenille pipe cleaners do which you need to take the trouble to get rid of it.",
+    "description": "Designed to easily and thoroughly clean stubborn residue, stains, or buildup from inside glass, stainless steel, or plastic straws.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3189,7 +3884,8 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "EMPTY",
       "STRAW",
-      "BRUSH"
+      "BRUSH",
+      "CHINA"
     ]
   },
   {
@@ -3199,21 +3895,19 @@ export const INITIAL_PRODUCTS = [
     "name": "FALOODA MUD DELI  340ML 6PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 405,
+    "basePrice": 385,
     "piecesPerCarton": 6,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22775/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22775/89f9d48d-3bab-42da-9964-12b49af007e7@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22775/0.jpg",
-      "https://assets.brahmanicrm.com/products/22775/1.jpg",
-      "https://assets.brahmanicrm.com/products/22775/2.jpg",
-      "https://assets.brahmanicrm.com/products/22775/3.jpg",
-      "https://assets.brahmanicrm.com/products/22775/4.jpg",
-      "https://assets.brahmanicrm.com/products/22775/5.jpg",
-      "https://assets.brahmanicrm.com/products/22775/6.jpg",
-      "https://assets.brahmanicrm.com/products/22775/7.jpg"
+      "https://assets.brahmanicrm.com/products/22775/89f9d48d-3bab-42da-9964-12b49af007e7@full.webp",
+      "https://assets.brahmanicrm.com/products/22775/1b29bfa4-52be-4b0f-a333-e7290b22f486@full.webp",
+      "https://assets.brahmanicrm.com/products/22775/22def429-23cc-4f94-b6ee-a5c2dc1e31bb@full.webp",
+      "https://assets.brahmanicrm.com/products/22775/38f6f698-4017-482f-ace9-2d845c57c5e5@full.webp"
     ],
-    "description": "falooda Glass Mug for Water, Juice, Ice Cream, Wine, Milkshake, Faluda, Smoothie and Cocktails",
+    "description": "Capacity: 340ml per glass, ideally sized for serving falooda, milkshakes, sundaes, smoothies, ice cream floats, and thick beverages.",
     "capacity": "340ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3234,18 +3928,20 @@ export const INITIAL_PRODUCTS = [
     "name": "FALOODA MUG NEW 450ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 480,
+    "brahmaniCategories": [],
+    "price": 527,
+    "basePrice": 507,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21830/33815456-db95-4773-860a-736ddaac6ef6.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21830/33815456-db95-4773-860a-736ddaac6ef6@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21830/33815456-db95-4773-860a-736ddaac6ef6.jpg",
-      "https://assets.brahmanicrm.com/products/21830/bdf057ca-2053-4732-b66b-a2c9619d5151.jpg",
-      "https://assets.brahmanicrm.com/products/21830/9acccd01-45f7-496a-acae-12499881f2dd.jpg",
-      "https://assets.brahmanicrm.com/products/21830/210d84a1-68e9-4d82-872e-8c2eb0902a46.jpg",
-      "https://assets.brahmanicrm.com/products/21830/9defd498-2efb-4fee-a4d0-da1ba3bc58f0.jpg"
+      "https://assets.brahmanicrm.com/products/21830/33815456-db95-4773-860a-736ddaac6ef6@full.webp",
+      "https://assets.brahmanicrm.com/products/21830/bdf057ca-2053-4732-b66b-a2c9619d5151@full.webp",
+      "https://assets.brahmanicrm.com/products/21830/9acccd01-45f7-496a-acae-12499881f2dd@full.webp",
+      "https://assets.brahmanicrm.com/products/21830/210d84a1-68e9-4d82-872e-8c2eb0902a46@full.webp",
+      "https://assets.brahmanicrm.com/products/21830/9defd498-2efb-4fee-a4d0-da1ba3bc58f0@full.webp"
     ],
-    "description": "8 SET CTN\nItalian Premium Falooda Glasses Set of 6, Transparent 450ml Drinking Water Glass, Stylish and Crystal Highball Glasses for Juice Milk Shake Ice Cream Milkshake Faluda Smoothie Cocktails",
+    "description": "Design: Elegant, curvaceous footed glasses tailored for layered desserts, falooda, and sundaes.",
     "capacity": "450ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3256,7 +3952,8 @@ export const INITIAL_PRODUCTS = [
       "MUG",
       "NEW",
       "450ML",
-      "6PCS"
+      "6PCS",
+      "SET"
     ]
   },
   {
@@ -3266,20 +3963,23 @@ export const INITIAL_PRODUCTS = [
     "name": "FALOODA6 MUG 360ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 400,
+    "basePrice": 380,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22527/38d1a322-1384-485b-8135-581ee67b0d0d.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22527/38d1a322-1384-485b-8135-581ee67b0d0d@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22527/38d1a322-1384-485b-8135-581ee67b0d0d.jpg",
-      "https://assets.brahmanicrm.com/products/22527/0.jpg",
-      "https://assets.brahmanicrm.com/products/22527/1.jpg",
-      "https://assets.brahmanicrm.com/products/22527/2.jpg",
-      "https://assets.brahmanicrm.com/products/22527/3.jpg",
-      "https://assets.brahmanicrm.com/products/22527/4.jpg",
-      "https://assets.brahmanicrm.com/products/22527/5.jpg"
+      "https://assets.brahmanicrm.com/products/22527/38d1a322-1384-485b-8135-581ee67b0d0d@full.webp",
+      "https://assets.brahmanicrm.com/products/22527/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22527/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22527/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22527/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22527/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22527/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22527/4f94acdb-de78-43cd-a92d-8b334dc93fcf@full.webp"
     ],
-    "description": "Falooda Mug 360ml 6 Pcs Set – Perfect for serving falooda, milkshakes, smoothies, cold coffee, and desserts.\nMade from premium quality clear glass with a stylish base for an elegant look.",
+    "description": "Capacity: 360ml generous capacity, making it ideal for serving falooda, bubble tea, milkshakes, smoothies, sundaes, or iced coffees.",
     "capacity": "360ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3293,36 +3993,75 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "18d4f701-a769-45d9-a5c4-65d8e6163a7f",
-    "itemCode": "20165",
-    "aliasName": "CF029",
-    "name": "FISH TEA CUP 210ML 6PCS",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 190,
+    "id": "3c89e047-67bc-414d-92c3-96e0305e0d37",
+    "itemCode": "22355",
+    "aliasName": "TG23-L6",
+    "name": "FISH PUDDING 3LEG BOWL 6PCS SET",
+    "category": "bowls",
+    "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [],
+    "price": 230,
+    "basePrice": 210,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20165/a3af29f0-5450-4714-a917-fcf0f82c556c.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22355/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20165/a3af29f0-5450-4714-a917-fcf0f82c556c.jpg",
-      "https://assets.brahmanicrm.com/products/20165/9b470be4-40f8-415f-9aac-3e35efaf926d.jpg",
-      "https://assets.brahmanicrm.com/products/20165/75d21995-b992-499c-ad0f-a910f8cb9ad3.jpg",
-      "https://assets.brahmanicrm.com/products/20165/c272cd79-e75d-4c5f-a581-a1e0d645caaa.jpg",
-      "https://assets.brahmanicrm.com/products/20165/44598550-a504-4916-9fac-593e1351646f.jpg",
-      "https://assets.brahmanicrm.com/products/20165/3af63bfe-8ca2-4757-932f-331bf66946db.jpg"
+      "https://assets.brahmanicrm.com/products/22355/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22355/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22355/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22355/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22355/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22355/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22355/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22355/7@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "210ML",
+    "description": "12 SET CTN\nGlass Dessert Bowl Crystal Ice Cream Bowl Glass. Medium Bowls for Serving Snacks,Pudding,Dessert,Fruits and Kitchen Purpose Glass Disposable Dessert Bowl.",
+    "capacity": "3L",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
       "FISH",
-      "TEA",
-      "CUP",
-      "210ML",
-      "6PCS"
+      "PUDDING",
+      "3LEG",
+      "BOWL",
+      "6PCS",
+      "SET"
+    ]
+  },
+  {
+    "id": "f3fba9e4-d812-4b87-b923-70b557eed6df",
+    "itemCode": "20206",
+    "aliasName": "TG23-L7",
+    "name": "FISH PUDDING SET 7 PCS DELI",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 410,
+    "basePrice": 390,
+    "piecesPerCarton": 6,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20206/b652a7ec-d118-43a9-b82f-c224e13c32ad@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20206/b652a7ec-d118-43a9-b82f-c224e13c32ad@full.webp",
+      "https://assets.brahmanicrm.com/products/20206/66827780-72b6-4c87-8ced-0e584b13fbf5@full.webp",
+      "https://assets.brahmanicrm.com/products/20206/575a9bd5-d3e8-4c12-bd9c-e6b34d00cb2f@full.webp",
+      "https://assets.brahmanicrm.com/products/20206/9ffc67dd-a722-4702-a045-0107ef9eec7d@full.webp",
+      "https://assets.brahmanicrm.com/products/20206/ab6a2f08-6aea-47c3-a717-709111ad34de@full.webp"
+    ],
+    "description": "Set Contains: 1 Large Serving Bowl & 6 Small Bowls (Total 7 Pieces)",
+    "capacity": "7 PCS",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "FISH",
+      "PUDDING",
+      "SET",
+      "PCS",
+      "DELI"
     ]
   },
   {
@@ -3332,19 +4071,24 @@ export const INITIAL_PRODUCTS = [
     "name": "FLOWER SIPPER SILICON CAP STRAW 450ML",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 75,
+    "basePrice": 55,
     "piecesPerCarton": 70,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23069/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23069/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23069/0.jpg",
-      "https://assets.brahmanicrm.com/products/23069/1.jpg",
-      "https://assets.brahmanicrm.com/products/23069/2.jpg",
-      "https://assets.brahmanicrm.com/products/23069/3.jpg",
-      "https://assets.brahmanicrm.com/products/23069/4.jpg",
-      "https://assets.brahmanicrm.com/products/23069/5.jpg"
+      "https://assets.brahmanicrm.com/products/23069/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23069/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23069/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23069/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23069/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23069/5@full.webp",
+      "https://assets.brahmanicrm.com/products/23069/06e60ac5-a09e-4384-9152-a3e28bec33cc@full.webp"
     ],
-    "description": "They are suitable for various cold beverages like juice, milk, or water, and can be used in the car, office, or for outdoor activities.",
+    "description": "Features an adorable and trendy flower design, making it a perfect, eye-catching accessory for kids and stylish users.",
     "capacity": "450ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3355,67 +4099,9 @@ export const INITIAL_PRODUCTS = [
       "SIPPER",
       "SILICON",
       "CAP",
-      "STRAW"
-    ]
-  },
-  {
-    "id": "5c0259ef-1b90-4568-9c4d-6ed11ed8e663",
-    "itemCode": "23205",
-    "aliasName": "001",
-    "name": "FLOWER VASE 6INCH 1PCS",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 105,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23205/924aaa91-5f1d-4987-8d44-ea39b95c3242.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23205/924aaa91-5f1d-4987-8d44-ea39b95c3242.jpg",
-      "https://assets.brahmanicrm.com/products/23205/9c6198e1-40d6-4310-b3bb-e5639e3017c7.jpg",
-      "https://assets.brahmanicrm.com/products/23205/d95026f0-aae8-4ce5-8261-facd200786d7.jpg",
-      "https://assets.brahmanicrm.com/products/23205/f47299fe-7fd6-487a-afd1-0bb1fb29168b.jpg"
-    ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "6INCH",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "FLOWER",
-      "VASE",
-      "6INCH",
-      "1PCS"
-    ]
-  },
-  {
-    "id": "f52413c8-8cee-4632-b69a-a9daad6d810f",
-    "itemCode": "22495",
-    "aliasName": null,
-    "name": "FOAM ROLL",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 3620,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22495/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22495/0.jpg",
-      "https://assets.brahmanicrm.com/products/22495/1.jpg",
-      "https://assets.brahmanicrm.com/products/22495/2.jpg",
-      "https://assets.brahmanicrm.com/products/22495/3.jpg",
-      "https://assets.brahmanicrm.com/products/22495/4.jpg",
-      "https://assets.brahmanicrm.com/products/22495/5.jpg"
-    ],
-    "description": "This 5mm thick, 80-meter long Expanded Polyethylene (EPE) foam roll is a versatile, lightweight, and durable material designed for premium protective packaging and cushioning.",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "FOAM",
-      "ROLL"
+      "STRAW",
+      "450ML",
+      "CHINA"
     ]
   },
   {
@@ -3425,17 +4111,22 @@ export const INITIAL_PRODUCTS = [
     "name": "FRENCH PRESS COFFEE BAMBOO LID JAR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 290,
+    "basePrice": 270,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21669/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21669/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21669/0.jpg",
-      "https://assets.brahmanicrm.com/products/21669/1.jpg",
-      "https://assets.brahmanicrm.com/products/21669/2.jpg",
-      "https://assets.brahmanicrm.com/products/21669/3.jpg"
+      "https://assets.brahmanicrm.com/products/21669/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21669/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21669/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21669/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21669/4e6ce59e-5ad9-4725-b1fb-922470cf83fa@full.webp"
     ],
-    "description": "Simply the best little brewer for your morning cup of coffee; Easy brewing, exceptional filtration, quick clean-up, and sleek design all combine to give you everything you want in your french press; Perfect to make fresh coffee, tea, espresso, or cold brew",
+    "description": "Crafted from high-grade premium heat-resistant borosilicate glass, making it durable and completely safe for hot beverages.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3446,7 +4137,9 @@ export const INITIAL_PRODUCTS = [
       "PRESS",
       "COFFEE",
       "BAMBOO",
-      "LID"
+      "LID",
+      "JAR",
+      "CHINA"
     ]
   },
   {
@@ -3456,19 +4149,20 @@ export const INITIAL_PRODUCTS = [
     "name": "FRUIT BASKET WITH HANDLE ECHOU 2.2 LTR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 300,
+    "basePrice": 280,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22652/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22652/b2448c16-736f-42de-b72d-1f8be7be12d3@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22652/0.jpg",
-      "https://assets.brahmanicrm.com/products/22652/1.jpg",
-      "https://assets.brahmanicrm.com/products/22652/2.jpg",
-      "https://assets.brahmanicrm.com/products/22652/3.jpg",
-      "https://assets.brahmanicrm.com/products/22652/4.jpg",
-      "https://assets.brahmanicrm.com/products/22652/5.jpg"
+      "https://assets.brahmanicrm.com/products/22652/b2448c16-736f-42de-b72d-1f8be7be12d3@full.webp",
+      "https://assets.brahmanicrm.com/products/22652/57546da8-84ed-4cbb-a91e-48afcd7fc9b2@full.webp",
+      "https://assets.brahmanicrm.com/products/22652/de633038-91b6-41fa-872e-5f4020e00804@full.webp",
+      "https://assets.brahmanicrm.com/products/22652/53da586e-0c88-4c02-97a6-c0d3bb791862@full.webp",
+      "https://assets.brahmanicrm.com/products/22652/100a698c-581f-437f-9046-caaa9dc08e11@full.webp"
     ],
-    "description": "Elegant, functional, and modern Basket. is the perfect addition to your dining or kitchen setup. Made from premium quality borosilicate glass, it features a sturdy wooden handle for easy carrying. Ideal for storing fruits, snacks, or even as a stylish serving bowl.",
+    "description": "Featuring a 2.2-liter capacity, this transparent basket is perfectly sized for storing and serving fresh fruits, vegetables, or salads",
     "capacity": "2.2 LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3479,7 +4173,9 @@ export const INITIAL_PRODUCTS = [
       "BASKET",
       "WITH",
       "HANDLE",
-      "ECHOU"
+      "ECHOU",
+      "2.2",
+      "LTR"
     ]
   },
   {
@@ -3489,18 +4185,23 @@ export const INITIAL_PRODUCTS = [
     "name": "FRUIT BOWL 3 LEG 9 INCH",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 185,
+    "basePrice": 165,
     "piecesPerCarton": 18,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23312/cd30bfc3-9a21-4300-860b-4aa71af1eea6.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23312/cd30bfc3-9a21-4300-860b-4aa71af1eea6@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23312/cd30bfc3-9a21-4300-860b-4aa71af1eea6.jpg",
-      "https://assets.brahmanicrm.com/products/23312/f40a1423-aa01-47e1-a7ba-2b90271bcfa1.jpg",
-      "https://assets.brahmanicrm.com/products/23312/1da6cae4-5a0b-41bb-96ba-bc81d96d946e.jpg",
-      "https://assets.brahmanicrm.com/products/23312/8eaf254d-0fa5-4340-a46e-64525af2412b.jpg",
-      "https://assets.brahmanicrm.com/products/23312/5eaf9912-cb27-4939-9758-040cb6afd2d1.jpg"
+      "https://assets.brahmanicrm.com/products/23312/cd30bfc3-9a21-4300-860b-4aa71af1eea6@full.webp",
+      "https://assets.brahmanicrm.com/products/23312/f40a1423-aa01-47e1-a7ba-2b90271bcfa1@full.webp",
+      "https://assets.brahmanicrm.com/products/23312/1da6cae4-5a0b-41bb-96ba-bc81d96d946e@full.webp",
+      "https://assets.brahmanicrm.com/products/23312/8eaf254d-0fa5-4340-a46e-64525af2412b@full.webp",
+      "https://assets.brahmanicrm.com/products/23312/5eaf9912-cb27-4939-9758-040cb6afd2d1@full.webp",
+      "https://assets.brahmanicrm.com/products/23312/52661c7f-4b48-43c4-9aff-b93912faac57@full.webp"
     ],
-    "description": "Upgrade your dining and entertainment experience with our Premium Clear Glass Footed Decorative Bowl. Designed with delicate scalloped edges and a beautifully textured ribbed body, this decorative bowl blends classic charm with modern aesthetics.\n\nSupported by a sturdy three-legged base, it elevates your table setup while keeping your snacks and fruits prominently displayed. Whether you are hosting guests, organizing your coffee table, or looking for the perfect centerpiece, this bowl offers both functional versatility and timeless beauty.\n\nMaterial: High-Grade Clear Glass\n\nDesign: Scalloped Rim, Ribbed Texture, Footed Base\n\nShape: Oval / Shell-inspired\n\nCare Instructions: Hand wash recommended with mild soap and water.",
+    "description": "Featuring a spacious 9-inch diameter, this bowl offers plenty of room for serving fruits, salads, desserts, or snacks.",
     "capacity": "3 L",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3510,41 +4211,8 @@ export const INITIAL_PRODUCTS = [
       "FRUIT",
       "BOWL",
       "LEG",
-      "INCH"
-    ]
-  },
-  {
-    "id": "6970b865-26e9-4b13-af93-01f589755a14",
-    "itemCode": "22009",
-    "aliasName": "TG26-9",
-    "name": "FRUIT BOWL 3 LEG 9INCH",
-    "category": "bowls",
-    "categoryName": "Bowls & Tableware",
-    "price": 185,
-    "piecesPerCarton": 12,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22009/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22009/0.jpg",
-      "https://assets.brahmanicrm.com/products/22009/1.jpg",
-      "https://assets.brahmanicrm.com/products/22009/2.jpg",
-      "https://assets.brahmanicrm.com/products/22009/3.jpg",
-      "https://assets.brahmanicrm.com/products/22009/4.jpg",
-      "https://assets.brahmanicrm.com/products/22009/5.jpg",
-      "https://assets.brahmanicrm.com/products/22009/6.jpg",
-      "https://assets.brahmanicrm.com/products/22009/7.jpg"
-    ],
-    "description": "Crystal Glass Fruit 3 Leg Bowl for Basket Stand Vegetable Serving Bowl Large Decorative for Kitchen Reception Dining Table Transparent, Classic - 1 Pcs, Clear.",
-    "capacity": "3 L",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "FRUIT",
-      "BOWL",
-      "LEG",
-      "9INCH"
+      "INCH",
+      "GLASSWARE"
     ]
   },
   {
@@ -3554,18 +4222,21 @@ export const INITIAL_PRODUCTS = [
     "name": "FRUIT PLATE TR DIAMOUND 9.5 INCH",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [],
     "price": 145,
+    "basePrice": 125,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21639/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21639/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21639/0.jpg",
-      "https://assets.brahmanicrm.com/products/21639/1.jpg",
-      "https://assets.brahmanicrm.com/products/21639/2.jpg",
-      "https://assets.brahmanicrm.com/products/21639/3.jpg",
-      "https://assets.brahmanicrm.com/products/21639/4.jpg"
+      "https://assets.brahmanicrm.com/products/21639/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21639/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21639/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21639/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21639/4@full.webp",
+      "https://assets.brahmanicrm.com/products/21639/f5cdb234-ba42-4cbd-96c6-b34e76271842@full.webp"
     ],
-    "description": "Glass Fruit Bowl Plate Basket Creative Table Centerpieces Fruit Stand Decorative Countertop Fruit Holder for Kitchen Counter, Glass Fruit Plate Round Storage Tray for Bread Snacks Candy.",
+    "description": "Featuring a spacious 9.5-inch size, this plate offers plenty of room for serving fresh fruits, salads, snacks, or sweets.",
     "capacity": "9.5 INCH",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3580,55 +4251,30 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "e942e218-9784-4ccc-9525-84247ea58c07",
-    "itemCode": "21775",
-    "aliasName": "AF-LF",
-    "name": "GK WHISKY6 GLASS 325ML 6PCS",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 240,
-    "piecesPerCarton": 8,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21775/6b48df20-4a94-4779-9968-7ed5436ac479.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/21775/6b48df20-4a94-4779-9968-7ed5436ac479.jpg",
-      "https://assets.brahmanicrm.com/products/21775/e7325f90-d8a3-4e54-a087-543e305a312b.jpg",
-      "https://assets.brahmanicrm.com/products/21775/1302414f-9302-488c-bf10-c69c133d193e.jpg",
-      "https://assets.brahmanicrm.com/products/21775/f342202e-e99a-45ce-b951-edec5f0eb027.jpg"
-    ],
-    "description": "Product Type: Premium Cut Crystal Whisky/Old Fashioned Glass\n\nDesign & Craftsmanship: Features an intricate, elegant leaf pattern and a faceted starburst base that beautifully catches and reflects light.\n\nAesthetic Appeal: Styled with a luxurious dark-toned liquid (such as dark cola or whisky) and ice cubes, highlighting the glass's intricate design details.\n\nSetting & Mood: Presented in an ambient, high-end atmosphere featuring a dark marble surface, warm decorative background bokeh lights, and natural botanical accents.\n\nUsage: Ideal for serving whisky, cocktails, soda, or other premium beverages with style and sophistication.",
-    "capacity": "325ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "WHISKY6",
-      "GLASS",
-      "325ML",
-      "6PCS"
-    ]
-  },
-  {
     "id": "db076abf-0ef6-4f86-9fba-6648ad62966e",
     "itemCode": "23316",
     "aliasName": "ZDB150",
     "name": "GLASS ALDAN TEA CUP 235ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 200,
+    "basePrice": 180,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23316/870ff162-64b0-4d13-9710-2b396db8a561.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23316/870ff162-64b0-4d13-9710-2b396db8a561@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23316/870ff162-64b0-4d13-9710-2b396db8a561.jpg",
-      "https://assets.brahmanicrm.com/products/23316/87e1f6b8-a7ca-440a-a9d5-cf69becd0836.jpg",
-      "https://assets.brahmanicrm.com/products/23316/7123d134-8e0d-4487-bed5-6ef0b23b0ee5.jpg",
-      "https://assets.brahmanicrm.com/products/23316/edb98fa8-d211-4f10-9b0d-83ecf9892591.jpg",
-      "https://assets.brahmanicrm.com/products/23316/3341f8ac-5a34-4d60-84b6-2c9de5be4080.jpg",
-      "https://assets.brahmanicrm.com/products/23316/adc4d492-9597-445a-b529-351b0735d2e4.jpg"
+      "https://assets.brahmanicrm.com/products/23316/870ff162-64b0-4d13-9710-2b396db8a561@full.webp",
+      "https://assets.brahmanicrm.com/products/23316/87e1f6b8-a7ca-440a-a9d5-cf69becd0836@full.webp",
+      "https://assets.brahmanicrm.com/products/23316/7123d134-8e0d-4487-bed5-6ef0b23b0ee5@full.webp",
+      "https://assets.brahmanicrm.com/products/23316/edb98fa8-d211-4f10-9b0d-83ecf9892591@full.webp",
+      "https://assets.brahmanicrm.com/products/23316/3341f8ac-5a34-4d60-84b6-2c9de5be4080@full.webp",
+      "https://assets.brahmanicrm.com/products/23316/adc4d492-9597-445a-b529-351b0735d2e4@full.webp",
+      "https://assets.brahmanicrm.com/products/23316/5c638b08-84ad-462b-a287-d95b5c76f0af@full.webp"
     ],
-    "description": "GLASS ALDAN MUG DL 225ML 6 PCS SET – Elegant and durable glass mugs with a textured design for a stylish grip. Perfect for serving tea, coffee, or beverages at home, office, or cafes.",
+    "description": "Capacity: 235ml per cup, perfect for serving tea, coffee, green tea, or milk.",
     "capacity": "235ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3639,7 +4285,9 @@ export const INITIAL_PRODUCTS = [
       "ALDAN",
       "TEA",
       "CUP",
-      "235ML"
+      "235ML",
+      "6PCS",
+      "GLASSWARE"
     ]
   },
   {
@@ -3649,19 +4297,22 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS ALDAN TEA MUG 300ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 220,
+    "basePrice": 200,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20765/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20765/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20765/0.jpg",
-      "https://assets.brahmanicrm.com/products/20765/1.jpg",
-      "https://assets.brahmanicrm.com/products/20765/2.jpg",
-      "https://assets.brahmanicrm.com/products/20765/3.jpg",
-      "https://assets.brahmanicrm.com/products/20765/4.jpg",
-      "https://assets.brahmanicrm.com/products/20765/5.jpg"
+      "https://assets.brahmanicrm.com/products/20765/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20765/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20765/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20765/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20765/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20765/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20765/e05993a1-1b95-4dcf-9ee3-5793f5d95967@full.webp"
     ],
-    "description": "Glass ALDAN Mug 300ML 6PCS || cappuccinos Cup, Espresso Cup, Big Milk Cup, Green Tea Mug, Soup Bowl Jumbo Glass Cup (6)",
+    "description": "Capacity: 300ml per mug, ideal for serving larger portions of tea, coffee, milk, or hot beverages",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3672,41 +4323,8 @@ export const INITIAL_PRODUCTS = [
       "ALDAN",
       "TEA",
       "MUG",
-      "300ML"
-    ]
-  },
-  {
-    "id": "7f905176-cf8b-4dbf-9504-59d74553e46c",
-    "itemCode": "22350",
-    "aliasName": "H6-0114",
-    "name": "GLASS BOTTLE RABBIT 390ML BOX PACK",
-    "category": "bottles",
-    "categoryName": "Milk & Water Bottles",
-    "price": 85,
-    "piecesPerCarton": 60,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22350/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22350/0.jpg",
-      "https://assets.brahmanicrm.com/products/22350/1.jpg",
-      "https://assets.brahmanicrm.com/products/22350/2.jpg",
-      "https://assets.brahmanicrm.com/products/22350/3.jpg",
-      "https://assets.brahmanicrm.com/products/22350/4.jpg",
-      "https://assets.brahmanicrm.com/products/22350/5.jpg",
-      "https://assets.brahmanicrm.com/products/22350/6.jpg"
-    ],
-    "description": "60 PCS CTN\nRabbit Mug for Coffee Mug with Straw Drinking Straw Glasses Glass Sipper, For Home.",
-    "capacity": "390ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GLASS",
-      "BOTTLE",
-      "RABBIT",
-      "390ML",
-      "BOX"
+      "300ML",
+      "6PCS"
     ]
   },
   {
@@ -3716,18 +4334,23 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS BOTTLE WITH COVER 360ML 80 OCS",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 70,
+    "basePrice": 50,
     "piecesPerCarton": 80,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23121/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23121/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23121/0.jpg",
-      "https://assets.brahmanicrm.com/products/23121/1.jpg",
-      "https://assets.brahmanicrm.com/products/23121/2.jpg",
-      "https://assets.brahmanicrm.com/products/23121/3.jpg",
-      "https://assets.brahmanicrm.com/products/23121/4.jpg"
+      "https://assets.brahmanicrm.com/products/23121/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23121/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23121/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23121/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23121/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23121/9ca1f235-e8d3-4b7e-9a1a-40c93f751146@full.webp"
     ],
-    "description": "These bottle have a leak Proof Design and are Lightweight and Compact size which makes it easy to carry in Bag.",
+    "description": "Capacity: 340ml per glass, ideally sized for serving falooda, milkshakes, sundaes, smoothies, ice cream floats, and thick beverages.",
     "capacity": "360ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3738,60 +4361,67 @@ export const INITIAL_PRODUCTS = [
       "BOTTLE",
       "WITH",
       "COVER",
-      "360ML"
+      "360ML",
+      "OCS",
+      "CHINA"
     ]
   },
   {
-    "id": "217543d8-3594-4c63-beab-0aa34bbb5435",
-    "itemCode": "23319",
-    "aliasName": "808-FLOWER",
-    "name": "GLASS BOWL SET ROUND 5PCS FLOWER",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 185,
-    "piecesPerCarton": 16,
+    "id": "cb9639fc-4ec1-4edf-966f-cf9a7e7ec24c",
+    "itemCode": "23054",
+    "aliasName": "H4228-4-2-SP",
+    "name": "GLASS CANISTER JAR 350ML 2PCS SET",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 180,
+    "basePrice": 160,
+    "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23319/ff64f512-2908-4523-94ad-04f4575a70ce.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23054/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23319/ff64f512-2908-4523-94ad-04f4575a70ce.jpg",
-      "https://assets.brahmanicrm.com/products/23319/38b04898-e561-4579-a57a-25443ec58441.jpg",
-      "https://assets.brahmanicrm.com/products/23319/c77bac7b-ad0f-4996-82a8-a7e760804513.jpg",
-      "https://assets.brahmanicrm.com/products/23319/404758a3-542c-4bc3-a5fa-f6dbc65e225e.jpg"
+      "https://assets.brahmanicrm.com/products/23054/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23054/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23054/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23054/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23054/4@full.webp"
     ],
-    "description": "5 Piece Borosilicate Glass Bowl Mixing Bowl Set with Lid for Kitchen Storage, Serving Bowl, Fridge Container, Microwave Safe.",
-    "capacity": "5PCS",
+    "description": "Upgrade your kitchen storage with this stylish Tea & Sugar Stainless Steel Jar Set. Designed for daily use, these jars keep your essentials fresh while adding a modern touch to your kitchen décor.",
+    "capacity": "350ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
       "GLASS",
-      "BOWL",
-      "SET",
-      "ROUND",
-      "5PCS"
+      "CANISTER",
+      "JAR",
+      "350ML",
+      "2PCS",
+      "SET"
     ]
   },
   {
-    "id": "86f86561-713c-4e51-a1f0-4c150c2fd3c6",
-    "itemCode": "20874",
-    "aliasName": "7012-4",
-    "name": "GLASS DISPENSER STEEL LID 4LTR",
+    "id": "ebae8cc4-e060-4c31-9683-70f02b8c188e",
+    "itemCode": "23345",
+    "aliasName": "H7012-0418",
+    "name": "GLASS DISPENSER STEEL LID 4LTR BULK",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 310,
+    "brahmaniCategories": [],
+    "price": 330,
+    "basePrice": 310,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20874/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23345/cc31468b-e321-44ef-a9ef-529c06520dca@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20874/0.jpg",
-      "https://assets.brahmanicrm.com/products/20874/1.jpg",
-      "https://assets.brahmanicrm.com/products/20874/2.jpg",
-      "https://assets.brahmanicrm.com/products/20874/3.jpg",
-      "https://assets.brahmanicrm.com/products/20874/4.jpg",
-      "https://assets.brahmanicrm.com/products/20874/5.jpg"
+      "https://assets.brahmanicrm.com/products/23345/cc31468b-e321-44ef-a9ef-529c06520dca@full.webp",
+      "https://assets.brahmanicrm.com/products/23345/6dfcf959-f9af-4f62-a23b-aa22e114aa0d@full.webp",
+      "https://assets.brahmanicrm.com/products/23345/38fea892-735c-4a9f-ab56-3a2e01fc0399@full.webp",
+      "https://assets.brahmanicrm.com/products/23345/21f81b94-d266-4621-bea5-fa7874ba7daf@full.webp",
+      "https://assets.brahmanicrm.com/products/23345/0b9b5f58-3759-464d-8cbd-b49a60f0a1a2@full.webp"
     ],
-    "description": "Glass Cold Water Mason Jar | Beer Dispenser | Drink Dispenser | Mason Jar | Glass Pitcher with tap | Spigot and Steel lid | Water Pitcher for Detox Water | 4 Liter Dispenser Set of 1",
+    "description": "Material: Heavy-Duty Clear Glass, Stainless Steel Lid, and Tap",
     "capacity": "4LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3802,7 +4432,80 @@ export const INITIAL_PRODUCTS = [
       "DISPENSER",
       "STEEL",
       "LID",
-      "4LTR"
+      "4LTR",
+      "BULK"
+    ]
+  },
+  {
+    "id": "c762eeb9-fa71-4427-b7d5-04aae17c05a6",
+    "itemCode": "21499",
+    "aliasName": "7012-5",
+    "name": "GLASS DISPENSER STEEL LID 5LTR",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 400,
+    "basePrice": 380,
+    "piecesPerCarton": 1,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/21499/e937c76f-d6ff-4723-9174-8d65f063aa72@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/21499/e937c76f-d6ff-4723-9174-8d65f063aa72@full.webp",
+      "https://assets.brahmanicrm.com/products/21499/26c160e7-1151-47fa-86c4-70417a221410@full.webp",
+      "https://assets.brahmanicrm.com/products/21499/6318f290-a8ee-4f2f-b094-50e14e54283b@full.webp",
+      "https://assets.brahmanicrm.com/products/21499/ed904a79-63f0-4952-8bb4-0adf06bee0f7@full.webp",
+      "https://assets.brahmanicrm.com/products/21499/2b066828-a719-4b9a-b777-a0a6d9939a17@full.webp"
+    ],
+    "description": "Special Features: Embossed Vintage Design, Leak-Proof Spigot, Wide Mouth Opening",
+    "capacity": "5LTR",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "GLASS",
+      "DISPENSER",
+      "STEEL",
+      "LID",
+      "5LTR",
+      "GLASSWARE"
+    ]
+  },
+  {
+    "id": "76fe273b-161e-40ca-a99e-e4a2c462cd76",
+    "itemCode": "21191",
+    "aliasName": "H21",
+    "name": "GLASS DRINKING BOTTLE",
+    "category": "bottles",
+    "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 165,
+    "basePrice": 145,
+    "piecesPerCarton": 1,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/21191/3df7cff9-76c3-43d2-ad5a-03dc9877005f@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/21191/3df7cff9-76c3-43d2-ad5a-03dc9877005f@full.webp",
+      "https://assets.brahmanicrm.com/products/21191/faa3ccf5-057d-4713-a45f-9179a743f334@full.webp",
+      "https://assets.brahmanicrm.com/products/21191/93ca6cc7-a5b9-4d1b-901c-64e9ec3bd6bc@full.webp",
+      "https://assets.brahmanicrm.com/products/21191/37aa26ea-d419-4e09-9e15-9cd8930283b2@full.webp",
+      "https://assets.brahmanicrm.com/products/21191/e37b6874-df11-45f3-8f26-6f3684e7e920@full.webp"
+    ],
+    "description": "Special Features: Eco-Friendly Bamboo Lid, Anti-Slip Sleeve, Included Drinking Straw",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "GLASS",
+      "DRINKING",
+      "BOTTLE",
+      "GLASSWARE"
     ]
   },
   {
@@ -3812,16 +4515,21 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS DRINKING MASON JAR HANDLE LINING",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 95,
+    "basePrice": 75,
     "piecesPerCarton": 64,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22406/1257cc6e-732e-4b1b-b9dd-561077d6f838.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22406/17feafad-302e-472c-9046-fe78cd843270@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22406/1257cc6e-732e-4b1b-b9dd-561077d6f838.jpg",
-      "https://assets.brahmanicrm.com/products/22406/17feafad-302e-472c-9046-fe78cd843270.jpg",
-      "https://assets.brahmanicrm.com/products/22406/61dc34eb-5d7d-4ff1-8739-391063111873.jpg"
+      "https://assets.brahmanicrm.com/products/22406/17feafad-302e-472c-9046-fe78cd843270@full.webp",
+      "https://assets.brahmanicrm.com/products/22406/61dc34eb-5d7d-4ff1-8739-391063111873@full.webp",
+      "https://assets.brahmanicrm.com/products/22406/eba9b37a-1793-4766-a1b8-4135750ae99e@full.webp",
+      "https://assets.brahmanicrm.com/products/22406/632c2040-a34b-4a6a-b585-5288a631ddd9@full.webp"
     ],
-    "description": "Transparent Square Cup - Comes with lid and straw.Glass Cups with Lids and Straws are perfect for a variety of drinks, and are ideal for smoothies, whiskey, cocktails, soda and iced tea.",
+    "description": "Features an elegant square shape with vertical fluted lining/ribbed patterns on the body for a modern, aesthetic look.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3832,41 +4540,9 @@ export const INITIAL_PRODUCTS = [
       "DRINKING",
       "MASON",
       "JAR",
-      "HANDLE"
-    ]
-  },
-  {
-    "id": "5ab6ec2b-4d20-44a5-9b88-84db7fa7e0b6",
-    "itemCode": "22071",
-    "aliasName": "SPB400D-L2",
-    "name": "GLASS DRINKING MASON JAR PRINT 400ML 2PCS SET",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 195,
-    "piecesPerCarton": 98,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22071/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22071/0.jpg",
-      "https://assets.brahmanicrm.com/products/22071/1.jpg",
-      "https://assets.brahmanicrm.com/products/22071/2.jpg",
-      "https://assets.brahmanicrm.com/products/22071/3.jpg",
-      "https://assets.brahmanicrm.com/products/22071/4.jpg",
-      "https://assets.brahmanicrm.com/products/22071/5.jpg",
-      "https://assets.brahmanicrm.com/products/22071/6.jpg"
-    ],
-    "description": "Square Mason jar Glass Cups with Lids and Straws with Colored Handle 400ml. Drinking Glasses Wide Mouth Glass Tumbler for Home Office Summer Party (Mason JAR)",
-    "capacity": "400ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GLASS",
-      "DRINKING",
-      "MASON",
-      "JAR",
-      "PRINT"
+      "HANDLE",
+      "LINING",
+      "CHINA"
     ]
   },
   {
@@ -3876,17 +4552,22 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS HANDEL CUP 550ML 1PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 85,
+    "brahmaniCategories": [
+      "CHAINA"
+    ],
+    "price": 80,
+    "basePrice": 60,
     "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23214/60290686-49da-45fd-a964-5209ffb8d93f.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23214/6bdd92cc-8136-4cd7-b205-69cc26d7bd2b@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23214/60290686-49da-45fd-a964-5209ffb8d93f.jpg",
-      "https://assets.brahmanicrm.com/products/23214/055b8367-ab34-4fea-a642-23721a7ce3ce.jpg",
-      "https://assets.brahmanicrm.com/products/23214/00951a94-3200-4ecc-b00e-8cf343ebdba3.jpg",
-      "https://assets.brahmanicrm.com/products/23214/d7c4cf62-d8cc-4eae-be68-cc9d80560f03.jpg"
+      "https://assets.brahmanicrm.com/products/23214/6bdd92cc-8136-4cd7-b205-69cc26d7bd2b@full.webp",
+      "https://assets.brahmanicrm.com/products/23214/88c36c6e-f103-4171-9e4a-b691ed784485@full.webp",
+      "https://assets.brahmanicrm.com/products/23214/cfd88838-1fa8-49d3-8552-8c3eb4813033@full.webp",
+      "https://assets.brahmanicrm.com/products/23214/beaec188-cfcb-4e06-8ee7-25b8ed89d62f@full.webp",
+      "https://assets.brahmanicrm.com/products/23214/f94c02df-0abd-4255-9b8e-c3d00afa24a7@full.webp"
     ],
-    "description": "Suitable for various beverages including coffee, tea, cold drinks, and smoothies with excellent temperature retention.\nFeatures a distinctive \"cartoon eyes\" print on transparent glass.",
+    "description": "Special Features: Cute Cartoon Eyes Design, Ergonomic Handle, Spill-Resistant Lid",
     "capacity": "550ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3897,7 +4578,45 @@ export const INITIAL_PRODUCTS = [
       "HANDEL",
       "CUP",
       "550ML",
-      "1PCS"
+      "1PCS",
+      "CHAINA"
+    ]
+  },
+  {
+    "id": "06311c17-2282-4180-978c-62fe2fef3e97",
+    "itemCode": "23278",
+    "aliasName": null,
+    "name": "GLASS JAR WITH SPOON 350ML",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 85,
+    "basePrice": 65,
+    "piecesPerCarton": 70,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23278/8de2dfe1-fa42-4007-a90f-9dd01ad2ac0f@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23278/8de2dfe1-fa42-4007-a90f-9dd01ad2ac0f@full.webp",
+      "https://assets.brahmanicrm.com/products/23278/1a5a51b2-ea91-461b-9c36-a4351e697f11@full.webp",
+      "https://assets.brahmanicrm.com/products/23278/a2092251-d88b-4c6e-bb37-286b65598752@full.webp",
+      "https://assets.brahmanicrm.com/products/23278/f05fbd66-a859-46b5-8d0a-3f7a1a35f72a@full.webp",
+      "https://assets.brahmanicrm.com/products/23278/a761ce1a-35e6-48ab-b3e6-0fda29b89ab4@full.webp"
+    ],
+    "description": "Capacity: 350ml capacity, providing a compact and convenient size for kitchen condiments or storage.",
+    "capacity": "350ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "GLASS",
+      "JAR",
+      "WITH",
+      "SPOON",
+      "350ML",
+      "GLASSWARE"
     ]
   },
   {
@@ -3907,21 +4626,23 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS JAR WITH SPOON 440ML GREY",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 85,
+    "basePrice": 65,
     "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22360/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22360/748b769c-4aa8-45cc-a2ca-a47f95bb169c@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22360/0.jpg",
-      "https://assets.brahmanicrm.com/products/22360/1.jpg",
-      "https://assets.brahmanicrm.com/products/22360/2.jpg",
-      "https://assets.brahmanicrm.com/products/22360/3.jpg",
-      "https://assets.brahmanicrm.com/products/22360/4.jpg",
-      "https://assets.brahmanicrm.com/products/22360/5.jpg",
-      "https://assets.brahmanicrm.com/products/22360/6.jpg",
-      "https://assets.brahmanicrm.com/products/22360/7.jpg"
+      "https://assets.brahmanicrm.com/products/22360/748b769c-4aa8-45cc-a2ca-a47f95bb169c@full.webp",
+      "https://assets.brahmanicrm.com/products/22360/0b33f100-b971-42e8-aa83-fc9066a8f1ef@full.webp",
+      "https://assets.brahmanicrm.com/products/22360/2baf8f3e-9f5f-40e4-be69-1ef06eb44b60@full.webp",
+      "https://assets.brahmanicrm.com/products/22360/8fa2bb23-4e9a-4fba-a4c7-ca32dfde2772@full.webp",
+      "https://assets.brahmanicrm.com/products/22360/6bf81291-567c-4cd0-a408-655429d23c7a@full.webp",
+      "https://assets.brahmanicrm.com/products/22360/4e743b57-9f30-40ec-819a-464b4d8e6a7c@full.webp"
     ],
-    "description": "Enjoy carefree mornings with our colorful 440ML overnight oat containers with airtight lids and stainless steel spoons, Our mason jars are made of food-grade thick glass.",
+    "description": "Capacity: 440ml capacity, providing a spacious and convenient size for meal prep, salads, overnight oats, or food storage.",
     "capacity": "440ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3932,7 +4653,9 @@ export const INITIAL_PRODUCTS = [
       "JAR",
       "WITH",
       "SPOON",
-      "440ML"
+      "440ML",
+      "GREY",
+      "CHINA"
     ]
   },
   {
@@ -3942,17 +4665,19 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS JAR WITH STEEL COVER 350ML BOX PACK",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 110,
+    "basePrice": 90,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22845/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22845/9f6eed6d-388f-400b-933d-68016b99b4dc@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22845/0.jpg",
-      "https://assets.brahmanicrm.com/products/22845/1.jpg",
-      "https://assets.brahmanicrm.com/products/22845/2.jpg",
-      "https://assets.brahmanicrm.com/products/22845/3.jpg"
+      "https://assets.brahmanicrm.com/products/22845/9f6eed6d-388f-400b-933d-68016b99b4dc@full.webp",
+      "https://assets.brahmanicrm.com/products/22845/6966910b-fc4f-4486-bac4-d7af0253f7bb@full.webp"
     ],
-    "description": "Glass Stainless Steel Kitchen Canister, Airtight Food Storage Jars with Lid, Visible Window Seasoning Cereal Container Organizer.",
+    "description": "Set Contains: 1 Glass Jar with Stainless Steel Lid (Box Packed)",
     "capacity": "350ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3963,7 +4688,10 @@ export const INITIAL_PRODUCTS = [
       "JAR",
       "WITH",
       "STEEL",
-      "COVER"
+      "COVER",
+      "350ML",
+      "BOX",
+      "PACK"
     ]
   },
   {
@@ -3973,18 +4701,19 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS JAR WITH STEEL COVER 550ML BOX PACK",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 125,
+    "brahmaniCategories": [],
+    "price": 128,
+    "basePrice": 108,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22846/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22846/bc4f3234-0e57-4ec1-addd-beb95b52cf4e@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22846/0.jpg",
-      "https://assets.brahmanicrm.com/products/22846/1.jpg",
-      "https://assets.brahmanicrm.com/products/22846/2.jpg",
-      "https://assets.brahmanicrm.com/products/22846/3.jpg",
-      "https://assets.brahmanicrm.com/products/22846/4.jpg"
+      "https://assets.brahmanicrm.com/products/22846/bc4f3234-0e57-4ec1-addd-beb95b52cf4e@full.webp",
+      "https://assets.brahmanicrm.com/products/22846/9323a6e3-633d-450e-bbaf-a20feeeb2bd5@full.webp",
+      "https://assets.brahmanicrm.com/products/22846/fe36a67a-3d92-4d53-9ca3-5b570e770c76@full.webp",
+      "https://assets.brahmanicrm.com/products/22846/6ebfc4d8-aee3-422c-8fb1-479cac9bb4b3@full.webp"
     ],
-    "description": "Clear glass window allows easy viewing of canister contents. With transparent glass window, you will save more time. They are great for storing cookies, coffee, flour, sugar, nuts, coarse cereals and more.",
+    "description": "Capacity: 550ml large capacity, providing ample space for storing pulses, grains, dry fruits, snacks, tea, or sugar.",
     "capacity": "550ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -3995,40 +4724,10 @@ export const INITIAL_PRODUCTS = [
       "JAR",
       "WITH",
       "STEEL",
-      "COVER"
-    ]
-  },
-  {
-    "id": "b81181e4-935c-4695-82c6-19bea18c67ed",
-    "itemCode": "22701",
-    "aliasName": null,
-    "name": "GLASS MASON JAR BOW TIE BLUE HANDLE 400ML",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 195,
-    "piecesPerCarton": 98,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22701/14c3def7-027d-40d8-8d3e-e24ffa9efa15.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22701/14c3def7-027d-40d8-8d3e-e24ffa9efa15.jpg",
-      "https://assets.brahmanicrm.com/products/22701/0c8ce7e2-2cea-440a-a239-b73c08a6ae76.jpg",
-      "https://assets.brahmanicrm.com/products/22701/94a341f8-aaa6-4985-b090-50daa3984470.jpg",
-      "https://assets.brahmanicrm.com/products/22701/6608150c-8751-43c8-89b9-d67b3c235d3e.jpg",
-      "https://assets.brahmanicrm.com/products/22701/d22927ff-40e3-48c5-a23a-262765643e63.jpg",
-      "https://assets.brahmanicrm.com/products/22701/39021b82-a98b-46c4-a783-8eda3cea7e3e.jpg"
-    ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "400ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GLASS",
-      "MASON",
-      "JAR",
-      "BOW",
-      "TIE"
+      "COVER",
+      "550ML",
+      "BOX",
+      "PACK"
     ]
   },
   {
@@ -4038,18 +4737,23 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS MUG TEA CUP 215ML 6PCS YUJING",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 240,
+    "basePrice": 220,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20638/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20638/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20638/0.jpg",
-      "https://assets.brahmanicrm.com/products/20638/1.jpg",
-      "https://assets.brahmanicrm.com/products/20638/2.jpg",
-      "https://assets.brahmanicrm.com/products/20638/3.jpg",
-      "https://assets.brahmanicrm.com/products/20638/4.jpg"
+      "https://assets.brahmanicrm.com/products/20638/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20638/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20638/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20638/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20638/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20638/dc8d37df-84b3-4f61-85ee-6c658ec01715@full.webp"
     ],
-    "description": "Glass Mug 230ML 6PCS cappuccinos Cup, Espresso Cup, Big Milk Cup, Green Tea Mug, Soup Bowl Jumbo Glass Cup",
+    "description": "Capacity: 215ml per cup, providing an ideal size for serving tea, coffee, green tea, or milk.",
     "capacity": "215ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4060,7 +4764,10 @@ export const INITIAL_PRODUCTS = [
       "MUG",
       "TEA",
       "CUP",
-      "215ML"
+      "215ML",
+      "6PCS",
+      "YUJING",
+      "GLASSWARE"
     ]
   },
   {
@@ -4070,17 +4777,20 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS ROUND ASH TRAY 111MM",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 58,
+    "basePrice": 38,
     "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22240/8775fe38-23f7-4833-8d41-ab8a292ae84f.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22240/25f34433-ae35-43d2-aae7-0013271900f8@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22240/8775fe38-23f7-4833-8d41-ab8a292ae84f.jpg",
-      "https://assets.brahmanicrm.com/products/22240/e03adf8c-a331-41d9-a9c8-456b67e7f89e.jpg",
-      "https://assets.brahmanicrm.com/products/22240/7ca8d668-3614-46c5-b2a8-cc8b6756ab68.jpg",
-      "https://assets.brahmanicrm.com/products/22240/d2ebff32-4ce3-4496-9a25-c65b5b33185b.jpg"
+      "https://assets.brahmanicrm.com/products/22240/25f34433-ae35-43d2-aae7-0013271900f8@full.webp",
+      "https://assets.brahmanicrm.com/products/22240/050786e8-c3ed-4d83-a534-74277040a5bf@full.webp",
+      "https://assets.brahmanicrm.com/products/22240/025fed8c-bd74-4395-b542-429fdcf27bb5@full.webp",
+      "https://assets.brahmanicrm.com/products/22240/cb4d71d7-baa4-4687-a3e6-4f2189f1ef0a@full.webp",
+      "https://assets.brahmanicrm.com/products/22240/1f38493a-b890-4684-a7cc-33009d7b26c1@full.webp"
     ],
-    "description": "A “Glass Round Ash Tray 101 mm” is a small, round ashtray made of glass. The “101 mm” refers roughly to its diameter — so it’s a compact, tabletop-sized ashtray.",
+    "description": "Designed with a perfect 111MM size, making it an ideal choice for homes, offices, restaurants, or cafes.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "111MM Neck / Closure",
     "material": "Clear Soda Lime Flint Glass",
@@ -4101,20 +4811,22 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS SAUCER 120ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 180,
+    "brahmaniCategories": [],
+    "price": 175,
+    "basePrice": 155,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20143/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20143/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20143/0.jpg",
-      "https://assets.brahmanicrm.com/products/20143/1.jpg",
-      "https://assets.brahmanicrm.com/products/20143/2.jpg",
-      "https://assets.brahmanicrm.com/products/20143/3.jpg",
-      "https://assets.brahmanicrm.com/products/20143/4.jpg",
-      "https://assets.brahmanicrm.com/products/20143/5.jpg",
-      "https://assets.brahmanicrm.com/products/20143/6.jpg"
+      "https://assets.brahmanicrm.com/products/20143/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20143/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20143/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20143/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20143/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20143/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20143/6@full.webp"
     ],
-    "description": "The saucers have a simple, round, and elegant design suitable for everyday use. They are versatile and can be used as coasters, dessert plates, or for serving cookies, snacks, and fruits.",
+    "description": "Pack Contents: Set of 6 premium glass saucers (6PCS set), perfect for matching with tea or coffee cups.",
     "capacity": "120ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4134,16 +4846,19 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS SAUCER D 6INCH 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 190,
+    "basePrice": 170,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23040/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23040/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23040/0.jpg",
-      "https://assets.brahmanicrm.com/products/23040/1.jpg",
-      "https://assets.brahmanicrm.com/products/23040/2.jpg"
+      "https://assets.brahmanicrm.com/products/23040/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23040/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23040/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23040/c07ee9c9-321d-42ba-b9c2-619122d07ec1@full.webp"
     ],
-    "description": "Versatile Serving Use Ideal as snack plates for tea, serving biscuits, desserts, or condiments; also works wonderfully as formal tea-time accessories.\nSpace-Saving Stackable Design Designed to stack neatly, these set of 6 saucers save cupboard space—perfect for small kitchens or cafes.",
+    "description": "Size & Dimensions: 6-inch diameter size, ideal for serving snacks, desserts, fruits, appetizers, or pairing as a saucer for cups.",
     "capacity": "6INCH",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4158,56 +4873,28 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "aabbcfa7-dd21-41b5-ae9d-d01459d7891f",
-    "itemCode": "20842",
-    "aliasName": "KTW316",
-    "name": "GLASS SAUCER SMALL 6PCS",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 155,
-    "piecesPerCarton": 24,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20842/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/20842/0.jpg",
-      "https://assets.brahmanicrm.com/products/20842/1.jpg",
-      "https://assets.brahmanicrm.com/products/20842/2.jpg",
-      "https://assets.brahmanicrm.com/products/20842/3.jpg",
-      "https://assets.brahmanicrm.com/products/20842/4.jpg",
-      "https://assets.brahmanicrm.com/products/20842/5.jpg"
-    ],
-    "description": "Self-Design Glass Plain Plate Use for Party, Home, Serving and Multi Use.",
-    "capacity": "6PCS",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GLASS",
-      "SAUCER",
-      "SMALL",
-      "6PCS"
-    ]
-  },
-  {
     "id": "799b48e6-8660-4b7b-a130-7d758945add6",
     "itemCode": "21512",
     "aliasName": "H3082E",
     "name": "GLASS SPICE JAR2 2PCS SET",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 135,
+    "basePrice": 115,
     "piecesPerCarton": 72,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21512/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21512/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21512/0.jpg",
-      "https://assets.brahmanicrm.com/products/21512/1.jpg",
-      "https://assets.brahmanicrm.com/products/21512/2.jpg",
-      "https://assets.brahmanicrm.com/products/21512/3.jpg",
-      "https://assets.brahmanicrm.com/products/21512/4.jpg"
+      "https://assets.brahmanicrm.com/products/21512/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21512/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21512/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21512/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21512/4@full.webp"
     ],
-    "description": "Dining Spice Rack Set Pepper and Salt Sprinkle Container Storage Jar Multipurpose Spice Container 2 Pieces Condiment Set Masala Box GLASS SPICE JAR SET 2PCS",
+    "description": "Special Features: Shaker Lids, Clear Viewing Window, Portable Stand Holder",
     "capacity": "2PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4218,7 +4905,8 @@ export const INITIAL_PRODUCTS = [
       "SPICE",
       "JAR2",
       "2PCS",
-      "SET"
+      "SET",
+      "CHINA"
     ]
   },
   {
@@ -4228,18 +4916,21 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS SQUARE ASH TRAY 4INCH",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 60,
+    "basePrice": 40,
     "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23320/750435f9-2a73-4805-a7a4-433ad2322388.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23320/750435f9-2a73-4805-a7a4-433ad2322388@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23320/750435f9-2a73-4805-a7a4-433ad2322388.jpg",
-      "https://assets.brahmanicrm.com/products/23320/2451eed8-df2c-46d1-9036-10ffa3323c66.jpg",
-      "https://assets.brahmanicrm.com/products/23320/c86730ca-d319-47a5-9657-a2cd4e84278d.jpg",
-      "https://assets.brahmanicrm.com/products/23320/ba698a69-7efe-4dc0-a9ce-ac48c02ebf82.jpg",
-      "https://assets.brahmanicrm.com/products/23320/58b0e1eb-438c-4abb-a046-6a90cae91ada.jpg"
+      "https://assets.brahmanicrm.com/products/23320/750435f9-2a73-4805-a7a4-433ad2322388@full.webp",
+      "https://assets.brahmanicrm.com/products/23320/2451eed8-df2c-46d1-9036-10ffa3323c66@full.webp",
+      "https://assets.brahmanicrm.com/products/23320/c86730ca-d319-47a5-9657-a2cd4e84278d@full.webp",
+      "https://assets.brahmanicrm.com/products/23320/ba698a69-7efe-4dc0-a9ce-ac48c02ebf82@full.webp",
+      "https://assets.brahmanicrm.com/products/23320/58b0e1eb-438c-4abb-a046-6a90cae91ada@full.webp",
+      "https://assets.brahmanicrm.com/products/23320/634a63bb-5812-427a-9706-3cd8493939c6@full.webp"
     ],
-    "description": "These decorative square ashtrays are made of quality, sturdy and heavy glass. You can use these cool and fancy ash holders in your kitchen, home, garden, porch, balcony, deck, patio, office, for smoking accessories, small ashtrays for table decor.These cute ash holders come in a gift box. We offer: clear, red, red based, black, black based ashtrays. A lovely present for men or women who smokes. Gift item for Christmas, Father's Day, Housewarming, Wedding, Birthdays, for him, for her.",
+    "description": "Size & Dimensions: Compact 4-inch square design, making it suitable for tabletops, desks, and bars without taking up too much space.",
     "capacity": "4INCH",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4254,24 +4945,62 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "e393f0b3-36b0-4fdd-8390-4cad9be7780a",
+    "itemCode": "23242",
+    "aliasName": "H4234",
+    "name": "GLASS STORAGE JAR 3PCS  (S.M.L) GIFT BOX",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 370,
+    "basePrice": 350,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23242/779b9817-258a-4cff-8456-d89b6ac48613@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23242/779b9817-258a-4cff-8456-d89b6ac48613@full.webp",
+      "https://assets.brahmanicrm.com/products/23242/b92c8f52-151f-43f7-8115-ce919a2a42d9@full.webp"
+    ],
+    "description": "Borosilicate Glass Jars with Silcone Seal Airtight Bamboo Lids Tea Container | Clear Kitchen Canister Storage Jar with Bamboo Shelf Kitchen.",
+    "capacity": "3PCS",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "GLASS",
+      "STORAGE",
+      "JAR",
+      "3PCS",
+      "(S.M.L)",
+      "GIFT",
+      "BOX"
+    ]
+  },
+  {
     "id": "c7241134-010e-4ae8-9c9f-28217252384b",
     "itemCode": "22539",
     "aliasName": "VX-55",
     "name": "GLASS WATER BOTTLE CONSTELLATION",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 70,
+    "basePrice": 50,
     "piecesPerCarton": 80,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22539/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22539/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22539/0.jpg",
-      "https://assets.brahmanicrm.com/products/22539/1.jpg",
-      "https://assets.brahmanicrm.com/products/22539/2.jpg",
-      "https://assets.brahmanicrm.com/products/22539/3.jpg",
-      "https://assets.brahmanicrm.com/products/22539/4.jpg"
+      "https://assets.brahmanicrm.com/products/22539/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22539/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22539/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22539/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22539/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22539/a592698a-7b84-457a-aa05-ffad99561522@full.webp"
     ],
-    "description": "Premium borosilicate glass featuring a unique constellation pattern on the body — perfect for gifting or personal use. \nDesigned with a leak‑proof metal lid and silicone sealing ring; ideal for both hot and cold beverages.",
+    "description": "Design & Sleeve: Features a stylish \"fashion\" embossed PU leather sleeve/grip that provides an anti-slip hold and a trendy aesthetic look.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4281,42 +5010,8 @@ export const INITIAL_PRODUCTS = [
       "GLASS",
       "WATER",
       "BOTTLE",
-      "CONSTELLATION"
-    ]
-  },
-  {
-    "id": "28f36323-cfa8-40fd-bfef-2b9ea26d30f3",
-    "itemCode": "22413",
-    "aliasName": "H6-2506",
-    "name": "GLASS WATER BOTTLE CRANK CUP",
-    "category": "bottles",
-    "categoryName": "Milk & Water Bottles",
-    "price": 55,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22413/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22413/0.jpg",
-      "https://assets.brahmanicrm.com/products/22413/1.jpg",
-      "https://assets.brahmanicrm.com/products/22413/2.jpg",
-      "https://assets.brahmanicrm.com/products/22413/3.jpg",
-      "https://assets.brahmanicrm.com/products/22413/4.jpg",
-      "https://assets.brahmanicrm.com/products/22413/5.jpg",
-      "https://assets.brahmanicrm.com/products/22413/6.jpg",
-      "https://assets.brahmanicrm.com/products/22413/7.jpg"
-    ],
-    "description": "Transparent Glass Coloured Water Bottle Water Carafe Simple Portable Water Bottles,Creative Plastic Durable Sports Bottle,Clear Outdoor Cup-Leak Proof.",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GLASS",
-      "WATER",
-      "BOTTLE",
-      "CRANK",
-      "CUP"
+      "CONSTELLATION",
+      "CHINA"
     ]
   },
   {
@@ -4326,19 +5021,24 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS WATER BOTTLE DEER",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 85,
+    "basePrice": 65,
     "piecesPerCarton": 80,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23067/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23067/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23067/0.jpg",
-      "https://assets.brahmanicrm.com/products/23067/1.jpg",
-      "https://assets.brahmanicrm.com/products/23067/2.jpg",
-      "https://assets.brahmanicrm.com/products/23067/3.jpg",
-      "https://assets.brahmanicrm.com/products/23067/4.jpg",
-      "https://assets.brahmanicrm.com/products/23067/5.jpg"
+      "https://assets.brahmanicrm.com/products/23067/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23067/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23067/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23067/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23067/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23067/5@full.webp",
+      "https://assets.brahmanicrm.com/products/23067/d06394bd-aa73-489a-89c8-ac541d1e296b@full.webp"
     ],
-    "description": "Cute Deer Shape thermos water bottle is a perfect gift for kids. This water bottle is trendy and is in sports design pattern. You can carry water, juice, milk and other fluids in this bottle.",
+    "description": "Adorable Design: Features a unique and creative lid topped with metallic gold/rose-gold deer antlers, paired with a charming forest and deer print body.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4348,7 +5048,8 @@ export const INITIAL_PRODUCTS = [
       "GLASS",
       "WATER",
       "BOTTLE",
-      "DEER"
+      "DEER",
+      "CHINA"
     ]
   },
   {
@@ -4358,19 +5059,24 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS WATER BOTTLE DESIGN BY FANS",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 68,
+    "basePrice": 48,
     "piecesPerCarton": 80,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22396/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22396/1@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22396/0.jpg",
-      "https://assets.brahmanicrm.com/products/22396/1.jpg",
-      "https://assets.brahmanicrm.com/products/22396/2.jpg",
-      "https://assets.brahmanicrm.com/products/22396/3.jpg",
-      "https://assets.brahmanicrm.com/products/22396/4.jpg",
-      "https://assets.brahmanicrm.com/products/22396/5.jpg"
+      "https://assets.brahmanicrm.com/products/22396/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22396/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22396/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22396/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22396/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22396/d05bb538-a685-4227-8471-9e81c4254f36@full.webp",
+      "https://assets.brahmanicrm.com/products/22396/e7955bcc-7419-4ba6-826e-6a9cdd5a9d5c@full.webp"
     ],
-    "description": "Double Walled Vacuum Insulated Glass Water Bottle,Cartoon Design Hot & Cold Water Bottle for Kid,Water Bottle for School,Travel Bottle, Kids Milk Bottle.",
+    "description": "Capacity: 380ml capacity, making it compact, lightweight, and perfect for carrying daily hydration needs.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4381,7 +5087,8 @@ export const INITIAL_PRODUCTS = [
       "WATER",
       "BOTTLE",
       "DESIGN",
-      "FANS"
+      "FANS",
+      "CHINA"
     ]
   },
   {
@@ -4391,21 +5098,26 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS WATER BOTTLE HELLO MASTER",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 60,
+    "basePrice": 40,
     "piecesPerCarton": 100,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22241/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22241/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22241/0.jpg",
-      "https://assets.brahmanicrm.com/products/22241/1.jpg",
-      "https://assets.brahmanicrm.com/products/22241/2.jpg",
-      "https://assets.brahmanicrm.com/products/22241/3.jpg",
-      "https://assets.brahmanicrm.com/products/22241/4.jpg",
-      "https://assets.brahmanicrm.com/products/22241/5.jpg",
-      "https://assets.brahmanicrm.com/products/22241/6.jpg",
-      "https://assets.brahmanicrm.com/products/22241/7.jpg"
+      "https://assets.brahmanicrm.com/products/22241/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22241/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22241/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22241/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22241/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22241/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22241/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22241/7@full.webp",
+      "https://assets.brahmanicrm.com/products/22241/ff1f56df-6228-492c-9d7b-2a01fff6737e@full.webp"
     ],
-    "description": "80 PCS CTN\nHello Master Borosilicate Water Bottle, Transparent Water Bottle for Home, Office, Gym, Picnic and Travelling Stylish Glass Bottle Random Color 1 Piece (500ML)",
+    "description": "Design: Gradient-colored frosted glass bottles featuring the playful text \"HELLO MASTER\" and a matching carrying strap on the lid.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4416,7 +5128,8 @@ export const INITIAL_PRODUCTS = [
       "WATER",
       "BOTTLE",
       "HELLO",
-      "MASTER"
+      "MASTER",
+      "CHINA"
     ]
   },
   {
@@ -4426,20 +5139,25 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS WATER BOTTLE LIKE",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 55,
+    "basePrice": 35,
     "piecesPerCarton": 100,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22263/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22263/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22263/0.jpg",
-      "https://assets.brahmanicrm.com/products/22263/1.jpg",
-      "https://assets.brahmanicrm.com/products/22263/2.jpg",
-      "https://assets.brahmanicrm.com/products/22263/3.jpg",
-      "https://assets.brahmanicrm.com/products/22263/4.jpg",
-      "https://assets.brahmanicrm.com/products/22263/5.jpg",
-      "https://assets.brahmanicrm.com/products/22263/6.jpg"
+      "https://assets.brahmanicrm.com/products/22263/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22263/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22263/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22263/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22263/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22263/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22263/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22263/8e248f07-31dd-4c76-a871-c61a2b89124e@full.webp"
     ],
-    "description": "Nice Water Bottle BPA Free Bottle Glass inner liner with Plastic Shell Bottles For School, Gym, Home, Office, Boys & Girls | Portable Handheld, Multicolor 400ml 1Pcs",
+    "description": "Design: Pastel-colored vacuum flasks featuring the text \"VACCUM FLASK NICE\" on the body.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4449,7 +5167,8 @@ export const INITIAL_PRODUCTS = [
       "GLASS",
       "WATER",
       "BOTTLE",
-      "LIKE"
+      "LIKE",
+      "CHINA"
     ]
   },
   {
@@ -4459,21 +5178,26 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS WATER BOTTLE LUCKY DAY",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 62,
+    "basePrice": 42,
     "piecesPerCarton": 100,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22249/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22249/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22249/0.jpg",
-      "https://assets.brahmanicrm.com/products/22249/1.jpg",
-      "https://assets.brahmanicrm.com/products/22249/2.jpg",
-      "https://assets.brahmanicrm.com/products/22249/3.jpg",
-      "https://assets.brahmanicrm.com/products/22249/4.jpg",
-      "https://assets.brahmanicrm.com/products/22249/5.jpg",
-      "https://assets.brahmanicrm.com/products/22249/6.jpg",
-      "https://assets.brahmanicrm.com/products/22249/7.jpg"
+      "https://assets.brahmanicrm.com/products/22249/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22249/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22249/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22249/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22249/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22249/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22249/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22249/7@full.webp",
+      "https://assets.brahmanicrm.com/products/22249/c851d8b2-21a9-4ba5-a568-9e24789c27de@full.webp"
     ],
-    "description": "Happy day Frost Glass Bottle Portable Water Bottle Leak Proof | Office Bottle | Gym Bottle | Home | Kitchen | Travel Bottle Lucky Day Assorted Color",
+    "description": "Designed with a trendy \"LUCKY DAY - Wonderful\" typography and a stylish frosted matte finish for an aesthetic appeal.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4484,7 +5208,8 @@ export const INITIAL_PRODUCTS = [
       "WATER",
       "BOTTLE",
       "LUCKY",
-      "DAY"
+      "DAY",
+      "CHINA"
     ]
   },
   {
@@ -4494,18 +5219,23 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS WATER BOTTLE LUCKY DAY CLEAR",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 60,
+    "basePrice": 40,
     "piecesPerCarton": 100,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22252/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22252/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22252/0.jpg",
-      "https://assets.brahmanicrm.com/products/22252/1.jpg",
-      "https://assets.brahmanicrm.com/products/22252/2.jpg",
-      "https://assets.brahmanicrm.com/products/22252/3.jpg",
-      "https://assets.brahmanicrm.com/products/22252/4.jpg"
+      "https://assets.brahmanicrm.com/products/22252/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22252/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22252/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22252/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22252/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22252/29a649d8-2d26-4897-97f2-91842f0085de@full.webp"
     ],
-    "description": "Suitable for water, juices, smoothies, or any beverage of your choice with elegant look.Made from high-quality, shatter-resistant glass for a long-lasting use.",
+    "description": "Design: Clear glass bottle featuring printed text like \"LUCKY DAY\" or \"HAPPY DAY\" with a smiley face and a woven rope lanyard on the lid.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4516,38 +5246,9 @@ export const INITIAL_PRODUCTS = [
       "WATER",
       "BOTTLE",
       "LUCKY",
-      "DAY"
-    ]
-  },
-  {
-    "id": "c67224fd-3284-4c21-a320-02961fdedab0",
-    "itemCode": "22395",
-    "aliasName": "H6-0302",
-    "name": "GLASS WATER BOTTLE PANGPANG",
-    "category": "bottles",
-    "categoryName": "Milk & Water Bottles",
-    "price": 57,
-    "piecesPerCarton": 105,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22395/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22395/0.jpg",
-      "https://assets.brahmanicrm.com/products/22395/1.jpg",
-      "https://assets.brahmanicrm.com/products/22395/2.jpg",
-      "https://assets.brahmanicrm.com/products/22395/3.jpg",
-      "https://assets.brahmanicrm.com/products/22395/4.jpg"
-    ],
-    "description": "Beauty Mini Portable Small water bottle with Mobile Phone Stand Milk Cup High Temperature and Explosion Glass.",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GLASS",
-      "WATER",
-      "BOTTLE",
-      "PANGPANG"
+      "DAY",
+      "CLEAR",
+      "CHINA"
     ]
   },
   {
@@ -4557,19 +5258,24 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS WATER BOTTLE RABBIT",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 62,
+    "basePrice": 42,
     "piecesPerCarton": 100,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22261/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22261/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22261/0.jpg",
-      "https://assets.brahmanicrm.com/products/22261/1.jpg",
-      "https://assets.brahmanicrm.com/products/22261/2.jpg",
-      "https://assets.brahmanicrm.com/products/22261/3.jpg",
-      "https://assets.brahmanicrm.com/products/22261/4.jpg",
-      "https://assets.brahmanicrm.com/products/22261/5.jpg"
+      "https://assets.brahmanicrm.com/products/22261/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22261/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22261/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22261/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22261/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22261/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22261/43887cb8-07e3-4f3c-b4b8-c83a56fb8378@full.webp"
     ],
-    "description": "Adorably Aesthetic Design: Features cute pastel pink and mint green finishes paired with charming rabbit graphics and playful typography like \"The Little Rabbit\" and \"It's a cute rabbit!\".\n\nCompact & Portable: Designed with an integrated silicone strap handle on the lid, making it easy to carry around for daily use, school, or travel.\n\nCozy Aesthetic Styling: Beautifully styled against a soft textured blanket and woven basket background, giving it a warm, inviting, and gift-worthy look.\n\nLeak-Resistant Screw Cap: Equipped with a secure, rounded cap that ensures a tight seal to prevent spills while maintaining a smooth, modern silhouette.",
+    "description": "Adorable Design: Features a charming \"The Little Rabbit\" graphic print along with playful typography like \"It's a cute rabbit!\" on a pastel-colored body.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4579,7 +5285,8 @@ export const INITIAL_PRODUCTS = [
       "GLASS",
       "WATER",
       "BOTTLE",
-      "RABBIT"
+      "RABBIT",
+      "CHINA"
     ]
   },
   {
@@ -4589,20 +5296,19 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS WATER2 JUG 1 LTR",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 140,
+    "basePrice": 120,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21142/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21142/2a594cf9-1c26-4c12-9384-231afc1afb07@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21142/0.jpg",
-      "https://assets.brahmanicrm.com/products/21142/1.jpg",
-      "https://assets.brahmanicrm.com/products/21142/2.jpg",
-      "https://assets.brahmanicrm.com/products/21142/3.jpg",
-      "https://assets.brahmanicrm.com/products/21142/4.jpg",
-      "https://assets.brahmanicrm.com/products/21142/5.jpg",
-      "https://assets.brahmanicrm.com/products/21142/6.jpg"
+      "https://assets.brahmanicrm.com/products/21142/2a594cf9-1c26-4c12-9384-231afc1afb07@full.webp",
+      "https://assets.brahmanicrm.com/products/21142/519fb587-705c-4c89-a38c-2b77ec234258@full.webp",
+      "https://assets.brahmanicrm.com/products/21142/e155a6c2-b7da-4105-9b36-cb8379efbe3e@full.webp",
+      "https://assets.brahmanicrm.com/products/21142/2add11c1-2cac-4cd6-8c42-343d3a25e2ea@full.webp"
     ],
-    "description": "Glass Water/Juice Jug Pitcher Carafe with Handle and Plastic Lid for Drinking Beverages, Serving Kitchen and Dining/Tableware-Milk, Juice, HEXA JUG",
+    "description": "Special Features: Fluted Body Design, Sturdy Handle, Spout Lid",
     "capacity": "1 LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4622,20 +5328,18 @@ export const INITIAL_PRODUCTS = [
     "name": "GLASS WATER2 JUG LINING 1 LTR",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 140,
+    "basePrice": 120,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21143/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21143/d55e8877-5aeb-473b-8854-08fba09cc187@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21143/0.jpg",
-      "https://assets.brahmanicrm.com/products/21143/1.jpg",
-      "https://assets.brahmanicrm.com/products/21143/2.jpg",
-      "https://assets.brahmanicrm.com/products/21143/3.jpg",
-      "https://assets.brahmanicrm.com/products/21143/4.jpg",
-      "https://assets.brahmanicrm.com/products/21143/5.jpg",
-      "https://assets.brahmanicrm.com/products/21143/6.jpg"
+      "https://assets.brahmanicrm.com/products/21143/d55e8877-5aeb-473b-8854-08fba09cc187@full.webp",
+      "https://assets.brahmanicrm.com/products/21143/bea48883-f97b-42f8-b9fe-36b1bd8c652b@full.webp",
+      "https://assets.brahmanicrm.com/products/21143/7843dea0-db01-493d-b20d-3b940217f2f4@full.webp"
     ],
-    "description": "Glass Water Jug with Lid Glass Pitcher Hot Water Jug Milk Carafe Glass Water Jug for Dining Table (1000ML)",
+    "description": "Special Features: Vertical Striped Texture, Ergonomic Handle, Drip-Free Spout, Food-Grade",
     "capacity": "1 LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4656,17 +5360,22 @@ export const INITIAL_PRODUCTS = [
     "name": "GLOBE DECANTER SET 4PCS SET",
     "category": "decanters",
     "categoryName": "Luxury Decanter Sets",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 1940,
+    "basePrice": 1920,
     "piecesPerCarton": 4,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22049/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22049/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22049/0.jpg",
-      "https://assets.brahmanicrm.com/products/22049/1.jpg",
-      "https://assets.brahmanicrm.com/products/22049/2.jpg",
-      "https://assets.brahmanicrm.com/products/22049/3.jpg"
+      "https://assets.brahmanicrm.com/products/22049/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22049/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22049/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22049/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22049/99d623ba-b507-47f2-82d9-31c844ee74ff@full.webp"
     ],
-    "description": "The image features a luxurious, intricately designed glass decanter set. The centerpiece is a striking globe-shaped decanter that encases a delicately crafted, three-dimensional glass sailing ship. It is tilted perfectly on a sleek, curved black stand. Surrounding the decanter are four matching drinking glasses, each elegantly etched with a frosted world map design. The entire collection rests securely on a smooth, dark display tray.",
+    "description": "Pack Contents: 4-piece luxury set featuring a large globe decanter with an exquisite handcrafted ship inside, paired with 4 matching world-map etched whiskey glasses on a custom wooden serving tray.",
     "capacity": "4PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4676,7 +5385,8 @@ export const INITIAL_PRODUCTS = [
       "GLOBE",
       "DECANTER",
       "SET",
-      "4PCS"
+      "4PCS",
+      "CHINA"
     ]
   },
   {
@@ -4686,20 +5396,25 @@ export const INITIAL_PRODUCTS = [
     "name": "GOLDEN HANDLE MUG 440ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 105,
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 100,
+    "basePrice": 80,
     "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20213/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20213/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20213/0.jpg",
-      "https://assets.brahmanicrm.com/products/20213/1.jpg",
-      "https://assets.brahmanicrm.com/products/20213/2.jpg",
-      "https://assets.brahmanicrm.com/products/20213/3.jpg",
-      "https://assets.brahmanicrm.com/products/20213/4.jpg",
-      "https://assets.brahmanicrm.com/products/20213/5.jpg",
-      "https://assets.brahmanicrm.com/products/20213/6.jpg"
+      "https://assets.brahmanicrm.com/products/20213/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20213/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20213/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20213/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20213/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20213/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20213/6@full.webp",
+      "https://assets.brahmanicrm.com/products/20213/11ef44d6-7c0b-4600-a3af-4996ec13329c@full.webp"
     ],
-    "description": "Elevate your daily beverage experience with this stunning Aesthetic Hammered Glass Coffee Mug. Featuring a unique textured honeycomb pattern and a striking amber-tinted handle, this mug blends modern elegance with cozy, rustic charm.",
+    "description": "Capacity: 440ml generous capacity, making it perfect for serving coffee, tea, iced beverages, juice, or milk.",
     "capacity": "440ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4709,173 +5424,8 @@ export const INITIAL_PRODUCTS = [
       "GOLDEN",
       "HANDLE",
       "MUG",
-      "440ML"
-    ]
-  },
-  {
-    "id": "af3adcd6-2e04-48e9-b550-b3ef6884c9dd",
-    "itemCode": "22497",
-    "aliasName": "APB40",
-    "name": "GOLDEN HANDLE MUG YL 450ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 105,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22497/fcca2f27-b6ed-429c-9282-5f184274dd35.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22497/fcca2f27-b6ed-429c-9282-5f184274dd35.jpg",
-      "https://assets.brahmanicrm.com/products/22497/118223c3-5d90-4b5f-a872-02590a0e1700.jpg",
-      "https://assets.brahmanicrm.com/products/22497/ce8afe9e-d8c7-4853-b647-c8b12db304a5.jpg",
-      "https://assets.brahmanicrm.com/products/22497/d6f29b7f-0771-4281-8943-e5192305af5a.jpg",
-      "https://assets.brahmanicrm.com/products/22497/668ee53c-bb93-41e6-8490-6515ff7e701b.jpg"
-    ],
-    "description": "Elevate your daily beverage experience with this stunning Aesthetic Hammered Glass Coffee Mug. Featuring a unique textured honeycomb pattern and a striking amber-tinted handle, this mug blends modern elegance with cozy, rustic charm.",
-    "capacity": "450ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GOLDEN",
-      "HANDLE",
-      "MUG",
-      "450ML"
-    ]
-  },
-  {
-    "id": "6f754e17-80b1-4e9e-9c68-46ed3b8a1e3a",
-    "itemCode": "22353",
-    "aliasName": "TLH01-900",
-    "name": "GOOD MOMENTS TEA KETTLE WOODEN HANDL 900ML",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 285,
-    "piecesPerCarton": 36,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22353/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22353/0.jpg",
-      "https://assets.brahmanicrm.com/products/22353/1.jpg",
-      "https://assets.brahmanicrm.com/products/22353/2.jpg",
-      "https://assets.brahmanicrm.com/products/22353/3.jpg",
-      "https://assets.brahmanicrm.com/products/22353/4.jpg",
-      "https://assets.brahmanicrm.com/products/22353/5.jpg",
-      "https://assets.brahmanicrm.com/products/22353/6.jpg"
-    ],
-    "description": "Glass Teapot with Glass Infuser, 900ml Tea Pot with Bamboo Handle, Heat-Resistant Glass Tea Pot, Borosilicate Glass Tea Maker, for Loose Tea, Safe On Stovetop.",
-    "capacity": "900ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GOOD",
-      "MOMENTS",
-      "TEA",
-      "KETTLE",
-      "WOODEN"
-    ]
-  },
-  {
-    "id": "cc639066-9db9-426f-afd2-e68e87a75aa1",
-    "itemCode": "23072",
-    "aliasName": null,
-    "name": "GREEN TEA FILTER SIPPER BOTTLE 800ML",
-    "category": "bottles",
-    "categoryName": "Milk & Water Bottles",
-    "price": 180,
-    "piecesPerCarton": 60,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23072/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23072/0.jpg",
-      "https://assets.brahmanicrm.com/products/23072/1.jpg",
-      "https://assets.brahmanicrm.com/products/23072/2.jpg",
-      "https://assets.brahmanicrm.com/products/23072/3.jpg",
-      "https://assets.brahmanicrm.com/products/23072/4.jpg",
-      "https://assets.brahmanicrm.com/products/23072/5.jpg",
-      "https://assets.brahmanicrm.com/products/23072/6.jpg",
-      "https://assets.brahmanicrm.com/products/23072/7.jpg"
-    ],
-    "description": "Crafted with a unique tea infuser, this flask effortlessly separates tea or coffee grounds, guaranteeing a sipping experience every time. The glass tea infuser is not only functional but also adds a touch of elegance to your daily routine, making it a must-have accessory for tea enthusiasts.",
-    "capacity": "800ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GREEN",
-      "TEA",
-      "FILTER",
-      "SIPPER",
-      "BOTTLE"
-    ]
-  },
-  {
-    "id": "10b917c0-f749-49a1-8109-1149a37b1488",
-    "itemCode": "22707",
-    "aliasName": null,
-    "name": "GREEN TEA KETTLE GLASS HANDLE 500ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 245,
-    "piecesPerCarton": 80,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22707/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22707/0.jpg",
-      "https://assets.brahmanicrm.com/products/22707/1.jpg",
-      "https://assets.brahmanicrm.com/products/22707/2.jpg",
-      "https://assets.brahmanicrm.com/products/22707/3.jpg",
-      "https://assets.brahmanicrm.com/products/22707/4.jpg"
-    ],
-    "description": "Our Inspire Glass Tea Pot is a versatile addition to your kitchen, designed to work seamlessly on stovetop gas burners. It is perfect for making Masala Chai as the tea can be boiled directly in the teapot, and the infuser automatically strains it, when its ready.",
-    "capacity": "500ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GREEN",
-      "TEA",
-      "KETTLE",
-      "GLASS",
-      "HANDLE"
-    ]
-  },
-  {
-    "id": "6e55f51d-ccfe-4e8f-9b2e-483d4a8d61ca",
-    "itemCode": "23147",
-    "aliasName": null,
-    "name": "GREEN TEA KETTLE GLASS STRAINER 800M",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 240,
-    "piecesPerCarton": 36,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23147/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23147/0.jpg",
-      "https://assets.brahmanicrm.com/products/23147/1.jpg",
-      "https://assets.brahmanicrm.com/products/23147/2.jpg",
-      "https://assets.brahmanicrm.com/products/23147/3.jpg",
-      "https://assets.brahmanicrm.com/products/23147/4.jpg",
-      "https://assets.brahmanicrm.com/products/23147/5.jpg",
-      "https://assets.brahmanicrm.com/products/23147/6.jpg"
-    ],
-    "description": "Enjoy a pure and refreshing tea experience with this Premium Borosilicate Glass Teapot. Made from high-quality heat-resistant glass, this teapot allows you to watch your tea brew beautifully while preserving the original taste and aroma.The teapot comes with a built-in glass infuser, making it perfect for brewing green tea, herbal tea, flowering tea, and loose leaf tea. Its elegant transparent design adds a modern and premium look to your kitchen or tea table.",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GREEN",
-      "TEA",
-      "KETTLE",
-      "GLASS",
-      "STRAINER"
+      "440ML",
+      "CHINA"
     ]
   },
   {
@@ -4885,20 +5435,25 @@ export const INITIAL_PRODUCTS = [
     "name": "GREEN TEA KETTLE SQUARE 550ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 170,
+    "basePrice": 150,
     "piecesPerCarton": 80,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22705/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22705/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22705/0.jpg",
-      "https://assets.brahmanicrm.com/products/22705/1.jpg",
-      "https://assets.brahmanicrm.com/products/22705/2.jpg",
-      "https://assets.brahmanicrm.com/products/22705/3.jpg",
-      "https://assets.brahmanicrm.com/products/22705/4.jpg",
-      "https://assets.brahmanicrm.com/products/22705/5.jpg",
-      "https://assets.brahmanicrm.com/products/22705/6.jpg"
+      "https://assets.brahmanicrm.com/products/22705/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22705/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22705/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22705/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22705/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22705/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22705/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22705/2a628086-3862-403e-b747-89582d5fa717@full.webp"
     ],
-    "description": "glass infuser teapot made from heat resistant borosilicate glass and stainless steel, V-shaped eagle teapot outlet design ensure the water fall smoothly and concentratedly when you are pouring tea",
+    "description": "Capacity: 550ml capacity, ideal for brewing and serving multiple cups of green tea, herbal tea, loose leaf tea, or blooming tea.",
     "capacity": "550ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -4909,73 +5464,8 @@ export const INITIAL_PRODUCTS = [
       "TEA",
       "KETTLE",
       "SQUARE",
-      "550ML"
-    ]
-  },
-  {
-    "id": "1dffff08-b29b-4e45-abd2-132a466ce94e",
-    "itemCode": "21683",
-    "aliasName": "LX-14",
-    "name": "GREEN TEA KETTLE SQUARE 750ML",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 190,
-    "piecesPerCarton": 60,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21683/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/21683/0.jpg",
-      "https://assets.brahmanicrm.com/products/21683/1.jpg",
-      "https://assets.brahmanicrm.com/products/21683/2.jpg",
-      "https://assets.brahmanicrm.com/products/21683/3.jpg",
-      "https://assets.brahmanicrm.com/products/21683/4.jpg",
-      "https://assets.brahmanicrm.com/products/21683/5.jpg",
-      "https://assets.brahmanicrm.com/products/21683/6.jpg"
-    ],
-    "description": "glass infuser teapot made from heat resistant borosilicate glass and stainless steel, V shaped eagle teapot outlet design ensure the water fall smoothly and concentratedly when you are pouring tea",
-    "capacity": "750ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GREEN",
-      "TEA",
-      "KETTLE",
-      "SQUARE",
-      "750ML"
-    ]
-  },
-  {
-    "id": "a1007f85-a263-406a-a82f-45fcd9bc0bac",
-    "itemCode": "22429",
-    "aliasName": "GPH22-ECHOU",
-    "name": "GREEN TEA KETTLE STAINER 2",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 215,
-    "piecesPerCarton": 36,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22429/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22429/0.jpg",
-      "https://assets.brahmanicrm.com/products/22429/1.jpg",
-      "https://assets.brahmanicrm.com/products/22429/2.jpg",
-      "https://assets.brahmanicrm.com/products/22429/3.jpg",
-      "https://assets.brahmanicrm.com/products/22429/4.jpg",
-      "https://assets.brahmanicrm.com/products/22429/5.jpg"
-    ],
-    "description": "Teapot Kettle Round Set of 1(Not Heat Resistant) Stainless Steel Infuser Perfect for Tea and Coffee Maker, Clear Leaf Glass Kettle Teapot, Strainer Lid.",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GREEN",
-      "TEA",
-      "KETTLE",
-      "STAINER"
+      "550ML",
+      "CHINA"
     ]
   },
   {
@@ -4985,19 +5475,24 @@ export const INITIAL_PRODUCTS = [
     "name": "GREEN TEA KETTLE TRIANGLE STAINER 550ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 165,
+    "basePrice": 145,
     "piecesPerCarton": 80,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20856/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20856/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20856/0.jpg",
-      "https://assets.brahmanicrm.com/products/20856/1.jpg",
-      "https://assets.brahmanicrm.com/products/20856/2.jpg",
-      "https://assets.brahmanicrm.com/products/20856/3.jpg",
-      "https://assets.brahmanicrm.com/products/20856/4.jpg",
-      "https://assets.brahmanicrm.com/products/20856/5.jpg"
+      "https://assets.brahmanicrm.com/products/20856/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20856/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20856/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20856/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20856/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20856/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20856/3ef81f0c-11a9-4f1b-a2d6-379c766ce5cc@full.webp"
     ],
-    "description": "Glass hot/cold water carafe is made of durable food glass which withstands temperatures from 0 to 300 ℉. This makes it safe for pouring boiling water or using it on electric/gas stoves",
+    "description": "Capacity: 550ml capacity, ideal for brewing and serving multiple cups of green tea, herbal tea, or loose leaf tea.",
     "capacity": "550ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5008,41 +5503,9 @@ export const INITIAL_PRODUCTS = [
       "TEA",
       "KETTLE",
       "TRIANGLE",
-      "STAINER"
-    ]
-  },
-  {
-    "id": "bb01a481-28cd-4221-92c7-3ef09917feee",
-    "itemCode": "20953",
-    "aliasName": "GPH74-2",
-    "name": "GREEN TEA KETTLE TRIANGLE STRAINER 750ML",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 185,
-    "piecesPerCarton": 60,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20953/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/20953/0.jpg",
-      "https://assets.brahmanicrm.com/products/20953/1.jpg",
-      "https://assets.brahmanicrm.com/products/20953/2.jpg",
-      "https://assets.brahmanicrm.com/products/20953/3.jpg",
-      "https://assets.brahmanicrm.com/products/20953/4.jpg",
-      "https://assets.brahmanicrm.com/products/20953/5.jpg",
-      "https://assets.brahmanicrm.com/products/20953/6.jpg"
-    ],
-    "description": "Suitable for green tea, black tea, jasmine tea, oolong tea, craft tea, fruit tea, and other tea utensils",
-    "capacity": "750ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "GREEN",
-      "TEA",
-      "KETTLE",
-      "TRIANGLE",
-      "STRAINER"
+      "STAINER",
+      "550ML",
+      "CHINA"
     ]
   },
   {
@@ -5052,19 +5515,24 @@ export const INITIAL_PRODUCTS = [
     "name": "GREEN TEA KETTLE TRIANGLE STRAINER 900ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 195,
+    "basePrice": 175,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20986/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20986/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20986/0.jpg",
-      "https://assets.brahmanicrm.com/products/20986/1.jpg",
-      "https://assets.brahmanicrm.com/products/20986/2.jpg",
-      "https://assets.brahmanicrm.com/products/20986/3.jpg",
-      "https://assets.brahmanicrm.com/products/20986/4.jpg",
-      "https://assets.brahmanicrm.com/products/20986/5.jpg"
+      "https://assets.brahmanicrm.com/products/20986/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20986/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20986/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20986/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20986/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20986/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20986/ecdcbcae-7d08-4890-b075-28a03745968c@full.webp"
     ],
-    "description": "Teapot-Green Tea Kettle Triangle Steiner 900ML Glass Tea Kettle Heat Resistant Tea Pot with Stainless Steel Infuser Strainer for Coffee-Tea Transparent",
+    "description": "Featuring a 900ml capacity with a stable wide-base design, perfect for brewing and serving green tea, herbal tea, or regular tea for family and guests.",
     "capacity": "900ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5075,7 +5543,9 @@ export const INITIAL_PRODUCTS = [
       "TEA",
       "KETTLE",
       "TRIANGLE",
-      "STRAINER"
+      "STRAINER",
+      "900ML",
+      "CHINA"
     ]
   },
   {
@@ -5085,18 +5555,20 @@ export const INITIAL_PRODUCTS = [
     "name": "GREEN TEA MUG 410ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 95,
+    "basePrice": 75,
     "piecesPerCarton": 100,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20166/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20166/ce79d7e6-8826-4bec-a125-0ec51c4d4138@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20166/0.jpg",
-      "https://assets.brahmanicrm.com/products/20166/1.jpg",
-      "https://assets.brahmanicrm.com/products/20166/2.jpg",
-      "https://assets.brahmanicrm.com/products/20166/3.png",
-      "https://assets.brahmanicrm.com/products/20166/4.png"
+      "https://assets.brahmanicrm.com/products/20166/ce79d7e6-8826-4bec-a125-0ec51c4d4138@full.webp",
+      "https://assets.brahmanicrm.com/products/20166/e9378a63-4dc9-4e6c-8c0c-28b8993a4e99@full.webp",
+      "https://assets.brahmanicrm.com/products/20166/2946cd97-1676-4696-8d55-3ca688a4e30b@full.webp"
     ],
-    "description": "Made of premium quality lead-free borosilicate glass, allowing you to heat up your beverage to a desired temperature in the microwave, or conveniently clean it (hands free) in the dishwasher",
+    "description": "Featuring a large 410ml capacity, this mug is perfect for enjoying generous servings of green tea, black tea, coffee, soup, or milkshakes.",
     "capacity": "410ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5106,7 +5578,8 @@ export const INITIAL_PRODUCTS = [
       "GREEN",
       "TEA",
       "MUG",
-      "410ML"
+      "410ML",
+      "CHINA"
     ]
   },
   {
@@ -5116,20 +5589,25 @@ export const INITIAL_PRODUCTS = [
     "name": "GUITAR DECANTER SET 1PCS",
     "category": "decanters",
     "categoryName": "Luxury Decanter Sets",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 2000,
+    "basePrice": 1980,
     "piecesPerCarton": 10,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22167/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22167/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22167/0.jpg",
-      "https://assets.brahmanicrm.com/products/22167/1.jpg",
-      "https://assets.brahmanicrm.com/products/22167/2.jpg",
-      "https://assets.brahmanicrm.com/products/22167/3.jpg",
-      "https://assets.brahmanicrm.com/products/22167/4.jpg",
-      "https://assets.brahmanicrm.com/products/22167/5.jpg",
-      "https://assets.brahmanicrm.com/products/22167/6.jpg"
+      "https://assets.brahmanicrm.com/products/22167/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22167/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22167/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22167/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22167/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22167/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22167/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22167/786c177a-5332-4cc3-af2c-0d8b8c654522@full.webp"
     ],
-    "description": "Luxury Violin Glass Decanter – Elegant 1000ml Liquor Dispenser\nAdd a touch of musical elegance and sophisticated luxury to your home bar setup. Meticulously designed to look like a classic violin, this exquisite glass decanter features ornate golden filigree details, transforming your favorite spirits into a stunning centerpiece display.\n\nKey Features\nExquisite Violin Design: Features a beautifully detailed, violin-shaped glass body adorned with intricate gold patterns that shimmer elegantly when filled with rich spirits.\n\nPremium Lead-Free Glass: Crafted from high-clarity, food-grade glass that beautifully showcases the natural colors of your liquor while maintaining its pure taste.\n\nGenerous 1000ml Capacity: Designed to hold a full standard bottle of your premium spirits with extra room to breathe and enhance the aroma.\n\nPreservation Stopper: Comes with a matching precision-fit glass stopper at the neck to create an airtight seal, keeping your drinks fresh and full-flavored.\n\nPerfect Professional Presentation: Ideal for high-end e-commerce listings, corporate gifting, or as an upscale addition to a luxury home bar collection.",
+    "description": "Designed in a stunning and artistic musical instrument (violin/guitar) shape, adding a luxurious and eye-catching aesthetic to your home bar or living room.",
     "capacity": "1PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5139,39 +5617,8 @@ export const INITIAL_PRODUCTS = [
       "GUITAR",
       "DECANTER",
       "SET",
-      "1PCS"
-    ]
-  },
-  {
-    "id": "39d725e0-a705-415b-bf78-297f1a957fae",
-    "itemCode": "23041",
-    "aliasName": "MSB-8407",
-    "name": "HANDS AND DISHES SOAP DISPENSER 500ML 2PCS WITH BAMBOO TRAY",
-    "category": "bowls",
-    "categoryName": "Bowls & Tableware",
-    "price": 240,
-    "piecesPerCarton": 20,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23041/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23041/0.jpg",
-      "https://assets.brahmanicrm.com/products/23041/1.jpg",
-      "https://assets.brahmanicrm.com/products/23041/2.jpg",
-      "https://assets.brahmanicrm.com/products/23041/3.jpg",
-      "https://assets.brahmanicrm.com/products/23041/4.jpg"
-    ],
-    "description": "This 2-pack soap dispenser set includes clearly labeled Hands and Dishes bottles. This hand and dish soap dispenser set with a bamboo tray brings organization, charm, and a natural touch to any countertop.",
-    "capacity": "500ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "HANDS",
-      "AND",
-      "DISHES",
-      "SOAP",
-      "DISPENSER"
+      "1PCS",
+      "CHINA"
     ]
   },
   {
@@ -5181,20 +5628,25 @@ export const INITIAL_PRODUCTS = [
     "name": "HAPPY EVERY DAY TEDDY BOTTLE 450ML",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 90,
+    "basePrice": 70,
     "piecesPerCarton": 70,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23068/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23068/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23068/0.jpg",
-      "https://assets.brahmanicrm.com/products/23068/1.jpg",
-      "https://assets.brahmanicrm.com/products/23068/2.jpg",
-      "https://assets.brahmanicrm.com/products/23068/3.jpg",
-      "https://assets.brahmanicrm.com/products/23068/4.jpg",
-      "https://assets.brahmanicrm.com/products/23068/5.jpg",
-      "https://assets.brahmanicrm.com/products/23068/6.jpg"
+      "https://assets.brahmanicrm.com/products/23068/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23068/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23068/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23068/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23068/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23068/5@full.webp",
+      "https://assets.brahmanicrm.com/products/23068/6@full.webp",
+      "https://assets.brahmanicrm.com/products/23068/ecfafac8-e1bb-4074-9ca7-0e4d7fe05f11@full.webp"
     ],
-    "description": "The silicone band around the center has the text \"Happy every day\" embossed on it. The lid is designed with a slot for a straw and a small, decorative silver bear figurine.",
+    "description": "Featuring an ideal 450ml capacity, this glass mug/bottle is perfectly sized for enjoying milk, juices, coffee, shakes, or your favorite beverages.",
     "capacity": "450ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5205,7 +5657,9 @@ export const INITIAL_PRODUCTS = [
       "EVERY",
       "DAY",
       "TEDDY",
-      "BOTTLE"
+      "BOTTLE",
+      "450ML",
+      "CHINA"
     ]
   },
   {
@@ -5215,18 +5669,23 @@ export const INITIAL_PRODUCTS = [
     "name": "HELLO KITTY SIPPER BOTTLE 500ML",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
-    "price": 150,
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 165,
+    "basePrice": 145,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23071/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23071/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23071/0.jpg",
-      "https://assets.brahmanicrm.com/products/23071/1.jpg",
-      "https://assets.brahmanicrm.com/products/23071/2.jpg",
-      "https://assets.brahmanicrm.com/products/23071/3.jpg",
-      "https://assets.brahmanicrm.com/products/23071/4.jpg"
+      "https://assets.brahmanicrm.com/products/23071/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23071/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23071/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23071/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23071/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23071/61db475c-9983-4ad2-8732-e9665db12534@full.webp"
     ],
-    "description": "They are commonly marketed towards children or students for daily use, hiking, travel, or outdoor activities.These bottles are typically made of glass.",
+    "description": "Featuring an ideal 500ml capacity, this bottle is perfectly sized for kids and teens for school, college, travel, or everyday use.",
     "capacity": "500ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5237,7 +5696,40 @@ export const INITIAL_PRODUCTS = [
       "KITTY",
       "SIPPER",
       "BOTTLE",
-      "500ML"
+      "500ML",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "c1481fe4-5f05-4d2b-9d06-e68d328bd5f6",
+    "itemCode": "22358",
+    "aliasName": "EH1028",
+    "name": "HEXA DUCK WATER JUG 1.3LTR",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 180,
+    "basePrice": 160,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22358/1a1e9d20-b20a-41b3-a5db-8cfdceae79dd@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22358/1a1e9d20-b20a-41b3-a5db-8cfdceae79dd@full.webp",
+      "https://assets.brahmanicrm.com/products/22358/4ca78279-7008-4718-b5eb-340ac0382b93@full.webp",
+      "https://assets.brahmanicrm.com/products/22358/7caefc0c-a92c-4614-a58d-caf3b816c51f@full.webp"
+    ],
+    "description": "Special Features: Hexagonal Body, Duck-Style Flip Lid, Sturdy Handle",
+    "capacity": "1.3LTR",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "HEXA",
+      "DUCK",
+      "WATER",
+      "JUG",
+      "1.3LTR"
     ]
   },
   {
@@ -5247,18 +5739,24 @@ export const INITIAL_PRODUCTS = [
     "name": "HEXA WATER3 JUG  1LTR BOX PACK",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 150,
+    "basePrice": 130,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21396/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21396/e145bcc7-2b8f-46de-900a-976fae3ab1e4@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21396/0.jpg",
-      "https://assets.brahmanicrm.com/products/21396/1.jpg",
-      "https://assets.brahmanicrm.com/products/21396/2.jpg",
-      "https://assets.brahmanicrm.com/products/21396/3.jpg",
-      "https://assets.brahmanicrm.com/products/21396/4.jpg"
+      "https://assets.brahmanicrm.com/products/21396/e145bcc7-2b8f-46de-900a-976fae3ab1e4@full.webp",
+      "https://assets.brahmanicrm.com/products/21396/d24a640f-8097-4ced-9ecb-8bd1d5d7070f@full.webp",
+      "https://assets.brahmanicrm.com/products/21396/702823f0-1963-4889-b4ce-0698d7c6fdec@full.webp",
+      "https://assets.brahmanicrm.com/products/21396/2b15d5f8-889a-4a3b-8a2e-d985481d981e@full.webp",
+      "https://assets.brahmanicrm.com/products/21396/90c32e68-4695-407e-bde2-1455dae80064@full.webp",
+      "https://assets.brahmanicrm.com/products/21396/69d35da4-7d11-4931-9f77-54bdc74226d3@full.webp",
+      "https://assets.brahmanicrm.com/products/21396/5d2f1497-42e3-4232-9b20-606b17997cf8@full.webp"
     ],
-    "description": "Serve refreshing water in style with this 1 L Glass Water Jug — a perfect blend of elegance, durability, and everyday functionality.",
+    "description": "Special Features: Hexagonal Geometric Texture, Ergonomic Handle, Drip-Free Spout",
     "capacity": "1LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5269,42 +5767,9 @@ export const INITIAL_PRODUCTS = [
       "WATER3",
       "JUG",
       "1LTR",
-      "BOX"
-    ]
-  },
-  {
-    "id": "6c9e8622-f823-4c55-b66b-7758edd1627d",
-    "itemCode": "20833",
-    "aliasName": "JS3101-4",
-    "name": "HIGHBALL GLASS 365ML 6PCS",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 200,
-    "piecesPerCarton": 12,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20833/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/20833/0.jpg",
-      "https://assets.brahmanicrm.com/products/20833/1.jpg",
-      "https://assets.brahmanicrm.com/products/20833/2.jpg",
-      "https://assets.brahmanicrm.com/products/20833/3.jpg",
-      "https://assets.brahmanicrm.com/products/20833/4.jpg",
-      "https://assets.brahmanicrm.com/products/20833/5.jpg",
-      "https://assets.brahmanicrm.com/products/20833/6.jpg",
-      "https://assets.brahmanicrm.com/products/20833/7.jpg",
-      "https://assets.brahmanicrm.com/products/20833/8.jpg"
-    ],
-    "description": "12 SET CTN\nHighball Glass Glass Set 6 for Dining Table Juice Heavy Base Tall Bar Drinking Glasses, Juice, Beer, Wine, Cocktails Cold Drink (Highball Glass 365ML 6PCS)",
-    "capacity": "365ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "HIGHBALL",
-      "GLASS",
-      "365ML",
-      "6PCS"
+      "BOX",
+      "PACK",
+      "GLASSWARE"
     ]
   },
   {
@@ -5314,20 +5779,25 @@ export const INITIAL_PRODUCTS = [
     "name": "HOHO AND MOTI SIPPER MUG 350ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 80,
+    "basePrice": 60,
     "piecesPerCarton": 70,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22063/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22063/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22063/0.jpg",
-      "https://assets.brahmanicrm.com/products/22063/1.jpg",
-      "https://assets.brahmanicrm.com/products/22063/2.jpg",
-      "https://assets.brahmanicrm.com/products/22063/3.jpg",
-      "https://assets.brahmanicrm.com/products/22063/4.jpg",
-      "https://assets.brahmanicrm.com/products/22063/5.jpg",
-      "https://assets.brahmanicrm.com/products/22063/6.jpg"
+      "https://assets.brahmanicrm.com/products/22063/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22063/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22063/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22063/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22063/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22063/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22063/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22063/58c13e6d-21b2-456a-99d3-b766365f3ec3@full.webp"
     ],
-    "description": "Perfect for milk, coffee, smoothies, bubble tea, iced tea, fruit juices, milkshakes, and even water one cup for all your favorite drinks.A cute and practical gift choice for friends, family, or loved ones who appreciate stylish and functional drinkware.",
+    "description": "Featuring an ideal 350ml capacity, this sipper mug is perfectly sized for enjoying iced coffee, milkshakes, juices, or your favorite daily beverages.",
     "capacity": "350ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5338,7 +5808,9 @@ export const INITIAL_PRODUCTS = [
       "AND",
       "MOTI",
       "SIPPER",
-      "MUG"
+      "MUG",
+      "350ML",
+      "CHINA"
     ]
   },
   {
@@ -5348,18 +5820,23 @@ export const INITIAL_PRODUCTS = [
     "name": "HOHO MOTI STRAW MUG 350ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 80,
+    "basePrice": 60,
     "piecesPerCarton": 68,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23075/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23075/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23075/0.jpg",
-      "https://assets.brahmanicrm.com/products/23075/1.jpg",
-      "https://assets.brahmanicrm.com/products/23075/2.jpg",
-      "https://assets.brahmanicrm.com/products/23075/3.jpg",
-      "https://assets.brahmanicrm.com/products/23075/4.jpg"
+      "https://assets.brahmanicrm.com/products/23075/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23075/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23075/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23075/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23075/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23075/f3b4e7fc-b5a9-4fdf-8483-a89b85abebb9@full.webp"
     ],
-    "description": "High value pearl tote chain double drink straw summer girls coffee water cup tulip glass water cup.One dual-purpose coffee cup replaces disposable paper cups Reduce paper waste and bring your own coffee cup can also save money and deliver a more environmentally friendly lifestyle",
+    "description": "Featuring an ideal 350ml capacity, this straw mug is perfectly sized for enjoying iced coffee, milkshakes, juices, or your favorite daily beverages.",
     "capacity": "350ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5370,38 +5847,8 @@ export const INITIAL_PRODUCTS = [
       "MOTI",
       "STRAW",
       "MUG",
-      "350ML"
-    ]
-  },
-  {
-    "id": "e3095c0d-d7b3-4631-ad12-4ac2d3b1ffac",
-    "itemCode": "22211",
-    "aliasName": "H6-0109",
-    "name": "HOHO STRAW CUP 350ML BOX PACK",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 60,
-    "piecesPerCarton": 70,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22211/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22211/0.jpg",
-      "https://assets.brahmanicrm.com/products/22211/1.jpg",
-      "https://assets.brahmanicrm.com/products/22211/2.jpg",
-      "https://assets.brahmanicrm.com/products/22211/3.jpg"
-    ],
-    "description": "Reusable Glass Coffee Mugs with Lid and Straw Pack of 1,Drinking Glasses Tumbler with Belt. Double Drink Straw Sipper for Juice Smoothies Cocktail Home & Travel",
-    "capacity": "350ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "HOHO",
-      "STRAW",
-      "CUP",
       "350ML",
-      "BOX"
+      "CHINA"
     ]
   },
   {
@@ -5411,18 +5858,22 @@ export const INITIAL_PRODUCTS = [
     "name": "HOHO STRAW CUP 530ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 90,
+    "basePrice": 70,
     "piecesPerCarton": 58,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22384/f1a27aab-ef10-4027-b4c1-c1fe00c03e71.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22384/f1a27aab-ef10-4027-b4c1-c1fe00c03e71@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22384/f1a27aab-ef10-4027-b4c1-c1fe00c03e71.jpg",
-      "https://assets.brahmanicrm.com/products/22384/26cc281f-be02-4052-be13-387cbcc2b87f.jpg",
-      "https://assets.brahmanicrm.com/products/22384/f5887d16-046f-4730-93eb-ced977756c9d.jpg",
-      "https://assets.brahmanicrm.com/products/22384/599c890b-7564-455e-a91a-55ed66ba4421.jpg",
-      "https://assets.brahmanicrm.com/products/22384/f5e1062e-b81b-46f9-91d9-cb7f68ecaab0.jpg"
+      "https://assets.brahmanicrm.com/products/22384/f1a27aab-ef10-4027-b4c1-c1fe00c03e71@full.webp",
+      "https://assets.brahmanicrm.com/products/22384/26cc281f-be02-4052-be13-387cbcc2b87f@full.webp",
+      "https://assets.brahmanicrm.com/products/22384/f5887d16-046f-4730-93eb-ced977756c9d@full.webp",
+      "https://assets.brahmanicrm.com/products/22384/599c890b-7564-455e-a91a-55ed66ba4421@full.webp",
+      "https://assets.brahmanicrm.com/products/22384/f5e1062e-b81b-46f9-91d9-cb7f68ecaab0@full.webp"
     ],
-    "description": "Simple to clean and reuse, making these tumblers perfect for regular use with cold beverages",
+    "description": "Featuring a large 530ml capacity, this glass tumbler is perfectly sized for enjoying iced coffee, juices, milkshakes, mocktails, or iced tea.",
     "capacity": "530ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5432,38 +5883,8 @@ export const INITIAL_PRODUCTS = [
       "HOHO",
       "STRAW",
       "CUP",
-      "530ML"
-    ]
-  },
-  {
-    "id": "477e11ed-21ab-4dce-9418-901a383a8fbe",
-    "itemCode": "22393",
-    "aliasName": "H6-0031",
-    "name": "HOHO STRAW CUP LONG BLACK 450ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 80,
-    "piecesPerCarton": 58,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22393/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22393/0.jpg",
-      "https://assets.brahmanicrm.com/products/22393/1.jpg",
-      "https://assets.brahmanicrm.com/products/22393/2.jpg",
-      "https://assets.brahmanicrm.com/products/22393/3.jpg"
-    ],
-    "description": "Reusable Sipper Coffee Mug with Leather Sleeve with Straw - Tea and Coffee Glass Sipper Tumbler Mug, Soda Coco cola, Fruit Juice, Milk Mug with Straw Transparent.",
-    "capacity": "450ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "HOHO",
-      "STRAW",
-      "CUP",
-      "LONG",
-      "BLACK"
+      "530ML",
+      "CHINA"
     ]
   },
   {
@@ -5473,17 +5894,20 @@ export const INITIAL_PRODUCTS = [
     "name": "HONEY TEA CUP 190ML 6PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 220,
+    "basePrice": 200,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22909/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22909/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22909/0.jpg",
-      "https://assets.brahmanicrm.com/products/22909/1.jpg",
-      "https://assets.brahmanicrm.com/products/22909/2.jpg",
-      "https://assets.brahmanicrm.com/products/22909/3.jpg"
+      "https://assets.brahmanicrm.com/products/22909/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22909/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22909/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22909/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22909/2481ffee-cafb-4a15-8abb-25dd771d057f@full.webp"
     ],
-    "description": "Start every tea moment with charm and elegance with our Honey Tea Cup 190ml 6pcs Set — beautifully designed for tea lovers and everyday use. This set brings simplicity and style together, making it perfect for home use, gifting, or cafés.",
+    "description": "Featuring an ideal 500ml capacity, this bottle is perfectly sized for kids and teens for school, college, travel, or everyday use.",
     "capacity": "190ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5504,18 +5928,22 @@ export const INITIAL_PRODUCTS = [
     "name": "HONEY TEA CUP 210ML 6PCS YUJING",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 75,
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
+    "price": 220,
+    "basePrice": 200,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20154/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20154/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20154/0.jpg",
-      "https://assets.brahmanicrm.com/products/20154/1.jpg",
-      "https://assets.brahmanicrm.com/products/20154/2.jpg",
-      "https://assets.brahmanicrm.com/products/20154/3.jpg",
-      "https://assets.brahmanicrm.com/products/20154/4.jpg"
+      "https://assets.brahmanicrm.com/products/20154/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20154/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20154/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20154/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20154/4@full.webp"
     ],
-    "description": "The Tea coffee Cup Set Is Completely Lead Free, Non-Toxic And Tasteless and made from ultra-clarity glass. You can rest assured that use.",
+    "description": "Featuring an ideal 210ml capacity, these glass cups are perfectly sized for serving tea, coffee, green tea, milk, or hot chocolate.",
     "capacity": "210ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5526,57 +5954,165 @@ export const INITIAL_PRODUCTS = [
       "TEA",
       "CUP",
       "210ML",
-      "6PCS"
+      "6PCS",
+      "YUJING",
+      "GLASSWARE"
     ]
   },
   {
-    "id": "69f107db-0734-423b-bb72-6cb70f25d709",
-    "itemCode": "22602",
+    "id": "eda60df7-d3a2-4964-99d2-57674e378d89",
+    "itemCode": "22310",
+    "aliasName": "JG-60801",
+    "name": "ICE CREAM BOWL 6PCS 170ML POINTED",
+    "category": "bowls",
+    "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [],
+    "price": 248,
+    "basePrice": 228,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22310/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22310/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22310/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22310/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22310/3@full.webp"
+    ],
+    "description": "Classic Ice Cream Glass Salad Fruit Bowl, Tableware Flower Dessert Bowl Glassware Set Pack of 6",
+    "capacity": "6PCS",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "ICE",
+      "CREAM",
+      "BOWL",
+      "6PCS",
+      "170ML",
+      "POINTED"
+    ]
+  },
+  {
+    "id": "c6d53541-2e6a-45ed-b0bd-62b9a5c4e5cf",
+    "itemCode": "22551",
     "aliasName": null,
-    "name": "JEWELERY STORAGE BOX MINI",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 74,
+    "name": "ICE CREAM PLASTIC WATER BOTTLE",
+    "category": "bottles",
+    "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 130,
+    "basePrice": 110,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22602/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22551/16439978-f01f-4ce4-aa84-f8140a55c964@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22602/0.jpg",
-      "https://assets.brahmanicrm.com/products/22602/1.jpg",
-      "https://assets.brahmanicrm.com/products/22602/2.jpg",
-      "https://assets.brahmanicrm.com/products/22602/3.jpg",
-      "https://assets.brahmanicrm.com/products/22602/4.jpg",
-      "https://assets.brahmanicrm.com/products/22602/5.jpg"
+      "https://assets.brahmanicrm.com/products/22551/16439978-f01f-4ce4-aa84-f8140a55c964@full.webp",
+      "https://assets.brahmanicrm.com/products/22551/c78431d5-7ca0-4d51-88b0-8586d77c098c@full.webp",
+      "https://assets.brahmanicrm.com/products/22551/148c46f5-f631-42ff-b094-eb8205b4e49d@full.webp",
+      "https://assets.brahmanicrm.com/products/22551/aeeb9e3a-9aff-4748-bfaf-4845f343e686@full.webp"
     ],
-    "description": "Compact & Travel-Friendly: Designed in a convenient, portable square shape that easily fits into your handbag, luggage, or backpack for trips and daily use.\n\nSmart Storage Organization: Features dedicated necklace hooks with an elastic pocket on the upper lid, ring rolls, and multiple divided compartments at the bottom to keep jewelry neat and tangle-free.\n\nSoft Velvet Interior: Lined with a plush, delicate fabric to protect your precious rings, earrings, and necklaces from scratches and damage.\n\nCharming Pastel Design: Styled in an aesthetic soft pink exterior with smooth zipper closure, making it a stylish accessory as well as a perfect gift choice.",
+    "description": "Design Elements: Straw, Side Grip Handle, Trendsetting Popsicle Look",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "JEWELERY",
-      "STORAGE",
-      "BOX",
-      "MINI"
+      "ICE",
+      "CREAM",
+      "PLASTIC",
+      "WATER",
+      "BOTTLE",
+      "CHINA"
     ]
   },
   {
-    "id": "9f6977d7-166c-4f7e-b6a8-f7c22b1a8c39",
-    "itemCode": "23092",
-    "aliasName": "Y1502",
-    "name": "JUICE GLASS 210ML YJ 6PCS SET",
+    "id": "c922e71a-c72c-49be-834e-a7e986577e64",
+    "itemCode": "20926",
+    "aliasName": "Y5701",
+    "name": "IRISH COFFEE LONG 270ML 2PCS",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 165,
+    "basePrice": 145,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20926/1d5b6c1a-7a3e-4aaa-a26b-e426fde174b1@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20926/1d5b6c1a-7a3e-4aaa-a26b-e426fde174b1@full.webp",
+      "https://assets.brahmanicrm.com/products/20926/693791c8-9278-43fb-b3df-5af85d492317@full.webp",
+      "https://assets.brahmanicrm.com/products/20926/084c601a-9c9c-489e-bfa2-3fc14a19601c@full.webp"
+    ],
+    "description": "Special Features: Tall Slender Body, Pedestal Base, Ergonomic Handle",
+    "capacity": "270ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "IRISH",
+      "COFFEE",
+      "LONG",
+      "270ML",
+      "2PCS"
+    ]
+  },
+  {
+    "id": "e574b2be-755d-4190-9662-8b635d0a0085",
+    "itemCode": "21927",
+    "aliasName": "ZB395",
+    "name": "IRISH COFFEE MUG2 250ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 92,
+    "brahmaniCategories": [],
+    "price": 280,
+    "basePrice": 260,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/21927/0f62a8f2-e14f-48f0-b604-eb14bf6e2a9d@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/21927/0f62a8f2-e14f-48f0-b604-eb14bf6e2a9d@full.webp",
+      "https://assets.brahmanicrm.com/products/21927/355ff586-dfa6-4c72-9a89-1dd45719783b@full.webp",
+      "https://assets.brahmanicrm.com/products/21927/f9a3dd51-d736-48e7-ace0-2f1edad3d1cf@full.webp",
+      "https://assets.brahmanicrm.com/products/21927/6e07dc17-1c28-4027-b836-b69476020885@full.webp",
+      "https://assets.brahmanicrm.com/products/21927/1e5e2247-3593-4d86-a4d2-91aa5a994683@full.webp"
+    ],
+    "description": "Special Features: Pedestal Base, Stem Design, Ergonomic Handle, Cafe-Style Build",
+    "capacity": "250ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "IRISH",
+      "COFFEE",
+      "MUG2",
+      "250ML",
+      "6PCS"
+    ]
+  },
+  {
+    "id": "21992dc3-6493-4ce4-8206-ef83920ec1b0",
+    "itemCode": "23354",
+    "aliasName": "Y3212-3",
+    "name": "JUICE GLASS 150ML C 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 320,
+    "basePrice": 300,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23092/0.jpg",
+    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
     "images": [
-      "https://assets.brahmanicrm.com/products/23092/0.jpg"
+      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
     ],
-    "description": "JUICE GLASS 210ML YJ 6PCS SET - High-clarity commercial glassware for wholesale trade supply, packaged by the carton in Surat warehouse.",
-    "capacity": "210ML",
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "150ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
@@ -5584,30 +6120,104 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "JUICE",
       "GLASS",
-      "210ML",
+      "150ML",
       "6PCS",
       "SET"
     ]
   },
   {
-    "id": "83624a42-d87a-4db5-aa98-2054d9ad7ed7",
-    "itemCode": "23056",
-    "aliasName": "Y3009",
-    "name": "JUICE GLASS 300ML YU 6PCS SET",
+    "id": "ba8d18f8-cfea-41e4-ae1f-e260538b5d28",
+    "itemCode": "23088",
+    "aliasName": "TKB6002-CHA",
+    "name": "JUICE GLASS GOLDEN 200ML 6PCS SET CHA",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 250,
+    "brahmaniCategories": [],
+    "price": 240,
+    "basePrice": 220,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23056/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23088/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23056/0.jpg",
-      "https://assets.brahmanicrm.com/products/23056/1.jpg",
-      "https://assets.brahmanicrm.com/products/23056/2.jpg",
-      "https://assets.brahmanicrm.com/products/23056/3.jpg",
-      "https://assets.brahmanicrm.com/products/23056/4.jpg"
+      "https://assets.brahmanicrm.com/products/23088/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23088/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23088/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23088/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23088/4@full.webp"
     ],
-    "description": "Water and Juice Glasses Set of 6, Transparent, 300ml, Medium Size Tumbler Glasses for Drinking Juice, Water, Sharbat and Cocktails, Glass Water Glass Octagonal Glasses.",
+    "description": "Toughened glass for everyday use at home, cafes, parties, and restaurants.Ideal 200 ml capacity fits fruit juices, iced tea, lemonade, mocktails, lassi, and cold coffee.",
+    "capacity": "200ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "JUICE",
+      "GLASS",
+      "GOLDEN",
+      "200ML",
+      "6PCS",
+      "SET",
+      "CHA"
+    ]
+  },
+  {
+    "id": "954e6f44-39d7-42ae-b1ab-2e8ae853a58b",
+    "itemCode": "23329",
+    "aliasName": "KTY6244",
+    "name": "JUICE GLASS LONG 350ML 6PCS NEW",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 405,
+    "basePrice": 385,
+    "piecesPerCarton": 6,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23329/c79372d7-8202-4de4-a8ce-bc5378f04fd1@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23329/c79372d7-8202-4de4-a8ce-bc5378f04fd1@full.webp",
+      "https://assets.brahmanicrm.com/products/23329/b5bacbad-4a07-4c3e-9c8c-90db1217c7af@full.webp",
+      "https://assets.brahmanicrm.com/products/23329/1c889033-23e1-4e1f-b7b7-789bea5794ce@full.webp",
+      "https://assets.brahmanicrm.com/products/23329/9f1309c3-cff1-4202-89ab-b83273a83cd8@full.webp",
+      "https://assets.brahmanicrm.com/products/23329/ddd3ab36-4792-42cd-8c2a-b58e1fb7f3c7@full.webp"
+    ],
+    "description": "Special Features: Tall Ribbed Design, Crystal-Cut Base, Weighted Bottom",
+    "capacity": "350ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "JUICE",
+      "GLASS",
+      "LONG",
+      "350ML",
+      "6PCS",
+      "NEW"
+    ]
+  },
+  {
+    "id": "6812a6fe-5318-4f6d-b23d-19f0b05a1b8c",
+    "itemCode": "22806",
+    "aliasName": "JS69115-2",
+    "name": "JUICE GLASS LONG DELI 300ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 225,
+    "basePrice": 205,
+    "piecesPerCarton": 1,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22806/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22806/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22806/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22806/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22806/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22806/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22806/5@full.webp"
+    ],
+    "description": "Each glass holds 300 ml of liquid, perfect for serving water, milk, juice, or other beverages",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5616,9 +6226,120 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "JUICE",
       "GLASS",
+      "LONG",
+      "DELI",
       "300ML",
       "6PCS",
       "SET"
+    ]
+  },
+  {
+    "id": "80f5e855-0690-4d78-85e2-07e199a1ba7e",
+    "itemCode": "21928",
+    "aliasName": "GPH20-HA",
+    "name": "KETTLE WOODEN CRYSTAL LID GOLD",
+    "category": "caps",
+    "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [],
+    "price": 209,
+    "basePrice": 189,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/21928/6e5d5820-6629-47b9-9921-60da7a073d92@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/21928/6e5d5820-6629-47b9-9921-60da7a073d92@full.webp",
+      "https://assets.brahmanicrm.com/products/21928/0ea420f7-fd49-4bb2-8840-b5f39004e9fc@full.webp",
+      "https://assets.brahmanicrm.com/products/21928/59e4137d-a899-4a0f-ae9d-2e9ae6722d90@full.webp",
+      "https://assets.brahmanicrm.com/products/21928/dba3c006-95af-4791-9636-dc879e7a27dc@full.webp"
+    ],
+    "description": "Material: Heat-Resistant Tinted Glass, Wooden Lid, Crystal Knob & Gold-Finished Accents",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "KETTLE",
+      "WOODEN",
+      "CRYSTAL",
+      "LID",
+      "GOLD"
+    ]
+  },
+  {
+    "id": "5ac992ad-e0aa-49f7-a897-98ea31b9ae6c",
+    "itemCode": "22502",
+    "aliasName": "GPH25-HA",
+    "name": "KETTLE WOODEN CRYSTAL LID GOLD 1.8 LTR DELI",
+    "category": "caps",
+    "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [],
+    "price": 280,
+    "basePrice": 260,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22502/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22502/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22502/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22502/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22502/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22502/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22502/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22502/0aa9d693-2b46-441f-83fe-e7005550160d@full.webp"
+    ],
+    "description": "Material: Heat-Resistant Tinted Glass, Wooden Lid, Crystal Knob & Gold-Finished Accents",
+    "capacity": "1.8 LTR",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "KETTLE",
+      "WOODEN",
+      "CRYSTAL",
+      "LID",
+      "GOLD",
+      "1.8",
+      "LTR",
+      "DELI"
+    ]
+  },
+  {
+    "id": "a71639d1-02a7-41a3-b78f-17809e031783",
+    "itemCode": "22344",
+    "aliasName": "GPH102-1D-HA",
+    "name": "KETTLE WOODEN CRYSTAL PRINT LID GOLD",
+    "category": "caps",
+    "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [],
+    "price": 265,
+    "basePrice": 245,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22344/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22344/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22344/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22344/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22344/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22344/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22344/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22344/321271c4-34b9-4b85-a7af-d79e535a3240@full.webp"
+    ],
+    "description": "Material: Heat-Resistant Tinted Glass, Wooden Print Lid, Crystal Diamond Knob & Gold-Finished Handle",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "KETTLE",
+      "WOODEN",
+      "CRYSTAL",
+      "PRINT",
+      "LID",
+      "GOLD"
     ]
   },
   {
@@ -5628,21 +6349,25 @@ export const INITIAL_PRODUCTS = [
     "name": "KETTLE WOODEN LID 1.8LTR",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 230,
+    "basePrice": 210,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21855/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21855/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21855/0.jpg",
-      "https://assets.brahmanicrm.com/products/21855/1.jpg",
-      "https://assets.brahmanicrm.com/products/21855/2.jpg",
-      "https://assets.brahmanicrm.com/products/21855/3.jpg",
-      "https://assets.brahmanicrm.com/products/21855/4.jpg",
-      "https://assets.brahmanicrm.com/products/21855/5.jpg",
-      "https://assets.brahmanicrm.com/products/21855/6.jpg",
-      "https://assets.brahmanicrm.com/products/21855/7.jpg"
+      "https://assets.brahmanicrm.com/products/21855/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21855/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21855/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21855/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21855/4@full.webp",
+      "https://assets.brahmanicrm.com/products/21855/5@full.webp",
+      "https://assets.brahmanicrm.com/products/21855/6@full.webp",
+      "https://assets.brahmanicrm.com/products/21855/7@full.webp"
     ],
-    "description": "Teapot Kettle Round 1.18 Liter Set of 1 with Heat Resistant, Perfect for Tea and Coffee Maker, Clear Leaf Glass Kettle Teapot, Bamboo Wooden Lid.",
+    "description": "Featuring a large 1.8-liter capacity, this kettle/jug is perfect for serving ample amounts of juice, iced tea, water, or cold beverages to family and guests.",
     "capacity": "1.8LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5652,7 +6377,81 @@ export const INITIAL_PRODUCTS = [
       "KETTLE",
       "WOODEN",
       "LID",
-      "1.8LTR"
+      "1.8LTR",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "75e232bb-dc1a-4012-a86f-26fb6e32f9e0",
+    "itemCode": "20891",
+    "aliasName": "GPH20",
+    "name": "KETTLE WOODEN LID 1LTR",
+    "category": "caps",
+    "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 190,
+    "basePrice": 170,
+    "piecesPerCarton": 48,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20891/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20891/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20891/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20891/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20891/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20891/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20891/5@full.webp"
+    ],
+    "description": "Featuring an ideal 1-liter capacity, this kettle/jug is perfect for serving water, juices, iced tea, or cold beverages.",
+    "capacity": "1LTR",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "KETTLE",
+      "WOODEN",
+      "LID",
+      "1LTR",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "203f5244-629a-4df9-8e53-ceb38729bffd",
+    "itemCode": "22771",
+    "aliasName": "GPG33-L2",
+    "name": "KITCHEN STOREGE JAR WITH WOODEN LID 660ML",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 324,
+    "basePrice": 304,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22771/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22771/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22771/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22771/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22771/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22771/4@full.webp"
+    ],
+    "description": "The 660ML Glass Kitchen Storage Jar with Wooden Lid is a stylish and practical solution for your storage needs. Its premium-quality glass body and airtight bamboo lid keep contents fresh, moisture-free, and hygienic. Perfect for storing spices, dry fruits, snacks, tea, coffee, sugar, cookies, and condiments.",
+    "capacity": "660ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "KITCHEN",
+      "STOREGE",
+      "JAR",
+      "WITH",
+      "WOODEN",
+      "LID",
+      "660ML"
     ]
   },
   {
@@ -5662,19 +6461,24 @@ export const INITIAL_PRODUCTS = [
     "name": "LEATHER DOUBLE DRINKING BLACK  450ML BIG",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 90,
+    "basePrice": 70,
     "piecesPerCarton": 58,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22274/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22274/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22274/0.jpg",
-      "https://assets.brahmanicrm.com/products/22274/1.jpg",
-      "https://assets.brahmanicrm.com/products/22274/2.jpg",
-      "https://assets.brahmanicrm.com/products/22274/3.jpg",
-      "https://assets.brahmanicrm.com/products/22274/4.jpg",
-      "https://assets.brahmanicrm.com/products/22274/5.jpg"
+      "https://assets.brahmanicrm.com/products/22274/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22274/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22274/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22274/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22274/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22274/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22274/b58b2cee-066d-4cc0-80a9-4fc89c3c43f5@full.webp"
     ],
-    "description": "Premium Glass Sipper Fruit Juice Milk Tumbler Mug with Leather Sleeve Glass Coffee Mug with Straw and Lid Glass Tumbler for Coffee, Tea, Milk Beverages Travel Cup (450ML, Grey, 1Pcs)",
+    "description": "Featuring a large 450ml capacity, this glass tumbler is perfectly sized for enjoying iced coffee, smoothies, juices, or your favorite large beverages.",
     "capacity": "450ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5685,28 +6489,32 @@ export const INITIAL_PRODUCTS = [
       "DOUBLE",
       "DRINKING",
       "BLACK",
-      "450ML"
+      "450ML",
+      "BIG",
+      "CHINA"
     ]
   },
   {
-    "id": "c071c73e-31ab-4b1c-975f-516032b6f9d9",
-    "itemCode": "22480",
-    "aliasName": null,
-    "name": "LEATHER DOUBLE DRINKING BROWN 450ML BIG",
+    "id": "2ce83611-c560-48c7-a366-11ea4a29eee0",
+    "itemCode": "23206",
+    "aliasName": "MSB-123",
+    "name": "LEATHER DOUBLE DRINKING BLACK BIG BELT 450ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 82,
+    "brahmaniCategories": [],
+    "price": 104,
+    "basePrice": 84,
     "piecesPerCarton": 58,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22480/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23206/cdbb35f2-5439-4d11-aa7b-7dff5810cb21@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22480/0.jpg",
-      "https://assets.brahmanicrm.com/products/22480/1.jpg",
-      "https://assets.brahmanicrm.com/products/22480/2.jpg",
-      "https://assets.brahmanicrm.com/products/22480/3.jpg",
-      "https://assets.brahmanicrm.com/products/22480/4.jpg"
+      "https://assets.brahmanicrm.com/products/23206/cdbb35f2-5439-4d11-aa7b-7dff5810cb21@full.webp",
+      "https://assets.brahmanicrm.com/products/23206/d29ff085-31c9-4fd8-8ba6-d54e11d5cef2@full.webp",
+      "https://assets.brahmanicrm.com/products/23206/5fffe83e-2931-4c69-9d2b-0bb113a70fc4@full.webp",
+      "https://assets.brahmanicrm.com/products/23206/bdea42e4-9882-49a4-849c-9b8be3fbde57@full.webp",
+      "https://assets.brahmanicrm.com/products/23206/0ded31e0-8ab2-438b-b678-6f8616dc72c7@full.webp"
     ],
-    "description": "Coffee Sipper Mug with Leather Sleeve Pack of 1, Clear Drinking Glasses Tumblers with Straws and Lids for Iced Tea, Juice, Cocktail, Smoothies Cold & Hot Drink Cups 450ml (Brown)",
+    "description": "This product is a 450ml Glass Sipper Mug (or Tumbler) featuring a spill-resistant lid, a glass straw, and a protective leather sleeve with a carrying strap",
     "capacity": "450ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5716,73 +6524,10 @@ export const INITIAL_PRODUCTS = [
       "LEATHER",
       "DOUBLE",
       "DRINKING",
-      "BROWN",
-      "450ML"
-    ]
-  },
-  {
-    "id": "2a3dba21-ad60-4bc7-9215-926a92fc9294",
-    "itemCode": "23153",
-    "aliasName": "H6-0005-SMOKE",
-    "name": "LEATHER GRIP MASON MUG 430ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 65,
-    "piecesPerCarton": 58,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23153/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23153/0.jpg",
-      "https://assets.brahmanicrm.com/products/23153/1.jpg",
-      "https://assets.brahmanicrm.com/products/23153/2.jpg",
-      "https://assets.brahmanicrm.com/products/23153/3.jpg",
-      "https://assets.brahmanicrm.com/products/23153/4.jpg",
-      "https://assets.brahmanicrm.com/products/23153/5.jpg"
-    ],
-    "description": "Glass Tumbler Mug With Lid,Glass Straw&Protective Anti-Skid Leather Sleeve For Hot&Cold Beverages Tea Coffee Smoothies Fruit Juice Travel Mug-400Ml(Grey Leather 1)400 Milliliter",
-    "capacity": "430ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "LEATHER",
-      "GRIP",
-      "MASON",
-      "MUG",
-      "430ML"
-    ]
-  },
-  {
-    "id": "5d2957a8-00de-4e91-976d-edff23c233de",
-    "itemCode": "22870",
-    "aliasName": null,
-    "name": "LEATHER MUG 400ML BLACK HEAVY LID BIG",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 90,
-    "piecesPerCarton": 58,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22870/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22870/0.jpg",
-      "https://assets.brahmanicrm.com/products/22870/1.jpg",
-      "https://assets.brahmanicrm.com/products/22870/2.jpg",
-      "https://assets.brahmanicrm.com/products/22870/3.jpg",
-      "https://assets.brahmanicrm.com/products/22870/4.jpg"
-    ],
-    "description": "Experience premium style and functionality with this 400ml Black Leather Mug, crafted for people who prefer elegance with durability. The mug features a high-quality leather-wrapped exterior that gives a firm, comfortable grip while adding a luxurious look. Its heavy, solid lid ensures your drink stays hotter or colder for longer and prevents accidental spills while travelling or working.",
-    "capacity": "400ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "LEATHER",
-      "MUG",
-      "400ML",
       "BLACK",
-      "HEAVY"
+      "BIG",
+      "BELT",
+      "450ML"
     ]
   },
   {
@@ -5792,19 +6537,23 @@ export const INITIAL_PRODUCTS = [
     "name": "LEATHER MUG 400ML BLACK HEAVY LID SMALL",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 70,
+    "basePrice": 50,
     "piecesPerCarton": 58,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21295/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21295/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21295/0.jpg",
-      "https://assets.brahmanicrm.com/products/21295/1.jpg",
-      "https://assets.brahmanicrm.com/products/21295/2.jpg",
-      "https://assets.brahmanicrm.com/products/21295/3.jpg",
-      "https://assets.brahmanicrm.com/products/21295/4.jpg",
-      "https://assets.brahmanicrm.com/products/21295/5.jpg"
+      "https://assets.brahmanicrm.com/products/21295/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21295/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21295/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21295/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21295/4@full.webp",
+      "https://assets.brahmanicrm.com/products/21295/5@full.webp"
     ],
-    "description": "A premium 400ml black leather-wrapped mug designed for daily use. Comes with a sturdy heavy lid that keeps drinks hot or cold and prevents spills. Comfortable grip, elegant look, and perfect for office, travel, or home use. Durable, stylish, and easy to carry.",
+    "description": "Featuring an ideal 400ml capacity, this glass mug is perfectly sized for enjoying iced coffee, smoothies, iced tea, or your favorite beverages.",
     "capacity": "400ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5815,7 +6564,10 @@ export const INITIAL_PRODUCTS = [
       "MUG",
       "400ML",
       "BLACK",
-      "HEAVY"
+      "HEAVY",
+      "LID",
+      "SMALL",
+      "CHINA"
     ]
   },
   {
@@ -5825,20 +6577,23 @@ export const INITIAL_PRODUCTS = [
     "name": "LEATHER MUG 400ML BROWN HEAVY LID BIG",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 90,
+    "basePrice": 70,
     "piecesPerCarton": 58,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22869/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22869/1@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22869/0.jpg",
-      "https://assets.brahmanicrm.com/products/22869/1.jpg",
-      "https://assets.brahmanicrm.com/products/22869/2.jpg",
-      "https://assets.brahmanicrm.com/products/22869/3.jpg",
-      "https://assets.brahmanicrm.com/products/22869/4.jpg",
-      "https://assets.brahmanicrm.com/products/22869/5.jpg",
-      "https://assets.brahmanicrm.com/products/22869/6.jpg"
+      "https://assets.brahmanicrm.com/products/22869/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22869/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22869/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22869/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22869/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22869/6@full.webp"
     ],
-    "description": "58 PCS CTN\nUpgrade your daily drinkware with this stylish 400ml Brown Leather Mug, designed to deliver both elegance and durability. The mug features a high-quality brown leather-wrapped exterior, giving it a rich, premium look while providing a comfortable and non-slip grip. Its heavy, sturdy lid helps maintain the temperature of your beverages for longer and prevents spills during travel or busy workdays.",
+    "description": "Featuring a large 400ml capacity, this glass tumbler is perfectly sized for enjoying iced coffee, iced tea, juices, milkshakes, or your favorite beverages.",
     "capacity": "400ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5849,42 +6604,10 @@ export const INITIAL_PRODUCTS = [
       "MUG",
       "400ML",
       "BROWN",
-      "HEAVY"
-    ]
-  },
-  {
-    "id": "1ee2b16e-6722-4a35-a256-59166c0abcd1",
-    "itemCode": "22868",
-    "aliasName": null,
-    "name": "LEATHER MUG 400ML BROWN HEAVY LID SMALL",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 70,
-    "piecesPerCarton": 58,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22868/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22868/0.jpg",
-      "https://assets.brahmanicrm.com/products/22868/1.jpg",
-      "https://assets.brahmanicrm.com/products/22868/2.jpg",
-      "https://assets.brahmanicrm.com/products/22868/3.jpg",
-      "https://assets.brahmanicrm.com/products/22868/4.jpg",
-      "https://assets.brahmanicrm.com/products/22868/5.jpg",
-      "https://assets.brahmanicrm.com/products/22868/6.jpg",
-      "https://assets.brahmanicrm.com/products/22868/7.jpg"
-    ],
-    "description": "A stylish and practical 400 ml mug featuring a rich brown leather sleeve for a comfortable, non-slip grip. The mug includes a sturdy heavy lid — ideal for preventing spills and keeping beverages hot or cold. Perfect for coffee, tea, smoothies or water — whether at home, in the office, or on the go. Sleek design adds a touch of elegance, while the durable build makes it a reliable everyday companion.",
-    "capacity": "400ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "LEATHER",
-      "MUG",
-      "400ML",
-      "BROWN",
-      "HEAVY"
+      "HEAVY",
+      "LID",
+      "BIG",
+      "CHINA"
     ]
   },
   {
@@ -5894,16 +6617,21 @@ export const INITIAL_PRODUCTS = [
     "name": "LEATHER MUG 450ML STRAW LID",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 70,
+    "basePrice": 50,
     "piecesPerCarton": 58,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21297/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21297/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21297/0.jpg",
-      "https://assets.brahmanicrm.com/products/21297/1.jpg",
-      "https://assets.brahmanicrm.com/products/21297/2.jpg"
+      "https://assets.brahmanicrm.com/products/21297/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21297/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21297/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21297/854fd873-ec99-4a2b-a525-abad1729ead1@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Featuring an ideal 450ml capacity, this glass mug is perfectly sized for serving iced coffee, juices, smoothies, or cold beverages.",
     "capacity": "450ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -5914,104 +6642,8 @@ export const INITIAL_PRODUCTS = [
       "MUG",
       "450ML",
       "STRAW",
-      "LID"
-    ]
-  },
-  {
-    "id": "2b337542-f90a-496e-bacc-dc9e0936fc7b",
-    "itemCode": "22661",
-    "aliasName": "QSJ/L5",
-    "name": "LEQU GLASS WATER CARAFE PITCHER  5 PCS SET",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 205,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22661/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22661/0.jpg",
-      "https://assets.brahmanicrm.com/products/22661/1.jpg",
-      "https://assets.brahmanicrm.com/products/22661/2.jpg",
-      "https://assets.brahmanicrm.com/products/22661/3.jpg"
-    ],
-    "description": "Elegant 5-piece Lequ Glass Water Carafe Pitcher Set with modern ribbed design – includes 1 glass jug with lid and 4 matching glasses. Ideal for serving water, juice, or beverages at home, office, or parties.",
-    "capacity": "5 PCS",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "LEQU",
-      "GLASS",
-      "WATER",
-      "CARAFE",
-      "PITCHER"
-    ]
-  },
-  {
-    "id": "3f3f87f1-0920-4713-9257-8306d31e5a1d",
-    "itemCode": "22363",
-    "aliasName": "LTSJ-L5",
-    "name": "LINING HEXA JUG AND GLASS 1.4LTR, 230ML 5PCS SET",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 265,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22363/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22363/0.jpg",
-      "https://assets.brahmanicrm.com/products/22363/1.jpg",
-      "https://assets.brahmanicrm.com/products/22363/2.jpg",
-      "https://assets.brahmanicrm.com/products/22363/3.jpg",
-      "https://assets.brahmanicrm.com/products/22363/4.jpg",
-      "https://assets.brahmanicrm.com/products/22363/5.jpg",
-      "https://assets.brahmanicrm.com/products/22363/6.jpg"
-    ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "1.4LTR",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "LINING",
-      "HEXA",
-      "JUG",
-      "AND",
-      "GLASS"
-    ]
-  },
-  {
-    "id": "b77413e2-a842-4dbe-b614-9fda192f5377",
-    "itemCode": "22362",
-    "aliasName": "LYSJ/L5",
-    "name": "LINING JUG AND GLASS 5PCS 1.2LTR , 200ML 5PCS SET",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 98,
-    "piecesPerCarton": 12,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22362/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22362/0.jpg",
-      "https://assets.brahmanicrm.com/products/22362/1.jpg",
-      "https://assets.brahmanicrm.com/products/22362/2.jpg",
-      "https://assets.brahmanicrm.com/products/22362/3.jpg",
-      "https://assets.brahmanicrm.com/products/22362/4.jpg"
-    ],
-    "description": "12 SET CTN\nGlass Pitcher with Lid with 4 Cups, High Durability Water Glass Carafe for Ice Tea Pot.",
-    "capacity": "5PCS",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "LINING",
-      "JUG",
-      "AND",
-      "GLASS",
-      "5PCS"
+      "LID",
+      "CHINA"
     ]
   },
   {
@@ -6021,20 +6653,22 @@ export const INITIAL_PRODUCTS = [
     "name": "LINING SIPPER WITH LINING LID 400ML",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 95,
+    "basePrice": 75,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22447/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22447/3@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22447/0.jpg",
-      "https://assets.brahmanicrm.com/products/22447/1.jpg",
-      "https://assets.brahmanicrm.com/products/22447/2.jpg",
-      "https://assets.brahmanicrm.com/products/22447/3.jpg",
-      "https://assets.brahmanicrm.com/products/22447/4.jpg",
-      "https://assets.brahmanicrm.com/products/22447/5.jpg",
-      "https://assets.brahmanicrm.com/products/22447/6.jpg"
+      "https://assets.brahmanicrm.com/products/22447/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22447/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22447/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22447/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22447/c590ec17-a722-4f88-860a-7112bac55437@full.webp"
     ],
-    "description": "Mason Jar with Lid and Straw, Reusable Wide Mouth Smoothie Cups Boba Cup Bubble Tea Cup with Bamboo Lid Wooden Spoon and Cork Coaster Cork Sleeve Mason Jars Glass.",
+    "description": "Featuring an ideal 400ml capacity, this glass sipper tumbler is perfectly sized for enjoying iced coffee, iced tea, juices, milkshakes, or smoothies.",
     "capacity": "400ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6045,7 +6679,8 @@ export const INITIAL_PRODUCTS = [
       "SIPPER",
       "WITH",
       "LID",
-      "400ML"
+      "400ML",
+      "CHINA"
     ]
   },
   {
@@ -6055,18 +6690,20 @@ export const INITIAL_PRODUCTS = [
     "name": "LINING WATER JUG GH 1LTR BOX PACK",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 150,
+    "basePrice": 130,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22369/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22369/64af2e5c-1fc8-434e-a9b1-31bdb9447ef9@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22369/0.jpg",
-      "https://assets.brahmanicrm.com/products/22369/1.jpg",
-      "https://assets.brahmanicrm.com/products/22369/2.jpg",
-      "https://assets.brahmanicrm.com/products/22369/3.jpg",
-      "https://assets.brahmanicrm.com/products/22369/4.jpg"
+      "https://assets.brahmanicrm.com/products/22369/64af2e5c-1fc8-434e-a9b1-31bdb9447ef9@full.webp",
+      "https://assets.brahmanicrm.com/products/22369/aa3664a9-7db4-459c-9131-b28b5a83a6b2@full.webp",
+      "https://assets.brahmanicrm.com/products/22369/2b43d42c-c079-4161-a7d5-c0107df125ed@full.webp",
+      "https://assets.brahmanicrm.com/products/22369/81fb800b-5a09-4113-8160-c0ef77f17df3@full.webp",
+      "https://assets.brahmanicrm.com/products/22369/fbba4e49-204a-4a77-bced-03403d516dc0@full.webp"
     ],
-    "description": "Keep hydration stylish and convenient with the LINING WATER JUG GH 1LTR — a sleek, durable, and everyday essential jug designed for home, office, and outdoor use.",
+    "description": "Special Features: Vertical Striped Texture, Ergonomic Handle, Drip-Free Spout",
     "capacity": "1LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6077,7 +6714,44 @@ export const INITIAL_PRODUCTS = [
       "WATER",
       "JUG",
       "1LTR",
-      "BOX"
+      "BOX",
+      "PACK"
+    ]
+  },
+  {
+    "id": "fb1fad55-0069-4ca1-8232-731f62640e43",
+    "itemCode": "22631",
+    "aliasName": "K291B",
+    "name": "LINING WINE GLASS 370ML 6PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 400,
+    "basePrice": 380,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22631/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22631/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22631/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22631/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22631/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22631/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22631/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22631/6@full.webp"
+    ],
+    "description": "Smooth Vertical Lines,Vintage Design,High Bright visual Exxects.ideal for entertaining guests or having a party, great size for all sorts of drinks, such as red wine, whiskey, champagne, water, juice, or other beverages.",
+    "capacity": "370ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "LINING",
+      "WINE",
+      "GLASS",
+      "370ML",
+      "6PCS"
     ]
   },
   {
@@ -6087,18 +6761,22 @@ export const INITIAL_PRODUCTS = [
     "name": "LINNIG CASEROLLE DIRECT HEAT BLACK 2.6LTR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 400,
+    "basePrice": 380,
     "piecesPerCarton": 18,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22973/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22973/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22973/0.jpg",
-      "https://assets.brahmanicrm.com/products/22973/1.jpg",
-      "https://assets.brahmanicrm.com/products/22973/2.jpg",
-      "https://assets.brahmanicrm.com/products/22973/3.jpg",
-      "https://assets.brahmanicrm.com/products/22973/4.jpg"
+      "https://assets.brahmanicrm.com/products/22973/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22973/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22973/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22973/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22973/4@full.webp"
     ],
-    "description": "This contemporary glass saucepan is microwavable, eco-friendly, and portable, making it perfect for cooking and food storage in the kitchen. Its flexible design and included lids ensure practicality and convenience for daily use.",
+    "description": "Featuring a large 2.6-liter capacity, this glass casserole is perfectly sized for cooking and serving soups, curries, meals, or stews for the family.",
     "capacity": "2.6LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6109,7 +6787,9 @@ export const INITIAL_PRODUCTS = [
       "CASEROLLE",
       "DIRECT",
       "HEAT",
-      "BLACK"
+      "BLACK",
+      "2.6LTR",
+      "CHINA"
     ]
   },
   {
@@ -6119,17 +6799,22 @@ export const INITIAL_PRODUCTS = [
     "name": "LINNIG CASEROLLE DIRECT HEAT BLACK 3.5LRT",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 500,
+    "basePrice": 480,
     "piecesPerCarton": 18,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22972/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22972/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22972/0.jpg",
-      "https://assets.brahmanicrm.com/products/22972/1.jpg",
-      "https://assets.brahmanicrm.com/products/22972/2.jpg",
-      "https://assets.brahmanicrm.com/products/22972/3.jpg"
+      "https://assets.brahmanicrm.com/products/22972/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22972/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22972/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22972/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22972/60671560-eaab-4129-a712-b1ad27687c20@full.webp"
     ],
-    "description": "This contemporary glass saucepan is microwavable, eco-friendly, and portable, making it perfect for cooking and food storage in the kitchen. Its flexible design and included lids ensure practicality and convenience for daily use.",
+    "description": "Featuring a large 3.5 Litre capacity, this casserole pot is perfectly sized for preparing soups, stews, vegetables, pasta, or family meals.",
     "capacity": "3.5L",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6140,40 +6825,9 @@ export const INITIAL_PRODUCTS = [
       "CASEROLLE",
       "DIRECT",
       "HEAT",
-      "BLACK"
-    ]
-  },
-  {
-    "id": "2eee8e06-7088-4957-b9b4-df191c808950",
-    "itemCode": "22653",
-    "aliasName": "TLH02-800",
-    "name": "LINNIG KETTLE WOODEN HANDL 900ML",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 340,
-    "piecesPerCarton": 36,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22653/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22653/0.jpg",
-      "https://assets.brahmanicrm.com/products/22653/1.jpg",
-      "https://assets.brahmanicrm.com/products/22653/2.jpg",
-      "https://assets.brahmanicrm.com/products/22653/3.jpg",
-      "https://assets.brahmanicrm.com/products/22653/4.jpg",
-      "https://assets.brahmanicrm.com/products/22653/5.jpg"
-    ],
-    "description": "36 pcs ctn\nServe elegance with every pour! This 900ML Lining Design Glass Kettle comes with a stylish heat-resistant wooden handle and a clean lined texture for a premium touch. Ideal for tea, coffee, herbal infusions, and more – whether at home or in cafés.",
-    "capacity": "900ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "LINNIG",
-      "KETTLE",
-      "WOODEN",
-      "HANDL",
-      "900ML"
+      "BLACK",
+      "3.5LRT",
+      "CHINA"
     ]
   },
   {
@@ -6183,17 +6837,22 @@ export const INITIAL_PRODUCTS = [
     "name": "LION BOTTOM WHISKY GLASS 300ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 390,
+    "basePrice": 370,
     "piecesPerCarton": 6,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23325/655f2db4-686e-4091-af72-25b99a4c142b.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23325/655f2db4-686e-4091-af72-25b99a4c142b@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23325/655f2db4-686e-4091-af72-25b99a4c142b.jpg",
-      "https://assets.brahmanicrm.com/products/23325/75d60831-d675-4721-abce-f084c2762100.jpg",
-      "https://assets.brahmanicrm.com/products/23325/9bbe15c7-a670-4fb6-b487-6f8ab1729224.jpg",
-      "https://assets.brahmanicrm.com/products/23325/861fd8fd-42a9-45bc-8fbe-0114de54a6c5.jpg"
+      "https://assets.brahmanicrm.com/products/23325/655f2db4-686e-4091-af72-25b99a4c142b@full.webp",
+      "https://assets.brahmanicrm.com/products/23325/75d60831-d675-4721-abce-f084c2762100@full.webp",
+      "https://assets.brahmanicrm.com/products/23325/9bbe15c7-a670-4fb6-b487-6f8ab1729224@full.webp",
+      "https://assets.brahmanicrm.com/products/23325/861fd8fd-42a9-45bc-8fbe-0114de54a6c5@full.webp",
+      "https://assets.brahmanicrm.com/products/23325/1fae1fb3-880c-4340-99fe-16beffe2c268@full.webp"
     ],
-    "description": "Perfect for whisky, gin, vodka, cocktails, and other beverages.Perfect for gifting, bar setups, parties, and special occasions.",
+    "description": "Special Features: 3D Lion Relief Bottom, Heavy Base, Unique Sculpted Design",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6204,7 +6863,9 @@ export const INITIAL_PRODUCTS = [
       "BOTTOM",
       "WHISKY",
       "GLASS",
-      "300ML"
+      "300ML",
+      "6PCS",
+      "GLASSWARE"
     ]
   },
   {
@@ -6212,23 +6873,28 @@ export const INITIAL_PRODUCTS = [
     "itemCode": "23252",
     "aliasName": null,
     "name": "LOGO",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 21,
+    "basePrice": 1,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
+    "image": "https://assets.brahmanicrm.com/products/23252/7871cbcf-7657-43b6-86d4-ddf71ff750b6@full.webp",
     "images": [
-      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
+      "https://assets.brahmanicrm.com/products/23252/7871cbcf-7657-43b6-86d4-ddf71ff750b6@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Get a unique and custom-designed logo tailored specifically to represent your business, company, or brand identity professionally.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "LOGO"
+      "LOGO",
+      "GLASSWARE"
     ]
   },
   {
@@ -6238,18 +6904,19 @@ export const INITIAL_PRODUCTS = [
     "name": "LONG CHAMP FLUT 190ML 6PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 360,
-    "piecesPerCarton": 1,
+    "brahmaniCategories": [],
+    "price": 390,
+    "basePrice": 370,
+    "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20561/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20561/ef003ed8-a8d9-4b9b-923a-687edf6048fe@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20561/0.jpg",
-      "https://assets.brahmanicrm.com/products/20561/1.jpg",
-      "https://assets.brahmanicrm.com/products/20561/2.jpg",
-      "https://assets.brahmanicrm.com/products/20561/3.jpg",
-      "https://assets.brahmanicrm.com/products/20561/4.jpg"
+      "https://assets.brahmanicrm.com/products/20561/ef003ed8-a8d9-4b9b-923a-687edf6048fe@full.webp",
+      "https://assets.brahmanicrm.com/products/20561/8d2370b5-a85b-444e-b0eb-fc2118e02acc@full.webp",
+      "https://assets.brahmanicrm.com/products/20561/5fc7cc37-81f8-49ea-9ea2-243da93ffb55@full.webp",
+      "https://assets.brahmanicrm.com/products/20561/75132cde-32f3-49ac-a0e8-242e24102e79@full.webp"
     ],
-    "description": "Elegant Crystal Champagne Glass Flutes with Stem Stylish and Unique Wine Glass Long Champ 190 ML - Set of (6)",
+    "description": "Featuring an ideal 190ml capacity, these flute glasses are perfectly sized for serving champagne, sparkling wine, prosecco, or celebratory cocktails.",
     "capacity": "190ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6270,16 +6937,19 @@ export const INITIAL_PRODUCTS = [
     "name": "LONG RAJWADI 255ML 6PCS SET",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 235,
+    "basePrice": 215,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22894/de2f4c88-1dd0-4b05-b0e9-f4bbb4ec135f.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22894/de2f4c88-1dd0-4b05-b0e9-f4bbb4ec135f@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22894/de2f4c88-1dd0-4b05-b0e9-f4bbb4ec135f.jpg",
-      "https://assets.brahmanicrm.com/products/22894/54e9d1f6-e21d-467e-966a-0305621485c5.jpg",
-      "https://assets.brahmanicrm.com/products/22894/3fb9545d-f74e-4c1e-903e-daa20eb34b44.jpg"
+      "https://assets.brahmanicrm.com/products/22894/de2f4c88-1dd0-4b05-b0e9-f4bbb4ec135f@full.webp",
+      "https://assets.brahmanicrm.com/products/22894/54e9d1f6-e21d-467e-966a-0305621485c5@full.webp",
+      "https://assets.brahmanicrm.com/products/22894/3fb9545d-f74e-4c1e-903e-daa20eb34b44@full.webp",
+      "https://assets.brahmanicrm.com/products/22894/818712cd-7db5-446d-a08d-10ecdc9df517@full.webp"
     ],
-    "description": "Elevate your drink service with the Long Rajwadi 255ml 6pcs Set — a perfect blend of timeless elegance and everyday durability. Designed for those who appreciate classic aesthetics with functional performance, this glass set brings sophistication to every table.",
+    "description": "Featuring an ideal 255ml capacity, these glasses are perfectly sized for serving juices, mocktails, cold drinks, buttermilk, or water.",
     "capacity": "255ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6300,18 +6970,20 @@ export const INITIAL_PRODUCTS = [
     "name": "LONG2 CHAMP2 FLUTE 250ML 6PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 390,
+    "basePrice": 370,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22077/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22077/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22077/0.jpg",
-      "https://assets.brahmanicrm.com/products/22077/1.jpg",
-      "https://assets.brahmanicrm.com/products/22077/2.jpg",
-      "https://assets.brahmanicrm.com/products/22077/3.jpg",
-      "https://assets.brahmanicrm.com/products/22077/4.jpg"
+      "https://assets.brahmanicrm.com/products/22077/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22077/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22077/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22077/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22077/4@full.webp"
     ],
-    "description": "LONG2 Champ Flute Premium Stylish Wine Glass-Elegant Bar Glassware for Champagne Glass Water,Juice,Beer, Drinks and Drinks Glass 250ML(6PCS)",
+    "description": "Featuring a large 2.6-liter capacity, this glass casserole is perfectly sized for cooking and serving soups, curries, meals, or stews for the family.",
     "capacity": "250ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6332,18 +7004,20 @@ export const INITIAL_PRODUCTS = [
     "name": "LONG2 RAJWADI 250ML 6PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 245,
+    "basePrice": 225,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20972/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20972/9f1e6d11-8ac9-4d29-b682-99a7b9274312@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20972/0.jpg",
-      "https://assets.brahmanicrm.com/products/20972/1.jpg",
-      "https://assets.brahmanicrm.com/products/20972/2.jpg",
-      "https://assets.brahmanicrm.com/products/20972/3.jpg",
-      "https://assets.brahmanicrm.com/products/20972/4.jpg"
+      "https://assets.brahmanicrm.com/products/20972/9f1e6d11-8ac9-4d29-b682-99a7b9274312@full.webp",
+      "https://assets.brahmanicrm.com/products/20972/fcf9335f-d7a0-4ff5-a765-3466a4022219@full.webp",
+      "https://assets.brahmanicrm.com/products/20972/4f06c727-d6f2-425f-b915-2ff02f774fba@full.webp",
+      "https://assets.brahmanicrm.com/products/20972/77c849cb-1ce7-4533-9ae3-af5aa4f8cf73@full.webp",
+      "https://assets.brahmanicrm.com/products/20972/1221c0e6-8b74-4699-9a74-77a55ebebdd4@full.webp"
     ],
-    "description": "Timeless Whisky Glass for Scotch WhiskeyElevate your home bar or hosting experience with this exquisite 6-Piece Premium Crystal-Cut Shot Glass Set. Designed with intricate faceted detailing at the base and a sophisticated, tall silhouette, these glasses are the perfect addition to any whiskey enthusiast's collection, combining timeless style with refined craftsmanship.",
+    "description": "Special Features: Traditional Rajwadi Texture, Crystal-Clear Transparency, Durable & Sturdy",
     "capacity": "250ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6357,33 +7031,73 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "601591cc-3ed3-43c7-bf15-34532d096d0d",
-    "itemCode": "23016",
-    "aliasName": "KQDW-L1",
-    "name": "LOWIS FRUIT BOWL 650 ML",
-    "category": "bowls",
-    "categoryName": "Bowls & Tableware",
-    "price": 50,
-    "piecesPerCarton": 32,
+    "id": "f65321f8-7965-4ba3-82db-5ee8587bfa24",
+    "itemCode": "21653",
+    "aliasName": "SK001",
+    "name": "LONG3 RAJWADI 240ML 6PCS",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 195,
+    "basePrice": 175,
+    "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23016/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21653/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23016/0.jpg",
-      "https://assets.brahmanicrm.com/products/23016/1.jpg",
-      "https://assets.brahmanicrm.com/products/23016/2.jpg",
-      "https://assets.brahmanicrm.com/products/23016/3.jpg",
-      "https://assets.brahmanicrm.com/products/23016/4.jpg"
+      "https://assets.brahmanicrm.com/products/21653/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21653/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21653/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21653/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21653/4@full.webp",
+      "https://assets.brahmanicrm.com/products/21653/5@full.webp",
+      "https://assets.brahmanicrm.com/products/21653/6@full.webp",
+      "https://assets.brahmanicrm.com/products/21653/ba957a31-08e4-4005-bcf9-a373b2e41222@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "650 ML",
+    "description": "Special Features: Traditional Rajwadi Cut Design, Crystal-Clear Transparency, Durable & Sturdy",
+    "capacity": "240ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "LOWIS",
-      "FRUIT",
-      "BOWL"
+      "LONG3",
+      "RAJWADI",
+      "240ML",
+      "6PCS"
+    ]
+  },
+  {
+    "id": "6ec60153-be9e-49fb-8ea8-5be588b19b55",
+    "itemCode": "22113",
+    "aliasName": "GPK11-1000",
+    "name": "LUNCH BOX 1PARTITION 1LTR",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 180,
+    "basePrice": 160,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22113/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22113/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22113/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22113/8e475aea-d30e-40ba-ba76-3bf90e90160c@full.webp"
+    ],
+    "description": "Featuring a 1-liter capacity with a 1-partition design, offering ample space for packing your meals, rice, curry, or salads securely.",
+    "capacity": "1LTR",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "LUNCH",
+      "BOX",
+      "1PARTITION",
+      "1LTR",
+      "CHINA"
     ]
   },
   {
@@ -6391,19 +7105,23 @@ export const INITIAL_PRODUCTS = [
     "itemCode": "22286",
     "aliasName": "GPK11-600",
     "name": "LUNCH BOX 1PARTITON 600ML",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 140,
+    "basePrice": 120,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22286/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22286/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22286/0.jpg",
-      "https://assets.brahmanicrm.com/products/22286/1.jpg",
-      "https://assets.brahmanicrm.com/products/22286/2.jpg",
-      "https://assets.brahmanicrm.com/products/22286/3.jpg"
+      "https://assets.brahmanicrm.com/products/22286/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22286/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22286/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22286/3@full.webp"
     ],
-    "description": "Made of durable borosilicate glass with a plastic lid.  Features a \"click and store\" mechanism for an airtight, leak-proof seal. Designed for efficient meal prep, storage, and organization in the kitchen.",
+    "description": "Featuring a 600ml capacity with a 1-partition design, offering the ideal size for packing your daily lunch, snacks, or fresh meal prep.",
     "capacity": "600ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6413,7 +7131,8 @@ export const INITIAL_PRODUCTS = [
       "LUNCH",
       "BOX",
       "1PARTITON",
-      "600ML"
+      "600ML",
+      "GLASSWARE"
     ]
   },
   {
@@ -6423,16 +7142,22 @@ export const INITIAL_PRODUCTS = [
     "name": "LUNCH BOX 3 PARTITION 1000ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 235,
+    "basePrice": 215,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22411/0.png",
+    "image": "https://assets.brahmanicrm.com/products/22411/feaa1393-ad8c-4bcd-9893-55079fb2a365@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22411/0.png",
-      "https://assets.brahmanicrm.com/products/22411/1.png",
-      "https://assets.brahmanicrm.com/products/22411/2.png"
+      "https://assets.brahmanicrm.com/products/22411/feaa1393-ad8c-4bcd-9893-55079fb2a365@full.webp",
+      "https://assets.brahmanicrm.com/products/22411/fda75f24-31f6-4817-af06-41fc09fbc20e@full.webp",
+      "https://assets.brahmanicrm.com/products/22411/35d869d1-3d8b-494c-b2f5-a80afeda4748@full.webp",
+      "https://assets.brahmanicrm.com/products/22411/cb0ffa24-319d-4a3a-bf3d-d3ce26297f95@full.webp",
+      "https://assets.brahmanicrm.com/products/22411/3b23cb42-fdff-4828-9471-b90a6f41f080@full.webp"
     ],
-    "description": "Microwave Safe Office Two Compartment Lunch Box Set | Borosilicate Glass | Safety Lock Airtight Tiffin Containers",
+    "description": "Featuring a large 1000ml capacity with a 3-partition design, offering ample space to pack a complete meal with separate compartments for different food items.",
     "capacity": "1000ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6442,7 +7167,8 @@ export const INITIAL_PRODUCTS = [
       "LUNCH",
       "BOX",
       "PARTITION",
-      "1000ML"
+      "1000ML",
+      "CHINA"
     ]
   },
   {
@@ -6450,20 +7176,21 @@ export const INITIAL_PRODUCTS = [
     "itemCode": "22518",
     "aliasName": "BXT1001-3GD",
     "name": "LUNCH BOX 3PARTITIN 1400ML",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 255,
+    "basePrice": 235,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22518/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22518/2c2e3eb1-9024-44cc-b151-c39c5486b891@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22518/0.jpg",
-      "https://assets.brahmanicrm.com/products/22518/1.jpg",
-      "https://assets.brahmanicrm.com/products/22518/2.jpg",
-      "https://assets.brahmanicrm.com/products/22518/3.jpg",
-      "https://assets.brahmanicrm.com/products/22518/4.jpg"
+      "https://assets.brahmanicrm.com/products/22518/2c2e3eb1-9024-44cc-b151-c39c5486b891@full.webp",
+      "https://assets.brahmanicrm.com/products/22518/db7959ea-eecc-4757-829b-65bd150c429b@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Featuring an extra-large 1400ml capacity with a 3-partition design, offering ample space to pack a complete heavy meal with separate compartments for different food items.",
     "capacity": "1400ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6473,69 +7200,8 @@ export const INITIAL_PRODUCTS = [
       "LUNCH",
       "BOX",
       "3PARTITIN",
-      "1400ML"
-    ]
-  },
-  {
-    "id": "e90f3d3a-e7e4-402a-8ee5-04fc15f210ac",
-    "itemCode": "23233",
-    "aliasName": "GPK201-630-L1",
-    "name": "LUNCH BOX DELI  1 PARTITION 600ML",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 140,
-    "piecesPerCarton": 36,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23233/9c692244-c29d-4282-be49-c83f3b534ffe.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23233/9c692244-c29d-4282-be49-c83f3b534ffe.jpg",
-      "https://assets.brahmanicrm.com/products/23233/7e4ddf8b-7709-427e-a67a-e661736cdbc0.jpg",
-      "https://assets.brahmanicrm.com/products/23233/10eca8af-fa78-43ca-875c-b0ac28465a8b.jpg",
-      "https://assets.brahmanicrm.com/products/23233/8a381025-8bd0-4388-82f1-a7ecdcd0403a.jpg"
-    ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "600ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "LUNCH",
-      "BOX",
-      "DELI",
-      "PARTITION",
-      "600ML"
-    ]
-  },
-  {
-    "id": "368f4963-11e7-4844-b6b5-f971a8733d03",
-    "itemCode": "22608",
-    "aliasName": "H2160-0202",
-    "name": "LUNCH BOX LEAK PROOF 2 PARTITION 1LTR",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 280,
-    "piecesPerCarton": 24,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22608/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22608/0.jpg",
-      "https://assets.brahmanicrm.com/products/22608/1.jpg",
-      "https://assets.brahmanicrm.com/products/22608/2.jpg",
-      "https://assets.brahmanicrm.com/products/22608/3.jpg"
-    ],
-    "description": "24 PCS CTN\nBorosilicate glass container to store and reheat your food easily. Ideal to store both meals and meal preparation.Non-porous glass prevents chemical leaching and keeps food safe and odour-free.",
-    "capacity": "1LTR",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "LUNCH",
-      "BOX",
-      "LEAK",
-      "PROOF",
-      "PARTITION"
+      "1400ML",
+      "GLASSWARE"
     ]
   },
   {
@@ -6543,21 +7209,26 @@ export const INITIAL_PRODUCTS = [
     "itemCode": "23130",
     "aliasName": "GTY-2506",
     "name": "LUNCH BOX RECTANGEL 3 PCS SET BOX PACK",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 390,
+    "basePrice": 370,
     "piecesPerCarton": 16,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23130/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23130/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23130/0.jpg",
-      "https://assets.brahmanicrm.com/products/23130/1.jpg",
-      "https://assets.brahmanicrm.com/products/23130/2.jpg",
-      "https://assets.brahmanicrm.com/products/23130/3.jpg",
-      "https://assets.brahmanicrm.com/products/23130/4.jpg",
-      "https://assets.brahmanicrm.com/products/23130/5.jpg"
+      "https://assets.brahmanicrm.com/products/23130/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23130/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23130/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23130/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23130/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23130/5@full.webp",
+      "https://assets.brahmanicrm.com/products/23130/b364689c-a86b-4ada-8e15-012151bfadf9@full.webp"
     ],
-    "description": "Compact and lightweight design makes this lunch box set perfect for on-the-go lifestyles. Whether it's office lunches, school, picnics, or travel meals — enjoy fresh, spill-free food wherever you are.",
+    "description": "Comes in a convenient set of 3 pieces in multiple sizes, making it perfect for office, school lunch boxes, or versatile kitchen food storage.",
     "capacity": "3 PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6568,29 +7239,33 @@ export const INITIAL_PRODUCTS = [
       "BOX",
       "RECTANGEL",
       "PCS",
-      "SET"
+      "SET",
+      "PACK",
+      "GLASSWARE"
     ]
   },
   {
-    "id": "eec21778-3314-4a90-b246-a5fbc745eec1",
-    "itemCode": "23131",
-    "aliasName": "GTY-2507",
-    "name": "LUNCH BOX ROUND 3 PCS SET BOX PACK",
+    "id": "fdcdedfe-679b-4923-8232-6a7fe7e80cad",
+    "itemCode": "21434",
+    "aliasName": "10-H2153-3",
+    "name": "LUNCH BOX SET S.M.L SQUARE 3PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 320,
+    "brahmaniCategories": [],
+    "price": 373,
+    "basePrice": 353,
     "piecesPerCarton": 10,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23131/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21434/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23131/0.jpg",
-      "https://assets.brahmanicrm.com/products/23131/1.jpg",
-      "https://assets.brahmanicrm.com/products/23131/2.jpg",
-      "https://assets.brahmanicrm.com/products/23131/3.jpg",
-      "https://assets.brahmanicrm.com/products/23131/4.jpg"
+      "https://assets.brahmanicrm.com/products/21434/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21434/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21434/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21434/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21434/4@full.webp"
     ],
-    "description": "10 SET CTN\n800ml,600ml,350ml Pack of 3,Borosilicate Glass Round Food Storage Container Set with Air Vent Lid Airtight Lid Microwave Safe Containers, Glass Lunch Box, Pink.",
-    "capacity": "3 PCS",
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "3PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
@@ -6598,41 +7273,10 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "LUNCH",
       "BOX",
-      "ROUND",
-      "PCS",
-      "SET"
-    ]
-  },
-  {
-    "id": "19c1c9fc-372f-41ee-8f93-0b8401a24f83",
-    "itemCode": "23133",
-    "aliasName": "GTY-2505",
-    "name": "LUNCH BOX SQUARE 3 PCS SET BOX PACK",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 330,
-    "piecesPerCarton": 16,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23133/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23133/0.jpg",
-      "https://assets.brahmanicrm.com/products/23133/1.jpg",
-      "https://assets.brahmanicrm.com/products/23133/2.jpg",
-      "https://assets.brahmanicrm.com/products/23133/3.jpg",
-      "https://assets.brahmanicrm.com/products/23133/4.jpg"
-    ],
-    "description": "Ideal for meal prep, office lunches, school tiffin, picnics, and storing leftovers in the refrigerator or freezer such as salt, sugar, pepper, spices, seasoning, honey bee, olive oil, chicken broth powder, corn starch, flour, Tea, coffee, herbs, spices, etc",
-    "capacity": "3 PCS",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "LUNCH",
-      "BOX",
+      "SET",
+      "S.M.L",
       "SQUARE",
-      "PCS",
-      "SET"
+      "3PCS"
     ]
   },
   {
@@ -6642,17 +7286,20 @@ export const INITIAL_PRODUCTS = [
     "name": "LUNCH BOX SQUARE 300ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 102,
+    "basePrice": 82,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22698/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22698/1f352136-b947-4a6d-a78b-eaf0f948cf3a@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22698/0.jpg",
-      "https://assets.brahmanicrm.com/products/22698/1.jpg",
-      "https://assets.brahmanicrm.com/products/22698/2.jpg",
-      "https://assets.brahmanicrm.com/products/22698/3.jpg"
+      "https://assets.brahmanicrm.com/products/22698/1f352136-b947-4a6d-a78b-eaf0f948cf3a@full.webp",
+      "https://assets.brahmanicrm.com/products/22698/dc746bd4-7867-49d6-895f-1dbfca22c6f0@full.webp",
+      "https://assets.brahmanicrm.com/products/22698/bb6b6e87-38ac-4986-a93e-79f874e4407f@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Featuring a compact 300ml capacity, this square container is ideal for packing small snacks, side dishes, sauces, dry fruits, or kids' meals.",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6662,7 +7309,8 @@ export const INITIAL_PRODUCTS = [
       "LUNCH",
       "BOX",
       "SQUARE",
-      "300ML"
+      "300ML",
+      "CHINA"
     ]
   },
   {
@@ -6672,19 +7320,21 @@ export const INITIAL_PRODUCTS = [
     "name": "MARGIARITA WINE GLASS 200ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 490,
+    "brahmaniCategories": [],
+    "price": 532,
+    "basePrice": 512,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20931/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20931/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20931/0.jpg",
-      "https://assets.brahmanicrm.com/products/20931/1.jpg",
-      "https://assets.brahmanicrm.com/products/20931/2.jpg",
-      "https://assets.brahmanicrm.com/products/20931/3.jpg",
-      "https://assets.brahmanicrm.com/products/20931/4.jpg",
-      "https://assets.brahmanicrm.com/products/20931/5.jpg"
+      "https://assets.brahmanicrm.com/products/20931/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20931/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20931/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20931/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20931/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20931/5@full.webp"
     ],
-    "description": "8 SET CTN\nCocktail Martini Glass Wine, Whiskey, Mojito, Juice Glasses, Inverted Cone Shaped Stemware, Bar Accessories 200 ml Set of 6.",
+    "description": "Classic Margarita Bowl Shape: Features a wide, distinctive bowl design specifically crafted to hold salted rims and traditional cocktail garnishes.",
     "capacity": "200ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6699,36 +7349,105 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "bd7692e0-a9a6-4c42-a212-f62b73ad332b",
-    "itemCode": "20180",
-    "aliasName": "H25S-400",
-    "name": "MASON STRAW MILK JAR 300ML 1PCS",
+    "id": "4a6bbe5d-6364-4171-aa76-7a53b35b5036",
+    "itemCode": "23035",
+    "aliasName": "EJ1518",
+    "name": "MARTINI WINE GLASS  DELI 150ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 510,
+    "basePrice": 490,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23035/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23035/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23035/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23035/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23035/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23035/4@full.webp"
+    ],
+    "description": "he vintage martini glasses are suitable for use at the office, home, parties, picnics, dinner tables, BBQ, cook-out, or family gatherings. Buy our martini glass with an elegant look and contemporary design and add to your table's aesthetics.",
+    "capacity": "150ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "MARTINI",
+      "WINE",
+      "GLASS",
+      "DELI",
+      "150ML",
+      "6PCS",
+      "SET"
+    ]
+  },
+  {
+    "id": "cb1c0ea6-9daf-40b3-b5d6-3d2b654e50aa",
+    "itemCode": "23245",
+    "aliasName": "DSJ0621",
+    "name": "MARTINI WINE GLASS 6PCS SET 200ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 395,
+    "basePrice": 375,
+    "piecesPerCarton": 6,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23245/81d41392-4af4-4673-a656-a480a5c5d105@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23245/81d41392-4af4-4673-a656-a480a5c5d105@full.webp",
+      "https://assets.brahmanicrm.com/products/23245/8f4960fc-e143-4cd0-bb34-868b27f03fe3@full.webp",
+      "https://assets.brahmanicrm.com/products/23245/e6078d2b-037d-49c3-832e-44fa79189fcf@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "6PCS",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "MARTINI",
+      "WINE",
+      "GLASS",
+      "6PCS",
+      "SET",
+      "200ML"
+    ]
+  },
+  {
+    "id": "39165b13-6d16-445d-acd1-f66d684fa874",
+    "itemCode": "20468",
+    "aliasName": "MASON-BULK",
+    "name": "MASON JAR BULK 450ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 55,
+    "brahmaniCategories": [],
+    "price": 70,
+    "basePrice": 50,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20180/8dccc451-58f8-40a9-a3fc-a833c0fc2f87.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20468/647e9470-0232-4d63-b028-ce016477e150@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20180/8dccc451-58f8-40a9-a3fc-a833c0fc2f87.jpg",
-      "https://assets.brahmanicrm.com/products/20180/4547738d-6740-45ce-9ed4-e1f0b1d36867.jpg",
-      "https://assets.brahmanicrm.com/products/20180/c0f19257-2753-49e2-9f63-a695123e64ae.jpg",
-      "https://assets.brahmanicrm.com/products/20180/42c166a0-f1e3-446b-b79d-4dbaf52d2a8e.jpg",
-      "https://assets.brahmanicrm.com/products/20180/872a6f3c-3d17-446b-aa6f-ee035d2f8e20.jpg",
-      "https://assets.brahmanicrm.com/products/20180/ed74a6fd-8fba-41a0-baf7-871ddc0e2617.jpg"
+      "https://assets.brahmanicrm.com/products/20468/647e9470-0232-4d63-b028-ce016477e150@full.webp",
+      "https://assets.brahmanicrm.com/products/20468/4b85b51e-5bff-4bbb-88f8-43fc891dbb9d@full.webp",
+      "https://assets.brahmanicrm.com/products/20468/07eb80a9-c6e9-4147-a9b8-d7a6f418f4b2@full.webp",
+      "https://assets.brahmanicrm.com/products/20468/c53eacd7-2bfa-4203-a7e8-f1e8b86c6740@full.webp",
+      "https://assets.brahmanicrm.com/products/20468/5fd1f9b8-d40e-47a7-84b5-9562f600ee1c@full.webp"
     ],
-    "description": "Milk Bottle Glass Mason Jar 300 ML  with Reusable Straw with Airtight Twist Lid, Best suitable for Milk, Juice, Shake, smoothies, Coco, Coffee, Tea Water (Random Color)",
-    "capacity": "300ML",
+    "description": "Hub Glass Mason Jar With lid & Straw | Coco | Mason Jar with Lid and Re-Usable Straw Mugs for Juice | Moctail | Shakes | Drinks with Handle (RENDOM COLOR 450 ML)",
+    "capacity": "450ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
       "MASON",
-      "STRAW",
-      "MILK",
       "JAR",
-      "300ML"
+      "BULK",
+      "450ML"
     ]
   },
   {
@@ -6738,19 +7457,22 @@ export const INITIAL_PRODUCTS = [
     "name": "MINI PORTABLE PERFUME BOTTLE",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [],
     "price": 39,
+    "basePrice": 19,
     "piecesPerCarton": 2000,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22565/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22565/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22565/0.jpg",
-      "https://assets.brahmanicrm.com/products/22565/1.jpg",
-      "https://assets.brahmanicrm.com/products/22565/2.jpg",
-      "https://assets.brahmanicrm.com/products/22565/3.jpg",
-      "https://assets.brahmanicrm.com/products/22565/4.jpg",
-      "https://assets.brahmanicrm.com/products/22565/5.jpg"
+      "https://assets.brahmanicrm.com/products/22565/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22565/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22565/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22565/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22565/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22565/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22565/a7b11d9b-27bb-43af-8578-a4f8565392b9@full.webp"
     ],
-    "description": "Refillable Perfume Spray Bottle – Compact and portable, perfect for travel or daily use. Easy-to-fill design with a leak-proof feature ensures your favorite fragrance is always with you. Stylish and available in vibrant colors!",
+    "description": "Extremely compact and lightweight, making it easy to carry in your purse, pocket, or travel bag wherever you go.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6764,22 +7486,128 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "ab5003d7-3fe7-43fd-b829-23e1b97dd5ac",
+    "itemCode": "22468",
+    "aliasName": null,
+    "name": "MINI SEWING MACHINE",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 180,
+    "basePrice": 160,
+    "piecesPerCarton": 1,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22468/c41585b1-67cb-469f-ac12-4c528de74b61@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22468/c41585b1-67cb-469f-ac12-4c528de74b61@full.webp",
+      "https://assets.brahmanicrm.com/products/22468/e53b27d0-5081-4f00-86ba-7bfe315e6387@full.webp",
+      "https://assets.brahmanicrm.com/products/22468/1b4e858a-81a1-4ca1-87eb-01156d3c4e7c@full.webp"
+    ],
+    "description": "Designed with a compact and lightweight handheld structure, making it extremely easy to carry and operate for quick sewing tasks anywhere.",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "MINI",
+      "SEWING",
+      "MACHINE"
+    ]
+  },
+  {
+    "id": "2c913f98-d6b4-4c88-9c2c-ed2af3ee70cd",
+    "itemCode": "22465",
+    "aliasName": "H6-0112",
+    "name": "MOTI STRAW CUP 350ML BOX PACK",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 85,
+    "basePrice": 65,
+    "piecesPerCarton": 70,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22465/2@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22465/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22465/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22465/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22465/5f5e2fe6-40f1-4e35-9b3d-2aa42a1ab72b@full.webp"
+    ],
+    "description": "Featuring a compact 350ml capacity, this glass cup is perfectly sized for enjoying coffee, milkshakes, juices, or your favorite beverages.",
+    "capacity": "350ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "MOTI",
+      "STRAW",
+      "CUP",
+      "350ML",
+      "BOX",
+      "PACK",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "ca92554c-ec1e-4504-b77a-2d89d56757f5",
+    "itemCode": "22533",
+    "aliasName": null,
+    "name": "MOTIVATIONAL BOTTLE 2 LITER",
+    "category": "bottles",
+    "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 130,
+    "basePrice": 110,
+    "piecesPerCarton": 1,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22533/53a8d6c0-d210-42fa-a348-39629fb0a218@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22533/53a8d6c0-d210-42fa-a348-39629fb0a218@full.webp",
+      "https://assets.brahmanicrm.com/products/22533/ce8abb8e-ed19-4bf2-8ed1-16009e6fdd1e@full.webp",
+      "https://assets.brahmanicrm.com/products/22533/5c4cd19e-e5b2-456a-996d-cd6ef20a720d@full.webp",
+      "https://assets.brahmanicrm.com/products/22533/ddcae250-9ad1-4f1c-9587-9593c14bb93c@full.webp"
+    ],
+    "description": "Special Features: Time & Volume Markers, Leak-Proof Flip Lid, Built-in Straw, Portable Handle",
+    "capacity": "2 L",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "MOTIVATIONAL",
+      "BOTTLE",
+      "LITER",
+      "CHINA"
+    ]
+  },
+  {
     "id": "3e4377e0-7c6a-4024-a18a-16cd34c0245c",
     "itemCode": "22784",
     "aliasName": null,
     "name": "MR AND MRS LID",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 96,
+    "basePrice": 76,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22784/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22784/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22784/0.jpg",
-      "https://assets.brahmanicrm.com/products/22784/1.jpg",
-      "https://assets.brahmanicrm.com/products/22784/2.jpg"
+      "https://assets.brahmanicrm.com/products/22784/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22784/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22784/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22784/d712a9c4-1bb5-46e7-9940-4f3b75247de7@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Designed with an elegant and stylish marble texture pattern, giving your mugs and cups a luxurious and sophisticated look.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6788,7 +7616,8 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "AND",
       "MRS",
-      "LID"
+      "LID",
+      "CHINA"
     ]
   },
   {
@@ -6798,20 +7627,24 @@ export const INITIAL_PRODUCTS = [
     "name": "MR MRS LONG ROUND GIFT SET MUG 400ML 30CTN",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 440,
+    "basePrice": 420,
     "piecesPerCarton": 30,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20777/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20777/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20777/0.jpg",
-      "https://assets.brahmanicrm.com/products/20777/1.jpg",
-      "https://assets.brahmanicrm.com/products/20777/2.jpg",
-      "https://assets.brahmanicrm.com/products/20777/3.jpg",
-      "https://assets.brahmanicrm.com/products/20777/4.jpg",
-      "https://assets.brahmanicrm.com/products/20777/5.jpg",
-      "https://assets.brahmanicrm.com/products/20777/6.jpg"
+      "https://assets.brahmanicrm.com/products/20777/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20777/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20777/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20777/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20777/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20777/6@full.webp",
+      "https://assets.brahmanicrm.com/products/20777/f6fed7b6-3be0-4bc4-be6d-bb038a7ba17d@full.webp"
     ],
-    "description": "Mr And Mrs Gary & Pink Ceramic Coffee Mug Ceramic Tea Mug Marble Coffee Cup And Milk Tea Gold Stamping Cup",
+    "description": "Featuring a generous 400ml capacity, these mugs are perfectly sized for enjoying large servings of coffee, tea, milk, or hot chocolate.",
     "capacity": "400ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6822,132 +7655,77 @@ export const INITIAL_PRODUCTS = [
       "LONG",
       "ROUND",
       "GIFT",
-      "SET"
-    ]
-  },
-  {
-    "id": "14d43766-d6dd-4dc4-bb04-a5c1b57e4539",
-    "itemCode": "20721",
-    "aliasName": "MXD002 SD508-H",
-    "name": "MR MRS ROYAL MARBLE CERAMIC MUG 340ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 145,
-    "piecesPerCarton": 80,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20721/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/20721/0.jpg",
-      "https://assets.brahmanicrm.com/products/20721/1.jpg",
-      "https://assets.brahmanicrm.com/products/20721/2.jpg",
-      "https://assets.brahmanicrm.com/products/20721/3.jpg"
-    ],
-    "description": "Elevate your morning coffee or evening tea routine with this stunning \"Mrs\" ceramic mug. Featuring a chic geometric design and a beautiful soft pink and white marble finish, this mug adds a touch of modern elegance to any space. The sophisticated gold cursive lettering completes the aesthetic look, making it a perfect statement piece for your desk, vanity, or kitchen.",
-    "capacity": "340ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "MRS",
-      "ROYAL",
-      "MARBLE",
-      "CERAMIC",
-      "MUG"
-    ]
-  },
-  {
-    "id": "772e71f4-8408-4308-a78e-748dd7d87565",
-    "itemCode": "20776",
-    "aliasName": "MXD003",
-    "name": "MR MRS ROYAL ROUND MUG 350ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 140,
-    "piecesPerCarton": 80,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20776/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/20776/0.jpg",
-      "https://assets.brahmanicrm.com/products/20776/1.jpg",
-      "https://assets.brahmanicrm.com/products/20776/2.jpg",
-      "https://assets.brahmanicrm.com/products/20776/3.jpg",
-      "https://assets.brahmanicrm.com/products/20776/4.jpg"
-    ],
-    "description": "Start your mornings with a touch of elegance and romance. This beautifully crafted ceramic mug features a soft, pastel pink marble finish, making it a perfect addition to your daily coffee or tea routine. With its chic aesthetic and comfortable grip, it is designed to make every sip feel special.",
-    "capacity": "350ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "MRS",
-      "ROYAL",
-      "ROUND",
+      "SET",
       "MUG",
-      "350ML"
+      "400ML",
+      "30CTN"
     ]
   },
   {
-    "id": "c34e4b53-472f-409c-b009-bb7b41dd12ab",
-    "itemCode": "23008",
-    "aliasName": "209-BK",
-    "name": "MS JUICE GLASS 6 PCS SET",
+    "id": "59c47dc3-e113-4003-84d3-8d0cd581088a",
+    "itemCode": "22773",
+    "aliasName": "Y5826-1",
+    "name": "MUSCLE BEER MUG 480ML 2PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 260,
-    "piecesPerCarton": 8,
+    "brahmaniCategories": [],
+    "price": 295,
+    "basePrice": 275,
+    "piecesPerCarton": 9,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23008/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22773/a3f02c56-f076-4145-bc62-cb70fff01329@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23008/0.jpg",
-      "https://assets.brahmanicrm.com/products/23008/1.jpg",
-      "https://assets.brahmanicrm.com/products/23008/2.jpg",
-      "https://assets.brahmanicrm.com/products/23008/3.jpg"
+      "https://assets.brahmanicrm.com/products/22773/a3f02c56-f076-4145-bc62-cb70fff01329@full.webp",
+      "https://assets.brahmanicrm.com/products/22773/c2d0d87b-ea1c-4655-95fe-38d0cc3c3a1f@full.webp"
     ],
-    "description": "Serve your beverages in style with this MS Juice Glass Set. With a generous 370ml capacity, these glasses are ideal for juice, water, soft drinks, and refreshing mocktails, making them perfect for everyday and party use.",
-    "capacity": "6 PCS",
+    "description": "Special Features: Unique Muscle Arm Handle Design, Large Capacity, Sturdy Build",
+    "capacity": "480ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "JUICE",
-      "GLASS",
-      "PCS",
-      "SET"
-    ]
-  },
-  {
-    "id": "a4ce7169-4ed4-491c-b743-ba1286d72125",
-    "itemCode": "22925",
-    "aliasName": "EZ1029",
-    "name": "MUG WITH LID 380ML 1PCS BOX PACK",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 110,
-    "piecesPerCarton": 24,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22925/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22925/0.jpg",
-      "https://assets.brahmanicrm.com/products/22925/1.jpg",
-      "https://assets.brahmanicrm.com/products/22925/2.jpg",
-      "https://assets.brahmanicrm.com/products/22925/3.jpg",
-      "https://assets.brahmanicrm.com/products/22925/4.jpg"
-    ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "380ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
+      "MUSCLE",
+      "BEER",
       "MUG",
-      "WITH",
-      "LID",
-      "380ML",
-      "1PCS"
+      "480ML",
+      "2PCS"
+    ]
+  },
+  {
+    "id": "fc2d02bd-3e32-4c88-9372-43a742444cef",
+    "itemCode": "20269",
+    "aliasName": "Y5826",
+    "name": "MUSCLE BEER MUG 600ML 2PCS YUJING",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 330,
+    "basePrice": 310,
+    "piecesPerCarton": 9,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20269/1a6467a7-cb72-4d00-99e2-cba6563765e0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20269/1a6467a7-cb72-4d00-99e2-cba6563765e0@full.webp",
+      "https://assets.brahmanicrm.com/products/20269/73e162c5-1f03-4ca1-9f55-b2176f750ad7@full.webp",
+      "https://assets.brahmanicrm.com/products/20269/3957b8a6-6f7e-4e2a-bd96-547f1996fe97@full.webp",
+      "https://assets.brahmanicrm.com/products/20269/6c92d347-f47b-4a85-8ee7-b1ba354ad94c@full.webp",
+      "https://assets.brahmanicrm.com/products/20269/b989c503-c8ca-412b-bc94-1f09d607b4fe@full.webp",
+      "https://assets.brahmanicrm.com/products/20269/7e72fd1e-0e85-44e6-ba1f-91775995841a@full.webp"
+    ],
+    "description": "Special Features: Unique Muscle Arm Handle Design, Extra-Large Capacity, Sturdy Build",
+    "capacity": "600ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "MUSCLE",
+      "BEER",
+      "MUG",
+      "600ML",
+      "2PCS",
+      "YUJING"
     ]
   },
   {
@@ -6957,20 +7735,25 @@ export const INITIAL_PRODUCTS = [
     "name": "NAUGHTY BEAR WATER BOTTLE",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 145,
+    "basePrice": 125,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22470/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22470/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22470/0.jpg",
-      "https://assets.brahmanicrm.com/products/22470/1.jpg",
-      "https://assets.brahmanicrm.com/products/22470/2.jpg",
-      "https://assets.brahmanicrm.com/products/22470/3.jpg",
-      "https://assets.brahmanicrm.com/products/22470/4.jpg",
-      "https://assets.brahmanicrm.com/products/22470/5.jpg",
-      "https://assets.brahmanicrm.com/products/22470/6.jpg"
+      "https://assets.brahmanicrm.com/products/22470/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22470/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22470/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22470/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22470/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22470/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22470/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22470/ab8f54da-9007-4364-ba77-b0187b644208@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Designed in an adorable and playful cartoon bear shape, making it highly attractive and popular among kids, students, and youth.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -6980,7 +7763,8 @@ export const INITIAL_PRODUCTS = [
       "NAUGHTY",
       "BEAR",
       "WATER",
-      "BOTTLE"
+      "BOTTLE",
+      "CHINA"
     ]
   },
   {
@@ -6990,18 +7774,22 @@ export const INITIAL_PRODUCTS = [
     "name": "NEW BOTTLE LEATHER SIPPER 550ML",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 105,
+    "basePrice": 85,
     "piecesPerCarton": 70,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23249/2c464b13-e398-40e8-bc95-f2ad309462d8.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23249/df925d35-bc3b-4a7d-8a90-d8eec9c4017b@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23249/2c464b13-e398-40e8-bc95-f2ad309462d8.jpg",
-      "https://assets.brahmanicrm.com/products/23249/df925d35-bc3b-4a7d-8a90-d8eec9c4017b.jpg",
-      "https://assets.brahmanicrm.com/products/23249/c0226df2-0c9e-45dc-b049-6dc2a4b91ecd.jpg",
-      "https://assets.brahmanicrm.com/products/23249/688136fd-b078-4d9e-8323-94200049570d.jpg",
-      "https://assets.brahmanicrm.com/products/23249/29ba63b4-a006-4225-8cbe-c726dc18b959.jpg"
+      "https://assets.brahmanicrm.com/products/23249/df925d35-bc3b-4a7d-8a90-d8eec9c4017b@full.webp",
+      "https://assets.brahmanicrm.com/products/23249/c0226df2-0c9e-45dc-b049-6dc2a4b91ecd@full.webp",
+      "https://assets.brahmanicrm.com/products/23249/688136fd-b078-4d9e-8323-94200049570d@full.webp",
+      "https://assets.brahmanicrm.com/products/23249/29ba63b4-a006-4225-8cbe-c726dc18b959@full.webp",
+      "https://assets.brahmanicrm.com/products/23249/e4bfbe52-6b0e-474b-b126-ef6fb93e4108@full.webp"
     ],
-    "description": "Upgrade your daily hydration with these ultra-stylish, aesthetic glass bottles. Designed for modern life, this set combines premium functionality with a minimalist café-style look, making it perfect for your office desk, home, gym, or outdoor picnics.",
+    "description": "Premium Ingredients & Transparency: Designed with a crystal-clear glass body that showcases rich, hand-selected ingredients and rich textures inside every bottle.",
     "capacity": "550ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7012,7 +7800,39 @@ export const INITIAL_PRODUCTS = [
       "BOTTLE",
       "LEATHER",
       "SIPPER",
-      "550ML"
+      "550ML",
+      "GLASSWARE"
+    ]
+  },
+  {
+    "id": "a59fa4b2-6426-458d-935a-78225982c63f",
+    "itemCode": "23338",
+    "aliasName": null,
+    "name": "OIL BOTTLE CAP LID",
+    "category": "bottles",
+    "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [],
+    "price": 40,
+    "basePrice": 20,
+    "piecesPerCarton": 55,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23338/6ea1699f-7587-4c64-b73e-e61d3abcb6a7@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23338/6ea1699f-7587-4c64-b73e-e61d3abcb6a7@full.webp",
+      "https://assets.brahmanicrm.com/products/23338/93270721-754f-4463-9b67-da64c30ad3dd@full.webp",
+      "https://assets.brahmanicrm.com/products/23338/336850c1-cb22-4ca4-92c8-7441e513867e@full.webp"
+    ],
+    "description": "Designed with an integrated ergonomic handle, making it exceptionally easy to hold and pour oil smoothly.",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "OIL",
+      "BOTTLE",
+      "CAP",
+      "LID"
     ]
   },
   {
@@ -7022,17 +7842,19 @@ export const INITIAL_PRODUCTS = [
     "name": "OIL BOTTLE GLASS 2 IN 1 BLACK",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [],
     "price": 100,
+    "basePrice": 80,
     "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22397/f6c43aec-2c2d-423b-add2-c11cdfc87abd.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22397/f6c43aec-2c2d-423b-add2-c11cdfc87abd@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22397/f6c43aec-2c2d-423b-add2-c11cdfc87abd.jpg",
-      "https://assets.brahmanicrm.com/products/22397/767fba1c-e28c-4625-8b7a-6827378ac763.jpg",
-      "https://assets.brahmanicrm.com/products/22397/dd91e8cd-f095-41e2-b1d3-c82adc2893d6.jpg",
-      "https://assets.brahmanicrm.com/products/22397/35b053ca-c6df-484d-938d-570abc278ec7.jpg"
+      "https://assets.brahmanicrm.com/products/22397/f6c43aec-2c2d-423b-add2-c11cdfc87abd@full.webp",
+      "https://assets.brahmanicrm.com/products/22397/767fba1c-e28c-4625-8b7a-6827378ac763@full.webp",
+      "https://assets.brahmanicrm.com/products/22397/dd91e8cd-f095-41e2-b1d3-c82adc2893d6@full.webp",
+      "https://assets.brahmanicrm.com/products/22397/35b053ca-c6df-484d-938d-570abc278ec7@full.webp"
     ],
-    "description": "Glass Oil Dispenser Bottles Olive Oil Spray Bottle with Pourer for Kitchen, Vinegar Cruet for Cooking with Stainless Steel Spout Automatic Caps, White Oil Container.",
+    "description": "Featuring an ideal 450ml capacity, this container is perfectly sized for packing snacks, dry fruits, sauces, or daily portions.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7052,17 +7874,21 @@ export const INITIAL_PRODUCTS = [
     "name": "OIL BOTTLE GLASS 2 IN 1 GREEN",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 100,
+    "basePrice": 80,
     "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/19741/df4f478a-bb6b-40ef-b02b-653c84e68fa1.jpg",
+    "image": "https://assets.brahmanicrm.com/products/19741/df4f478a-bb6b-40ef-b02b-653c84e68fa1@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/19741/df4f478a-bb6b-40ef-b02b-653c84e68fa1.jpg",
-      "https://assets.brahmanicrm.com/products/19741/b3e1d4b2-d119-4712-a58c-a22d6c98fd91.jpg",
-      "https://assets.brahmanicrm.com/products/19741/98222358-f270-47cd-8e06-ada8fc4c0b53.jpg",
-      "https://assets.brahmanicrm.com/products/19741/3b98ba74-fb17-47ce-8d64-5f933e243c87.jpg"
+      "https://assets.brahmanicrm.com/products/19741/df4f478a-bb6b-40ef-b02b-653c84e68fa1@full.webp",
+      "https://assets.brahmanicrm.com/products/19741/b3e1d4b2-d119-4712-a58c-a22d6c98fd91@full.webp",
+      "https://assets.brahmanicrm.com/products/19741/98222358-f270-47cd-8e06-ada8fc4c0b53@full.webp",
+      "https://assets.brahmanicrm.com/products/19741/3b98ba74-fb17-47ce-8d64-5f933e243c87@full.webp"
     ],
-    "description": "Glass Oil Dispenser Bottles Olive Oil Spray Bottle with Pourer for Kitchen, Vinegar Cruet for Cooking with Stainless Steel Spout Automatic Caps, White Oil Container.",
+    "description": "Featuring an ideal 450ml capacity, this container is perfectly sized for packing beverages, juices, smoothies, or daily portions.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7072,94 +7898,64 @@ export const INITIAL_PRODUCTS = [
       "OIL",
       "BOTTLE",
       "GLASS",
-      "GREEN"
+      "GREEN",
+      "CHINA"
     ]
   },
   {
-    "id": "c580ddc9-2b84-4eb9-86fe-1b6702064e79",
-    "itemCode": "22427",
-    "aliasName": "H2410-1-OIL",
-    "name": "OIL BOTTLE ROUND 500ML",
+    "id": "52ae416f-6e00-46f7-84f3-67bc4caa67ce",
+    "itemCode": "23021",
+    "aliasName": "SMG04",
+    "name": "OIL CAN ROUND 950ML NEW",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
-    "price": 135,
-    "piecesPerCarton": 48,
+    "brahmaniCategories": [],
+    "price": 206,
+    "basePrice": 186,
+    "piecesPerCarton": 40,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22427/0.jpg",
+    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
     "images": [
-      "https://assets.brahmanicrm.com/products/22427/0.jpg",
-      "https://assets.brahmanicrm.com/products/22427/1.jpg",
-      "https://assets.brahmanicrm.com/products/22427/2.jpg",
-      "https://assets.brahmanicrm.com/products/22427/3.jpg",
-      "https://assets.brahmanicrm.com/products/22427/4.jpg",
-      "https://assets.brahmanicrm.com/products/22427/5.jpg",
-      "https://assets.brahmanicrm.com/products/22427/6.jpg"
+      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
     ],
-    "description": "48 PCS CTN\nGlass Oil Dispenser with Steel Cover Seasoning Bottle/Glass Oil Bottle Leakproof Oiler Tank Household Stainless Steel Condiment Dispenser Steel 500ml.",
-    "capacity": "500ML",
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "950ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
       "OIL",
-      "BOTTLE",
+      "CAN",
       "ROUND",
-      "500ML"
+      "950ML",
+      "NEW"
     ]
   },
   {
-    "id": "a8cc4c7e-2bd6-4175-a941-d64da0ea5dbe",
-    "itemCode": "22766",
-    "aliasName": "H6-3100",
-    "name": "OIL BOTTLE SS CLIP 450ML 1PCS BOX PACK",
+    "id": "b261f66b-251d-4465-bb6f-d7875f58c6a8",
+    "itemCode": "23168",
+    "aliasName": null,
+    "name": "OIL CAN ROUND 950ML NEW.",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
-    "price": 90,
-    "piecesPerCarton": 60,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22766/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22766/0.jpg",
-      "https://assets.brahmanicrm.com/products/22766/1.jpg",
-      "https://assets.brahmanicrm.com/products/22766/2.jpg",
-      "https://assets.brahmanicrm.com/products/22766/3.jpg",
-      "https://assets.brahmanicrm.com/products/22766/4.jpg",
-      "https://assets.brahmanicrm.com/products/22766/5.jpg"
+    "brahmaniCategories": [
+      "CHINA"
     ],
-    "description": "The 450ML Glass Oil Bottle with SS Clip is designed for easy pouring and safe storage of cooking oils. With its sleek design and strong sealing, this bottle ensures your kitchen stays clean and organized. Suitable for oil, vinegar, sauces, and liquid seasonings, it combines functionality with modern style.",
-    "capacity": "450ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "OIL",
-      "BOTTLE",
-      "CLIP",
-      "450ML",
-      "1PCS"
-    ]
-  },
-  {
-    "id": "05bc8774-7d81-4fac-917d-6c65306d24bf",
-    "itemCode": "23239",
-    "aliasName": "GP-1822",
-    "name": "OIL CAN 600 ML WHITE BOX",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 235,
-    "piecesPerCarton": 118,
+    "price": 220,
+    "basePrice": 200,
+    "piecesPerCarton": 40,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23239/34f884fa-9051-4301-a492-060578ab1e2c.png",
+    "image": "https://assets.brahmanicrm.com/products/23168/05fe1345-b033-4b7f-8157-102781a738e1@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23239/34f884fa-9051-4301-a492-060578ab1e2c.png",
-      "https://assets.brahmanicrm.com/products/23239/156dc88f-b2b9-4e5b-9213-85f74d6e1ee3.png",
-      "https://assets.brahmanicrm.com/products/23239/60be3c03-1fca-4ac4-ac1e-ff849309b63a.jpg",
-      "https://assets.brahmanicrm.com/products/23239/a6d595f4-d4f4-4fe2-8451-b0e651903f70.png"
+      "https://assets.brahmanicrm.com/products/23168/05fe1345-b033-4b7f-8157-102781a738e1@full.webp",
+      "https://assets.brahmanicrm.com/products/23168/d91f1f29-b08c-4641-8487-6762d8a542e3@full.webp",
+      "https://assets.brahmanicrm.com/products/23168/48f401d9-9846-4e78-a85a-de7dadf51908@full.webp",
+      "https://assets.brahmanicrm.com/products/23168/482d21c5-1898-4f92-bca4-a9b366e7e415@full.webp",
+      "https://assets.brahmanicrm.com/products/23168/36e15f5c-88f1-4af7-8be5-88f15fae699e@full.webp"
     ],
-    "description": "Oil dispensers come in different sizes, ranging from small, tabletop dispensers for home use to large, industrial systems for commercial purposes. The capacity depends on the intended use.",
-    "capacity": "600 ML",
+    "description": "Featuring a 950ml capacity with a clear built-in measurement scale, allowing you to easily monitor the exact amount of oil remaining.",
+    "capacity": "950ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
@@ -7167,40 +7963,10 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "OIL",
       "CAN",
-      "WHITE",
-      "BOX"
-    ]
-  },
-  {
-    "id": "9099edee-3456-4d77-b78c-0c345009d066",
-    "itemCode": "23197",
-    "aliasName": "MSB-104",
-    "name": "OIL CAN STEEL CAP 600ML 1PCS",
-    "category": "caps",
-    "categoryName": "Lug & Plastic Caps",
-    "price": 235,
-    "piecesPerCarton": 45,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23197/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23197/0.jpg",
-      "https://assets.brahmanicrm.com/products/23197/1.jpg",
-      "https://assets.brahmanicrm.com/products/23197/2.jpg",
-      "https://assets.brahmanicrm.com/products/23197/3.jpg",
-      "https://assets.brahmanicrm.com/products/23197/4.jpg"
-    ],
-    "description": "Oil dispensers come in different sizes, ranging from small, tabletop dispensers for home use to large, industrial systems for commercial purposes. The capacity depends on the intended use.",
-    "capacity": "600ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "OIL",
-      "CAN",
-      "STEEL",
-      "CAP",
-      "600ML"
+      "ROUND",
+      "950ML",
+      "NEW.",
+      "CHINA"
     ]
   },
   {
@@ -7208,19 +7974,22 @@ export const INITIAL_PRODUCTS = [
     "itemCode": "23148",
     "aliasName": null,
     "name": "OIL NEW",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
+    "category": "bottles",
+    "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 235,
+    "basePrice": 215,
     "piecesPerCarton": 40,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23148/3.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23148/60170c3e-0a5e-4790-ae04-56d607e28aa5@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23148/3.jpg",
-      "https://assets.brahmanicrm.com/products/23148/60170c3e-0a5e-4790-ae04-56d607e28aa5.jpg",
-      "https://assets.brahmanicrm.com/products/23148/14f2b5f1-d41c-4d9a-8a67-356cd6594173.jpg",
-      "https://assets.brahmanicrm.com/products/23148/7b46acfd-4f5b-479f-8f74-936754ebcf52.jpg"
+      "https://assets.brahmanicrm.com/products/23148/60170c3e-0a5e-4790-ae04-56d607e28aa5@full.webp",
+      "https://assets.brahmanicrm.com/products/23148/14f2b5f1-d41c-4d9a-8a67-356cd6594173@full.webp",
+      "https://assets.brahmanicrm.com/products/23148/7b46acfd-4f5b-479f-8f74-936754ebcf52@full.webp"
     ],
-    "description": "Elevate your daily brewing routine with this beautifully designed glass kettle and server. Crafted with a sophisticated smoky grey tint, this pitcher seamlessly blends modern aesthetics with everyday functionality, making it a perfect addition to any kitchen or dining table.",
+    "description": "Designed with a stylish smoky/tinted grey glass body, giving your kitchen counter a modern and luxurious aesthetic.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7228,7 +7997,140 @@ export const INITIAL_PRODUCTS = [
     "featured": false,
     "tags": [
       "OIL",
-      "NEW"
+      "NEW",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "c107aece-f0ce-48dd-921a-d54bbd6a4afa",
+    "itemCode": "23330",
+    "aliasName": "KTY6240",
+    "name": "OLD FASHION JUICE GLASS 315ML 6PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 340,
+    "basePrice": 320,
+    "piecesPerCarton": 6,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23330/751653e3-50bb-4bba-9e70-5f3474c028fd@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23330/751653e3-50bb-4bba-9e70-5f3474c028fd@full.webp",
+      "https://assets.brahmanicrm.com/products/23330/29af6efd-7753-45e0-88ba-7e68d5b7592a@full.webp",
+      "https://assets.brahmanicrm.com/products/23330/18a9f506-f2a2-4123-ac2f-5f76dc0c89ab@full.webp",
+      "https://assets.brahmanicrm.com/products/23330/59e16f12-7fb6-455b-8167-cba1779810b8@full.webp",
+      "https://assets.brahmanicrm.com/products/23330/ca35e821-5ea7-47a5-8ba3-320f69a05e9b@full.webp"
+    ],
+    "description": "Special Features: Vintage Cut-Glass Pattern, Weighted Base, Ergonomic Shape",
+    "capacity": "315ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "OLD",
+      "FASHION",
+      "JUICE",
+      "GLASS",
+      "315ML",
+      "6PCS"
+    ]
+  },
+  {
+    "id": "08ab74c2-ca18-4153-bfd5-a3fa4ea0e308",
+    "itemCode": "23332",
+    "aliasName": "KTY6231",
+    "name": "OPERA WATER GLASS 280ML 6PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 415,
+    "basePrice": 395,
+    "piecesPerCarton": 6,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23332/bb1cecbd-d725-45c7-b55f-5b43f564e510@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23332/bb1cecbd-d725-45c7-b55f-5b43f564e510@full.webp",
+      "https://assets.brahmanicrm.com/products/23332/2afcc227-4125-481a-8a2b-f96ea88c5627@full.webp"
+    ],
+    "description": "Special Features: Elegant Opera Cut Pattern, Weighted Base, Luxury Finish",
+    "capacity": "280ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "OPERA",
+      "WATER",
+      "GLASS",
+      "280ML",
+      "6PCS"
+    ]
+  },
+  {
+    "id": "a7de9f57-7d38-45ff-b233-a10b142752e7",
+    "itemCode": "21307",
+    "aliasName": "DSKB036-1",
+    "name": "OPERA2 WHISKY 225ML 6PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 216,
+    "basePrice": 196,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/21307/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/21307/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21307/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21307/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21307/4@full.webp",
+      "https://assets.brahmanicrm.com/products/21307/ea83a473-c5ee-4185-bc00-5b8fae074d9b@full.webp"
+    ],
+    "description": "Opera Crystal Whiskey Glasses 225 ml Bar Glass for Drinking Bourbon, Whisky, Scotch, Cocktails Set of 6 pcs",
+    "capacity": "225ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "OPERA2",
+      "WHISKY",
+      "225ML",
+      "6PCS"
+    ]
+  },
+  {
+    "id": "51145542-1ea3-448a-878a-6fb55ef55a46",
+    "itemCode": "21104",
+    "aliasName": "DSKB036-2",
+    "name": "OPERA3 WHISKY 330ML 6PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 292,
+    "basePrice": 272,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/21104/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/21104/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21104/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21104/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21104/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21104/4@full.webp"
+    ],
+    "description": "Opera Whiskey Glasses 240 ml Bar Glass for Drinking Bourbon, Whisky, Scotch, Cocktails Set of 6 pcs",
+    "capacity": "330ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "OPERA3",
+      "WHISKY",
+      "330ML",
+      "6PCS"
     ]
   },
   {
@@ -7238,16 +8140,21 @@ export const INITIAL_PRODUCTS = [
     "name": "OVAL BAKING DISH 1.5LTR  BOX PACK",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "DIAMONDS"
+    ],
     "price": 160,
+    "basePrice": 140,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22924/d0198325-ee26-4edf-bba7-20cf216d56a1.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22924/d0198325-ee26-4edf-bba7-20cf216d56a1@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22924/d0198325-ee26-4edf-bba7-20cf216d56a1.jpg",
-      "https://assets.brahmanicrm.com/products/22924/314487f9-0624-492d-bd86-9f0534cbc777.jpg",
-      "https://assets.brahmanicrm.com/products/22924/b7f7fdb2-39f4-4ed5-b09c-321f41e60225.jpg"
+      "https://assets.brahmanicrm.com/products/22924/d0198325-ee26-4edf-bba7-20cf216d56a1@full.webp",
+      "https://assets.brahmanicrm.com/products/22924/314487f9-0624-492d-bd86-9f0534cbc777@full.webp",
+      "https://assets.brahmanicrm.com/products/22924/b7f7fdb2-39f4-4ed5-b09c-321f41e60225@full.webp",
+      "https://assets.brahmanicrm.com/products/22924/2e79e99c-5f97-4f1d-b830-5cde831c2faf@full.webp"
     ],
-    "description": "your favorite baked dishes in style with this Oval Baking Dish 1.5 Litre, designed for durability, even cooking, and elegant table presentation. Perfect for both home kitchens and professional use.",
+    "description": "Featuring an ideal 1.5-liter capacity, this oval baking dish is perfectly sized for baking, making casseroles, or serving main dishes to your family.",
     "capacity": "1.5LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7258,62 +8165,9 @@ export const INITIAL_PRODUCTS = [
       "BAKING",
       "DISH",
       "1.5LTR",
-      "BOX"
-    ]
-  },
-  {
-    "id": "6d6609f6-3927-4399-8162-e6375caf0176",
-    "itemCode": "22685",
-    "aliasName": "RC-07",
-    "name": "OVAL BAKING DISH 700ML BOX PACK",
-    "category": "bowls",
-    "categoryName": "Bowls & Tableware",
-    "price": 125,
-    "piecesPerCarton": 24,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22685/3a59249e-da2f-4ceb-97cf-8ccba4a7cb5d.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22685/3a59249e-da2f-4ceb-97cf-8ccba4a7cb5d.jpg",
-      "https://assets.brahmanicrm.com/products/22685/f58473ba-1e41-4b6b-a59e-a5ac29333c5b.jpg",
-      "https://assets.brahmanicrm.com/products/22685/b8677587-1a39-4d01-88ee-797b9ac27c3e.jpg"
-    ],
-    "description": "Ideal for baking, serving, and storing – microwave, oven & dishwasher safe.Transparent, stylish, and heat-resistant – perfect for daily or party use.",
-    "capacity": "700ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "OVAL",
-      "BAKING",
-      "DISH",
-      "700ML",
-      "BOX"
-    ]
-  },
-  {
-    "id": "16b2ad08-9651-49ee-bdc4-b5237e565fe6",
-    "itemCode": "22191",
-    "aliasName": null,
-    "name": "PACKING CHARGES",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 290,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
-    ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "PACKING",
-      "CHARGES"
+      "BOX",
+      "PACK",
+      "DIAMONDS"
     ]
   },
   {
@@ -7323,19 +8177,23 @@ export const INITIAL_PRODUCTS = [
     "name": "PANDA LAMP REGULAR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 205,
+    "basePrice": 185,
     "piecesPerCarton": 80,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22571/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22571/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22571/0.jpg",
-      "https://assets.brahmanicrm.com/products/22571/1.jpg",
-      "https://assets.brahmanicrm.com/products/22571/2.jpg",
-      "https://assets.brahmanicrm.com/products/22571/3.jpg",
-      "https://assets.brahmanicrm.com/products/22571/4.jpg",
-      "https://assets.brahmanicrm.com/products/22571/5.jpg"
+      "https://assets.brahmanicrm.com/products/22571/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22571/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22571/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22571/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22571/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22571/5@full.webp"
     ],
-    "description": "Silicone Panda Touch LED Lamp Night Light For Kids Panda Lover Gifts For Teen Girls Boys Nightlight Lamp Cute Aesthetic Baby Room Decor Gifts For Girlfriend Item With 7 Multicolour.",
+    "description": "Designed in an adorable panda shape wearing a cozy scarf, making it a delightful decor piece for kids' rooms, bedrooms, or nurseries.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7344,7 +8202,40 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "PANDA",
       "LAMP",
-      "REGULAR"
+      "REGULAR",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "04c8dd13-1df9-4b07-9059-93b3570b1dfd",
+    "itemCode": "23219",
+    "aliasName": "MSB-164",
+    "name": "PEPPER CRUSHER 200ML 1PCS",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 100,
+    "basePrice": 80,
+    "piecesPerCarton": 80,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23219/ebd9cbdd-2bdb-4a75-a580-42eb412148b0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23219/ebd9cbdd-2bdb-4a75-a580-42eb412148b0@full.webp",
+      "https://assets.brahmanicrm.com/products/23219/a07341df-e002-486d-a0e2-ff3019d65212@full.webp",
+      "https://assets.brahmanicrm.com/products/23219/4e54902d-f9a5-4a1d-9971-66d8aa022996@full.webp",
+      "https://assets.brahmanicrm.com/products/23219/2764c496-49ef-4d58-92f6-caa43692113e@full.webp"
+    ],
+    "description": "Special Features: Adjustable Grind Control, Aroma Lock Lid, See-Through Design",
+    "capacity": "200ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "PEPPER",
+      "CRUSHER",
+      "200ML",
+      "1PCS"
     ]
   },
   {
@@ -7354,18 +8245,24 @@ export const INITIAL_PRODUCTS = [
     "name": "PINEAPPLE HANDLE MUG 200ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 320,
+    "basePrice": 300,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23314/ffa11021-866c-45d3-9396-ffd6a08d6d41.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23314/7d5e797a-1d2e-40ca-a09d-c896a01e48af@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23314/ffa11021-866c-45d3-9396-ffd6a08d6d41.jpg",
-      "https://assets.brahmanicrm.com/products/23314/361755ff-f699-4472-8b04-ba148508bb75.jpg",
-      "https://assets.brahmanicrm.com/products/23314/1b0fbcaf-37bd-44b7-895d-84b896949520.jpg",
-      "https://assets.brahmanicrm.com/products/23314/5ca90e86-60fa-4e7e-bd84-a54975570988.jpg",
-      "https://assets.brahmanicrm.com/products/23314/2bc70399-55cb-41fa-9a3d-ab9e21fd9409.jpg"
+      "https://assets.brahmanicrm.com/products/23314/7d5e797a-1d2e-40ca-a09d-c896a01e48af@full.webp",
+      "https://assets.brahmanicrm.com/products/23314/df027f36-5444-4693-8e07-262c95fef69e@full.webp",
+      "https://assets.brahmanicrm.com/products/23314/c42f9113-c7ba-4900-9fe4-9b21cc2bb2b3@full.webp",
+      "https://assets.brahmanicrm.com/products/23314/f6dbdb9e-ac32-4338-bd61-34a42711fa3e@full.webp",
+      "https://assets.brahmanicrm.com/products/23314/4d8e0130-f5e7-44c4-9d90-ba35d87b5010@full.webp",
+      "https://assets.brahmanicrm.com/products/23314/31c7eb79-d2d8-4c31-bae0-3d1735c645f1@full.webp",
+      "https://assets.brahmanicrm.com/products/23314/ad7676b3-87d1-4976-947b-474557ac041a@full.webp"
     ],
-    "description": "Glass Pineapple Pattern Mug with Handle Set of 6, 220 ml, Clear Transparent, for Juice, Milk, Water, Soda, Lemonade, Decoration, Guest, Gift, Special Occasion",
+    "description": "Special Features: Pineapple Textured Body, Stem Base, Ergonomic Handle",
     "capacity": "200ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7376,7 +8273,8 @@ export const INITIAL_PRODUCTS = [
       "HANDLE",
       "MUG",
       "200ML",
-      "6PCS"
+      "6PCS",
+      "GLASSWARE"
     ]
   },
   {
@@ -7386,17 +8284,20 @@ export const INITIAL_PRODUCTS = [
     "name": "PINEAPPLE WATER JUG 1300ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 250,
+    "basePrice": 230,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20233/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20233/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20233/0.jpg",
-      "https://assets.brahmanicrm.com/products/20233/1.jpg",
-      "https://assets.brahmanicrm.com/products/20233/2.jpg",
-      "https://assets.brahmanicrm.com/products/20233/3.jpg"
+      "https://assets.brahmanicrm.com/products/20233/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20233/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20233/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20233/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20233/07632e13-c4bc-4f3b-96e6-ccf3a7c896d9@full.webp"
     ],
-    "description": "Pineapple Shape Lemon Set Juice Water Jug, Carafes and Pitchers Glass 1Pcs Transparent Jug Crystal Shaped Carafe with Long Comfortable Handle Juice Water 1300 ml",
+    "description": "Featuring a spacious 1300ml capacity, this jug is perfect for serving ample amounts of water, juices, iced tea, or cold beverages to family and guests.",
     "capacity": "1300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7410,24 +8311,61 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "4a107834-b9e6-407d-92c5-3b14c1dad407",
+    "itemCode": "20627",
+    "aliasName": "DSY023-2",
+    "name": "PINEAPPLE2 WATER GLASS 180ML 6PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 250,
+    "basePrice": 230,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20627/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20627/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20627/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20627/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20627/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20627/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20627/5@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "180ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "PINEAPPLE2",
+      "WATER",
+      "GLASS",
+      "180ML",
+      "6PCS"
+    ]
+  },
+  {
     "id": "acdb86b6-5a0a-498f-bff1-eb55bc1c3ee7",
     "itemCode": "22990",
     "aliasName": null,
     "name": "PLASTIC CAP 53MM BLACK",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [],
     "price": 23,
-    "piecesPerCarton": 1,
+    "basePrice": 3,
+    "piecesPerCarton": 30,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22990/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22990/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22990/0.jpg",
-      "https://assets.brahmanicrm.com/products/22990/1.jpg",
-      "https://assets.brahmanicrm.com/products/22990/2.jpg",
-      "https://assets.brahmanicrm.com/products/22990/3.jpg",
-      "https://assets.brahmanicrm.com/products/22990/4.jpg"
+      "https://assets.brahmanicrm.com/products/22990/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22990/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22990/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22990/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22990/4@full.webp"
     ],
-    "description": "Keep your containers securely sealed and organized with this durable black plastic jar lid. Designed for versatile packaging and storage needs, it offers both reliability and a clean, uniform look.",
+    "description": "Designed in a standard 53mm size, making it a perfect fit for compatible glass or plastic jars and containers.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "53MM Neck / Closure",
     "material": "Clear Soda Lime Flint Glass",
@@ -7447,15 +8385,21 @@ export const INITIAL_PRODUCTS = [
     "name": "PLASTIC LID",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 50,
+    "basePrice": 30,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23262/80e2ca84-194c-4bf9-8c9d-3bfb1aa27588.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23262/54aa99cc-3f48-4bca-8a36-0a546622ee76@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23262/80e2ca84-194c-4bf9-8c9d-3bfb1aa27588.jpg",
-      "https://assets.brahmanicrm.com/products/23262/7644b813-d952-4ef3-9562-3a48c60012e4.png"
+      "https://assets.brahmanicrm.com/products/23262/54aa99cc-3f48-4bca-8a36-0a546622ee76@full.webp",
+      "https://assets.brahmanicrm.com/products/23262/8b6c9cfa-28e3-44cf-9a54-433defc32f7d@full.webp",
+      "https://assets.brahmanicrm.com/products/23262/5e7df249-4674-46df-a8ae-62cab729728f@full.webp",
+      "https://assets.brahmanicrm.com/products/23262/df479d9d-59a9-42e1-8eef-e7ee4ab8d2af@full.webp"
     ],
-    "description": "Upgrade your favorite travel mug with our Premium Spill-Proof Replacement Tumbler Lid. Designed for both functionality and style, this sleek grey lid features a contrasting pastel pink silicone stopper that not only looks great but ensures a tight, splash-proof seal. Whether you are commuting, working at your desk, or enjoying a coffee break, this lid keeps your beverages secure and maintains their temperature for longer.",
+    "description": "Designed with a secure sealing structure that fits tightly on cups or containers to prevent messy spills and leaks.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7463,7 +8407,8 @@ export const INITIAL_PRODUCTS = [
     "featured": false,
     "tags": [
       "PLASTIC",
-      "LID"
+      "LID",
+      "CHINA"
     ]
   },
   {
@@ -7473,19 +8418,22 @@ export const INITIAL_PRODUCTS = [
     "name": "PLAZA ROUND 270ML 6PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 280,
+    "basePrice": 260,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20829/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20829/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20829/0.jpg",
-      "https://assets.brahmanicrm.com/products/20829/1.jpg",
-      "https://assets.brahmanicrm.com/products/20829/2.jpg",
-      "https://assets.brahmanicrm.com/products/20829/3.jpg",
-      "https://assets.brahmanicrm.com/products/20829/4.jpg",
-      "https://assets.brahmanicrm.com/products/20829/5.jpg"
+      "https://assets.brahmanicrm.com/products/20829/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20829/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20829/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20829/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20829/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20829/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20829/aac18afb-8456-45d4-8909-016e0ff74f10@full.webp"
     ],
-    "description": "Glass Set 6 Glass Set for Dining Table Juice Glass Heavy Base Tall Bar Glass Drinking Glasses, Juice, Beer, Wine,Cocktails (310 ML 6PCS)",
+    "description": "Featuring an ideal 270ml capacity, these glass tumblers are perfectly sized for serving water, fresh juices, cold drinks, mocktails, or cocktails.",
     "capacity": "270ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7505,22 +8453,24 @@ export const INITIAL_PRODUCTS = [
     "name": "PLAZA ROUND JC 220ML 6PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 205,
+    "basePrice": 185,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22324/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22324/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22324/0.jpg",
-      "https://assets.brahmanicrm.com/products/22324/1.jpg",
-      "https://assets.brahmanicrm.com/products/22324/2.jpg",
-      "https://assets.brahmanicrm.com/products/22324/3.jpg",
-      "https://assets.brahmanicrm.com/products/22324/4.jpg",
-      "https://assets.brahmanicrm.com/products/22324/5.jpg",
-      "https://assets.brahmanicrm.com/products/22324/6.jpg",
-      "https://assets.brahmanicrm.com/products/22324/7.jpg",
-      "https://assets.brahmanicrm.com/products/22324/8.jpg"
+      "https://assets.brahmanicrm.com/products/22324/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22324/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22324/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22324/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22324/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22324/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22324/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22324/7@full.webp",
+      "https://assets.brahmanicrm.com/products/22324/8@full.webp"
     ],
-    "description": "Plaza Round Whisky 290ML 6PCS || Crystal Cut Barware Drinking Glasses for Whisky, Bourbon, Scotch, Liquor, Wine, Cocktail Drinks.",
+    "description": "Featuring an ideal 220ml capacity, these glass tumblers are perfectly sized for serving fresh juices, water, cold drinks, or other beverages.",
     "capacity": "220ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7540,19 +8490,20 @@ export const INITIAL_PRODUCTS = [
     "name": "PLAZA ROUND WHISKY 290ML 6PCS DELI",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 240,
+    "basePrice": 220,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20769/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20769/2a4665d4-b0f7-40f5-aab3-f1ae2c63cabd@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20769/0.jpg",
-      "https://assets.brahmanicrm.com/products/20769/1.jpg",
-      "https://assets.brahmanicrm.com/products/20769/2.jpg",
-      "https://assets.brahmanicrm.com/products/20769/3.jpg",
-      "https://assets.brahmanicrm.com/products/20769/4.jpg",
-      "https://assets.brahmanicrm.com/products/20769/5.jpg"
+      "https://assets.brahmanicrm.com/products/20769/2a4665d4-b0f7-40f5-aab3-f1ae2c63cabd@full.webp",
+      "https://assets.brahmanicrm.com/products/20769/35b6a5d8-d736-4351-83a2-895aea1279e7@full.webp",
+      "https://assets.brahmanicrm.com/products/20769/165ed9f7-4c45-4544-85cf-2d6ff9b64e89@full.webp",
+      "https://assets.brahmanicrm.com/products/20769/ba3390c5-88bf-4a29-9c46-018b4f151774@full.webp",
+      "https://assets.brahmanicrm.com/products/20769/efa4580c-fcad-4739-9587-3214ab61f72e@full.webp"
     ],
-    "description": "Plaza Round Whisky 290ML 6PCS || Crystal Cut Barware Drinking Glasses for Whisky, Bourbon, Scotch, Liquor, Wine, Cocktail Drinks.",
+    "description": "Featuring an ideal 290ml capacity, these glasses are perfectly sized for serving whisky, scotch, cocktails, mocktails, or your favorite spirits.",
     "capacity": "290ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7563,7 +8514,8 @@ export const INITIAL_PRODUCTS = [
       "ROUND",
       "WHISKY",
       "290ML",
-      "6PCS"
+      "6PCS",
+      "DELI"
     ]
   },
   {
@@ -7573,19 +8525,21 @@ export const INITIAL_PRODUCTS = [
     "name": "PLAZA SQUARE 300ML 6PCS SET",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 185,
+    "basePrice": 165,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22348/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22348/88dd2663-be57-4e5f-9850-98d00c8ef0b7@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22348/0.jpg",
-      "https://assets.brahmanicrm.com/products/22348/1.jpg",
-      "https://assets.brahmanicrm.com/products/22348/2.jpg",
-      "https://assets.brahmanicrm.com/products/22348/3.jpg",
-      "https://assets.brahmanicrm.com/products/22348/4.jpg",
-      "https://assets.brahmanicrm.com/products/22348/5.jpg"
+      "https://assets.brahmanicrm.com/products/22348/88dd2663-be57-4e5f-9850-98d00c8ef0b7@full.webp",
+      "https://assets.brahmanicrm.com/products/22348/c85dd915-b7fc-456b-bdfe-e4937d654794@full.webp",
+      "https://assets.brahmanicrm.com/products/22348/a48019db-8399-41e7-baff-a0b85f696740@full.webp",
+      "https://assets.brahmanicrm.com/products/22348/cdd0d50b-aff4-4a1e-a1d2-ad133d5861ff@full.webp",
+      "https://assets.brahmanicrm.com/products/22348/087e7568-0d3c-4409-9ba0-df8f403480c4@full.webp",
+      "https://assets.brahmanicrm.com/products/22348/30ad5956-74a5-4323-afb5-ff6069926d94@full.webp"
     ],
-    "description": "Plaza Square Whiskey 250ML 6PCS || Crystal Cut Barware Drinking Glasses for Whisky, Bourbon, Scotch, Liquor, Wine, Cocktail Drinks - Transparent Old.",
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7606,18 +8560,20 @@ export const INITIAL_PRODUCTS = [
     "name": "PLAZA2 ROUND 215ML 6PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 200,
+    "basePrice": 180,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20877/1399aad8-1ab0-452e-b7b3-05d351b16427.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20877/1399aad8-1ab0-452e-b7b3-05d351b16427@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20877/1399aad8-1ab0-452e-b7b3-05d351b16427.jpg",
-      "https://assets.brahmanicrm.com/products/20877/3b0bf1b1-593c-4cd0-b602-c4a721e5316b.jpg",
-      "https://assets.brahmanicrm.com/products/20877/c20c7057-02ed-4686-ba0a-9e24b21c4b93.jpg",
-      "https://assets.brahmanicrm.com/products/20877/06ecb2a5-edf2-47ba-ad20-e6f14df747f3.jpg",
-      "https://assets.brahmanicrm.com/products/20877/5becfc72-449b-4c58-b58b-65fb20499567.jpg"
+      "https://assets.brahmanicrm.com/products/20877/1399aad8-1ab0-452e-b7b3-05d351b16427@full.webp",
+      "https://assets.brahmanicrm.com/products/20877/3b0bf1b1-593c-4cd0-b602-c4a721e5316b@full.webp",
+      "https://assets.brahmanicrm.com/products/20877/c20c7057-02ed-4686-ba0a-9e24b21c4b93@full.webp",
+      "https://assets.brahmanicrm.com/products/20877/06ecb2a5-edf2-47ba-ad20-e6f14df747f3@full.webp",
+      "https://assets.brahmanicrm.com/products/20877/5becfc72-449b-4c58-b58b-65fb20499567@full.webp"
     ],
-    "description": "Round Plaza Juice Glasses Lead-Free Highball Crystal Glass Drinking Glasses Water Glasses, Mojito Glass Cups, Tom Collins Bar Glassware, and Mixed Drink Cocktail Glass 215ML Set of 6",
+    "description": "Featuring an ideal 215ml capacity, these glasses are perfectly sized for serving water, juices, cold drinks, buttermilk, or mocktails.",
     "capacity": "215ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7637,17 +8593,18 @@ export const INITIAL_PRODUCTS = [
     "name": "POP JAR CRTAMIC LID 350ML 3PCS SET",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 220,
+    "brahmaniCategories": [],
+    "price": 225,
+    "basePrice": 205,
     "piecesPerCarton": 16,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22796/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22796/9c6e21a3-af15-4f56-8db7-ac42f62a3806@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22796/0.jpg",
-      "https://assets.brahmanicrm.com/products/22796/1.jpg",
-      "https://assets.brahmanicrm.com/products/22796/2.jpg",
-      "https://assets.brahmanicrm.com/products/22796/3.jpg"
+      "https://assets.brahmanicrm.com/products/22796/9c6e21a3-af15-4f56-8db7-ac42f62a3806@full.webp",
+      "https://assets.brahmanicrm.com/products/22796/952441cc-906e-4eb7-85d8-19f4b7ae238c@full.webp",
+      "https://assets.brahmanicrm.com/products/22796/0dcba734-98e0-46f8-8215-cd76ca76fc5a@full.webp"
     ],
-    "description": "This unique glass jar features a delicately crafted ceramic flower. Skilled artisans meticulously handcraft each ceramic rose, carefully applying a touch of gold plating along the edges before subjecting them to high-temperature firing.",
+    "description": "Special Features: Flower-Shaped Ceramic Lid, Airtight Seal, Fluted Design",
     "capacity": "350ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7658,71 +8615,47 @@ export const INITIAL_PRODUCTS = [
       "JAR",
       "CRTAMIC",
       "LID",
-      "350ML"
+      "350ML",
+      "3PCS",
+      "SET"
     ]
   },
   {
-    "id": "7ed1d87b-b93f-4867-9e76-4708df12d44f",
-    "itemCode": "22844",
-    "aliasName": "H4019-0303",
-    "name": "POP JAR LINNIG 1000ML 1PCS BOX PACK",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 150,
-    "piecesPerCarton": 24,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22844/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22844/0.jpg",
-      "https://assets.brahmanicrm.com/products/22844/1.jpg",
-      "https://assets.brahmanicrm.com/products/22844/2.jpg",
-      "https://assets.brahmanicrm.com/products/22844/3.jpg"
+    "id": "0d76fa3a-f724-40b4-b28a-69502c06f256",
+    "itemCode": "23351",
+    "aliasName": "TG1080-7C-L7",
+    "name": "PUDDING SET-7 PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSES",
+      "CM"
     ],
-    "description": "The POP Jar Lining is designed for stylish and convenient kitchen storage. Made from high-quality transparent material with an elegant lining pattern, it keeps your essentials fresh while adding a modern touch to your countertop.",
-    "capacity": "1000ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "POP",
-      "JAR",
-      "LINNIG",
-      "1000ML",
-      "1PCS"
-    ]
-  },
-  {
-    "id": "ff695624-b0a5-4586-b396-d5057e84196e",
-    "itemCode": "23129",
-    "aliasName": "GTY-2512",
-    "name": "PUDDING JAR 100ML 6 PCS SET BOX PACK",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 130,
-    "piecesPerCarton": 24,
+    "price": 400,
+    "basePrice": 380,
+    "piecesPerCarton": 6,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23129/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23351/39cc4aa5-a7c3-4892-857b-1d81986f9a39@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23129/0.jpg",
-      "https://assets.brahmanicrm.com/products/23129/1.jpg",
-      "https://assets.brahmanicrm.com/products/23129/2.jpg",
-      "https://assets.brahmanicrm.com/products/23129/3.jpg",
-      "https://assets.brahmanicrm.com/products/23129/4.jpg",
-      "https://assets.brahmanicrm.com/products/23129/5.jpg"
+      "https://assets.brahmanicrm.com/products/23351/39cc4aa5-a7c3-4892-857b-1d81986f9a39@full.webp",
+      "https://assets.brahmanicrm.com/products/23351/cce1b6e1-9122-4ecd-8c38-0b415bb0f128@full.webp",
+      "https://assets.brahmanicrm.com/products/23351/5f651e03-6b72-4556-8283-398b5b52b52f@full.webp",
+      "https://assets.brahmanicrm.com/products/23351/b4741eb6-d74f-4259-b538-4e7318f04769@full.webp",
+      "https://assets.brahmanicrm.com/products/23351/fca7b786-77cb-4592-b9c9-70a82912fcc2@full.webp",
+      "https://assets.brahmanicrm.com/products/23351/b76f346f-4c62-4e48-897f-c8699f67e1df@full.webp"
     ],
-    "description": "They perfectly complement any table setting, whether at a private party or corporate function. Use this glass to serve desserts or hold cream for coffee, sugar, salt, and other condiments.",
-    "capacity": "100ML",
+    "description": "Set Contains: 1 Large Serving Bowl + 6 Small Bowls (Total 7 Pieces)",
+    "capacity": "7 PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
       "PUDDING",
-      "JAR",
-      "100ML",
+      "SET-7",
       "PCS",
-      "SET"
+      "GLASSES",
+      "CM"
     ]
   },
   {
@@ -7732,19 +8665,24 @@ export const INITIAL_PRODUCTS = [
     "name": "RABBIT LONG EAR BOTTLE 450ML",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 65,
+    "basePrice": 45,
     "piecesPerCarton": 100,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23074/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23074/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23074/0.jpg",
-      "https://assets.brahmanicrm.com/products/23074/1.jpg",
-      "https://assets.brahmanicrm.com/products/23074/2.jpg",
-      "https://assets.brahmanicrm.com/products/23074/3.jpg",
-      "https://assets.brahmanicrm.com/products/23074/4.jpg",
-      "https://assets.brahmanicrm.com/products/23074/5.jpg"
+      "https://assets.brahmanicrm.com/products/23074/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23074/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23074/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23074/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23074/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23074/5@full.webp",
+      "https://assets.brahmanicrm.com/products/23074/dbf777e0-2948-4adc-9e6c-78e9de991dac@full.webp"
     ],
-    "description": "Made from high-quality borosilicate glass with a protective food-grade silicone sleeve, ensuring durability, heat resistance, and child-safe use.",
+    "description": "Featuring an ideal 450ml capacity, this water bottle is perfectly sized for storing water, juices, milkshakes, or other beverages.",
     "capacity": "450ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7755,69 +8693,78 @@ export const INITIAL_PRODUCTS = [
       "LONG",
       "EAR",
       "BOTTLE",
-      "450ML"
+      "450ML",
+      "CHINA"
     ]
   },
   {
-    "id": "604c94f0-ccf3-4396-af0d-86857c974a76",
-    "itemCode": "22615",
-    "aliasName": "KTZB04-4",
-    "name": "RAJWADI TEA CUP 230ML 6PCS",
+    "id": "68caead7-80ce-4dc2-8ff2-8f4aff8eb62a",
+    "itemCode": "22752",
+    "aliasName": "EZ385",
+    "name": "RAIN RIPPLE TEA CUP WITH LID 390ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 210,
-    "piecesPerCarton": 12,
+    "brahmaniCategories": [],
+    "price": 110,
+    "basePrice": 90,
+    "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22615/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22752/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22615/0.jpg",
-      "https://assets.brahmanicrm.com/products/22615/1.jpg",
-      "https://assets.brahmanicrm.com/products/22615/2.jpg",
-      "https://assets.brahmanicrm.com/products/22615/3.jpg",
-      "https://assets.brahmanicrm.com/products/22615/4.jpg"
+      "https://assets.brahmanicrm.com/products/22752/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22752/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22752/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22752/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22752/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22752/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22752/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22752/7@full.webp"
     ],
-    "description": "Our glass stands out from other glasses - especially when we use them on special occasions, to participate in family or family reunions",
-    "capacity": "230ML",
+    "description": "24 PCS CTN\nStylish and durable glass cup with matching lid, perfect for enjoying tea, coffee, or herbal drinks while keeping them warm. Its elegant ripple design adds a touch of sophistication to daily use.",
+    "capacity": "390ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "RAJWADI",
+      "RAIN",
+      "RIPPLE",
       "TEA",
       "CUP",
-      "230ML",
-      "6PCS"
+      "WITH",
+      "LID",
+      "390ML"
     ]
   },
   {
-    "id": "b5e96921-df60-4ffa-b526-53c1490825b7",
-    "itemCode": "22747",
-    "aliasName": "TY4315-1",
-    "name": "RIBBED WATER GLASS DL 160ML 6PCS SET",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 185,
-    "piecesPerCarton": 12,
+    "id": "4619e8f3-a9d2-4365-817a-ac57ab759955",
+    "itemCode": "22464",
+    "aliasName": "LT-1059",
+    "name": "RECTANGLE TRAY 11INCH",
+    "category": "bowls",
+    "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [],
+    "price": 145,
+    "basePrice": 125,
+    "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22747/867847bc-e04c-459f-b263-96be1a4ae211.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22464/ab9c7909-e11a-468f-b292-8d7e78877eab@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22747/867847bc-e04c-459f-b263-96be1a4ae211.jpg",
-      "https://assets.brahmanicrm.com/products/22747/e556b770-78d9-4d9c-9c93-a2d62e25e172.jpg",
-      "https://assets.brahmanicrm.com/products/22747/87a8eb48-114a-42b3-bf74-5a1d7cf8c8ff.jpg"
+      "https://assets.brahmanicrm.com/products/22464/ab9c7909-e11a-468f-b292-8d7e78877eab@full.webp",
+      "https://assets.brahmanicrm.com/products/22464/7966d35e-3b42-457c-8f99-7b3feb3a55c6@full.webp",
+      "https://assets.brahmanicrm.com/products/22464/4b3613d3-50fe-48f5-8ff2-63e7154c9de5@full.webp",
+      "https://assets.brahmanicrm.com/products/22464/d5348220-e197-4d19-bdc9-85261be585f5@full.webp"
     ],
-    "description": "Enhance your drinking experience with this premium Deli Whisky Glass Set. With a generous 315ml capacity and a refined cut-glass design, these glasses are perfect for whisky, cocktails, or juices. The textured base adds grip and style, making them a must-have for home bars, parties, or gifting.",
-    "capacity": "160ML",
+    "description": "Special Features: Basket-Weave Texture, Raised Edges, Food-Safe",
+    "capacity": "11INCH",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "RIBBED",
-      "WATER",
-      "GLASS",
-      "160ML",
-      "6PCS"
+      "RECTANGLE",
+      "TRAY",
+      "11INCH"
     ]
   },
   {
@@ -7827,18 +8774,20 @@ export const INITIAL_PRODUCTS = [
     "name": "RICE COOKER 2.8LTR",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 1135,
+    "basePrice": 1115,
     "piecesPerCarton": 4,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20123/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20123/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20123/0.jpg",
-      "https://assets.brahmanicrm.com/products/20123/1.jpg",
-      "https://assets.brahmanicrm.com/products/20123/2.jpg",
-      "https://assets.brahmanicrm.com/products/20123/3.jpg",
-      "https://assets.brahmanicrm.com/products/20123/4.jpg"
+      "https://assets.brahmanicrm.com/products/20123/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20123/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20123/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20123/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20123/4@full.webp"
     ],
-    "description": "4 PCS CTN\nMake everyday cooking easy and efficient with this Rice Cooker 1.8 Litre, designed to deliver perfectly cooked rice with minimal effort. Ideal for small to medium families, offices, and light commercial use.",
+    "description": "Special Features: Auto Keep-Warm Function, Durable Inner Pot, Multi-Purpose Cooking",
     "capacity": "2.8LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7851,66 +8800,36 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "f3a86a23-45ac-4342-88fd-b4a81a51e5d2",
-    "itemCode": "23048",
-    "aliasName": "RIO WHISKEY GLASS",
-    "name": "RIO WHISKEY GLASS 340ML 6PCS SET",
+    "id": "002bd95a-f870-46e7-a6d0-d7ec083abe76",
+    "itemCode": "23353",
+    "aliasName": "ZZB-D",
+    "name": "ROTATING GLASS 300ML 60PC",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 250,
-    "piecesPerCarton": 8,
+    "brahmaniCategories": [],
+    "price": 105,
+    "basePrice": 85,
+    "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23048/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23353/273be6c6-58d5-4f5e-8b3e-97e901d6dfec@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23048/0.jpg",
-      "https://assets.brahmanicrm.com/products/23048/1.jpg",
-      "https://assets.brahmanicrm.com/products/23048/2.jpg",
-      "https://assets.brahmanicrm.com/products/23048/3.jpg",
-      "https://assets.brahmanicrm.com/products/23048/4.jpg"
+      "https://assets.brahmanicrm.com/products/23353/273be6c6-58d5-4f5e-8b3e-97e901d6dfec@full.webp",
+      "https://assets.brahmanicrm.com/products/23353/9d13441b-698b-4673-a375-c0d44b5db7b0@full.webp",
+      "https://assets.brahmanicrm.com/products/23353/af7e6899-9bed-42b4-9cf0-2106c4d7f533@full.webp",
+      "https://assets.brahmanicrm.com/products/23353/1df70fec-eceb-4781-9dc8-6c5e9be9d4e2@full.webp",
+      "https://assets.brahmanicrm.com/products/23353/95ecd78a-2b64-4ddb-9109-3f409054ac69@full.webp"
     ],
-    "description": "Ribbed Glass Tumbler Product Description\nUpgrade your beverage service with this elegantly designed ribbed glass tumbler. Perfect for daily use or hosting guests, this cup combines a refined texture with a comfortable grip for an exceptional drinking experience.",
-    "capacity": "340ML",
+    "description": "Special Features: Spinning/Rotating Base, Embossed Texture, Anti-Wobble Design",
+    "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "RIO",
-      "WHISKEY",
+      "ROTATING",
       "GLASS",
-      "340ML",
-      "6PCS"
-    ]
-  },
-  {
-    "id": "cf9d07f9-b324-443c-b6fb-2f1a03623fdd",
-    "itemCode": "22193",
-    "aliasName": "Y2401",
-    "name": "ROMA3 TEA CUP 175ML 6PCS",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 190,
-    "piecesPerCarton": 12,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22193/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22193/0.jpg",
-      "https://assets.brahmanicrm.com/products/22193/1.jpg",
-      "https://assets.brahmanicrm.com/products/22193/2.jpg",
-      "https://assets.brahmanicrm.com/products/22193/3.jpg"
-    ],
-    "description": "12 SET CTN\nOur Roma Round tea set includes 6 tea cups, perfect for entertaining guests or hosting tea parties. The cups set of 6 is ideal for serving blue tea, green tea milk, or any of your favorite beverages.",
-    "capacity": "175ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "ROMA3",
-      "TEA",
-      "CUP",
-      "175ML",
-      "6PCS"
+      "300ML",
+      "60PC"
     ]
   },
   {
@@ -7920,17 +8839,20 @@ export const INITIAL_PRODUCTS = [
     "name": "ROUND PLAZA 270ML 6PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 265,
+    "basePrice": 245,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23318/b33f75b6-e35b-4e73-8b9e-3fcc0550f2bb.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23318/b33f75b6-e35b-4e73-8b9e-3fcc0550f2bb@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23318/b33f75b6-e35b-4e73-8b9e-3fcc0550f2bb.jpg",
-      "https://assets.brahmanicrm.com/products/23318/d3849e43-d10a-4760-9f40-cd04e58d4cf4.jpg",
-      "https://assets.brahmanicrm.com/products/23318/fe8473e1-9103-4d9a-b24a-18b149544ba3.jpg",
-      "https://assets.brahmanicrm.com/products/23318/ba34829d-d87d-47c1-9d78-75764da61bcb.jpg"
+      "https://assets.brahmanicrm.com/products/23318/b33f75b6-e35b-4e73-8b9e-3fcc0550f2bb@full.webp",
+      "https://assets.brahmanicrm.com/products/23318/d3849e43-d10a-4760-9f40-cd04e58d4cf4@full.webp",
+      "https://assets.brahmanicrm.com/products/23318/fe8473e1-9103-4d9a-b24a-18b149544ba3@full.webp",
+      "https://assets.brahmanicrm.com/products/23318/ba34829d-d87d-47c1-9d78-75764da61bcb@full.webp",
+      "https://assets.brahmanicrm.com/products/23318/f5e5242e-29b9-40d0-a813-7321f5c85b30@full.webp"
     ],
-    "description": "It’s a set of 6 transparent glass tumblers — so you get six identical glasses in the pack.\nEach glass has a capacity of ~ 275 ml. \nVaaree\nThe style is “round / straight-tumbler / highball” — simple cylindrical glass shape, typical for everyday water/juice glasses.",
+    "description": "Featuring an ideal 270ml capacity, these glass tumblers are perfectly sized for serving water, fresh juices, cold drinks, mocktails, or cocktails.",
     "capacity": "270ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7950,23 +8872,19 @@ export const INITIAL_PRODUCTS = [
     "name": "ROUND TEA CUP 150ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 175,
+    "brahmaniCategories": [],
+    "price": 185,
+    "basePrice": 165,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20142/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20142/b89d72f9-360d-48ab-9aeb-af9836e90e40@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20142/0.jpg",
-      "https://assets.brahmanicrm.com/products/20142/1.jpg",
-      "https://assets.brahmanicrm.com/products/20142/2.jpg",
-      "https://assets.brahmanicrm.com/products/20142/3.jpg",
-      "https://assets.brahmanicrm.com/products/20142/4.jpg",
-      "https://assets.brahmanicrm.com/products/20142/5.jpg",
-      "https://assets.brahmanicrm.com/products/20142/6.jpg",
-      "https://assets.brahmanicrm.com/products/20142/7.jpg",
-      "https://assets.brahmanicrm.com/products/20142/8.jpg",
-      "https://assets.brahmanicrm.com/products/20142/9.jpg"
+      "https://assets.brahmanicrm.com/products/20142/b89d72f9-360d-48ab-9aeb-af9836e90e40@full.webp",
+      "https://assets.brahmanicrm.com/products/20142/3163825e-b120-438e-b341-36c5a2d52c68@full.webp",
+      "https://assets.brahmanicrm.com/products/20142/3b3620c4-49b9-4e64-b63b-90d1bd7c92fc@full.webp",
+      "https://assets.brahmanicrm.com/products/20142/b0521093-3eea-42c5-b1d6-0e3cd441ee39@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Special Features: Smooth Round Body, Ergonomic Handle, Crystal Clear",
     "capacity": "150ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -7981,25 +8899,62 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "ca60b2fa-b76d-4219-ac82-b9c8d617874a",
+    "itemCode": "20598",
+    "aliasName": "KTZB94",
+    "name": "ROYAL3 TEA CUP 150ML 6PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 230,
+    "basePrice": 210,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20598/6f36982f-6c1b-481d-87fd-fd23e6462e37@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20598/6f36982f-6c1b-481d-87fd-fd23e6462e37@full.webp",
+      "https://assets.brahmanicrm.com/products/20598/e399d9b9-9db2-484d-89dc-5bff5e266673@full.webp",
+      "https://assets.brahmanicrm.com/products/20598/198ce375-5bb2-4a39-8e32-eba69bdbd983@full.webp",
+      "https://assets.brahmanicrm.com/products/20598/9b9467f4-f356-48b0-81a9-a645a58e88be@full.webp"
+    ],
+    "description": "Special Features: Pedestal Base, Embossed Texture, Ergonomic Handle",
+    "capacity": "150ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "ROYAL3",
+      "TEA",
+      "CUP",
+      "150ML",
+      "6PCS"
+    ]
+  },
+  {
     "id": "ba3faafa-a39d-440c-862d-e3253f6379c1",
     "itemCode": "21807",
     "aliasName": "SD-909",
     "name": "SD WHISKY GLASS 320ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 250,
+    "basePrice": 230,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21807/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21807/65d42cc6-8baa-48ba-bb6c-94aaf8384d23@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21807/0.jpg",
-      "https://assets.brahmanicrm.com/products/21807/1.jpg",
-      "https://assets.brahmanicrm.com/products/21807/2.jpg",
-      "https://assets.brahmanicrm.com/products/21807/3.jpg",
-      "https://assets.brahmanicrm.com/products/21807/4.jpg",
-      "https://assets.brahmanicrm.com/products/21807/5.jpg"
+      "https://assets.brahmanicrm.com/products/21807/65d42cc6-8baa-48ba-bb6c-94aaf8384d23@full.webp",
+      "https://assets.brahmanicrm.com/products/21807/0dcdbf0b-042c-4742-a3f3-df89358cf64a@full.webp",
+      "https://assets.brahmanicrm.com/products/21807/3c05ebeb-d215-42eb-b206-4c9a38def517@full.webp",
+      "https://assets.brahmanicrm.com/products/21807/a43af873-a499-4dd8-a4e4-de5d476aee98@full.webp",
+      "https://assets.brahmanicrm.com/products/21807/74e4f501-22fe-49d8-b2cd-f5479b0d960e@full.webp",
+      "https://assets.brahmanicrm.com/products/21807/51a832ae-5374-48c7-8a4b-df5f4f7086ce@full.webp"
     ],
-    "description": "Whiskey Glasses, Set of 6, 320 ml, Premium Crystal Cut Old Fashion Whisky Glass, Heavy Thick Tumblers for Rocks, Scotch, Alchohol, Barware, Glassware (Opera Whiskey Set of 6)",
+    "description": "Featuring an ideal 320ml capacity, these glass tumblers are perfectly sized for serving whisky, scotch, cocktails, mocktails, water, or other beverages.  2. Elegant Leaf-Cut Embossed Design:",
     "capacity": "320ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8010,7 +8965,8 @@ export const INITIAL_PRODUCTS = [
       "GLASS",
       "320ML",
       "6PCS",
-      "SET"
+      "SET",
+      "GLASSWARE"
     ]
   },
   {
@@ -8020,18 +8976,21 @@ export const INITIAL_PRODUCTS = [
     "name": "SERVING BOWL 4INCH  4PCS SET",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 290,
+    "basePrice": 270,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22802/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22802/b2b1aa96-94ab-4614-a462-00d751ab6d36@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22802/0.jpg",
-      "https://assets.brahmanicrm.com/products/22802/1.jpg",
-      "https://assets.brahmanicrm.com/products/22802/2.jpg",
-      "https://assets.brahmanicrm.com/products/22802/3.jpg",
-      "https://assets.brahmanicrm.com/products/22802/4.jpg"
+      "https://assets.brahmanicrm.com/products/22802/b2b1aa96-94ab-4614-a462-00d751ab6d36@full.webp",
+      "https://assets.brahmanicrm.com/products/22802/77b34d3b-2d2e-437f-8335-6e9fccca9382@full.webp",
+      "https://assets.brahmanicrm.com/products/22802/2f32c1f6-b5dd-4ce3-94e6-aabce63ddf4c@full.webp",
+      "https://assets.brahmanicrm.com/products/22802/11c56a68-8711-46f6-8f3d-1222f0e7728c@full.webp"
     ],
-    "description": "SERVING BOWL GOLD RIM 4 INCH – Elegant glass bowls with a premium gold rim design, perfect for serving desserts, fruits, snacks, or dry fruits. Stylish and durable, ideal for home use, gifting, and festive occasions.",
+    "description": "Special Features: Square Design, Combined Wooden Tray Holder, Multi-Purpose Serving",
     "capacity": "4INCH",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8042,7 +9001,42 @@ export const INITIAL_PRODUCTS = [
       "BOWL",
       "4INCH",
       "4PCS",
-      "SET"
+      "SET",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "b64186ab-4bcd-404f-b058-e9076a182050",
+    "itemCode": "22861",
+    "aliasName": "W7117-4.5A",
+    "name": "SERVING BOWL 4INCH 6PCS DELI",
+    "category": "bowls",
+    "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [],
+    "price": 315,
+    "basePrice": 295,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22861/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22861/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22861/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22861/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22861/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22861/4@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "4INCH",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "SERVING",
+      "BOWL",
+      "4INCH",
+      "6PCS",
+      "DELI"
     ]
   },
   {
@@ -8052,16 +9046,20 @@ export const INITIAL_PRODUCTS = [
     "name": "SERVING BOWL ROUND D 4INCH 6PCS",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 215,
+    "basePrice": 195,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23326/f32cbd97-d1a5-4aac-942b-2db481cf54f9.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23326/f32cbd97-d1a5-4aac-942b-2db481cf54f9@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23326/f32cbd97-d1a5-4aac-942b-2db481cf54f9.jpg",
-      "https://assets.brahmanicrm.com/products/23326/561a4e8c-d898-40ea-afa5-7fcb749f7d2a.jpg",
-      "https://assets.brahmanicrm.com/products/23326/7a0fc7cf-cda4-4be4-a5d7-adc6089305e3.jpg"
+      "https://assets.brahmanicrm.com/products/23326/f32cbd97-d1a5-4aac-942b-2db481cf54f9@full.webp",
+      "https://assets.brahmanicrm.com/products/23326/561a4e8c-d898-40ea-afa5-7fcb749f7d2a@full.webp",
+      "https://assets.brahmanicrm.com/products/23326/7a0fc7cf-cda4-4be4-a5d7-adc6089305e3@full.webp"
     ],
-    "description": "Product Overview\nElevate your dining experience with the Shine Max Glass Dessert Bowl Set. Featuring an elegant diamond-patterned crystal cut design, these versatile clear glass bowls are perfect for serving desserts, ice cream, puddings, appetizers, and snacks. Crafted from high-quality, durable glass, they offer maximum clarity and brightness to highlight your culinary creations.",
+    "description": "Comes in a convenient set of 6 round bowls (approx. 4-inch size), making them perfectly sized for serving desserts, sweets, ice cream, rabdi, pudding, or snacks.",
     "capacity": "4INCH",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8072,7 +9070,8 @@ export const INITIAL_PRODUCTS = [
       "BOWL",
       "ROUND",
       "4INCH",
-      "6PCS"
+      "6PCS",
+      "GLASSWARE"
     ]
   },
   {
@@ -8082,16 +9081,21 @@ export const INITIAL_PRODUCTS = [
     "name": "SERVING BOWL ROUND E 4INCH 6PCS",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 215,
+    "basePrice": 195,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23327/591c9656-4171-4c13-ae47-2f1d38f2fdc7.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23327/591c9656-4171-4c13-ae47-2f1d38f2fdc7@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23327/591c9656-4171-4c13-ae47-2f1d38f2fdc7.jpg",
-      "https://assets.brahmanicrm.com/products/23327/7f6d5088-85f7-47fa-a39f-949386187648.jpg",
-      "https://assets.brahmanicrm.com/products/23327/5381ffdd-b7bd-49ea-9907-ccd77bb1eed5.jpg"
+      "https://assets.brahmanicrm.com/products/23327/591c9656-4171-4c13-ae47-2f1d38f2fdc7@full.webp",
+      "https://assets.brahmanicrm.com/products/23327/7f6d5088-85f7-47fa-a39f-949386187648@full.webp",
+      "https://assets.brahmanicrm.com/products/23327/5381ffdd-b7bd-49ea-9907-ccd77bb1eed5@full.webp",
+      "https://assets.brahmanicrm.com/products/23327/1400bf48-4260-43dc-974d-f11c3849a3df@full.webp"
     ],
-    "description": "Set of 6 Elegant Bowls: Comes as a complete set of 6 matching clear glass bowls, perfect for serving family and guests.\n\nPremium Glass Quality: Crafted from high-quality, durable, lead-free clear glass that offers exceptional clarity and strength.\n\nClassic Textured Design: Features a stylish diamond-pattern base with vertical ribbed sides, adding an aesthetic and modern touch to your dining setup.\n\nVersatile Serving Solution: Ideal for desserts, ice creams, puddings, fruit salads, mousses, snacks, dips, and yogurts.\n\nEasy to Clean & Maintain: Dishwasher safe and easy to wash by hand, making daily maintenance simple.",
+    "description": "Comes in a convenient set of 6 round bowls (approx. 4-inch size), making them perfectly sized for serving gulab jamun, sweets, desserts, ice cream, or snacks.",
     "capacity": "4INCH",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8102,7 +9106,8 @@ export const INITIAL_PRODUCTS = [
       "BOWL",
       "ROUND",
       "4INCH",
-      "6PCS"
+      "6PCS",
+      "GLASSWARE"
     ]
   },
   {
@@ -8112,16 +9117,21 @@ export const INITIAL_PRODUCTS = [
     "name": "SERVING BOWL ROUND F 4INCH 6PCS",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 215,
+    "basePrice": 195,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23328/407a9e85-8d5d-4163-b155-ef67c00a084a.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23328/407a9e85-8d5d-4163-b155-ef67c00a084a@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23328/407a9e85-8d5d-4163-b155-ef67c00a084a.jpg",
-      "https://assets.brahmanicrm.com/products/23328/e225f58b-542d-4cd5-b573-4ca332d28ab1.jpg",
-      "https://assets.brahmanicrm.com/products/23328/c63d3f92-30a3-4297-9938-64b6b60dac75.jpg"
+      "https://assets.brahmanicrm.com/products/23328/407a9e85-8d5d-4163-b155-ef67c00a084a@full.webp",
+      "https://assets.brahmanicrm.com/products/23328/e225f58b-542d-4cd5-b573-4ca332d28ab1@full.webp",
+      "https://assets.brahmanicrm.com/products/23328/c63d3f92-30a3-4297-9938-64b6b60dac75@full.webp",
+      "https://assets.brahmanicrm.com/products/23328/32016d75-9502-4ed1-8f11-ecc9ff6a7bf0@full.webp"
     ],
-    "description": "Serve your desserts, ice cream, mousses, and fruits in style with these premium cut-glass bowls. Crafted with a vintage diamond-embossed pattern, these heavy-base clear glass cups bring an elegant, restaurant-quality feel to your dining table. Ideal for home kitchens, parties, cafes, and gifting.\n\nKey Features\nElegant Diamond Cut Design: Features a textured diamond pattern that catches light beautifully, giving your desserts a luxury presentation.\n\nMulti-Purpose Serving: Perfect for serving chocolate ice cream, puddings, tiramisu, fruit salads, panna cotta, dips, and dry fruits.\n\nPremium Heavy-Base Glass: Made from high-quality, lead-free crystal-clear glass that is durable, sturdy, and resistant to daily wear.\n\nEasy to Clean & Dishwasher Safe: Non-porous glass surface prevents stain and odor absorption, making cleanup fast and simple.\n\nPerfect Gift Option: An ideal glassware set for housewarmings, weddings, festivals, dinner parties, and festive occasions.",
+    "description": "Comes in a convenient set of 6 round bowls (approx. 4-inch size), making them perfectly sized for serving ice cream, desserts, puddings, sweets, or snacks.",
     "capacity": "4INCH",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8132,7 +9142,43 @@ export const INITIAL_PRODUCTS = [
       "BOWL",
       "ROUND",
       "4INCH",
-      "6PCS"
+      "6PCS",
+      "GLASSWARE"
+    ]
+  },
+  {
+    "id": "1dd1f4ea-72f9-4141-a0f0-9025b07b5b85",
+    "itemCode": "22805",
+    "aliasName": "W7117-4.5B",
+    "name": "SERVING BOWL SQUARE 4INCH 6PCS SET",
+    "category": "bowls",
+    "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [],
+    "price": 315,
+    "basePrice": 295,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22805/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22805/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22805/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22805/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22805/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22805/4@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "4INCH",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "SERVING",
+      "BOWL",
+      "SQUARE",
+      "4INCH",
+      "6PCS",
+      "SET"
     ]
   },
   {
@@ -8142,17 +9188,20 @@ export const INITIAL_PRODUCTS = [
     "name": "SERVING FLOWER BOWL WITH PLATE 6 PCS SET",
     "category": "bowls",
     "categoryName": "Bowls & Tableware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 610,
+    "basePrice": 590,
     "piecesPerCarton": 4,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23315/e273d40a-f204-4046-901a-b3f2123d335c.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23315/f14469bc-f977-4510-82b3-ca2b4171566f@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23315/e273d40a-f204-4046-901a-b3f2123d335c.jpg",
-      "https://assets.brahmanicrm.com/products/23315/f14469bc-f977-4510-82b3-ca2b4171566f.jpg",
-      "https://assets.brahmanicrm.com/products/23315/b851ae0a-a681-4a96-bcf2-df07a9313587.jpg",
-      "https://assets.brahmanicrm.com/products/23315/c58b679b-2bf8-41ac-be86-1739b87a3998.jpg"
+      "https://assets.brahmanicrm.com/products/23315/f14469bc-f977-4510-82b3-ca2b4171566f@full.webp",
+      "https://assets.brahmanicrm.com/products/23315/b851ae0a-a681-4a96-bcf2-df07a9313587@full.webp",
+      "https://assets.brahmanicrm.com/products/23315/c58b679b-2bf8-41ac-be86-1739b87a3998@full.webp"
     ],
-    "description": "Premium & Durable Glass: Made from thick, high-clarity, non-toxic clear glass that is sturdy, lead-free, and easy to clean.",
+    "description": "Set Includes: A complete matching set of bowls and plates, perfectly proportioned for serving individual portions.",
     "capacity": "6 PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8163,7 +9212,10 @@ export const INITIAL_PRODUCTS = [
       "FLOWER",
       "BOWL",
       "WITH",
-      "PLATE"
+      "PLATE",
+      "PCS",
+      "SET",
+      "GLASSWARE"
     ]
   },
   {
@@ -8173,16 +9225,20 @@ export const INITIAL_PRODUCTS = [
     "name": "SHARK SHAPED WITH STAND WITH 4 CUPS DECANTER",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 4220,
+    "basePrice": 4200,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23293/1a913295-fac0-463a-998f-b8b9e541bc1e.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23293/1a913295-fac0-463a-998f-b8b9e541bc1e@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23293/1a913295-fac0-463a-998f-b8b9e541bc1e.jpg",
-      "https://assets.brahmanicrm.com/products/23293/1ac6a442-3813-47e2-afab-c07d16ba2edd.jpg",
-      "https://assets.brahmanicrm.com/products/23293/6dbbdf14-7c1e-4268-bcb1-96f7e4c680ee.jpg"
+      "https://assets.brahmanicrm.com/products/23293/1a913295-fac0-463a-998f-b8b9e541bc1e@full.webp",
+      "https://assets.brahmanicrm.com/products/23293/1ac6a442-3813-47e2-afab-c07d16ba2edd@full.webp",
+      "https://assets.brahmanicrm.com/products/23293/6dbbdf14-7c1e-4268-bcb1-96f7e4c680ee@full.webp"
     ],
-    "description": "Predator’s Pour | Premium Glass Shark Decanter Set\nDive into Luxury\nMake a bold statement at your home bar with the Predator’s Pour Glass Shark Decanter Set. Masterfully crafted for those who appreciate fine spirits and exceptional design, this conversation-starting decanter brings an elegant, nautical edge to any room.\n\nKey Features\nArtisanal Craftsmanship: The centerpiece is a stunning, hand-blown glass shark decanter that beautifully showcases the rich amber tones of your whiskey, bourbon, or scotch.\n\nPremium Wooden Stand: Comes complete with a custom-designed, dark walnut-finished wooden stand that securely cradles the decanter and elevates the entire display.\n\nComplete Presentation: Designed as a functional art piece, this premium set brings an immediate luxury feel to your product listing, making it irresistible to collectors and gift-shoppers alike.",
+    "description": "Complete 6-Piece Set which includes 1 Shark-Shaped Decanter, 1 Wooden Display Stand, and 4 Matching Drinking Cups/Glasses",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8193,7 +9249,9 @@ export const INITIAL_PRODUCTS = [
       "SHAPED",
       "WITH",
       "STAND",
-      "CUPS"
+      "CUPS",
+      "DECANTER",
+      "CHINA"
     ]
   },
   {
@@ -8203,19 +9261,20 @@ export const INITIAL_PRODUCTS = [
     "name": "SHORT RAJWADI GLASS 210ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 220,
+    "basePrice": 200,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21569/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21569/56e73c6e-d540-4328-9fa1-e3e050a29abb@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21569/0.jpg",
-      "https://assets.brahmanicrm.com/products/21569/1.jpg",
-      "https://assets.brahmanicrm.com/products/21569/2.jpg",
-      "https://assets.brahmanicrm.com/products/21569/3.jpg",
-      "https://assets.brahmanicrm.com/products/21569/4.jpg",
-      "https://assets.brahmanicrm.com/products/21569/5.jpg"
+      "https://assets.brahmanicrm.com/products/21569/56e73c6e-d540-4328-9fa1-e3e050a29abb@full.webp",
+      "https://assets.brahmanicrm.com/products/21569/9c855f9c-f37f-453f-b6bb-4ec56f6c99a8@full.webp",
+      "https://assets.brahmanicrm.com/products/21569/defd753f-995d-4080-967a-d5105cd843c8@full.webp",
+      "https://assets.brahmanicrm.com/products/21569/58f81c3e-a394-4fae-943d-30ec40997d99@full.webp",
+      "https://assets.brahmanicrm.com/products/21569/afa16c0f-f2f2-4f34-ae2e-9632916bd688@full.webp"
     ],
-    "description": "Timeless Whisky Glass for Scotch WhiskeyEnhance your drinking experience with this exquisite set of crystal whiskey glasses. Designed for both casual relaxation and formal entertaining, these glasses combine timeless elegance with modern durability.",
+    "description": "Special Features: Traditional Rajwadi Cut, Heavy Base, Royal Look",
     "capacity": "210ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8236,18 +9295,19 @@ export const INITIAL_PRODUCTS = [
     "name": "SHOT GLASS 40ML 12PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 155,
+    "brahmaniCategories": [],
+    "price": 160,
+    "basePrice": 140,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20144/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20144/b0b8c150-c137-4651-ab14-6c01fb177621@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20144/0.jpg",
-      "https://assets.brahmanicrm.com/products/20144/1.jpg",
-      "https://assets.brahmanicrm.com/products/20144/2.jpg",
-      "https://assets.brahmanicrm.com/products/20144/3.jpg",
-      "https://assets.brahmanicrm.com/products/20144/4.jpg"
+      "https://assets.brahmanicrm.com/products/20144/b0b8c150-c137-4651-ab14-6c01fb177621@full.webp",
+      "https://assets.brahmanicrm.com/products/20144/cae5c284-c4f2-4cb3-b794-a23ba8bb65b0@full.webp",
+      "https://assets.brahmanicrm.com/products/20144/b6ffb0d9-1722-4a09-a1bc-0be7446b71e7@full.webp",
+      "https://assets.brahmanicrm.com/products/20144/da11f44f-70bd-448b-afbf-e23f98ab7045@full.webp"
     ],
-    "description": "Heavy Base Shot Glass Set, Whisky Shot Glasses 40 ML, Liqueur Glasses Spirits Glasses Mini Glass Cups Double Side Cordial Glasses, Tequila Cups Small Glass Shot Cups Set of 12",
+    "description": "Special Features: Heavy Base, Compact Design, Crystal Clear Finish",
     "capacity": "40ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8267,18 +9327,23 @@ export const INITIAL_PRODUCTS = [
     "name": "SILVER STAINLESS STEEL ICE CUBES SET OF 8 WITH ONE",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 260,
+    "basePrice": 240,
     "piecesPerCarton": 64,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23290/119648a7-8060-4bf4-bd82-637fc8731e2a.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23290/119648a7-8060-4bf4-bd82-637fc8731e2a@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23290/119648a7-8060-4bf4-bd82-637fc8731e2a.jpg",
-      "https://assets.brahmanicrm.com/products/23290/e2f816cf-927e-46df-b536-fe67511005f8.jpg",
-      "https://assets.brahmanicrm.com/products/23290/2528bb4d-4439-4cc9-b784-e1087cb4fe71.jpg",
-      "https://assets.brahmanicrm.com/products/23290/3cdfc22c-3cf1-49f9-96fe-b5d152a787d5.jpg",
-      "https://assets.brahmanicrm.com/products/23290/f141361b-45f5-4ff3-94b3-5473e4ac8f00.jpg"
+      "https://assets.brahmanicrm.com/products/23290/119648a7-8060-4bf4-bd82-637fc8731e2a@full.webp",
+      "https://assets.brahmanicrm.com/products/23290/e2f816cf-927e-46df-b536-fe67511005f8@full.webp",
+      "https://assets.brahmanicrm.com/products/23290/2528bb4d-4439-4cc9-b784-e1087cb4fe71@full.webp",
+      "https://assets.brahmanicrm.com/products/23290/3cdfc22c-3cf1-49f9-96fe-b5d152a787d5@full.webp",
+      "https://assets.brahmanicrm.com/products/23290/f141361b-45f5-4ff3-94b3-5473e4ac8f00@full.webp",
+      "https://assets.brahmanicrm.com/products/23290/d8a1cb5b-71fd-4652-9aec-86a2ea06348b@full.webp"
     ],
-    "description": "Premium Stainless Steel Whiskey Stones Set (8-Piece)\nKeep your favorite spirits perfectly chilled without diluting their rich flavor. Crafted for true connoisseurs, this premium set of reusable stainless steel cooling cubes provides a sophisticated, non-diluting chill to whiskey, bourbon, scotch, or wine.\n\nKey Features\nNever Dilutes Your Drink: Unlike traditional ice that melts and waters down your liquor, these food-grade stainless steel cubes keep your drink ice-cold while preserving its full, authentic taste profile.\n\nQuick-Freeze Technology: Engineered with a specialized cooling gel inside each cube, they freeze quickly and retain their low temperature longer than standard ice or stone chillers.\n\nComplete Premium Accessories: The set includes a custom-fitted storage case to keep your cubes clean in the freezer and a pair of elegant, easy-grip tongs for hygienic, scratch-free serving.\n\nSleek & Durable Design: Made from high-quality, corrosion-resistant stainless steel with smooth, rounded edges that won't scratch or damage your premium glassware.\n\nSpecifications\nMaterial: Food-grade premium stainless steel (lead-free and BPA-free)\n\nPackage Includes: 8x Stainless Steel Cooling Cubes, 1x Storage Case, 1x Serving Tongs\n\nIdeal For: Whiskey, Scotch, Bourbon, Vodka, Wine, or Cocktails\n\nPerfect Gift: An excellent choice for Father's Day, birthdays, anniversaries, housewarmings, or for any home bar enthusiast.",
+    "description": "Complete 9-Piece Set which includes 8 Stainless Steel Ice Cubes, 1 Ice Tng (Tong), and a transparent storage container box.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8289,7 +9354,91 @@ export const INITIAL_PRODUCTS = [
       "STAINLESS",
       "STEEL",
       "ICE",
-      "CUBES"
+      "CUBES",
+      "SET",
+      "WITH",
+      "ONE"
+    ]
+  },
+  {
+    "id": "9b8868d6-7549-4663-82cf-21cdfe79a726",
+    "itemCode": "22626",
+    "aliasName": "VX-36",
+    "name": "SIPPER BOTTLE DAISY CUP FLOWER 350ML",
+    "category": "bottles",
+    "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 70,
+    "basePrice": 50,
+    "piecesPerCarton": 105,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22626/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22626/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22626/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22626/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22626/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22626/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22626/5@full.webp"
+    ],
+    "description": "Featuring a compact and portable 350ml capacity, this bottle is perfectly sized for carrying water, juice, milk, or your favorite beverages on the go.",
+    "capacity": "350ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "SIPPER",
+      "BOTTLE",
+      "DAISY",
+      "CUP",
+      "FLOWER",
+      "350ML",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "e5aaf14b-a47f-4c02-bf46-a1baa4b6494d",
+    "itemCode": "22622",
+    "aliasName": "H6-2043",
+    "name": "SIPPER BOTTLE FASHION WATER CUP BOX PACK",
+    "category": "bottles",
+    "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 115,
+    "basePrice": 95,
+    "piecesPerCarton": 70,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22622/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22622/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22622/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22622/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22622/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22622/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22622/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22622/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22622/7@full.webp"
+    ],
+    "description": "Features a stylish \"Never Coffee\" print along with a matching hand strap, giving it a completely modern and trendy appearance.",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "SIPPER",
+      "BOTTLE",
+      "FASHION",
+      "WATER",
+      "CUP",
+      "BOX",
+      "PACK",
+      "CHINA"
     ]
   },
   {
@@ -8299,19 +9448,24 @@ export const INITIAL_PRODUCTS = [
     "name": "SIPPER BOTTLE FLOWER BAND 500ML",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 75,
+    "basePrice": 55,
     "piecesPerCarton": 68,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22624/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22624/1@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22624/0.jpg",
-      "https://assets.brahmanicrm.com/products/22624/1.jpg",
-      "https://assets.brahmanicrm.com/products/22624/2.jpg",
-      "https://assets.brahmanicrm.com/products/22624/3.jpg",
-      "https://assets.brahmanicrm.com/products/22624/4.jpg",
-      "https://assets.brahmanicrm.com/products/22624/5.jpg"
+      "https://assets.brahmanicrm.com/products/22624/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22624/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22624/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22624/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22624/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22624/d3ee5db8-16dc-47b5-b3d8-3dc4a2976936@full.webp",
+      "https://assets.brahmanicrm.com/products/22624/e33fecb1-af77-4da5-98ed-69af22a7263d@full.webp"
     ],
-    "description": "Combine elegance and functionality with this 500 ml glass sipper bottle. Featuring a fun silicone flower band and secure lid with straw, it’s designed for everyday hydration—with style.",
+    "description": "Featuring an optimal 500ml capacity, this sipper bottle is perfectly sized for carrying water, juices, milkshakes, or your favorite beverages throughout the day.",
     "capacity": "500ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8322,7 +9476,8 @@ export const INITIAL_PRODUCTS = [
       "BOTTLE",
       "FLOWER",
       "BAND",
-      "500ML"
+      "500ML",
+      "CHINA"
     ]
   },
   {
@@ -8332,18 +9487,22 @@ export const INITIAL_PRODUCTS = [
     "name": "SIPPER BOTTLE INFUSER WITH HANDLE 500ML",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 85,
+    "basePrice": 65,
     "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22625/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22625/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22625/0.jpg",
-      "https://assets.brahmanicrm.com/products/22625/1.jpg",
-      "https://assets.brahmanicrm.com/products/22625/2.jpg",
-      "https://assets.brahmanicrm.com/products/22625/3.jpg",
-      "https://assets.brahmanicrm.com/products/22625/4.jpg"
+      "https://assets.brahmanicrm.com/products/22625/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22625/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22625/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22625/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22625/4@full.webp"
     ],
-    "description": "A comfortable, squarish handle ensures a secure grip—ideal for desk use, gym, or kitchen.nfuser is removable for thorough washing; glass body is dishwasher safe",
+    "description": "Featuring an optimal 500ml capacity with a sturdy ergonomic handle, this glass cup provides a comfortable grip for enjoying your favorite beverages.",
     "capacity": "500ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8354,7 +9513,9 @@ export const INITIAL_PRODUCTS = [
       "BOTTLE",
       "INFUSER",
       "WITH",
-      "HANDLE"
+      "HANDLE",
+      "500ML",
+      "CHINA"
     ]
   },
   {
@@ -8364,19 +9525,23 @@ export const INITIAL_PRODUCTS = [
     "name": "SIPPER BOTTLE KOKO MUG 550ML",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 95,
+    "basePrice": 75,
     "piecesPerCarton": 70,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22627/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22627/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22627/0.jpg",
-      "https://assets.brahmanicrm.com/products/22627/1.jpg",
-      "https://assets.brahmanicrm.com/products/22627/2.jpg",
-      "https://assets.brahmanicrm.com/products/22627/3.jpg",
-      "https://assets.brahmanicrm.com/products/22627/4.jpg",
-      "https://assets.brahmanicrm.com/products/22627/5.jpg"
+      "https://assets.brahmanicrm.com/products/22627/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22627/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22627/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22627/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22627/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22627/5@full.webp"
     ],
-    "description": "Crafted from strong, food-grade glass that resists odors, stains, and thermal shock—safe for both hot and cold drinks",
+    "description": "Featuring a large 550ml capacity, this sipper bottle is perfectly sized for carrying an adequate amount of water, juices, detox water, or your favorite beverages.",
     "capacity": "550ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8387,7 +9552,8 @@ export const INITIAL_PRODUCTS = [
       "BOTTLE",
       "KOKO",
       "MUG",
-      "550ML"
+      "550ML",
+      "CHINA"
     ]
   },
   {
@@ -8397,18 +9563,23 @@ export const INITIAL_PRODUCTS = [
     "name": "SIPPER CUP HANDL 350ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 85,
+    "basePrice": 65,
     "piecesPerCarton": 78,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22458/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22458/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22458/0.jpg",
-      "https://assets.brahmanicrm.com/products/22458/1.jpg",
-      "https://assets.brahmanicrm.com/products/22458/2.jpg",
-      "https://assets.brahmanicrm.com/products/22458/3.jpg",
-      "https://assets.brahmanicrm.com/products/22458/4.jpg"
+      "https://assets.brahmanicrm.com/products/22458/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22458/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22458/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22458/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22458/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22458/738951e7-b53a-4bd2-96fd-64f6728f7978@full.webp"
     ],
-    "description": "Mini handle glass cup heat insulation anti-scald portable straw cups glass cup with lid and straw.",
+    "description": "Featuring an optimal 350ml capacity, this sipper cup is perfectly sized for enjoying iced coffee, juices, milkshakes, smoothies, or iced tea.",
     "capacity": "350ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8418,7 +9589,8 @@ export const INITIAL_PRODUCTS = [
       "SIPPER",
       "CUP",
       "HANDL",
-      "350ML"
+      "350ML",
+      "CHINA"
     ]
   },
   {
@@ -8428,20 +9600,25 @@ export const INITIAL_PRODUCTS = [
     "name": "SIPPER DINO 350ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 80,
+    "basePrice": 60,
     "piecesPerCarton": 80,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22452/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22452/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22452/0.jpg",
-      "https://assets.brahmanicrm.com/products/22452/1.jpg",
-      "https://assets.brahmanicrm.com/products/22452/2.jpg",
-      "https://assets.brahmanicrm.com/products/22452/3.jpg",
-      "https://assets.brahmanicrm.com/products/22452/4.jpg",
-      "https://assets.brahmanicrm.com/products/22452/5.jpg",
-      "https://assets.brahmanicrm.com/products/22452/6.jpg"
+      "https://assets.brahmanicrm.com/products/22452/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22452/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22452/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22452/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22452/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22452/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22452/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22452/dd796170-e03b-4907-869c-f7ec86f8da58@full.webp"
     ],
-    "description": "Cute Animal Glass Water Bottle, Glass Insulated Vacuum Flask,Leak-Proof Portable Bottle for Children, Travel Milk Mug for Juice, Tea.",
+    "description": "Featuring a child-friendly 350ml capacity, this bottle is perfectly sized for carrying water or juice to school, travel, or daily use.",
     "capacity": "350ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8450,32 +9627,37 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "SIPPER",
       "DINO",
-      "350ML"
+      "350ML",
+      "CHINA"
     ]
   },
   {
     "id": "f129992a-26bd-4257-b971-36ae7c2b98a2",
     "itemCode": "22296",
     "aliasName": null,
-    "name": "SIPPER GLASS CORK SILICON 240MLL",
+    "name": "SIPPER GLASS CORK SILICON LID 240ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 90,
+    "basePrice": 70,
     "piecesPerCarton": 32,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22296/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22296/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22296/0.jpg",
-      "https://assets.brahmanicrm.com/products/22296/1.jpg",
-      "https://assets.brahmanicrm.com/products/22296/2.jpg",
-      "https://assets.brahmanicrm.com/products/22296/3.jpg",
-      "https://assets.brahmanicrm.com/products/22296/4.jpg",
-      "https://assets.brahmanicrm.com/products/22296/5.jpg",
-      "https://assets.brahmanicrm.com/products/22296/6.jpg",
-      "https://assets.brahmanicrm.com/products/22296/7.jpg",
-      "https://assets.brahmanicrm.com/products/22296/8.jpg"
+      "https://assets.brahmanicrm.com/products/22296/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22296/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22296/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22296/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22296/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22296/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22296/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22296/7@full.webp",
+      "https://assets.brahmanicrm.com/products/22296/8@full.webp"
     ],
-    "description": "Heat Resistant Borosilicate Glass Coffee Cup with Silicone Lid and Cork Sleeve - Perfect for Coffee, Tea, and Milk (240 ML)",
+    "description": "Featuring an optimal 240ml capacity, this reusable sipper cup is perfectly sized for enjoying hot coffee, cappuccino, tea, latte, or your favorite beverages.",
     "capacity": "240ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8486,61 +9668,36 @@ export const INITIAL_PRODUCTS = [
       "GLASS",
       "CORK",
       "SILICON",
-      "240MLL"
+      "LID",
+      "240ML",
+      "CHINA"
     ]
   },
   {
-    "id": "08ce70d8-52a8-4377-837a-03c2470620b8",
-    "itemCode": "22298",
-    "aliasName": null,
-    "name": "SIPPER GLASS CORK SILICON LID 550ML",
+    "id": "3343f0f7-d82d-4115-9a13-40b98ea32f78",
+    "itemCode": "22227",
+    "aliasName": "H6-0003",
+    "name": "SIPPER GLASS LINING WOODEN LID",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 110,
-    "piecesPerCarton": 50,
+    "brahmaniCategories": [],
+    "price": 122,
+    "basePrice": 102,
+    "piecesPerCarton": 57,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22298/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22227/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22298/0.jpg",
-      "https://assets.brahmanicrm.com/products/22298/1.jpg",
-      "https://assets.brahmanicrm.com/products/22298/2.jpg",
-      "https://assets.brahmanicrm.com/products/22298/3.jpg",
-      "https://assets.brahmanicrm.com/products/22298/4.jpg"
+      "https://assets.brahmanicrm.com/products/22227/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22227/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22227/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22227/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22227/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22227/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22227/6@full.webp",
+      "https://assets.brahmanicrm.com/products/22227/7@full.webp"
     ],
-    "description": "Heat Resistant Borosilicate Glass Coffee Cup with Silicone Lid and Cork Sleeve - Perfect for Coffee, Tea, and Milk (550 ML)",
-    "capacity": "550ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "SIPPER",
-      "GLASS",
-      "CORK",
-      "SILICON",
-      "LID"
-    ]
-  },
-  {
-    "id": "81d7a289-1bbf-411a-b7c7-13b837203d0d",
-    "itemCode": "22719",
-    "aliasName": "VX-32",
-    "name": "SIPPER GLASS LINING LONG MUG 430ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 95,
-    "piecesPerCarton": 58,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22719/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22719/0.jpg",
-      "https://assets.brahmanicrm.com/products/22719/1.jpg",
-      "https://assets.brahmanicrm.com/products/22719/2.jpg",
-      "https://assets.brahmanicrm.com/products/22719/3.jpg",
-      "https://assets.brahmanicrm.com/products/22719/4.jpg"
-    ],
-    "description": "Elegant ribbed sipper glass long mug with 430ml capacity, designed with transparent lid and reusable glass straw. Perfect for iced coffee, smoothies, milkshakes, juice, and cold beverages. Made from durable glass with a stylish vertical lining pattern for a modern look. Ideal for home, office, and café use.",
-    "capacity": "430ML",
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
@@ -8549,38 +9706,8 @@ export const INITIAL_PRODUCTS = [
       "SIPPER",
       "GLASS",
       "LINING",
-      "LONG",
-      "MUG"
-    ]
-  },
-  {
-    "id": "7f8a14bd-ca88-46fc-8a90-a87bb5999e20",
-    "itemCode": "22871",
-    "aliasName": "H6-0007-BLACK",
-    "name": "SIPPER GLASS LININIG MUG BLACK  400ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 70,
-    "piecesPerCarton": 70,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22871/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22871/0.jpg",
-      "https://assets.brahmanicrm.com/products/22871/1.jpg",
-      "https://assets.brahmanicrm.com/products/22871/2.jpg"
-    ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "400ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "SIPPER",
-      "GLASS",
-      "LININIG",
-      "MUG",
-      "BLACK"
+      "WOODEN",
+      "LID"
     ]
   },
   {
@@ -8590,19 +9717,23 @@ export const INITIAL_PRODUCTS = [
     "name": "SIPPER MUG COLD EXTRACTION HANDLE STRAW CUP",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 105,
+    "basePrice": 85,
     "piecesPerCarton": 58,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22392/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22392/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22392/0.jpg",
-      "https://assets.brahmanicrm.com/products/22392/1.jpg",
-      "https://assets.brahmanicrm.com/products/22392/2.jpg",
-      "https://assets.brahmanicrm.com/products/22392/3.jpg",
-      "https://assets.brahmanicrm.com/products/22392/4.jpg",
-      "https://assets.brahmanicrm.com/products/22392/5.jpg"
+      "https://assets.brahmanicrm.com/products/22392/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22392/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22392/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22392/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22392/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22392/5@full.webp"
     ],
-    "description": "Drinking Glasses Tumbler with Lid Straw,Travel Water Glass Sipper Mug for Juice Cocktail Iced Tea Coffee Hot Cold Drink Mug",
+    "description": "Features a built-in removable infuser core, making it ideal for fruit-infused water, cold extraction, tea leaves, or herbal drinks.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8613,7 +9744,10 @@ export const INITIAL_PRODUCTS = [
       "MUG",
       "COLD",
       "EXTRACTION",
-      "HANDLE"
+      "HANDLE",
+      "STRAW",
+      "CUP",
+      "CHINA"
     ]
   },
   {
@@ -8623,19 +9757,23 @@ export const INITIAL_PRODUCTS = [
     "name": "SIPPER MUG DARK GREEN CRYSTAL CUP",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 105,
+    "basePrice": 85,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22390/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22390/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22390/0.jpg",
-      "https://assets.brahmanicrm.com/products/22390/1.jpg",
-      "https://assets.brahmanicrm.com/products/22390/2.jpg",
-      "https://assets.brahmanicrm.com/products/22390/3.jpg",
-      "https://assets.brahmanicrm.com/products/22390/4.jpg",
-      "https://assets.brahmanicrm.com/products/22390/5.jpg"
+      "https://assets.brahmanicrm.com/products/22390/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22390/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22390/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22390/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22390/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22390/5@full.webp"
     ],
-    "description": "Green Tumbler with Lid and Straw, Smoothie Tumblers Ribbed Glass Tumblers for Iced Coffee, Smoothie, Juice, Beverages, Water, Drinking Cup, Portable, Dishwasher Safe",
+    "description": "Dazzling Diamond-Cut Texture: Designed with an intricate geometric faceted pattern that delivers a sparkling, luxurious appearance and a secure grip.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8646,39 +9784,9 @@ export const INITIAL_PRODUCTS = [
       "MUG",
       "DARK",
       "GREEN",
-      "CRYSTAL"
-    ]
-  },
-  {
-    "id": "5adce469-3add-4ed8-b117-392b232ec60b",
-    "itemCode": "23064",
-    "aliasName": null,
-    "name": "SIPPER MUG HANDLE LID AND LEATHER",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 65,
-    "piecesPerCarton": 80,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23064/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23064/0.jpg",
-      "https://assets.brahmanicrm.com/products/23064/1.jpg",
-      "https://assets.brahmanicrm.com/products/23064/2.jpg",
-      "https://assets.brahmanicrm.com/products/23064/3.jpg",
-      "https://assets.brahmanicrm.com/products/23064/4.jpg"
-    ],
-    "description": "These cups are versatile and can be used for various beverages like water, milk, coffee, tea, juice, or smoothies. A notable feature is that the base or sleeve of the cup is often designed to function as a mobile phone holder, allowing for hands-free viewing.",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "SIPPER",
-      "MUG",
-      "HANDLE",
-      "LID",
-      "AND"
+      "CRYSTAL",
+      "CUP",
+      "CHINA"
     ]
   },
   {
@@ -8688,19 +9796,23 @@ export const INITIAL_PRODUCTS = [
     "name": "SIPPER MUG INFUSER LID STRAW",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 135,
+    "basePrice": 115,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22399/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22399/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22399/0.jpg",
-      "https://assets.brahmanicrm.com/products/22399/1.jpg",
-      "https://assets.brahmanicrm.com/products/22399/2.jpg",
-      "https://assets.brahmanicrm.com/products/22399/3.jpg",
-      "https://assets.brahmanicrm.com/products/22399/4.jpg",
-      "https://assets.brahmanicrm.com/products/22399/5.jpg"
+      "https://assets.brahmanicrm.com/products/22399/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22399/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22399/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22399/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22399/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22399/5@full.webp"
     ],
-    "description": "Glasses Tumbler with Infuser Lid Straw and Handle,Sipper Mug for Juice Cocktail Iced Tea Coffee Hot Cold Drink Cup.",
+    "description": "Complete 1-Piece Set which includes 1 Glass Tumbler Mug, 1 Infuser Filter Basket, 1 Lid, and 1 Matching Straw.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8711,7 +9823,8 @@ export const INITIAL_PRODUCTS = [
       "MUG",
       "INFUSER",
       "LID",
-      "STRAW"
+      "STRAW",
+      "CHINA"
     ]
   },
   {
@@ -8721,20 +9834,24 @@ export const INITIAL_PRODUCTS = [
     "name": "SIPPER MUG LEMON COLD EXTRACTION CUP",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 90,
+    "basePrice": 70,
     "piecesPerCarton": 68,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22394/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22394/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22394/0.jpg",
-      "https://assets.brahmanicrm.com/products/22394/1.jpg",
-      "https://assets.brahmanicrm.com/products/22394/2.jpg",
-      "https://assets.brahmanicrm.com/products/22394/3.jpg",
-      "https://assets.brahmanicrm.com/products/22394/4.jpg",
-      "https://assets.brahmanicrm.com/products/22394/5.jpg",
-      "https://assets.brahmanicrm.com/products/22394/6.jpg"
+      "https://assets.brahmanicrm.com/products/22394/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22394/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22394/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22394/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22394/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22394/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22394/6@full.webp"
     ],
-    "description": "Glass Tumbler with Fruit Infuser Lid and Straw for Milk Juice Iced Tea Coffee.",
+    "description": "Equipped with a secure leak-proof lid, preventing any accidental spills and making it extremely convenient to carry while traveling or on the go.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8745,136 +9862,9 @@ export const INITIAL_PRODUCTS = [
       "MUG",
       "LEMON",
       "COLD",
-      "EXTRACTION"
-    ]
-  },
-  {
-    "id": "0e1acd0f-c35f-4661-9bb2-30d8be11c803",
-    "itemCode": "22389",
-    "aliasName": "LXB-L1",
-    "name": "SIPPER MUG LEXUAN STRAW CUP",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 115,
-    "piecesPerCarton": 36,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22389/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22389/0.jpg",
-      "https://assets.brahmanicrm.com/products/22389/1.jpg",
-      "https://assets.brahmanicrm.com/products/22389/2.jpg",
-      "https://assets.brahmanicrm.com/products/22389/3.jpg",
-      "https://assets.brahmanicrm.com/products/22389/4.jpg",
-      "https://assets.brahmanicrm.com/products/22389/5.jpg"
-    ],
-    "description": "36 PCS CTN\nGlass Tumbler with Scale, Straw and Lid, Portable Glass Drinking Jar Glass Tumbler ,Travel Reusable Coffee Sipper Mug for Juice Cocktail Iced Tea Smoothies Hot Cold Drink Cup.",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "SIPPER",
-      "MUG",
-      "LEXUAN",
-      "STRAW",
-      "CUP"
-    ]
-  },
-  {
-    "id": "3f3b924d-37d0-40df-bce3-09375ddfed8b",
-    "itemCode": "22364",
-    "aliasName": "XMB-L1",
-    "name": "SIPPER MUG PANDA STRAW CUP SINGLE",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 120,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22364/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22364/0.jpg",
-      "https://assets.brahmanicrm.com/products/22364/1.jpg",
-      "https://assets.brahmanicrm.com/products/22364/2.jpg",
-      "https://assets.brahmanicrm.com/products/22364/3.jpg",
-      "https://assets.brahmanicrm.com/products/22364/4.jpg",
-      "https://assets.brahmanicrm.com/products/22364/5.jpg",
-      "https://assets.brahmanicrm.com/products/22364/6.jpg"
-    ],
-    "description": "36 pcs ctn\nGlass Tumbler with Lid Handle and Straw, Iced Coffee Cup with Gold Badge Pattern, Striped Colored Smoothie Glasses.",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "SIPPER",
-      "MUG",
-      "PANDA",
-      "STRAW",
-      "CUP"
-    ]
-  },
-  {
-    "id": "79c1267e-4e89-4966-8013-ea556bbdc6c0",
-    "itemCode": "22538",
-    "aliasName": "ES7050/L1T",
-    "name": "SIPPER MUG POTLUCK CUP 475ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 95,
-    "piecesPerCarton": 1,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22538/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22538/0.jpg",
-      "https://assets.brahmanicrm.com/products/22538/1.jpg",
-      "https://assets.brahmanicrm.com/products/22538/2.jpg",
-      "https://assets.brahmanicrm.com/products/22538/3.jpg",
-      "https://assets.brahmanicrm.com/products/22538/4.jpg"
-    ],
-    "description": "Suitable for water,iced tea,juice,milkshake,coffee, smoothie,milk,and other DIY beverages.You can take off the lid and drink straightly or with a sippy straw.Fit for kids and adults.",
-    "capacity": "475ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "SIPPER",
-      "MUG",
-      "POTLUCK",
+      "EXTRACTION",
       "CUP",
-      "475ML"
-    ]
-  },
-  {
-    "id": "f71fd745-eb19-4be8-b6bc-c9839cbd2f7c",
-    "itemCode": "22446",
-    "aliasName": "H6-0033",
-    "name": "SIPPER MUG WITH GRIP WITH LID STRAW 400ML 58CTN",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 80,
-    "piecesPerCarton": 58,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22446/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22446/0.jpg",
-      "https://assets.brahmanicrm.com/products/22446/1.jpg",
-      "https://assets.brahmanicrm.com/products/22446/2.jpg"
-    ],
-    "description": "58 PCS CTN\nDrinking Glass with Lids and Straws, Mugs Kids, Fruit Juice Cups, Lemonade Jars, Glass with Lids and Straws, Wide Neck, Coffee Glass for Coffee, Smoothie, Milkshake, Juice.",
-    "capacity": "400ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "SIPPER",
-      "MUG",
-      "WITH",
-      "GRIP",
-      "LID"
+      "CHINA"
     ]
   },
   {
@@ -8884,18 +9874,22 @@ export const INITIAL_PRODUCTS = [
     "name": "SIPPER MUG WONTEDDY LEDI STRAW CUP SINGLE",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 135,
+    "basePrice": 115,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22379/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22379/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22379/0.jpg",
-      "https://assets.brahmanicrm.com/products/22379/1.jpg",
-      "https://assets.brahmanicrm.com/products/22379/2.jpg",
-      "https://assets.brahmanicrm.com/products/22379/3.jpg",
-      "https://assets.brahmanicrm.com/products/22379/4.png"
+      "https://assets.brahmanicrm.com/products/22379/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22379/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22379/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22379/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22379/4@full.webp"
     ],
-    "description": "Textured Ribbed Design: Features an elegant, tactile striped exterior pattern that adds a modern aesthetic and ensures a secure, comfortable grip.\n\nGradient Color Finish: Styled with a sophisticated gradient effect transitioning from clear to deep blue tones, giving it a sleek and stylish look.\n\nIncludes Lid and Glass Straw: Comes complete with a fitted lid and a reusable curved glass straw for eco-friendly and convenient sipping.\n\nVersatile Daily Tumbler: Perfect for iced coffee, smoothies, juices, or your favorite cold beverages at home, work, or on the go.",
+    "description": "Complete 1-Piece Set which includes 1 Textured Glass Tumbler, 1 Secure Lid, and 1 Matching Glass/Plastic Straw.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8906,7 +9900,50 @@ export const INITIAL_PRODUCTS = [
       "MUG",
       "WONTEDDY",
       "LEDI",
-      "STRAW"
+      "STRAW",
+      "CUP",
+      "SINGLE",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "c247a4ea-d1ec-40d8-a7b3-2c6e71583bd3",
+    "itemCode": "22262",
+    "aliasName": "H6-0015",
+    "name": "SIPPER STAR SHAPE MUG 400ML 1PCS BOX PACK",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 95,
+    "basePrice": 75,
+    "piecesPerCarton": 1,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22262/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22262/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22262/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22262/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22262/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22262/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22262/5@full.webp"
+    ],
+    "description": "Creative 400ml Five-pointed Star With Lid Glass Student Household Straw Star Water Glass Multi Color",
+    "capacity": "400ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "SIPPER",
+      "STAR",
+      "SHAPE",
+      "MUG",
+      "400ML",
+      "1PCS",
+      "BOX",
+      "PACK"
     ]
   },
   {
@@ -8916,17 +9953,21 @@ export const INITIAL_PRODUCTS = [
     "name": "SIPPER TUMBLER LINING BIG 600ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 145,
+    "basePrice": 125,
     "piecesPerCarton": 58,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22712/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22712/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22712/0.jpg",
-      "https://assets.brahmanicrm.com/products/22712/1.jpg",
-      "https://assets.brahmanicrm.com/products/22712/2.jpg",
-      "https://assets.brahmanicrm.com/products/22712/3.jpg"
+      "https://assets.brahmanicrm.com/products/22712/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22712/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22712/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22712/3@full.webp"
     ],
-    "description": "This high borosilicate tumbler with glass lid and straw has undergone strict quality inspection and testing for excellent durability and applicability. Whether you choose to hand wash or use the dishwasher, they will maintain their good quality and function for a long time",
+    "description": "Featuring a large 600ml capacity, this glass tumbler is perfectly sized for serving iced coffee, iced tea, juices, milkshakes, or generous portions of your favorite beverages.",
     "capacity": "600ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8937,38 +9978,8 @@ export const INITIAL_PRODUCTS = [
       "TUMBLER",
       "LINING",
       "BIG",
-      "600ML"
-    ]
-  },
-  {
-    "id": "9f1f81ca-2280-45a7-bf63-bbbf07058fed",
-    "itemCode": "23279",
-    "aliasName": null,
-    "name": "SIPPER TUMBLER WOODEN LUID BLACK GOLD 510ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 120,
-    "piecesPerCarton": 98,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23279/485c9433-aa7e-4da1-b5a6-25040db7475f.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23279/485c9433-aa7e-4da1-b5a6-25040db7475f.jpg",
-      "https://assets.brahmanicrm.com/products/23279/08b77a43-2a43-4df8-854c-54c691abb365.jpg",
-      "https://assets.brahmanicrm.com/products/23279/a6738425-aae0-4f68-8c54-d92cf58cdecb.jpg",
-      "https://assets.brahmanicrm.com/products/23279/42e6363f-d0da-4c3b-971e-e522676a6dd3.jpg"
-    ],
-    "description": "Upgrade your drinkware collection with this elegant and modern Wavy Glass Tumbler. Designed with a unique, ribbed \"origami\" texture, this glass cup offers a comfortable grip and a stunning aesthetic that looks great in your home, office, or on your social media feed.\n\nWhether you are sipping iced coffee, refreshing juices, boba tea, or a morning smoothie, this versatile cup makes every drink feel like a premium cafe experience. It comes complete with an eco-friendly bamboo lid and a reusable transparent glass straw.",
-    "capacity": "510ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "SIPPER",
-      "TUMBLER",
-      "WOODEN",
-      "LUID",
-      "BLACK"
+      "600ML",
+      "CHINA"
     ]
   },
   {
@@ -8978,17 +9989,21 @@ export const INITIAL_PRODUCTS = [
     "name": "SKATE BOARD 24INCH",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 230,
+    "basePrice": 210,
     "piecesPerCarton": 32,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20306/042ced40-42f7-4e20-978c-9e7975cb3ffd.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20306/042ced40-42f7-4e20-978c-9e7975cb3ffd@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20306/042ced40-42f7-4e20-978c-9e7975cb3ffd.jpg",
-      "https://assets.brahmanicrm.com/products/20306/20e8d02e-82f7-4c8c-8d37-52fe59a64654.jpg",
-      "https://assets.brahmanicrm.com/products/20306/b0dbf842-8a49-474f-8d71-94bdab1536e4.jpg",
-      "https://assets.brahmanicrm.com/products/20306/aa50821c-c363-4b83-b7b6-696fabca3c31.jpg"
+      "https://assets.brahmanicrm.com/products/20306/042ced40-42f7-4e20-978c-9e7975cb3ffd@full.webp",
+      "https://assets.brahmanicrm.com/products/20306/20e8d02e-82f7-4c8c-8d37-52fe59a64654@full.webp",
+      "https://assets.brahmanicrm.com/products/20306/b0dbf842-8a49-474f-8d71-94bdab1536e4@full.webp",
+      "https://assets.brahmanicrm.com/products/20306/aa50821c-c363-4b83-b7b6-696fabca3c31@full.webp"
     ],
-    "description": "Product Overview\nProduct Name: Kids' Spider-Man Themed Wooden Skateboard\n\nIdeal For: Beginners, kids, and young outdoor sports enthusiasts.\n\nKey Features\nEye-Catching Graphics: Features a vibrant, high-quality Spider-Man theme design with classic red, blue, and black web patterns that kids will love.\n\nDurable Construction: Built with a sturdy, multi-ply wooden deck designed to offer a balance of flexibility and strength for new riders.\n\nSmooth Ride: Equipped with durable, bright red polyurethane (PU) wheels and smooth bearings for effortless gliding on flat surfaces.\n\nCompact & Portable: Lightweight and easy for children to carry around to the park, driveway, or playground.\n\nPerfect Gift: An excellent choice for birthdays, holidays, or any occasion to encourage active outdoor play and balance coordination.",
+    "description": "Featuring a compact 24-inch size, this skateboard is ideally proportioned for kids and beginners, offering great balance and ease of control.",
     "capacity": "24INCH",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -8997,7 +10012,8 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "SKATE",
       "BOARD",
-      "24INCH"
+      "24INCH",
+      "CHINA"
     ]
   },
   {
@@ -9007,19 +10023,23 @@ export const INITIAL_PRODUCTS = [
     "name": "SLIM CLEANING BRUSH 52CM",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 90,
+    "basePrice": 70,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22656/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22656/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22656/0.jpg",
-      "https://assets.brahmanicrm.com/products/22656/1.jpg",
-      "https://assets.brahmanicrm.com/products/22656/2.jpg",
-      "https://assets.brahmanicrm.com/products/22656/3.jpg",
-      "https://assets.brahmanicrm.com/products/22656/4.jpg",
-      "https://assets.brahmanicrm.com/products/22656/5.jpg"
+      "https://assets.brahmanicrm.com/products/22656/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22656/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22656/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22656/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22656/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22656/5@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": ": Featuring a 52cm extended length, this cleaning tool is perfectly designed for easily reaching and cleaning high windows, glass surfaces, walls, or floors.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9029,7 +10049,8 @@ export const INITIAL_PRODUCTS = [
       "SLIM",
       "CLEANING",
       "BRUSH",
-      "52CM"
+      "52CM",
+      "CHINA"
     ]
   },
   {
@@ -9039,19 +10060,21 @@ export const INITIAL_PRODUCTS = [
     "name": "SMALL TEA CUP 100ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 190,
+    "basePrice": 170,
     "piecesPerCarton": 16,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22926/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22926/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22926/0.jpg",
-      "https://assets.brahmanicrm.com/products/22926/1.jpg",
-      "https://assets.brahmanicrm.com/products/22926/2.jpg",
-      "https://assets.brahmanicrm.com/products/22926/3.jpg",
-      "https://assets.brahmanicrm.com/products/22926/4.jpg",
-      "https://assets.brahmanicrm.com/products/22926/5.jpg"
+      "https://assets.brahmanicrm.com/products/22926/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22926/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22926/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22926/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22926/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22926/5@full.webp"
     ],
-    "description": "Enjoy your daily tea moments with this Small Tea Cup 100 ml – 6 Pieces Set, designed for comfort, durability, and elegant presentation. Perfectly sized for serving tea, coffee, or herbal drinks in homes and commercial settings.",
+    "description": "Complete 6-Piece Set of small cups, perfectly sized for serving family members, guests, or clients.",
     "capacity": "100ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9062,26 +10085,28 @@ export const INITIAL_PRODUCTS = [
       "TEA",
       "CUP",
       "100ML",
-      "6PCS"
+      "6PCS",
+      "SET"
     ]
   },
   {
-    "id": "5f6688d2-032b-4723-a941-9e36c145a09c",
-    "itemCode": "22903",
-    "aliasName": "KTZB49",
-    "name": "SMALL TEA CUP 160ML 6PCS SET",
+    "id": "de7ed25d-c3da-476a-be9e-15daeb1f2579",
+    "itemCode": "23331",
+    "aliasName": "KTZB39",
+    "name": "SMALL TEA CUP 160ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 185,
+    "brahmaniCategories": [],
+    "price": 180,
+    "basePrice": 160,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22903/3fb02d70-ea87-473b-9b67-91cc94a5e8a4.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23331/caeb7729-bdc0-472b-808f-20b00b4bda1a@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22903/3fb02d70-ea87-473b-9b67-91cc94a5e8a4.jpg",
-      "https://assets.brahmanicrm.com/products/22903/20999bb6-f249-4881-953b-f8f5fbdc2a6a.jpg",
-      "https://assets.brahmanicrm.com/products/22903/c05ddf35-4efb-494c-9c03-87d62762c0af.jpg"
+      "https://assets.brahmanicrm.com/products/23331/caeb7729-bdc0-472b-808f-20b00b4bda1a@full.webp",
+      "https://assets.brahmanicrm.com/products/23331/de7dd6ac-6912-42e6-9648-c4c902ca1e3d@full.webp"
     ],
-    "description": "For Hot and Cold Drinks - These modern glass mugs are suitable . The convenient handles always stay cool to the touch even when drinks are reheated in the mug.",
+    "description": "Special Features: Ergonomic Handle, Stable Base, Heat-Friendly",
     "capacity": "160ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9100,17 +10125,21 @@ export const INITIAL_PRODUCTS = [
     "itemCode": "23027",
     "aliasName": "H8424",
     "name": "SOAP DISPENSER LINNIG 300ML 1PCS BOX PACK",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 105,
+    "basePrice": 85,
     "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23027/0.png",
+    "image": "https://assets.brahmanicrm.com/products/23027/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23027/0.png",
-      "https://assets.brahmanicrm.com/products/23027/1.png"
+      "https://assets.brahmanicrm.com/products/23027/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23027/1@full.webp"
     ],
-    "description": "Smooth & Efficient Pump Premium pump mechanism ensures smooth, controlled dispensing of handwash, lotion, dish soap, shampoo or sanitizer without leakage.",
+    "description": "Featuring an optimal 300ml capacity, this soap dispenser is perfectly sized for holding hand wash, shower gel, liquid soap, or dish washing liquid.",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9121,7 +10150,10 @@ export const INITIAL_PRODUCTS = [
       "DISPENSER",
       "LINNIG",
       "300ML",
-      "1PCS"
+      "1PCS",
+      "BOX",
+      "PACK",
+      "GLASSWARE"
     ]
   },
   {
@@ -9131,18 +10163,22 @@ export const INITIAL_PRODUCTS = [
     "name": "SODA LIME GLASS WOODEN BOX SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 2320,
+    "basePrice": 2300,
     "piecesPerCarton": 3,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23294/eae6c258-0652-4e26-b230-46cc0f8e6668.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23294/eae6c258-0652-4e26-b230-46cc0f8e6668@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23294/eae6c258-0652-4e26-b230-46cc0f8e6668.jpg",
-      "https://assets.brahmanicrm.com/products/23294/46b3d3ce-7867-434e-8f6a-536a26381891.jpg",
-      "https://assets.brahmanicrm.com/products/23294/052ac311-4cdf-49e6-9c74-74a338724621.jpg",
-      "https://assets.brahmanicrm.com/products/23294/4dfb0a19-c8e8-4a43-a9a1-06ab19e16d4b.jpg",
-      "https://assets.brahmanicrm.com/products/23294/36f0f533-7fad-4d03-90d2-f05a4e75b44e.jpg"
+      "https://assets.brahmanicrm.com/products/23294/eae6c258-0652-4e26-b230-46cc0f8e6668@full.webp",
+      "https://assets.brahmanicrm.com/products/23294/46b3d3ce-7867-434e-8f6a-536a26381891@full.webp",
+      "https://assets.brahmanicrm.com/products/23294/052ac311-4cdf-49e6-9c74-74a338724621@full.webp",
+      "https://assets.brahmanicrm.com/products/23294/4dfb0a19-c8e8-4a43-a9a1-06ab19e16d4b@full.webp",
+      "https://assets.brahmanicrm.com/products/23294/36f0f533-7fad-4d03-90d2-f05a4e75b44e@full.webp"
     ],
-    "description": "The Verdant Apple Luxury Whiskey & Beverage Set\nElevate your hosting experience or find the perfect premium gift with The Verdant Apple Set. Beautifully curated for those who appreciate fine presentation, this complete collection combines functional sophistication with a modern, vibrant touch. Whether displaying refreshing green apple blends or premium spirits, this set brings an unmistakable element of luxury to any home bar or countertop.\n\nKey Features\nPremium Lead-Free Crystal: Features a beautifully crafted geometric decanter alongside heavy-based matching glasses designed for ultimate clarity and comfort.\n\nLuxury Wooden Presentation Box: Comes enclosed in a premium, velvet-lined wooden chest with secure brass latches for elegant storage and display.\n\nReusable Soapstone Chilling Stones: Keep your drinks perfectly chilled without diluting the crisp flavors of your favorite beverages.\n\nModern Aesthetic Appeal: Designed to stand out in product listings, showcasing a stunning contrast between rich, natural wood grains and sleek glass textures.",
+    "description": "Includes a complete luxury set featuring a whiskey decanter, crystal tumblers, chilling whiskey stones, and metal tongs beautifully organized in a wooden box.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9153,38 +10189,42 @@ export const INITIAL_PRODUCTS = [
       "LIME",
       "GLASS",
       "WOODEN",
-      "BOX"
+      "BOX",
+      "SET",
+      "CHINA"
     ]
   },
   {
-    "id": "c226ee9a-f2e6-4f2e-b1ae-65af105d7501",
-    "itemCode": "23295",
-    "aliasName": "XZM175-1",
-    "name": "SODA LIME GLASS WOODEN BOX SETT",
+    "id": "d0cccb9b-899b-4606-8992-2eece35491bd",
+    "itemCode": "23347",
+    "aliasName": "DSKB161-2-B",
+    "name": "SOGA WINE GLASS 180ML 6PC",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 2300,
-    "piecesPerCarton": 1,
+    "brahmaniCategories": [],
+    "price": 270,
+    "basePrice": 250,
+    "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23295/7493d13d-2e70-4f54-92fc-6795cc25ac0c.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23347/7923c034-17bf-404b-85e5-5cd5217838ce@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23295/7493d13d-2e70-4f54-92fc-6795cc25ac0c.jpg",
-      "https://assets.brahmanicrm.com/products/23295/3f6488be-b311-449a-97d0-1ca23e912754.jpg",
-      "https://assets.brahmanicrm.com/products/23295/cf264e1e-5675-415f-a246-8f79547f5c7d.jpg",
-      "https://assets.brahmanicrm.com/products/23295/f639fe03-28c9-4de2-b57c-debd89265485.jpg"
+      "https://assets.brahmanicrm.com/products/23347/7923c034-17bf-404b-85e5-5cd5217838ce@full.webp",
+      "https://assets.brahmanicrm.com/products/23347/731d35f0-6db3-4c5d-8f40-9260c647c6e4@full.webp",
+      "https://assets.brahmanicrm.com/products/23347/ef5892ef-c697-4acb-b4ba-0867f4e20d4f@full.webp",
+      "https://assets.brahmanicrm.com/products/23347/52b01a53-f140-4a69-8551-56f06c80c811@full.webp"
     ],
-    "description": "Elegant Horse-Shaped Glass Decanter with Tumbler Glass Set\nElevate your barware collection or premium corporate gifting catalog with this exquisitely crafted horse-shaped glass decanter. Meticulously hand-blown from high-grade borosilicate glass, this statement piece combines timeless artistic design with practical functionality, making it a showstopping centerpiece for any home, lounge, or office setting.\n\nKey Features\nArtisanal Craftsmanship: Features a detailed horse silhouette complete with glass-carved mane, saddle textures, and subtle metallic accent trim for a luxurious finish.\n\nPremium Borosilicate Glass: Crafted from durable, lead-free glass that ensures crystal-clear clarity while highlighting the rich colors of wine, whiskey, scotch, or bourbon.\n\nFunctional & Stylish Stopper: Designed with an airtight glass stopper at the tail assembly to preserve the aroma, flavor, and freshness of your finest spirits.\n\nMatching Tumbler Glass: Includes an elegantly cut whiskey glass designed to complement the overall sophisticated aesthetic.\n\nIdeal for Premium Gifting: An exceptional gift choice for corporate clients, executive achievements, housewarmings, weddings, or festive occasions.",
-    "capacity": "Standard Trade Spec",
+    "description": "Special Features: Textured Cut Design, Elegant Stem Base, Multifunctional Use",
+    "capacity": "180ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "SODA",
-      "LIME",
+      "SOGA",
+      "WINE",
       "GLASS",
-      "WOODEN",
-      "BOX"
+      "180ML",
+      "6PC"
     ]
   },
   {
@@ -9194,18 +10234,22 @@ export const INITIAL_PRODUCTS = [
     "name": "SPICE JAR 100ML 12PCS SET",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 440,
+    "basePrice": 420,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22860/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22860/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22860/0.jpg",
-      "https://assets.brahmanicrm.com/products/22860/1.jpg",
-      "https://assets.brahmanicrm.com/products/22860/2.jpg",
-      "https://assets.brahmanicrm.com/products/22860/3.jpg",
-      "https://assets.brahmanicrm.com/products/22860/4.jpg"
+      "https://assets.brahmanicrm.com/products/22860/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22860/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22860/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22860/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22860/4@full.webp"
     ],
-    "description": "Great for organizing your pantry & storing any kind dried spices, corn starch, sugar herbs and powders, seasoning, storing spices, salt, pepper, herbs, and party gifts, crafts, decor more",
+    "description": "Featuring an optimal 100ml capacity, these jars are perfectly sized for storing various spices, seasonings, herbs, salt, or pepper powder.",
     "capacity": "100ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9216,7 +10260,8 @@ export const INITIAL_PRODUCTS = [
       "JAR",
       "100ML",
       "12PCS",
-      "SET"
+      "SET",
+      "CHINA"
     ]
   },
   {
@@ -9226,18 +10271,22 @@ export const INITIAL_PRODUCTS = [
     "name": "SPICE STORAGE BOTTLE 100ML",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 50,
+    "basePrice": 30,
     "piecesPerCarton": 120,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21192/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21192/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21192/0.jpg",
-      "https://assets.brahmanicrm.com/products/21192/1.jpg",
-      "https://assets.brahmanicrm.com/products/21192/2.jpg",
-      "https://assets.brahmanicrm.com/products/21192/3.jpg",
-      "https://assets.brahmanicrm.com/products/21192/4.jpg"
+      "https://assets.brahmanicrm.com/products/21192/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21192/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21192/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21192/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21192/4@full.webp"
     ],
-    "description": "Press to open and close Sealed against moisture Effectively prevent the seasoning from moisture and seal without leakage",
+    "description": "Featuring a compact 100ml capacity, this bottle is ideally sized for storing salt, black pepper, spices, or seasoning powders in the kitchen.",
     "capacity": "100ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9247,7 +10296,8 @@ export const INITIAL_PRODUCTS = [
       "SPICE",
       "STORAGE",
       "BOTTLE",
-      "100ML"
+      "100ML",
+      "CHINA"
     ]
   },
   {
@@ -9257,21 +10307,23 @@ export const INITIAL_PRODUCTS = [
     "name": "SQUARE HUICE GLASS 260ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 220,
+    "basePrice": 200,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22893/38d1a322-1384-485b-8135-581ee67b0d0d.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22893/38d1a322-1384-485b-8135-581ee67b0d0d@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22893/38d1a322-1384-485b-8135-581ee67b0d0d.jpg",
-      "https://assets.brahmanicrm.com/products/22893/0.jpg",
-      "https://assets.brahmanicrm.com/products/22893/1.jpg",
-      "https://assets.brahmanicrm.com/products/22893/2.jpg",
-      "https://assets.brahmanicrm.com/products/22893/3.jpg",
-      "https://assets.brahmanicrm.com/products/22893/4.jpg",
-      "https://assets.brahmanicrm.com/products/22893/5.jpg",
-      "https://assets.brahmanicrm.com/products/22893/6.jpg"
+      "https://assets.brahmanicrm.com/products/22893/38d1a322-1384-485b-8135-581ee67b0d0d@full.webp",
+      "https://assets.brahmanicrm.com/products/22893/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22893/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22893/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22893/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22893/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22893/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22893/6@full.webp"
     ],
-    "description": "Square Juice Glasses – 260ml | Set of 6 Clear Drinking Glasses | Durable Thick Glass | Perfect for Juice, Water, Cocktails & Everyday Use",
+    "description": "Featuring an ideal 260ml capacity, these glass tumblers are perfectly sized for serving fresh juices, water, cold drinks, mocktails, or other beverages.",
     "capacity": "260ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9282,7 +10334,42 @@ export const INITIAL_PRODUCTS = [
       "HUICE",
       "GLASS",
       "260ML",
-      "6PCS"
+      "6PCS",
+      "SET"
+    ]
+  },
+  {
+    "id": "fc70e017-e209-47ed-aac9-09a5701f05ac",
+    "itemCode": "22848",
+    "aliasName": "H23012-W",
+    "name": "SQUARE JAR 340ML 3PCS BOX PACK",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 170,
+    "basePrice": 150,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22848/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22848/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22848/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22848/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22848/3@full.webp"
+    ],
+    "description": "Special Features: Space-Saving Square Design, Airtight Seal, See-Through Body",
+    "capacity": "340ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "SQUARE",
+      "JAR",
+      "340ML",
+      "3PCS",
+      "BOX",
+      "PACK"
     ]
   },
   {
@@ -9292,14 +10379,19 @@ export const INITIAL_PRODUCTS = [
     "name": "SQUARE JUICE GLASS 265ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 250,
+    "brahmaniCategories": [],
+    "price": 270,
+    "basePrice": 250,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22900/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22900/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22900/0.jpg"
+      "https://assets.brahmanicrm.com/products/22900/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22900/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22900/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22900/3@full.webp"
     ],
-    "description": "SQUARE JUICE GLASS 265ML 6PCS SET - High-clarity commercial glassware for wholesale trade supply, packaged by the carton in Surat warehouse.",
+    "description": "Complete 6-Piece Set of tall juice glasses, perfectly sized and proportioned for serving family members, guests, or customers.",
     "capacity": "265ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9310,7 +10402,8 @@ export const INITIAL_PRODUCTS = [
       "JUICE",
       "GLASS",
       "265ML",
-      "6PCS"
+      "6PCS",
+      "SET"
     ]
   },
   {
@@ -9320,19 +10413,21 @@ export const INITIAL_PRODUCTS = [
     "name": "SQUARE MASON HANDLE 410ML 2PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 140,
+    "basePrice": 120,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22611/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22611/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22611/0.jpg",
-      "https://assets.brahmanicrm.com/products/22611/1.jpg",
-      "https://assets.brahmanicrm.com/products/22611/2.jpg",
-      "https://assets.brahmanicrm.com/products/22611/3.jpg",
-      "https://assets.brahmanicrm.com/products/22611/4.jpg",
-      "https://assets.brahmanicrm.com/products/22611/5.jpg"
+      "https://assets.brahmanicrm.com/products/22611/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22611/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22611/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22611/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22611/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22611/5@full.webp"
     ],
-    "description": "Stylish square design with vibrant colored handle – perfect for juices, mocktails & smoothies.\nMade from premium borosilicate glass – durable, heat-resistant & ideal for everyday use.",
+    "description": "Featuring an optimal 410ml capacity, these glass mugs are perfectly sized for serving juices, iced coffee, milkshakes, iced tea, or your favorite beverages.",
     "capacity": "410ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9353,17 +10448,21 @@ export const INITIAL_PRODUCTS = [
     "name": "SQUARE MASON HANDLE 410ML 2PCS 7010",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 190,
+    "basePrice": 170,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23169/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23169/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23169/0.jpg",
-      "https://assets.brahmanicrm.com/products/23169/1.jpg",
-      "https://assets.brahmanicrm.com/products/23169/2.jpg",
-      "https://assets.brahmanicrm.com/products/23169/3.jpg"
+      "https://assets.brahmanicrm.com/products/23169/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23169/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23169/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23169/3@full.webp"
     ],
-    "description": "These modern square glass mugs with colored handles are typically made from high borosilicate glass, which is durable, heat-resistant, and BPA-free. They often feature a capacity around 400ml to 450ml and are used for a variety of beverages including iced coffee, smoothies, and juices.",
+    "description": "Featuring a generous 410ml capacity, these square glass mugs are perfectly sized for enjoying iced coffee, iced tea, juices, milkshakes, or smoothies.",
     "capacity": "410ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9374,7 +10473,77 @@ export const INITIAL_PRODUCTS = [
       "MASON",
       "HANDLE",
       "410ML",
+      "2PCS",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "1b7b2886-5036-42c7-9282-3b551267bb08",
+    "itemCode": "22309",
+    "aliasName": "SPB400-L2-BB",
+    "name": "SQUARE MASON WOODEN LID JAR 400ML 2PCS",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 110,
+    "basePrice": 90,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22309/2@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22309/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22309/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22309/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22309/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22309/6@full.webp"
+    ],
+    "description": "24 PCS CTN\nBring elegance and utility together with this premium Square Mason Jar featuring a natural wooden lid. Designed for modern homes, cafés, and kitchen counters, it offers style, durability, and airtight storage.",
+    "capacity": "400ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "SQUARE",
+      "MASON",
+      "WOODEN",
+      "LID",
+      "JAR",
+      "400ML",
       "2PCS"
+    ]
+  },
+  {
+    "id": "1e4d88d6-c494-4e32-899c-7662e956f3aa",
+    "itemCode": "20503",
+    "aliasName": "KTZB47-1",
+    "name": "SQUARE TEA CUP 149ML 6PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 185,
+    "basePrice": 165,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20503/376603e1-df78-4b01-a59b-8ddf091e0cb9@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20503/376603e1-df78-4b01-a59b-8ddf091e0cb9@full.webp",
+      "https://assets.brahmanicrm.com/products/20503/eb0711c3-de0f-4d0d-8b38-8b41d75fc48d@full.webp",
+      "https://assets.brahmanicrm.com/products/20503/cd7d6460-3393-429e-8d38-87a2574202b0@full.webp",
+      "https://assets.brahmanicrm.com/products/20503/b6b3836c-0215-4787-8606-e92218c65c74@full.webp"
+    ],
+    "description": "Special Features: Unique Square Design, Ergonomic Handle, Heat-Friendly",
+    "capacity": "149ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "SQUARE",
+      "TEA",
+      "CUP",
+      "149ML",
+      "6PCS"
     ]
   },
   {
@@ -9384,19 +10553,21 @@ export const INITIAL_PRODUCTS = [
     "name": "SQUARE2 TEA CUP 140ML 6PCS RED CHERRY",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 170,
+    "brahmaniCategories": [],
+    "price": 172,
+    "basePrice": 152,
     "piecesPerCarton": 16,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20336/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20336/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20336/0.jpg",
-      "https://assets.brahmanicrm.com/products/20336/1.jpg",
-      "https://assets.brahmanicrm.com/products/20336/2.jpg",
-      "https://assets.brahmanicrm.com/products/20336/3.jpg",
-      "https://assets.brahmanicrm.com/products/20336/4.jpg",
-      "https://assets.brahmanicrm.com/products/20336/5.jpg"
+      "https://assets.brahmanicrm.com/products/20336/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20336/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20336/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20336/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20336/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20336/5@full.webp"
     ],
-    "description": "Enhance your daily beverage ritual with this clean, modern, and versatile Minimalist Clear Glass Cup. Featuring a unique rounded-square silhouette and a comfortable handle, this mug brings effortless elegance and transparency to your morning coffee, afternoon tea, or relaxing herbal infusion.",
+    "description": "Featuring an ideal 140ml capacity, these glass cups are perfectly sized for serving tea, coffee, green tea, or milk.",
     "capacity": "140ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9407,7 +10578,9 @@ export const INITIAL_PRODUCTS = [
       "TEA",
       "CUP",
       "140ML",
-      "6PCS"
+      "6PCS",
+      "RED",
+      "CHERRY"
     ]
   },
   {
@@ -9417,16 +10590,18 @@ export const INITIAL_PRODUCTS = [
     "name": "STAINLESS STEEL CAP-83MM ST",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [],
     "price": 48,
+    "basePrice": 28,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22992/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22992/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22992/0.jpg",
-      "https://assets.brahmanicrm.com/products/22992/1.jpg",
-      "https://assets.brahmanicrm.com/products/22992/2.jpg"
+      "https://assets.brahmanicrm.com/products/22992/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22992/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22992/2@full.webp"
     ],
-    "description": "Elevate the look and functionality of your packaging with this premium silver jar cap. Designed for both luxury and practicality, this cap is perfect for keeping your products fresh while giving them a sophisticated, high-end appearance.",
+    "description": "Precision 83mm Size: Expertly sized with an 83mm diameter to fit compatible jars and containers perfectly.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "83MM Neck / Closure",
     "material": "Clear Soda Lime Flint Glass",
@@ -9439,90 +10614,25 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "033732ff-aab5-4593-913c-8ee70ff380e7",
-    "itemCode": "23223",
-    "aliasName": "KD1053",
-    "name": "STEAMLESS PLAZA 210ML 6PCS SET",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 225,
-    "piecesPerCarton": 8,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23223/6d608898-671e-43a8-8126-a8037ce7956e.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23223/6d608898-671e-43a8-8126-a8037ce7956e.jpg",
-      "https://assets.brahmanicrm.com/products/23223/937b27fa-ede8-4290-9e38-51ae5ebd5330.jpg",
-      "https://assets.brahmanicrm.com/products/23223/bfcc9bf0-8ce4-478c-a57f-5da36bb701b9.jpg",
-      "https://assets.brahmanicrm.com/products/23223/95cc0df7-ce73-4746-8701-90d7d47f047d.jpg",
-      "https://assets.brahmanicrm.com/products/23223/cc5938ff-f883-427f-93f6-6ab796ffaf37.jpg"
-    ],
-    "description": "High Quality,Transparent and clear.\nIdeal for savoring whiskey and a variety of other spirits, making it a versatile choice for any occasion.",
-    "capacity": "210ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "STEAMLESS",
-      "PLAZA",
-      "210ML",
-      "6PCS",
-      "SET"
-    ]
-  },
-  {
-    "id": "b90f4227-5d3d-4632-87e9-e30abec081c4",
-    "itemCode": "20571",
-    "aliasName": "ES5303",
-    "name": "STEAMLESS PLAZA 280ML 6PCS",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 260,
-    "piecesPerCarton": 8,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20571/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/20571/0.jpg",
-      "https://assets.brahmanicrm.com/products/20571/1.jpg",
-      "https://assets.brahmanicrm.com/products/20571/2.jpg",
-      "https://assets.brahmanicrm.com/products/20571/3.jpg",
-      "https://assets.brahmanicrm.com/products/20571/4.jpg",
-      "https://assets.brahmanicrm.com/products/20571/5.jpg",
-      "https://assets.brahmanicrm.com/products/20571/6.jpg"
-    ],
-    "description": "STEAMLESS Plaza 280ML 6PCS || temless Wine Glasses for Red or White Wine",
-    "capacity": "280ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "STEAMLESS",
-      "PLAZA",
-      "280ML",
-      "6PCS"
-    ]
-  },
-  {
     "id": "72785904-8f06-4658-9d87-29e5c64ba34e",
     "itemCode": "20678",
     "aliasName": "ES5302",
     "name": "STEAMLESS PLAZA 300ML 6PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 225,
+    "basePrice": 205,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20678/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20678/c5692803-0906-4101-9425-73b08b0a625b@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20678/0.jpg",
-      "https://assets.brahmanicrm.com/products/20678/1.jpg",
-      "https://assets.brahmanicrm.com/products/20678/2.jpg",
-      "https://assets.brahmanicrm.com/products/20678/3.jpg",
-      "https://assets.brahmanicrm.com/products/20678/4.jpg",
-      "https://assets.brahmanicrm.com/products/20678/5.jpg"
+      "https://assets.brahmanicrm.com/products/20678/c5692803-0906-4101-9425-73b08b0a625b@full.webp",
+      "https://assets.brahmanicrm.com/products/20678/f7254a41-1b66-4bfc-a426-220e3536b5e2@full.webp",
+      "https://assets.brahmanicrm.com/products/20678/b707cedc-ec3e-4c56-bcd6-0cf1f2ae2b63@full.webp",
+      "https://assets.brahmanicrm.com/products/20678/bb5967c9-2c80-4152-88d0-28efd718d465@full.webp"
     ],
-    "description": "Perfect blend of modern and classic elegance these glasses will be your go-to for years to come",
+    "description": "Featuring an optimal 300ml capacity, these glass tumblers are perfectly sized for serving whiskey, cocktails, mocktails, juices, soda, or water.",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9542,18 +10652,20 @@ export const INITIAL_PRODUCTS = [
     "name": "STEAMLESS PLAZA 390ML 6PCS SET",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 255,
+    "basePrice": 235,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22792/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22792/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22792/0.jpg",
-      "https://assets.brahmanicrm.com/products/22792/1.jpg",
-      "https://assets.brahmanicrm.com/products/22792/2.jpg",
-      "https://assets.brahmanicrm.com/products/22792/3.jpg",
-      "https://assets.brahmanicrm.com/products/22792/4.jpg"
+      "https://assets.brahmanicrm.com/products/22792/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22792/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22792/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22792/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22792/4@full.webp"
     ],
-    "description": "Crafted from premium quality glass, this set is designed for everyday elegance and durability. Its sleek and clear design makes it suitable for serving water, milk, juice, or cocktails. Easy to clean and versatile, it’s a great addition to both home and office use. Ideal for daily serving or special gatherings.",
+    "description": "Featuring a generous 390ml capacity, these stemless glasses are perfectly sized for serving water, juices, sodas, milkshakes, mocktails, or cocktails.",
     "capacity": "390ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9568,56 +10680,27 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "3abc39bf-2ae8-4b0e-b2e7-f8dc93a32eb3",
-    "itemCode": "23093",
-    "aliasName": "SS-TAMPA-1000",
-    "name": "STEE WATER BOTTLE TAMPA 1LTR",
-    "category": "bottles",
-    "categoryName": "Milk & Water Bottles",
-    "price": 150,
-    "piecesPerCarton": 60,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23093/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23093/0.jpg",
-      "https://assets.brahmanicrm.com/products/23093/1.jpg",
-      "https://assets.brahmanicrm.com/products/23093/2.jpg",
-      "https://assets.brahmanicrm.com/products/23093/3.jpg"
-    ],
-    "description": "60 PCS CTN\nTake it on camping trips or use it as a water bottle for hiking, Also a great choice for athletes or gym enthusiasts who need to stay hydrated before, during, or after workouts.",
-    "capacity": "1LTR",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "STEE",
-      "WATER",
-      "BOTTLE",
-      "TAMPA",
-      "1LTR"
-    ]
-  },
-  {
     "id": "3c9c6af5-d929-4872-b988-a49e1b3b14c2",
     "itemCode": "22985",
     "aliasName": "WD10-220-L3-SS",
     "name": "STEEL LID JAR ROUND 220ML 3PCS SET",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 155,
+    "basePrice": 135,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22985/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22985/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22985/0.jpg",
-      "https://assets.brahmanicrm.com/products/22985/1.jpg",
-      "https://assets.brahmanicrm.com/products/22985/2.jpg",
-      "https://assets.brahmanicrm.com/products/22985/3.jpg",
-      "https://assets.brahmanicrm.com/products/22985/4.jpg",
-      "https://assets.brahmanicrm.com/products/22985/5.jpg"
+      "https://assets.brahmanicrm.com/products/22985/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22985/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22985/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22985/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22985/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22985/5@full.webp"
     ],
-    "description": "This borosilicate glass storage jar with a  stainless steel lid is perfect for food and candy storage. It is microwave, oven, dishwasher, and freezer safe, making it highly versatile.",
+    "description": "Complete 6-Piece Set of tall juice glasses, perfectly sized and proportioned for serving family members, guests, or customers.",
     "capacity": "220ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9628,7 +10711,9 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "ROUND",
-      "220ML"
+      "220ML",
+      "3PCS",
+      "SET"
     ]
   },
   {
@@ -9638,19 +10723,21 @@ export const INITIAL_PRODUCTS = [
     "name": "STEEL LID JAR ROUND 270ML 3PCS SET",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 165,
+    "basePrice": 145,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22986/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22986/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22986/0.jpg",
-      "https://assets.brahmanicrm.com/products/22986/1.jpg",
-      "https://assets.brahmanicrm.com/products/22986/2.jpg",
-      "https://assets.brahmanicrm.com/products/22986/3.jpg",
-      "https://assets.brahmanicrm.com/products/22986/4.jpg",
-      "https://assets.brahmanicrm.com/products/22986/5.jpg"
+      "https://assets.brahmanicrm.com/products/22986/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22986/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22986/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22986/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22986/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22986/5@full.webp"
     ],
-    "description": "The product’s high popularity in retail is underpinned by strong sales performance, consistent top bestseller rankings, and compelling profit margins.",
+    "description": "Featuring a compact 270ml capacity, these round glass jars are perfectly sized for storing dry fruits, spices, mouth fresheners, tea leaves, or herbs.",
     "capacity": "270ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9661,7 +10748,9 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "ROUND",
-      "270ML"
+      "270ML",
+      "3PCS",
+      "SET"
     ]
   },
   {
@@ -9671,15 +10760,19 @@ export const INITIAL_PRODUCTS = [
     "name": "STEEL WATER BOTTLE ATLANTA 1LTR",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 150,
+    "basePrice": 130,
     "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22209/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22209/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22209/0.jpg",
-      "https://assets.brahmanicrm.com/products/22209/1.jpg"
+      "https://assets.brahmanicrm.com/products/22209/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22209/1@full.webp"
     ],
-    "description": "Stay hydrated in style with our premium Stainless Steel Sports Water Bottle. Designed for athletes, gym enthusiasts, and anyone on the go, this bottle combines sleek aesthetics with rugged durability. Whether you are hitting the gym, heading to the office, or exploring the outdoors, this is the perfect companion to keep your beverages fresh.",
+    "description": "Featuring a large 1-litre capacity, this steel water bottle is perfectly sized to keep you hydrated throughout the day at school, college, office, or the gym.",
     "capacity": "1LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9690,27 +10783,33 @@ export const INITIAL_PRODUCTS = [
       "WATER",
       "BOTTLE",
       "ATLANTA",
-      "1LTR"
+      "1LTR",
+      "GLASSWARE"
     ]
   },
   {
-    "id": "56c78f55-64c3-4a74-a04a-e1dd9e781153",
-    "itemCode": "22706",
-    "aliasName": null,
-    "name": "STEEL WATER JUG ROUND 1.5 LTR",
+    "id": "311917c4-3e3a-4b87-95d4-b47ac4598a7e",
+    "itemCode": "20150",
+    "aliasName": "GPH28",
+    "name": "STEEL WATER JUG 1.8LTR",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 240,
+    "brahmaniCategories": [],
+    "price": 232,
+    "basePrice": 212,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22706/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20150/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22706/0.jpg",
-      "https://assets.brahmanicrm.com/products/22706/1.jpg",
-      "https://assets.brahmanicrm.com/products/22706/2.jpg"
+      "https://assets.brahmanicrm.com/products/20150/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20150/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20150/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20150/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20150/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20150/5@full.webp"
     ],
-    "description": "24 PCS CTN\nThis Premium Quality Juice and Water Glass Jug Pitcher with lid is Perfect for JUICE LOVER. Great for Home and Parties. This Water Juice Glass Jug is the New Design in the Market Place.",
-    "capacity": "1.5 LTR",
+    "description": "Special Features: In-Built Strainer Lid, Ergonomic Handle, Sleek Clear Design",
+    "capacity": "1.8LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
@@ -9719,8 +10818,39 @@ export const INITIAL_PRODUCTS = [
       "STEEL",
       "WATER",
       "JUG",
-      "ROUND",
-      "1.5"
+      "1.8LTR"
+    ]
+  },
+  {
+    "id": "9c83b69b-1c53-4a52-95cb-9a56799517df",
+    "itemCode": "22251",
+    "aliasName": "GPH30",
+    "name": "STEEL3 WATER JUG 1.8LTR DELI",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 245,
+    "basePrice": 225,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22251/937b2708-22ad-476a-b6b9-66deb620db42@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22251/937b2708-22ad-476a-b6b9-66deb620db42@full.webp",
+      "https://assets.brahmanicrm.com/products/22251/389df7e1-cd13-4e77-a011-2c6dc461e470@full.webp",
+      "https://assets.brahmanicrm.com/products/22251/4d7e62d5-5364-475e-afba-c42e3f20b248@full.webp"
+    ],
+    "description": "Special Features: Built-in Strainer Lid, Heat-Resistant, Anti-Drip Spout, Ergonomic Handle",
+    "capacity": "1.8LTR",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "STEEL3",
+      "WATER",
+      "JUG",
+      "1.8LTR",
+      "DELI"
     ]
   },
   {
@@ -9730,17 +10860,21 @@ export const INITIAL_PRODUCTS = [
     "name": "STORAGE JAR 3PCS SET (250;500;800ML )",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 155,
+    "basePrice": 135,
     "piecesPerCarton": 30,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23221/d7805a73-c69a-400e-8f20-82e65e2ad0f9.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23221/d7805a73-c69a-400e-8f20-82e65e2ad0f9@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23221/d7805a73-c69a-400e-8f20-82e65e2ad0f9.jpg",
-      "https://assets.brahmanicrm.com/products/23221/b888c1b6-93b5-41c6-ad67-90dafea282e8.jpg",
-      "https://assets.brahmanicrm.com/products/23221/a29d355b-cf74-4eec-ba09-fbbdfb36efd5.jpg",
-      "https://assets.brahmanicrm.com/products/23221/df4e2c56-e8a6-47d1-9b91-0b9139ac3714.jpg"
+      "https://assets.brahmanicrm.com/products/23221/d7805a73-c69a-400e-8f20-82e65e2ad0f9@full.webp",
+      "https://assets.brahmanicrm.com/products/23221/b888c1b6-93b5-41c6-ad67-90dafea282e8@full.webp",
+      "https://assets.brahmanicrm.com/products/23221/a29d355b-cf74-4eec-ba09-fbbdfb36efd5@full.webp",
+      "https://assets.brahmanicrm.com/products/23221/df4e2c56-e8a6-47d1-9b91-0b9139ac3714@full.webp"
     ],
-    "description": "BPA-free, airtight seals for freshness preservation, and a \"claw base\" design.The set typically includes three  jars of varying sizes to accommodate different storage needs, such as dry fruits, grains, seeds, or snacks",
+    "description": "Comes in a convenient 3-piece set with capacities of 250ml, 500ml, and 800ml, perfectly sized for storing spices, dry fruits, tea leaves, or sugar in the kitchen.",
     "capacity": "3PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9751,7 +10885,115 @@ export const INITIAL_PRODUCTS = [
       "JAR",
       "3PCS",
       "SET",
-      "(250;500;800ML"
+      "(250;500;800ML",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "360c310b-fcad-4aea-b38d-c9b2806f30a1",
+    "itemCode": "23352",
+    "aliasName": "GPG31-2",
+    "name": "STORAGE JAR 940ML 24PCS",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "GLASSES"
+    ],
+    "price": 165,
+    "basePrice": 145,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23352/8b9dd08e-3a4b-4ed3-81a6-14c0bdea44d9@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23352/8b9dd08e-3a4b-4ed3-81a6-14c0bdea44d9@full.webp",
+      "https://assets.brahmanicrm.com/products/23352/74711c7d-5108-492d-8ae7-658bb1fc6c22@full.webp",
+      "https://assets.brahmanicrm.com/products/23352/aae59576-4758-4188-b87a-b5596e67fd0e@full.webp",
+      "https://assets.brahmanicrm.com/products/23352/9da4c578-ed7e-4ce4-a54c-e4a6f25f8a17@full.webp"
+    ],
+    "description": "Material: Borosilicate Food-Grade Glass, Wooden Lid with Silicone Seal",
+    "capacity": "940ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "STORAGE",
+      "JAR",
+      "940ML",
+      "24PCS",
+      "GLASSES"
+    ]
+  },
+  {
+    "id": "c3e192bf-edac-46cd-9ea5-a378387d0669",
+    "itemCode": "21514",
+    "aliasName": "H2154-3",
+    "name": "STORAGE LUNCH BOX ROUND 3PCS SET",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 389,
+    "basePrice": 369,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/21514/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/21514/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21514/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21514/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21514/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21514/4@full.webp",
+      "https://assets.brahmanicrm.com/products/21514/5@full.webp"
+    ],
+    "description": "800ml ,600ml,350ml Pack of 3,Borosilicate Glass Round Food Storage Container Set with Air Vent Lid Airtight Lid Microwave Safe Containers, Glass Lunch Box, Pink.",
+    "capacity": "3PCS",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "STORAGE",
+      "LUNCH",
+      "BOX",
+      "ROUND",
+      "3PCS",
+      "SET"
+    ]
+  },
+  {
+    "id": "c89adf75-cfd6-4fc3-8d0f-0080ab5a9c7f",
+    "itemCode": "22797",
+    "aliasName": "H4003-3301",
+    "name": "SWING CAP BLACK  COLOUR 860ML 3PCS SET",
+    "category": "caps",
+    "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [],
+    "price": 426,
+    "basePrice": 406,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22797/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22797/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22797/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22797/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22797/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22797/4@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "860ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "SWING",
+      "CAP",
+      "BLACK",
+      "COLOUR",
+      "860ML",
+      "3PCS",
+      "SET"
     ]
   },
   {
@@ -9761,17 +11003,19 @@ export const INITIAL_PRODUCTS = [
     "name": "SWING CAP ROUND 550ML 1PCS BOX PACK GREEN-KIVVI",
     "category": "caps",
     "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 92,
+    "basePrice": 72,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22842/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22842/efe77672-5b1a-44d8-a68b-a56e2f67f95b@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22842/0.jpg",
-      "https://assets.brahmanicrm.com/products/22842/1.jpg",
-      "https://assets.brahmanicrm.com/products/22842/2.png",
-      "https://assets.brahmanicrm.com/products/22842/3.jpg"
+      "https://assets.brahmanicrm.com/products/22842/efe77672-5b1a-44d8-a68b-a56e2f67f95b@full.webp",
+      "https://assets.brahmanicrm.com/products/22842/4d82d0be-242d-413e-90e3-df3ead1c083b@full.webp"
     ],
-    "description": "Stay hydrated in style with this premium Swing Cap Round Water Bottle, designed for everyday convenience. The durable round body paired with a classic swing-top cap ensures easy use, secure sealing, and a stylish look for home, office, school, and travel.",
+    "description": "Special Features: Airtight Swing Closure, Ribbed Design, Leak-Proof, Eco-Friendly",
     "capacity": "550ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9782,38 +11026,10 @@ export const INITIAL_PRODUCTS = [
       "CAP",
       "ROUND",
       "550ML",
-      "1PCS"
-    ]
-  },
-  {
-    "id": "d818b257-5147-4a33-86f9-1e5bb9656dda",
-    "itemCode": "23080",
-    "aliasName": "GDN03-2",
-    "name": "SWING CAP ROUND JAR 1LTR BOX PACK",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 135,
-    "piecesPerCarton": 24,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23080/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23080/0.jpg",
-      "https://assets.brahmanicrm.com/products/23080/1.jpg",
-      "https://assets.brahmanicrm.com/products/23080/2.jpg",
-      "https://assets.brahmanicrm.com/products/23080/3.jpg"
-    ],
-    "description": "Swing Cap ROND Jar 1 Ltr – Premium glass jar with airtight swing cap, perfect for storing cookies, snacks, spices, and dry fruits. Stylish square design keeps your kitchen organized and food fresh for longer.",
-    "capacity": "1LTR",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "SWING",
-      "CAP",
-      "ROUND",
-      "JAR",
-      "1LTR"
+      "1PCS",
+      "BOX",
+      "PACK",
+      "GREEN-KIVVI"
     ]
   },
   {
@@ -9823,19 +11039,23 @@ export const INITIAL_PRODUCTS = [
     "name": "SWING CAP SQUARE JAR 1.7 LTR GK",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 155,
+    "basePrice": 135,
     "piecesPerCarton": 32,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22462/fe613ac0-1c3d-4b0b-bdcb-2f625b5405b4.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22462/fe613ac0-1c3d-4b0b-bdcb-2f625b5405b4@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22462/fe613ac0-1c3d-4b0b-bdcb-2f625b5405b4.jpg",
-      "https://assets.brahmanicrm.com/products/22462/6b65ca5a-0022-4e64-b100-2f9aae6d3ce8.jpg",
-      "https://assets.brahmanicrm.com/products/22462/e51c69e7-b790-40cb-9064-0b4c5a04b6a1.jpg",
-      "https://assets.brahmanicrm.com/products/22462/e1d6a254-0b3a-40b5-934c-b1f30651c77c.jpg",
-      "https://assets.brahmanicrm.com/products/22462/13f75e9b-c5f3-47a3-8d78-a210520d7291.jpg",
-      "https://assets.brahmanicrm.com/products/22462/9431fbc1-99c7-4907-875f-4a95a15a23fb.jpg"
+      "https://assets.brahmanicrm.com/products/22462/fe613ac0-1c3d-4b0b-bdcb-2f625b5405b4@full.webp",
+      "https://assets.brahmanicrm.com/products/22462/6b65ca5a-0022-4e64-b100-2f9aae6d3ce8@full.webp",
+      "https://assets.brahmanicrm.com/products/22462/e51c69e7-b790-40cb-9064-0b4c5a04b6a1@full.webp",
+      "https://assets.brahmanicrm.com/products/22462/e1d6a254-0b3a-40b5-934c-b1f30651c77c@full.webp",
+      "https://assets.brahmanicrm.com/products/22462/13f75e9b-c5f3-47a3-8d78-a210520d7291@full.webp",
+      "https://assets.brahmanicrm.com/products/22462/9431fbc1-99c7-4907-875f-4a95a15a23fb@full.webp"
     ],
-    "description": "Glass Jar and Container with Airtight Swing Cap, Square - Leak Proof Rubber Gasket and Hinged Lid - Perfect for Kitchen Canning Cereal,Pasta,Sugar,& Pickle Storage 1200 ml.",
+    "description": "Featuring a large 1.7-litre capacity, this glass jar is perfectly sized for storing grains, pulses, flour, dry fruits, pickles, snacks, or pantry staples.",
     "capacity": "1.7 LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9846,40 +11066,9 @@ export const INITIAL_PRODUCTS = [
       "CAP",
       "SQUARE",
       "JAR",
-      "1.7"
-    ]
-  },
-  {
-    "id": "3c176b96-79a4-4305-9319-d584fe95c83b",
-    "itemCode": "22609",
-    "aliasName": null,
-    "name": "SWING CAP SQUARE JAR 1LTR BULK",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 130,
-    "piecesPerCarton": 48,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22609/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22609/0.jpg",
-      "https://assets.brahmanicrm.com/products/22609/1.jpg",
-      "https://assets.brahmanicrm.com/products/22609/2.png",
-      "https://assets.brahmanicrm.com/products/22609/3.jpg",
-      "https://assets.brahmanicrm.com/products/22609/4.jpg",
-      "https://assets.brahmanicrm.com/products/22609/5.jpg"
-    ],
-    "description": "Swing Cap Square Jar 1.6 Ltr – Premium glass jar with airtight swing cap, perfect for storing cookies, snacks, spices, and dry fruits. Stylish square design keeps your kitchen organized and food fresh for longer.",
-    "capacity": "1LTR",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "SWING",
-      "CAP",
-      "SQUARE",
-      "JAR",
-      "1LTR"
+      "1.7",
+      "LTR",
+      "CHINA"
     ]
   },
   {
@@ -9889,18 +11078,61 @@ export const INITIAL_PRODUCTS = [
     "name": "SWING CAP SQUARE JAR 500ML BOX PACK",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 110,
+    "basePrice": 90,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23079/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23079/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23079/0.jpg",
-      "https://assets.brahmanicrm.com/products/23079/1.jpg",
-      "https://assets.brahmanicrm.com/products/23079/2.jpg",
-      "https://assets.brahmanicrm.com/products/23079/3.jpg",
-      "https://assets.brahmanicrm.com/products/23079/4.jpg"
+      "https://assets.brahmanicrm.com/products/23079/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23079/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23079/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23079/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23079/4@full.webp"
     ],
-    "description": "Made of high-borosilicate glass,,safety ,non-toxic,duty-cycle,freezable,high temperature.100% Airtight glass jars with Stylish stainless steel glass lids.",
+    "description": "Featuring an ideal 500ml capacity, this glass jar is perfectly sized for storing cookies, chocolates, dry fruits, snacks, pantry items, or mouth fresheners.",
+    "capacity": "500ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "SWING",
+      "CAP",
+      "SQUARE",
+      "JAR",
+      "500ML",
+      "BOX",
+      "PACK",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "ca1837a6-b6a0-4f62-a93c-4c7c32a00a49",
+    "itemCode": "22376",
+    "aliasName": "H4073G-5",
+    "name": "SWING CAP SQUARE JAR 500ML GK",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 116,
+    "basePrice": 96,
+    "piecesPerCarton": 36,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22376/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22376/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22376/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22376/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22376/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22376/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22376/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22376/6@full.webp"
+    ],
+    "description": "Glass Sealed Food Jar with Airtight Clip Lids, Stainless steel clasp glass bottle food storage jar kitchen clear fruit.",
     "capacity": "500ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9921,19 +11153,23 @@ export const INITIAL_PRODUCTS = [
     "name": "SWING CAP SQUARE JAR 750ML BOX PACK",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 115,
+    "basePrice": 95,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23078/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23078/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23078/0.jpg",
-      "https://assets.brahmanicrm.com/products/23078/1.jpg",
-      "https://assets.brahmanicrm.com/products/23078/2.jpg",
-      "https://assets.brahmanicrm.com/products/23078/3.jpg",
-      "https://assets.brahmanicrm.com/products/23078/4.jpg",
-      "https://assets.brahmanicrm.com/products/23078/5.jpg"
+      "https://assets.brahmanicrm.com/products/23078/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23078/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23078/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23078/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23078/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23078/5@full.webp"
     ],
-    "description": "750ML Transparent Glass Pickle Jar & Container Airtight Swing Cap Leak Proof Rubber Gasket & Hinged Lid Kitchen Masala Cereal Dispenser Stainless Bail & Trigger Hermetic Seal.",
+    "description": "Complete 1-Piece Set securely packed in an individual box, ideal for personal kitchen use or gifting.",
     "capacity": "750ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9944,7 +11180,78 @@ export const INITIAL_PRODUCTS = [
       "CAP",
       "SQUARE",
       "JAR",
-      "750ML"
+      "750ML",
+      "BOX",
+      "PACK",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "bed17f27-8eaf-40a4-953c-d6175092626f",
+    "itemCode": "23031",
+    "aliasName": "H4003-3302",
+    "name": "SWING CAP WHITE COLOUR 860ML 3PCS SET",
+    "category": "caps",
+    "categoryName": "Lug & Plastic Caps",
+    "brahmaniCategories": [],
+    "price": 409,
+    "basePrice": 389,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23031/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23031/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23031/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23031/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23031/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23031/4@full.webp"
+    ],
+    "description": "Ideal for multipurpose use like storing edibles, grains, snacks, Flour, candies, chocolates, Dry fruits, tea, sugar, coffee, etc. which keeps the contents always fresh. The Compact design brings maximum efficiency in your storage and also adds charm to your storage cabinet.",
+    "capacity": "860ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "SWING",
+      "CAP",
+      "WHITE",
+      "COLOUR",
+      "860ML",
+      "3PCS",
+      "SET"
+    ]
+  },
+  {
+    "id": "a0b5f291-34d1-41ed-aa32-76ffe797202c",
+    "itemCode": "20304",
+    "aliasName": "KTZB47",
+    "name": "TEA CUP 190 ML SQUARE (6 PCS)",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 195,
+    "basePrice": 175,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20304/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20304/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20304/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20304/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20304/3@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "190 ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "TEA",
+      "CUP",
+      "SQUARE",
+      "PCS)"
     ]
   },
   {
@@ -9954,20 +11261,19 @@ export const INITIAL_PRODUCTS = [
     "name": "TEA CUP BLINKMAX 80ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 115,
+    "basePrice": 95,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22743/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22743/eb187fe3-940e-4269-ad4a-e90766110710@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22743/0.jpg",
-      "https://assets.brahmanicrm.com/products/22743/1.jpg",
-      "https://assets.brahmanicrm.com/products/22743/2.jpg",
-      "https://assets.brahmanicrm.com/products/22743/3.jpg",
-      "https://assets.brahmanicrm.com/products/22743/4.jpg",
-      "https://assets.brahmanicrm.com/products/22743/5.jpg",
-      "https://assets.brahmanicrm.com/products/22743/6.jpg"
+      "https://assets.brahmanicrm.com/products/22743/eb187fe3-940e-4269-ad4a-e90766110710@full.webp",
+      "https://assets.brahmanicrm.com/products/22743/8cd69bc7-4ee6-4ee1-b24a-c6b14b8bbe63@full.webp",
+      "https://assets.brahmanicrm.com/products/22743/afa88a8a-f29e-405f-b7d3-27380b99f32d@full.webp",
+      "https://assets.brahmanicrm.com/products/22743/d34ce32a-8c7a-4d72-8706-c8805394182d@full.webp"
     ],
-    "description": "TEA CUP BLINKMAX 80ML 6 PCS SET – Elegant and compact glass tea cups, perfect for serving tea, coffee, or espresso. Durable design with a comfortable handle, ideal for both daily use and special gatherings.",
+    "description": "Featuring an ideal 80ml capacity, these cups are perfectly sized for serving hot tea, espresso coffee, green tea, or herbal infusions.",
     "capacity": "80ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -9978,74 +11284,47 @@ export const INITIAL_PRODUCTS = [
       "CUP",
       "BLINKMAX",
       "80ML",
-      "6PCS"
+      "6PCS",
+      "SET"
     ]
   },
   {
-    "id": "85bf23ea-3999-424b-9823-6f9a1e0e1e3d",
-    "itemCode": "22342",
-    "aliasName": "H6-0024",
-    "name": "TEDDY LOVE SIPPER GLASS 380ML",
+    "id": "c1526411-42dd-4f36-b8f4-29185c4c84e0",
+    "itemCode": "20595",
+    "aliasName": "KTY6232",
+    "name": "TEXTURE WATER GLASS 367ML 3PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 65,
-    "piecesPerCarton": 80,
+    "brahmaniCategories": [],
+    "price": 195,
+    "basePrice": 175,
+    "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22342/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20595/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22342/0.jpg",
-      "https://assets.brahmanicrm.com/products/22342/1.jpg",
-      "https://assets.brahmanicrm.com/products/22342/2.jpg",
-      "https://assets.brahmanicrm.com/products/22342/3.jpg",
-      "https://assets.brahmanicrm.com/products/22342/4.jpg",
-      "https://assets.brahmanicrm.com/products/22342/5.jpg",
-      "https://assets.brahmanicrm.com/products/22342/6.jpg"
+      "https://assets.brahmanicrm.com/products/20595/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20595/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20595/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20595/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20595/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20595/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20595/6@full.webp",
+      "https://assets.brahmanicrm.com/products/20595/7@full.webp",
+      "https://assets.brahmanicrm.com/products/20595/8@full.webp",
+      "https://assets.brahmanicrm.com/products/20595/9@full.webp"
     ],
-    "description": "Bear Shape Luxury Design Drink Glass Cup with Straw Creative Cute Juice Drinking Transparent Cup Tumbler Household Office Coffee Milk Mug with Lid and Straw (Multi Color, Pack of 1)",
-    "capacity": "380ML",
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "367ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "TEDDY",
-      "LOVE",
-      "SIPPER",
+      "TEXTURE",
+      "WATER",
       "GLASS",
-      "380ML"
-    ]
-  },
-  {
-    "id": "e22ea764-64b7-4c44-b842-f128f687e2e8",
-    "itemCode": "23065",
-    "aliasName": null,
-    "name": "TEDDY SOUP MUG HQ 450ML",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 70,
-    "piecesPerCarton": 60,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23065/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23065/0.jpg",
-      "https://assets.brahmanicrm.com/products/23065/1.jpg",
-      "https://assets.brahmanicrm.com/products/23065/2.jpg",
-      "https://assets.brahmanicrm.com/products/23065/3.jpg",
-      "https://assets.brahmanicrm.com/products/23065/4.jpg",
-      "https://assets.brahmanicrm.com/products/23065/5.jpg",
-      "https://assets.brahmanicrm.com/products/23065/6.jpg"
-    ],
-    "description": "Glass Tea Coffee Mug with White Teddy Bear Handle Heat-Resistant Tea Cup with Cover, Stylish Morning Coffee Cup, Ideal for Home & Office",
-    "capacity": "450ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "TEDDY",
-      "SOUP",
-      "MUG",
-      "450ML"
+      "367ML",
+      "3PCS"
     ]
   },
   {
@@ -10055,18 +11334,23 @@ export const INITIAL_PRODUCTS = [
     "name": "THIN COLD CUT GLASS 390ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 335,
+    "basePrice": 315,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22875/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22875/4c581ab8-f9e1-4a7a-9246-584b37ec7d6a@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22875/0.jpg",
-      "https://assets.brahmanicrm.com/products/22875/1.jpg",
-      "https://assets.brahmanicrm.com/products/22875/2.jpg",
-      "https://assets.brahmanicrm.com/products/22875/3.png",
-      "https://assets.brahmanicrm.com/products/22875/4.jpg"
+      "https://assets.brahmanicrm.com/products/22875/4c581ab8-f9e1-4a7a-9246-584b37ec7d6a@full.webp",
+      "https://assets.brahmanicrm.com/products/22875/656740ec-7167-465c-a929-98ed54e06577@full.webp",
+      "https://assets.brahmanicrm.com/products/22875/1080f7eb-d501-40bd-8a7a-aa7c8f070061@full.webp",
+      "https://assets.brahmanicrm.com/products/22875/28711c0e-9840-451d-962d-ed90a055a5b9@full.webp",
+      "https://assets.brahmanicrm.com/products/22875/80802037-1747-4619-9f2d-3b3189b99fed@full.webp",
+      "https://assets.brahmanicrm.com/products/22875/9945e139-bc94-40c9-b7d5-015725653a82@full.webp"
     ],
-    "description": "Perfect for serving water, juice, cocktails, mocktails, whisky, or daily beverages, this glass adds a stylish touch to your dining table, home, restaurant, or café. Its crystal-clear transparency enhances the drink’s presentation, while the durable build ensures long-lasting use.",
+    "description": "Special Features: Cold-Cut Smooth Rim, Minimalist Design, Lightweight Feel",
     "capacity": "390ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10077,7 +11361,9 @@ export const INITIAL_PRODUCTS = [
       "COLD",
       "CUT",
       "GLASS",
-      "390ML"
+      "390ML",
+      "6PCS",
+      "GLASSWARE"
     ]
   },
   {
@@ -10087,17 +11373,22 @@ export const INITIAL_PRODUCTS = [
     "name": "TIGER BOTTOM WHISKY GLASS 300ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 390,
+    "basePrice": 370,
     "piecesPerCarton": 6,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23324/00600027-d699-4076-aea4-3e2b144733c1.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23324/a04ceebe-4dcc-4765-ba46-c241ac87f42f@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23324/00600027-d699-4076-aea4-3e2b144733c1.jpg",
-      "https://assets.brahmanicrm.com/products/23324/2b65975e-c39d-46f9-971e-b786bf880d81.jpg",
-      "https://assets.brahmanicrm.com/products/23324/ef29da01-1556-4865-a9c2-d09b312d0048.jpg",
-      "https://assets.brahmanicrm.com/products/23324/6d2abd2d-406e-45c4-8fc2-7d064d441eb4.jpg"
+      "https://assets.brahmanicrm.com/products/23324/a04ceebe-4dcc-4765-ba46-c241ac87f42f@full.webp",
+      "https://assets.brahmanicrm.com/products/23324/a2662c83-8842-4add-b917-20f79aad381c@full.webp",
+      "https://assets.brahmanicrm.com/products/23324/84f7d39b-a298-4f62-bb23-46ccb46e31cb@full.webp",
+      "https://assets.brahmanicrm.com/products/23324/c53a8921-6e73-4273-b0c8-2440e2c6e948@full.webp",
+      "https://assets.brahmanicrm.com/products/23324/92c9e664-5f5b-4e12-9dfd-def074f72f20@full.webp"
     ],
-    "description": "Premium Tiger Face Glass Tumbler | Heavy Base Whiskey & Beverage Glass (300 ml)\n\nShort Description:\nElevate your drinking experience with this uniquely crafted tiger-embossed glass tumbler. Designed with a stunning 3D tiger face molded into the crystal-clear base, it offers a perfect blend of bold design and luxury. Ideal for serving whiskey, cocktails, wine soda, or refreshing sparkling beverages.\n\nKey Features:\n\n3D Embossed Tiger Base: Precision-molded tiger face detail at the bottom that reflects light and creates an eye-catching visual effect with every sip.\n\nPremium Crystal Glass: Crafted from high-quality, durable, lead-free clear glass with maximum transparency and shine.\n\nHeavy & Sturdy Base: Well-balanced heavy bottom prevents tipping, provides a comfortable grip, and holds temperature well.\n\nVersatile Use: Perfect for whiskey, scotch, bourbon, wine soda, cocktails, mocktails, juices, or daily water.\n\nIdeal for Gifting: A distinctive luxury addition to home bars, executive desks, lounge setups, or as a premium gift for glass collectors and tiger enthusiasts.",
+    "description": "Featuring an ideal 300ml capacity, these tumblers are perfectly sized for serving whisky, scotch, bourbon, cocktails, or your favorite beverages.",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10108,7 +11399,49 @@ export const INITIAL_PRODUCTS = [
       "BOTTOM",
       "WHISKY",
       "GLASS",
-      "300ML"
+      "300ML",
+      "6PCS",
+      "GLASSWARE"
+    ]
+  },
+  {
+    "id": "6dcf2ab6-a360-4778-9d84-2f92d89c7a1e",
+    "itemCode": "23349",
+    "aliasName": "GPB759-L1",
+    "name": "TUMBLER 500ML LID WITH NSTRAW 48PC",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "0.25",
+      "CM"
+    ],
+    "price": 120,
+    "basePrice": 100,
+    "piecesPerCarton": 48,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23349/8e840ddf-cf35-4b0e-92dd-5740d3e59e1e@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23349/8e840ddf-cf35-4b0e-92dd-5740d3e59e1e@full.webp",
+      "https://assets.brahmanicrm.com/products/23349/8d72c9e6-ddf5-44d5-b60b-a9d51f97b1d1@full.webp",
+      "https://assets.brahmanicrm.com/products/23349/1d646b18-cfb4-45fb-8a5d-dd4cea471453@full.webp",
+      "https://assets.brahmanicrm.com/products/23349/edfc5ee2-66ce-4bd0-b85b-90f9851e839f@full.webp",
+      "https://assets.brahmanicrm.com/products/23349/e1a3ee7e-a8ec-4f8a-bd29-143622e03ec5@full.webp"
+    ],
+    "description": "Special Features: Curvy Wave Design, Leak-Resistant Lid, Eco-Friendly Straw",
+    "capacity": "500ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "TUMBLER",
+      "500ML",
+      "LID",
+      "WITH",
+      "NSTRAW",
+      "48PC",
+      "0.25",
+      "CM"
     ]
   },
   {
@@ -10118,18 +11451,22 @@ export const INITIAL_PRODUCTS = [
     "name": "TURMERIC CLEANSING PATCH",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 80,
+    "basePrice": 60,
     "piecesPerCarton": 150,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22600/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22600/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22600/0.jpg",
-      "https://assets.brahmanicrm.com/products/22600/1.jpg",
-      "https://assets.brahmanicrm.com/products/22600/2.jpg",
-      "https://assets.brahmanicrm.com/products/22600/3.jpg",
-      "https://assets.brahmanicrm.com/products/22600/4.jpg"
+      "https://assets.brahmanicrm.com/products/22600/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22600/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22600/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22600/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22600/4@full.webp"
     ],
-    "description": "Unleash your skin's natural radiance with our Kojic Acid & Turmeric Cleansing Pads! These powerful pads brighten, energize, and enhance your skin's glow. Achieve a visibly improved overall texture in no time.",
+    "description": "Complete 60-Piece Set of textured facial cleansing pads packed in a convenient, resealable pouch for daily skincare routines.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10138,7 +11475,8 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "TURMERIC",
       "CLEANSING",
-      "PATCH"
+      "PATCH",
+      "CHINA"
     ]
   },
   {
@@ -10148,18 +11486,20 @@ export const INITIAL_PRODUCTS = [
     "name": "TWIST WHISKY GLASS 300ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 335,
+    "basePrice": 315,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20950/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20950/3@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20950/0.jpg",
-      "https://assets.brahmanicrm.com/products/20950/1.jpg",
-      "https://assets.brahmanicrm.com/products/20950/2.jpg",
-      "https://assets.brahmanicrm.com/products/20950/3.jpg",
-      "https://assets.brahmanicrm.com/products/20950/4.jpg"
+      "https://assets.brahmanicrm.com/products/20950/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20950/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20950/f6bf199b-36bc-40a8-8102-7e546d0207ea@full.webp",
+      "https://assets.brahmanicrm.com/products/20950/3aaafd76-0187-48c2-b5c1-10db58eaf121@full.webp",
+      "https://assets.brahmanicrm.com/products/20950/25b2e1a1-dcca-47c2-968c-107723971fad@full.webp"
     ],
-    "description": "Twist Italian Premium Crystal Whiskey Glasses 300 ML Bar Glass for Drinking Bourbon, Whisky, Scotch, Cocktails, Cognac Tumblers Old Fashioned Set of 6 (Twist Whisky Glass 300ML 6PCS)",
+    "description": "Featuring an optimal 300ml capacity, these whiskey glasses are perfectly sized for serving whiskey, scotch, cocktails, mocktails, or your favorite spirits.",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10180,19 +11520,23 @@ export const INITIAL_PRODUCTS = [
     "name": "UMBRELLA RR LONG",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 69,
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 240,
+    "basePrice": 220,
     "piecesPerCarton": 50,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22581/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22581/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22581/0.jpg",
-      "https://assets.brahmanicrm.com/products/22581/1.jpg",
-      "https://assets.brahmanicrm.com/products/22581/2.jpg",
-      "https://assets.brahmanicrm.com/products/22581/3.jpg",
-      "https://assets.brahmanicrm.com/products/22581/4.jpg",
-      "https://assets.brahmanicrm.com/products/22581/5.jpg"
+      "https://assets.brahmanicrm.com/products/22581/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22581/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22581/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22581/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22581/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22581/5@full.webp"
     ],
-    "description": "Sleek & Classic Design: Features a timeless all-black canopy and matching shaft, offering a sophisticated and professional look suitable for any occasion.\n\nSturdy Construction: Built with a durable frame and a strong central shaft designed to provide reliable shelter against heavy rain and wind.\n\nErgonomic Handle: Equipped with a comfortable, stylish handle featuring metallic accents for a secure grip and an extra touch of elegance.\n\nReliable Coverage: Provides a wide canopy spread to keep you effectively shielded from downpours or harsh sunlight.",
+    "description": "Crafted from high-grade water-repellent fabric that sheds rain effortlessly, ensuring the umbrella dries quickly after use.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10200,39 +11544,8 @@ export const INITIAL_PRODUCTS = [
     "featured": false,
     "tags": [
       "UMBRELLA",
-      "LONG"
-    ]
-  },
-  {
-    "id": "22ea5522-8f9b-4b2d-a65a-8c8cb54ddef1",
-    "itemCode": "20979",
-    "aliasName": "MVF-L3",
-    "name": "VACUUM FLASK BOTTLE SET",
-    "category": "bottles",
-    "categoryName": "Milk & Water Bottles",
-    "price": 195,
-    "piecesPerCarton": 48,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20979/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/20979/0.jpg",
-      "https://assets.brahmanicrm.com/products/20979/1.jpg",
-      "https://assets.brahmanicrm.com/products/20979/2.jpg",
-      "https://assets.brahmanicrm.com/products/20979/3.jpg",
-      "https://assets.brahmanicrm.com/products/20979/4.jpg",
-      "https://assets.brahmanicrm.com/products/20979/5.jpg"
-    ],
-    "description": "Stainless Steel Vacuum Flask \nDouble walled Vacuum insulated technology keeps beverages cold or hot water bottle. Easy to Carry, making it suitable for Work, Travel, or Leisure our Versatile and Stylish Stainless-Steel Flask Set with Drinking Cups can make a perfect gift for Christmas or surprising your employees",
-    "capacity": "Standard Trade Spec",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "VACUUM",
-      "FLASK",
-      "BOTTLE",
-      "SET"
+      "LONG",
+      "CHINA"
     ]
   },
   {
@@ -10242,18 +11555,21 @@ export const INITIAL_PRODUCTS = [
     "name": "WATER CLEAR BOTTLE 500ML BLK",
     "category": "bottles",
     "categoryName": "Milk & Water Bottles",
+    "brahmaniCategories": [
+      "GLASSWARE"
+    ],
     "price": 85,
+    "basePrice": 65,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21767/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21767/a73077ed-ce35-41e4-8460-3d3eedfa1525@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21767/0.jpg",
-      "https://assets.brahmanicrm.com/products/21767/1.jpg",
-      "https://assets.brahmanicrm.com/products/21767/2.jpg",
-      "https://assets.brahmanicrm.com/products/21767/3.jpg",
-      "https://assets.brahmanicrm.com/products/21767/4.jpg"
+      "https://assets.brahmanicrm.com/products/21767/a73077ed-ce35-41e4-8460-3d3eedfa1525@full.webp",
+      "https://assets.brahmanicrm.com/products/21767/65aa1328-8b9b-4782-91f7-894ffa71d236@full.webp",
+      "https://assets.brahmanicrm.com/products/21767/ef8e3436-7da3-4594-8516-79694ac3f878@full.webp",
+      "https://assets.brahmanicrm.com/products/21767/347d29fe-13bb-40f2-8d85-78152c9ea7f2@full.webp"
     ],
-    "description": "Glass clip top cap water bottle with flip top cap, Leak-Proof for water, Juices - Reusable Travel Glass Drinking Fridge Bottles",
+    "description": "Complete 1-Piece Set, individually packed and ready for daily use or retail presentation.",
     "capacity": "500ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10264,7 +11580,8 @@ export const INITIAL_PRODUCTS = [
       "CLEAR",
       "BOTTLE",
       "500ML",
-      "BLK"
+      "BLK",
+      "GLASSWARE"
     ]
   },
   {
@@ -10274,19 +11591,21 @@ export const INITIAL_PRODUCTS = [
     "name": "WATER GLASS 360ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 260,
+    "brahmaniCategories": [],
+    "price": 265,
+    "basePrice": 245,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21940/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21940/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21940/0.jpg",
-      "https://assets.brahmanicrm.com/products/21940/1.jpg",
-      "https://assets.brahmanicrm.com/products/21940/2.jpg",
-      "https://assets.brahmanicrm.com/products/21940/3.jpg",
-      "https://assets.brahmanicrm.com/products/21940/4.jpg",
-      "https://assets.brahmanicrm.com/products/21940/5.jpg"
+      "https://assets.brahmanicrm.com/products/21940/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21940/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21940/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21940/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21940/4@full.webp",
+      "https://assets.brahmanicrm.com/products/21940/5@full.webp"
     ],
-    "description": "12 SET CTN\nTumbler Drinking Glasses | Highball Glasses | Clear Iced Tea and Glasses for Drinking Cocktail, Juice, Milkshake, Beer and Water | Pack of 6 | 360 ML | Transpharant",
+    "description": "Featuring an optimal 360ml capacity, these glass tumblers are perfectly sized for serving water, juices, sodas, milkshakes, iced tea, or your favorite beverages.",
     "capacity": "360ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10301,21 +11620,28 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "9c1df97c-889b-45bc-81c6-e24c5a74c2aa",
-    "itemCode": "21218",
-    "aliasName": "YZH-35/L7",
-    "name": "WATER GLASS M JUG SET DIAMOND",
+    "id": "96b418c5-0e36-4c80-9915-ee4baddad6ca",
+    "itemCode": "22692",
+    "aliasName": "DSY2027",
+    "name": "WATER GLASS BUBBLE 300ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 500,
-    "piecesPerCarton": 1,
+    "brahmaniCategories": [],
+    "price": 278,
+    "basePrice": 258,
+    "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
+    "image": "https://assets.brahmanicrm.com/products/22692/0@full.webp",
     "images": [
-      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80"
+      "https://assets.brahmanicrm.com/products/22692/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22692/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22692/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22692/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22692/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22692/5@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "Standard Trade Spec",
+    "description": "Elegant bubble-cut design with strong grip – ideal for water, juice, or cold drinks.Made from durable clear glass – perfect for daily use or guest serving.",
+    "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
@@ -10323,9 +11649,43 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "WATER",
       "GLASS",
+      "BUBBLE",
+      "300ML",
+      "6PCS",
+      "SET"
+    ]
+  },
+  {
+    "id": "2b65e6a0-5457-442e-aae3-23e7d8c43fe7",
+    "itemCode": "23194",
+    "aliasName": "GPH232-1650A",
+    "name": "WATER JUG 1.65 LTR 1PCS",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 210,
+    "basePrice": 190,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23194/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23194/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23194/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23194/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23194/3@full.webp"
+    ],
+    "description": "Made from high borosilicate glass, which is known for its high resistance to heat and thermal shock. \n Features a ribbed or \"striped\" texture on the glass and often includes a stainless steel lid with an integrated filter/strainer for ice or fruit.",
+    "capacity": "1.65 LTR",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "WATER",
       "JUG",
-      "SET",
-      "DIAMOND"
+      "1.65",
+      "LTR",
+      "1PCS"
     ]
   },
   {
@@ -10335,19 +11695,20 @@ export const INITIAL_PRODUCTS = [
     "name": "WATER JUG BUBBLE 1.8LTR",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 200,
+    "basePrice": 180,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20604/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20604/04f1d566-4622-4262-9657-133800e35a54@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20604/0.jpg",
-      "https://assets.brahmanicrm.com/products/20604/1.jpg",
-      "https://assets.brahmanicrm.com/products/20604/2.jpg",
-      "https://assets.brahmanicrm.com/products/20604/3.jpg",
-      "https://assets.brahmanicrm.com/products/20604/4.jpg",
-      "https://assets.brahmanicrm.com/products/20604/5.jpg"
+      "https://assets.brahmanicrm.com/products/20604/04f1d566-4622-4262-9657-133800e35a54@full.webp",
+      "https://assets.brahmanicrm.com/products/20604/53c106c1-1003-4f63-81d5-c71f1faf43d1@full.webp",
+      "https://assets.brahmanicrm.com/products/20604/54d29e22-3664-4908-84bb-81bece064f1d@full.webp",
+      "https://assets.brahmanicrm.com/products/20604/6d7d1e7a-9583-40c8-92fc-df35f01e0fc2@full.webp",
+      "https://assets.brahmanicrm.com/products/20604/f01b6099-04b7-46d3-974f-8880df1d6b85@full.webp"
     ],
-    "description": "Water JUG Bubble 1.8 LTR || Bubble Shape & Diamond Shape Glass Water jug with Cap for Juice Water iced Tea Pitcher Tea Carafe hot Glass Pitcher",
+    "description": "Features a large 1.8 Litre capacity, making it perfect for serving water, juice, or cold drinks to family and guests.",
     "capacity": "1.8LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10367,17 +11728,19 @@ export const INITIAL_PRODUCTS = [
     "name": "WATER JUG CRYSTAL 1.8LTR",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 200,
+    "basePrice": 180,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20629/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20629/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20629/0.jpg",
-      "https://assets.brahmanicrm.com/products/20629/1.jpg",
-      "https://assets.brahmanicrm.com/products/20629/2.jpg",
-      "https://assets.brahmanicrm.com/products/20629/3.jpg"
+      "https://assets.brahmanicrm.com/products/20629/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20629/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20629/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20629/3@full.webp"
     ],
-    "description": "Water JUG Bubble 1.8 LTR || Bubble Shape & Diamond Shape Glass Water jug with Cap for Juice Water iced Tea Pitcher Tea Carafe hot Glass Pitcher",
+    "description": "Featuring a large 1.8-litre capacity, this jug is perfectly sized for storing and serving plenty of water, juices, iced tea, mocktails, or cold beverages.",
     "capacity": "1.8LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10391,55 +11754,25 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "89a3e4e4-283f-4065-af21-8ea2e706d574",
-    "itemCode": "22838",
-    "aliasName": "E001H1/L1",
-    "name": "WATER JUG DOT 1.8LTR  1PCS BOX PACK",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 175,
-    "piecesPerCarton": 12,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22838/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22838/0.jpg",
-      "https://assets.brahmanicrm.com/products/22838/1.jpg",
-      "https://assets.brahmanicrm.com/products/22838/2.jpg",
-      "https://assets.brahmanicrm.com/products/22838/3.jpg",
-      "https://assets.brahmanicrm.com/products/22838/4.jpg"
-    ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
-    "capacity": "1.8LTR",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "WATER",
-      "JUG",
-      "DOT",
-      "1.8LTR",
-      "1PCS"
-    ]
-  },
-  {
     "id": "63c65720-54e5-4038-a8f1-09173258a650",
     "itemCode": "23317",
     "aliasName": "BMJ-125YL",
     "name": "WATER JUG FISH 1800ML BMJ",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 220,
+    "basePrice": 200,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23317/7690bf51-84c8-4e6b-9618-8e15265706e9.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23317/7690bf51-84c8-4e6b-9618-8e15265706e9@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23317/7690bf51-84c8-4e6b-9618-8e15265706e9.jpg",
-      "https://assets.brahmanicrm.com/products/23317/c79fb43c-a828-41d8-a694-53dede633e52.jpg",
-      "https://assets.brahmanicrm.com/products/23317/dc233c60-5e2e-44aa-9c4e-6cd696e4eece.jpg",
-      "https://assets.brahmanicrm.com/products/23317/5844cef4-2a87-4f76-baed-df75017fca55.jpg"
+      "https://assets.brahmanicrm.com/products/23317/7690bf51-84c8-4e6b-9618-8e15265706e9@full.webp",
+      "https://assets.brahmanicrm.com/products/23317/c79fb43c-a828-41d8-a694-53dede633e52@full.webp",
+      "https://assets.brahmanicrm.com/products/23317/dc233c60-5e2e-44aa-9c4e-6cd696e4eece@full.webp",
+      "https://assets.brahmanicrm.com/products/23317/5844cef4-2a87-4f76-baed-df75017fca55@full.webp"
     ],
-    "description": "Premium Glass Water Pitcher Jug with Lid (1.5L) – Fish Scale Textured Clear Glass Jug for Juice, Water, Iced Tea & Cold Beverages\n\nKey Features:\n\nUnique Fish Scale Texture: Features a stylish wave/scale embossed design that provides a comfortable grip and adds an elegant aesthetic to your dining table.\n\nHigh-Quality Clear Glass: Made from thick, durable, food-grade transparent glass that is lead-free and crystal clear.\n\nConvenient Glass Lid & Handle: Comes with a matching glass lid to protect beverages from dust, along with a sturdy ergonomic handle for easy pouring.\n\nVersatile Beverage Server: Perfect for serving fresh water, fruit juices, lemonade, iced tea, mocktails, and milk.\n\nIdeal for Home & Parties: Suitable for daily household use, family dining tables, outdoor gatherings, restaurants, and festive hosting.\n\nOption 2: Short & Catchy Format (Best for Meesho, IndiaMART & Social Media)\nProduct Description:\n\nServe your drinks in style with this Fish Scale Textured Glass Jug with Lid. Crafted from premium-quality clear glass, this decorative pitcher is designed with a unique fish-scale pattern that enhances your table decor. Ideal for serving fresh juice, water, iced tea, and mocktails during family meals or special occasions.\n\nProduct Type: Glass Water & Juice Pitcher Jug\n\nMaterial: Heavy-duty Transparent Glass\n\nDesign: Fish Scale / Wave Embossed Pattern with Top Lid\n\nUses: Water, Orange Juice, Lemonade, Iced Tea & Cold Drinks\n\nCare Instructions: Easy to hand wash and clean",
+    "description": "With a large 1800ml capacity, this jug is perfectly sized for serving water, fresh juice, or cold drinks to family and guests.",
     "capacity": "1800ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10454,25 +11787,30 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "77ff7ca4-613a-4623-8970-bd183497d650",
-    "itemCode": "23100",
-    "aliasName": "GPH64A",
-    "name": "WATER JUG HANDAL 1.3 HEXA  1PCS BOX",
+    "id": "d7d34d7c-9052-4f53-8602-100cdee90343",
+    "itemCode": "23350",
+    "aliasName": "GPH27-1400",
+    "name": "WATER JUG LW 24PCS1.4LTR",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 225,
+    "brahmaniCategories": [
+      "GLASSES",
+      "0.25",
+      "CM"
+    ],
+    "price": 215,
+    "basePrice": 195,
     "piecesPerCarton": 24,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23100/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23350/7b40aa69-e8f3-4c32-9e4c-5eedf686b96d@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23100/0.jpg",
-      "https://assets.brahmanicrm.com/products/23100/1.jpg",
-      "https://assets.brahmanicrm.com/products/23100/2.jpg",
-      "https://assets.brahmanicrm.com/products/23100/3.jpg",
-      "https://assets.brahmanicrm.com/products/23100/4.jpg"
+      "https://assets.brahmanicrm.com/products/23350/7b40aa69-e8f3-4c32-9e4c-5eedf686b96d@full.webp",
+      "https://assets.brahmanicrm.com/products/23350/ddd180c8-e9c5-4cf8-8262-b9a17762fbee@full.webp",
+      "https://assets.brahmanicrm.com/products/23350/d8ea11c6-2239-4ed3-9a43-322648fc4b5c@full.webp",
+      "https://assets.brahmanicrm.com/products/23350/66be217d-b33b-4756-b0ce-29c289b58be5@full.webp"
     ],
-    "description": "This Premium Quality Juice and Water Glass Jug Pitcher with lid is Perfect for JUICE LOVER. Great for Home and Parties. This Water Juice Glass Jug is the New Design in the Market Place.",
-    "capacity": "1PCS",
+    "description": "Special Features: Built-in Lid Filter, Drip-Less Spout, Ergonomic Handle, Box Packed",
+    "capacity": "24PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
@@ -10480,9 +11818,10 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "WATER",
       "JUG",
-      "HANDAL",
-      "1.3",
-      "HEXA"
+      "24PCS1.4LTR",
+      "GLASSES",
+      "0.25",
+      "CM"
     ]
   },
   {
@@ -10492,20 +11831,20 @@ export const INITIAL_PRODUCTS = [
     "name": "WATER JUG PITCHER 1.8LTR",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 200,
+    "basePrice": 180,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20628/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20628/d1ccc08e-6f94-46c7-b4a1-db751316bcbb@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20628/0.jpg",
-      "https://assets.brahmanicrm.com/products/20628/1.jpg",
-      "https://assets.brahmanicrm.com/products/20628/2.jpg",
-      "https://assets.brahmanicrm.com/products/20628/3.jpg",
-      "https://assets.brahmanicrm.com/products/20628/4.jpg",
-      "https://assets.brahmanicrm.com/products/20628/5.jpg",
-      "https://assets.brahmanicrm.com/products/20628/6.jpg"
+      "https://assets.brahmanicrm.com/products/20628/d1ccc08e-6f94-46c7-b4a1-db751316bcbb@full.webp",
+      "https://assets.brahmanicrm.com/products/20628/73e5245d-d1b3-479c-8364-298aacc2b396@full.webp",
+      "https://assets.brahmanicrm.com/products/20628/c8dfc893-5138-4948-9153-4dfe0503648e@full.webp",
+      "https://assets.brahmanicrm.com/products/20628/23aac37c-dd48-498b-a790-f82e4b25c08f@full.webp",
+      "https://assets.brahmanicrm.com/products/20628/2265d81f-ee48-4def-aa8f-96b25eb83541@full.webp"
     ],
-    "description": "A premium water jug pitcher designed for serving water, juice, lemonade, iced tea, and cold beverages with style. Made from high-quality, food-grade material, it features a clear finish, sturdy body, and easy-pour spout for smooth serving",
+    "description": "Features a generous 1.8 Litre capacity, making it ideal for serving water, juice, or cold drinks to family and guests.",
     "capacity": "1.8LTR",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10519,21 +11858,61 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "08f0e670-5637-4b43-b059-7a94bac7c4ef",
+    "itemCode": "22911",
+    "aliasName": "GPH231-1600/L1",
+    "name": "WATER JUG STEEL LID 1.6LTR 1PCS BOX",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 240,
+    "basePrice": 220,
+    "piecesPerCarton": 24,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22911/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22911/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22911/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22911/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22911/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22911/4@full.webp"
+    ],
+    "description": "Special Features: Diamond-Cut Gradient Finish, In-Built Strainer Lid, Ergonomic Handle",
+    "capacity": "1.6LTR",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "WATER",
+      "JUG",
+      "STEEL",
+      "LID",
+      "1.6LTR",
+      "1PCS",
+      "BOX"
+    ]
+  },
+  {
     "id": "bf3a54f9-5a40-4d96-8609-18616cbcd615",
     "itemCode": "22716",
     "aliasName": null,
     "name": "WAVE TUMBLER BULK PACK 450ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 60,
+    "basePrice": 40,
     "piecesPerCarton": 70,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22716/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22716/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22716/0.jpg",
-      "https://assets.brahmanicrm.com/products/22716/1.jpg",
-      "https://assets.brahmanicrm.com/products/22716/2.jpg",
-      "https://assets.brahmanicrm.com/products/22716/3.jpg"
+      "https://assets.brahmanicrm.com/products/22716/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22716/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22716/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22716/3@full.webp"
     ],
     "description": "The creative glasses is suitable for any hot and cold drinks. You can use it to make perfect tea, Bobo bubble pearl milk tea, soda water, water, iced coffee, smoothies, lemonade, juice or any other interesting drink.",
     "capacity": "450ML",
@@ -10546,7 +11925,8 @@ export const INITIAL_PRODUCTS = [
       "TUMBLER",
       "BULK",
       "PACK",
-      "450ML"
+      "450ML",
+      "CHINA"
     ]
   },
   {
@@ -10556,19 +11936,21 @@ export const INITIAL_PRODUCTS = [
     "name": "WHIKSY TUMBLER 380ML 6PCS 7010",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 240,
+    "basePrice": 220,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23173/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/23173/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/23173/0.jpg",
-      "https://assets.brahmanicrm.com/products/23173/1.jpg",
-      "https://assets.brahmanicrm.com/products/23173/2.jpg",
-      "https://assets.brahmanicrm.com/products/23173/3.jpg",
-      "https://assets.brahmanicrm.com/products/23173/4.jpg",
-      "https://assets.brahmanicrm.com/products/23173/5.jpg"
+      "https://assets.brahmanicrm.com/products/23173/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23173/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23173/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23173/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23173/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23173/5@full.webp"
     ],
-    "description": "Crafted from premium quality glass, this set is designed for everyday elegance and durability. Its sleek and clear design makes it suitable for serving water, milk, juice, or cocktails. Easy to clean and versatile, it’s a great addition to both home and office use. Ideal for daily serving or special gatherings.",
+    "description": "Featuring an optimal 380ml capacity, these tumbler glasses are perfectly sized for serving whisky, scotch, cocktails, mocktails, juices, or water.",
     "capacity": "380ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10582,26 +11964,61 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "d1cdc9c4-1749-40a8-9deb-282780eeb71a",
+    "itemCode": "22503",
+    "aliasName": "DSJZ001D-L7",
+    "name": "WHISKY DECANTER AND GLASS 7 PCS SET (750+340ML)",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 500,
+    "basePrice": 480,
+    "piecesPerCarton": 1,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22503/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22503/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22503/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22503/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22503/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22503/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22503/5@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "7 PCS",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "WHISKY",
+      "DECANTER",
+      "AND",
+      "GLASS",
+      "PCS",
+      "SET",
+      "(750+340ML)"
+    ]
+  },
+  {
     "id": "c0af617b-77d5-4068-969a-e78fed2393f4",
     "itemCode": "22744",
     "aliasName": "DSJZ001B-L1",
     "name": "WHISKY DECANTER B 750ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 220,
+    "basePrice": 200,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22744/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22744/0060ca05-5c10-4e5b-b3ea-c6078dfa9213@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22744/0.jpg",
-      "https://assets.brahmanicrm.com/products/22744/1.jpg",
-      "https://assets.brahmanicrm.com/products/22744/2.jpg",
-      "https://assets.brahmanicrm.com/products/22744/3.jpg",
-      "https://assets.brahmanicrm.com/products/22744/4.jpg",
-      "https://assets.brahmanicrm.com/products/22744/5.jpg",
-      "https://assets.brahmanicrm.com/products/22744/6.jpg"
+      "https://assets.brahmanicrm.com/products/22744/0060ca05-5c10-4e5b-b3ea-c6078dfa9213@full.webp",
+      "https://assets.brahmanicrm.com/products/22744/e650c521-f4d3-46d8-a6ec-bf58faf89e0a@full.webp",
+      "https://assets.brahmanicrm.com/products/22744/98756fc4-2378-45ab-93fa-ec7a56ba3cdd@full.webp"
     ],
-    "description": "Premium crystal-clear decanter with a stylish square design and airtight stopper, perfect for storing and serving whisky, wine, or spirits. Adds elegance to any bar or dining setup.",
+    "description": "Featuring a generous 750ml capacity, this whisky decanter is perfectly sized for holding a standard bottle of scotch, bourbon, wine, or your favorite spirits.",
     "capacity": "750ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10620,18 +12037,19 @@ export const INITIAL_PRODUCTS = [
     "name": "WHISKY DECANTER C 750ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 220,
+    "basePrice": 200,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22745/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22745/00c7006b-306b-4776-86f6-ba48391adadb@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22745/0.jpg",
-      "https://assets.brahmanicrm.com/products/22745/1.jpg",
-      "https://assets.brahmanicrm.com/products/22745/2.jpg",
-      "https://assets.brahmanicrm.com/products/22745/3.jpg",
-      "https://assets.brahmanicrm.com/products/22745/4.jpg"
+      "https://assets.brahmanicrm.com/products/22745/00c7006b-306b-4776-86f6-ba48391adadb@full.webp",
+      "https://assets.brahmanicrm.com/products/22745/bcf72bf6-ee54-45d7-b2a0-34d7a1273568@full.webp",
+      "https://assets.brahmanicrm.com/products/22745/f86d861b-7f72-4de5-ad1d-24b5763ffa84@full.webp",
+      "https://assets.brahmanicrm.com/products/22745/e5cf6ecb-9387-470a-b8f4-c48dd61636cd@full.webp"
     ],
-    "description": "WHISKY DECANTER C 750ML – Elegant and durable crystal-cut design decanter, perfect for storing and serving whisky, wine, or spirits in style. A must-have addition to your bar collection for both daily use and special occasions.",
+    "description": "Complete 1-Piece Set consisting of 1 Decanter Bottle and 1 Matching Airtight Stopper, perfect for barware collections and gifting.",
     "capacity": "750ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10650,20 +12068,22 @@ export const INITIAL_PRODUCTS = [
     "name": "WHISKY DECANTER D 750ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 235,
+    "basePrice": 215,
     "piecesPerCarton": 1,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22478/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22478/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22478/0.jpg",
-      "https://assets.brahmanicrm.com/products/22478/1.jpg",
-      "https://assets.brahmanicrm.com/products/22478/2.jpg",
-      "https://assets.brahmanicrm.com/products/22478/3.jpg",
-      "https://assets.brahmanicrm.com/products/22478/4.jpg",
-      "https://assets.brahmanicrm.com/products/22478/5.jpg",
-      "https://assets.brahmanicrm.com/products/22478/6.jpg"
+      "https://assets.brahmanicrm.com/products/22478/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22478/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22478/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22478/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22478/4@full.webp",
+      "https://assets.brahmanicrm.com/products/22478/5@full.webp",
+      "https://assets.brahmanicrm.com/products/22478/6@full.webp"
     ],
-    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "description": "Featuring a standard 750ml capacity, this whiskey decanter is perfectly sized to hold a full standard bottle of whiskey, scotch, bourbon, wine, or your favorite spirits.",
     "capacity": "750ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10676,24 +12096,59 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "90134147-00c2-4031-833f-bbee5c434063",
+    "itemCode": "22168",
+    "aliasName": "BM81810-TT",
+    "name": "WHISKY GLASS 3 TIRE G HORSE",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 305,
+    "basePrice": 285,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22168/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22168/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22168/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22168/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22168/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22168/4@full.webp"
+    ],
+    "description": "Lead-Free Old Fashioned Whiskey Glasses. Rocks Glasses - Barware for Bourbon, Scotch, Rum Glasses, Whisky, Juice Cocktail Drinks. [ Pack of 6 ]",
+    "capacity": "Standard Trade Spec",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "WHISKY",
+      "GLASS",
+      "TIRE",
+      "HORSE"
+    ]
+  },
+  {
     "id": "a84f1445-a6e9-4385-a486-66f0a62446d3",
     "itemCode": "22902",
     "aliasName": "KTY6230C",
     "name": "WHISKY GLASS 350ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 295,
+    "basePrice": 275,
     "piecesPerCarton": 6,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22902/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22902/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22902/0.jpg",
-      "https://assets.brahmanicrm.com/products/22902/1.jpg",
-      "https://assets.brahmanicrm.com/products/22902/2.jpg",
-      "https://assets.brahmanicrm.com/products/22902/3.jpg",
-      "https://assets.brahmanicrm.com/products/22902/4.jpg"
+      "https://assets.brahmanicrm.com/products/22902/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22902/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22902/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22902/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22902/4@full.webp"
     ],
-    "description": "Elevate every sip with our Whisky Glass 350ml 6pcs Set — crafted for the true connoisseur of fine spirits. These glasses are perfect for serving whisky, scotch, bourbon, cocktails, and other premium drinks, whether at home, parties, or special occasions.",
+    "description": "Featuring an optimal 350ml capacity, these whiskey glasses are perfectly sized for serving whisky, scotch, bourbon, cocktails, mocktails, or juices.",
     "capacity": "350ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10714,19 +12169,21 @@ export const INITIAL_PRODUCTS = [
     "name": "WHISKY GLASS A 280ML 6PCS RED CHERRY",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 190,
+    "basePrice": 170,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21846/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21846/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21846/0.jpg",
-      "https://assets.brahmanicrm.com/products/21846/1.jpg",
-      "https://assets.brahmanicrm.com/products/21846/2.jpg",
-      "https://assets.brahmanicrm.com/products/21846/3.jpg",
-      "https://assets.brahmanicrm.com/products/21846/4.jpg",
-      "https://assets.brahmanicrm.com/products/21846/5.jpg"
+      "https://assets.brahmanicrm.com/products/21846/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21846/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21846/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21846/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21846/4@full.webp",
+      "https://assets.brahmanicrm.com/products/21846/5@full.webp"
     ],
-    "description": "Diamond Shaped Whiskey Glass Premium Whiskey Glass Crystal Clear Scotch Bourbo Vodka Liquor Wine Glass 280ML Set of 6",
+    "description": "Featuring an ideal 280ml capacity, these tumblers are perfectly sized for serving whisky, scotch, bourbon, cocktails, or your favorite beverages.",
     "capacity": "280ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10737,7 +12194,8 @@ export const INITIAL_PRODUCTS = [
       "GLASS",
       "280ML",
       "6PCS",
-      "RED"
+      "RED",
+      "CHERRY"
     ]
   },
   {
@@ -10747,17 +12205,20 @@ export const INITIAL_PRODUCTS = [
     "name": "WHISKY GLASS DELI 315ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 280,
+    "basePrice": 260,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22651/ed539fb5-68fa-4c92-bdb8-c6eaa4993fca.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22651/ae812138-77db-4af3-84af-3e36287f1abd@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22651/ed539fb5-68fa-4c92-bdb8-c6eaa4993fca.jpg",
-      "https://assets.brahmanicrm.com/products/22651/e9d4517a-342e-460f-b6c6-698e520e65ef.jpg",
-      "https://assets.brahmanicrm.com/products/22651/3fb81f98-9a10-4bc6-bc3f-f635343fdea0.jpg",
-      "https://assets.brahmanicrm.com/products/22651/b038a8c6-c296-44b6-90f8-74cb50f2ef00.jpg"
+      "https://assets.brahmanicrm.com/products/22651/ae812138-77db-4af3-84af-3e36287f1abd@full.webp",
+      "https://assets.brahmanicrm.com/products/22651/c0583dae-b854-4b1f-b38b-0d541ec5bba9@full.webp",
+      "https://assets.brahmanicrm.com/products/22651/a30cdca9-f75d-4061-9ed8-0ca3ddcbd7ea@full.webp",
+      "https://assets.brahmanicrm.com/products/22651/4d39239e-4d95-4a1f-88a7-26fcd8c1f70a@full.webp",
+      "https://assets.brahmanicrm.com/products/22651/8c123eba-d4be-4f17-a441-3af2980288cd@full.webp"
     ],
-    "description": "Enhance your drinking experience with this premium Deli Whisky Glass Set. With a generous 315ml capacity and a refined cut-glass design, these glasses are perfect for whisky, cocktails, or juices. The textured base adds grip and style, making them a must-have for home bars, parties, or gifting.",
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
     "capacity": "315ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10768,31 +12229,32 @@ export const INITIAL_PRODUCTS = [
       "GLASS",
       "DELI",
       "315ML",
-      "6PCS"
+      "6PCS",
+      "SET"
     ]
   },
   {
-    "id": "2ebf5f7c-173a-41f4-998d-db87da29e8c8",
-    "itemCode": "22895",
-    "aliasName": "HS63612ST",
-    "name": "WHISKY GLASS LINNIG 385ML 6PCS SET",
+    "id": "03a67bc7-1a30-4e4c-afb2-b083bbf79736",
+    "itemCode": "22905",
+    "aliasName": "KTY5010",
+    "name": "WHISKY GLASS HEXA 180ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
-    "price": 300,
+    "brahmaniCategories": [],
+    "price": 200,
+    "basePrice": 180,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22895/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22905/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22895/0.jpg",
-      "https://assets.brahmanicrm.com/products/22895/1.jpg",
-      "https://assets.brahmanicrm.com/products/22895/2.jpg",
-      "https://assets.brahmanicrm.com/products/22895/3.jpg",
-      "https://assets.brahmanicrm.com/products/22895/4.jpg",
-      "https://assets.brahmanicrm.com/products/22895/5.jpg",
-      "https://assets.brahmanicrm.com/products/22895/6.jpg"
+      "https://assets.brahmanicrm.com/products/22905/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22905/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22905/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22905/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22905/4@full.webp"
     ],
-    "description": "Elevate your drinking experience with this elegant 6-piece whisky glass set, expertly designed for lovers of fine spirits.",
-    "capacity": "385ML",
+    "description": "Elevate every sip with the Whisky Glass Hexa 180ml 6pcs Set — where classic style meets modern design. Crafted for whisky lovers and connoisseurs, these premium glasses bring elegance to your bar, dining table, or gifting collection.",
+    "capacity": "180ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
@@ -10800,9 +12262,44 @@ export const INITIAL_PRODUCTS = [
     "tags": [
       "WHISKY",
       "GLASS",
-      "LINNIG",
-      "385ML",
-      "6PCS"
+      "HEXA",
+      "180ML",
+      "6PCS",
+      "SET"
+    ]
+  },
+  {
+    "id": "e25c7975-dd04-49df-b25b-bdac79839424",
+    "itemCode": "22648",
+    "aliasName": "8292-A",
+    "name": "WHISKY GLASS MS 330ML 6PCS SET",
+    "category": "drinkware",
+    "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
+    "price": 275,
+    "basePrice": 255,
+    "piecesPerCarton": 8,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22648/85f3b440-3643-4f77-b48e-7748f69a6f15@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22648/85f3b440-3643-4f77-b48e-7748f69a6f15@full.webp",
+      "https://assets.brahmanicrm.com/products/22648/ba56d93a-5d07-4026-87f7-e25fb661269d@full.webp",
+      "https://assets.brahmanicrm.com/products/22648/32feab23-ffcc-4585-be08-48a5ccdef60f@full.webp",
+      "https://assets.brahmanicrm.com/products/22648/43483dae-e842-44c6-9b4d-c3dd402ac94e@full.webp",
+      "https://assets.brahmanicrm.com/products/22648/b518fea5-f872-4f51-a582-2dc042ed02e7@full.webp"
+    ],
+    "description": "GROUND FLOOR, SY NO. 90/2, TP NO.52(VED) FP NO.56, The Box Factory road, Moti Ved, Surat - 395004, Gujarat, India",
+    "capacity": "330ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "WHISKY",
+      "GLASS",
+      "330ML",
+      "6PCS",
+      "SET"
     ]
   },
   {
@@ -10812,17 +12309,21 @@ export const INITIAL_PRODUCTS = [
     "name": "WHISKY JUICE GLASS 260ML 6PCS SET",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "DIAMONDS"
+    ],
     "price": 218,
+    "basePrice": 198,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21828/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21828/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21828/0.jpg",
-      "https://assets.brahmanicrm.com/products/21828/1.jpg",
-      "https://assets.brahmanicrm.com/products/21828/2.jpg",
-      "https://assets.brahmanicrm.com/products/21828/3.jpg"
+      "https://assets.brahmanicrm.com/products/21828/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21828/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21828/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21828/3@full.webp"
     ],
-    "description": "Whiskey Glasses, Crystal Whiskey Glass 260ml, Set of 6 Old Fashioned Rocks Glasses, Bourbon Glass for Cocktail, Scotch, Liquor, Whiskey Glass Gift for Men",
+    "description": "Featuring an optimal 260ml capacity, these glasses are perfectly sized for serving whiskey, juices, cocktails, mocktails, or water.",
     "capacity": "260ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10833,7 +12334,9 @@ export const INITIAL_PRODUCTS = [
       "JUICE",
       "GLASS",
       "260ML",
-      "6PCS"
+      "6PCS",
+      "SET",
+      "DIAMONDS"
     ]
   },
   {
@@ -10843,20 +12346,20 @@ export const INITIAL_PRODUCTS = [
     "name": "WHISKY TUMBLER 370ML 6 PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 240,
+    "basePrice": 220,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20156/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20156/3e07f7d1-4163-4209-a4cc-92ced46b41f3@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20156/0.jpg",
-      "https://assets.brahmanicrm.com/products/20156/1.jpg",
-      "https://assets.brahmanicrm.com/products/20156/2.jpg",
-      "https://assets.brahmanicrm.com/products/20156/3.jpg",
-      "https://assets.brahmanicrm.com/products/20156/4.jpg",
-      "https://assets.brahmanicrm.com/products/20156/5.jpg",
-      "https://assets.brahmanicrm.com/products/20156/6.jpg"
+      "https://assets.brahmanicrm.com/products/20156/3e07f7d1-4163-4209-a4cc-92ced46b41f3@full.webp",
+      "https://assets.brahmanicrm.com/products/20156/1cf161da-855c-4634-adb2-e97c7dcd66ca@full.webp",
+      "https://assets.brahmanicrm.com/products/20156/decde816-2051-4cf0-b4db-b6e85ec5bb36@full.webp",
+      "https://assets.brahmanicrm.com/products/20156/275fa2e4-56c4-43c0-b469-62f538708fc3@full.webp",
+      "https://assets.brahmanicrm.com/products/20156/83aada1c-cddb-4f6d-9a49-8b4f18fdecad@full.webp"
     ],
-    "description": "Experience premium drinking comfort with this stylish Whisky Tumbler, crafted to enhance the flavor and feel of every sip. With its clear finish and heavy-bottom design, it is perfect for whisky, rum, scotch, cocktails, and more.",
+    "description": "Special Features: Stemless Modern Design, Weighted Base, Ergonomic Shape",
     "capacity": "370ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10870,54 +12373,26 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "fb3e242e-f1c0-4c9a-9eb0-794463bdea40",
-    "itemCode": "20469",
-    "aliasName": "ES7018-2",
-    "name": "WHISKY TUMBLER 370ML 6PCS",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 250,
-    "piecesPerCarton": 8,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20469/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/20469/0.jpg",
-      "https://assets.brahmanicrm.com/products/20469/1.jpg",
-      "https://assets.brahmanicrm.com/products/20469/2.jpg",
-      "https://assets.brahmanicrm.com/products/20469/3.jpg"
-    ],
-    "description": "Upgrade your drinkware collection with this premium 370ml Whisky Tumbler 6 Pcs Set, designed for both daily use and special occasions. Each glass features a crystal-clear finish, thick heavy base, and comfortable grip, providing a perfect balance of elegance and durability.",
-    "capacity": "370ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "WHISKY",
-      "TUMBLER",
-      "370ML",
-      "6PCS"
-    ]
-  },
-  {
     "id": "51e7fb56-5a5b-42cc-be3b-650472a9c08e",
     "itemCode": "21127",
     "aliasName": "XM066A",
     "name": "WHISKY2 GLASS 6PCS 250ML",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 205,
+    "basePrice": 185,
     "piecesPerCarton": 12,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21127/823dc71e-1fe6-4417-859e-a12e698ad1f2.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21127/823dc71e-1fe6-4417-859e-a12e698ad1f2@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21127/823dc71e-1fe6-4417-859e-a12e698ad1f2.jpg",
-      "https://assets.brahmanicrm.com/products/21127/18a58062-dda0-4010-b09a-cbc99f0b754d.jpg",
-      "https://assets.brahmanicrm.com/products/21127/e15f815e-4808-4b97-b41f-dd8e7d323968.jpg",
-      "https://assets.brahmanicrm.com/products/21127/ba455b48-7fde-47cc-939b-d8b663825559.jpg",
-      "https://assets.brahmanicrm.com/products/21127/77fa5aab-a343-4530-b7e4-b76c5232b9ac.jpg"
+      "https://assets.brahmanicrm.com/products/21127/823dc71e-1fe6-4417-859e-a12e698ad1f2@full.webp",
+      "https://assets.brahmanicrm.com/products/21127/18a58062-dda0-4010-b09a-cbc99f0b754d@full.webp",
+      "https://assets.brahmanicrm.com/products/21127/e15f815e-4808-4b97-b41f-dd8e7d323968@full.webp",
+      "https://assets.brahmanicrm.com/products/21127/ba455b48-7fde-47cc-939b-d8b663825559@full.webp",
+      "https://assets.brahmanicrm.com/products/21127/77fa5aab-a343-4530-b7e4-b76c5232b9ac@full.webp"
     ],
-    "description": "Upgrade your drinkware collection with this elegant 6-piece glass set. Featuring a timeless textured diamond-cut pattern and a crystal-clear finish, these versatile glasses bring a touch of aesthetic charm to any table setting—whether for daily use or special occasions.",
+    "description": "Featuring an ideal 250ml capacity, these tumblers are perfectly sized for serving whisky, scotch, bourbon, cocktails, or your favorite beverages.",
     "capacity": "6PCS",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10931,54 +12406,26 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "df4a105c-8228-453d-adba-bc571e63c6f7",
-    "itemCode": "22129",
-    "aliasName": "DMC011-2",
-    "name": "WHISKY2 TUMBLER 370ML 6PCS",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 215,
-    "piecesPerCarton": 8,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22129/3.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22129/3.jpg",
-      "https://assets.brahmanicrm.com/products/22129/4.jpg",
-      "https://assets.brahmanicrm.com/products/22129/5.jpg"
-    ],
-    "description": "Whisky Tumbler 370ML 6PCS || Crystal Cut Barware Drinking Glasses for Whisky, Bourbon, Scotch, Liquor, Wine, Cocktail Drinks - Transparent Old",
-    "capacity": "370ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "WHISKY2",
-      "TUMBLER",
-      "370ML",
-      "6PCS"
-    ]
-  },
-  {
     "id": "a52cf278-10cb-48ea-b906-440a91670914",
     "itemCode": "21416",
     "aliasName": "DSKB032-2",
     "name": "WHISKY6 GLASS 300ML 6PCS",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [],
     "price": 250,
+    "basePrice": 230,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21416/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21416/240b78d7-4d3c-4a65-b7cb-99e620492c60@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21416/0.jpg",
-      "https://assets.brahmanicrm.com/products/21416/1.jpg",
-      "https://assets.brahmanicrm.com/products/21416/2.jpg",
-      "https://assets.brahmanicrm.com/products/21416/3.jpg",
-      "https://assets.brahmanicrm.com/products/21416/4.jpg",
-      "https://assets.brahmanicrm.com/products/21416/5.jpg"
+      "https://assets.brahmanicrm.com/products/21416/240b78d7-4d3c-4a65-b7cb-99e620492c60@full.webp",
+      "https://assets.brahmanicrm.com/products/21416/ad975c4d-3297-4259-8617-2fc8bda812f9@full.webp",
+      "https://assets.brahmanicrm.com/products/21416/b53780f6-d682-42f2-80b0-bc29a1b37c5a@full.webp",
+      "https://assets.brahmanicrm.com/products/21416/d6a01346-25cb-4b01-a14e-13ce7827b370@full.webp",
+      "https://assets.brahmanicrm.com/products/21416/4f99ff53-8116-498f-9b0d-55d9adbcba3d@full.webp"
     ],
-    "description": "Serve your drinks with style using this classic Whisky Glass Set. Designed for comfort and durability, these glasses are perfect for enjoying whisky, scotch, and a variety of beverages.",
+    "description": "Featuring an ideal 300ml capacity, these tumblers are perfectly sized for serving whisky, scotch, bourbon, cocktails, or your favorite beverages.",
     "capacity": "300ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -10998,17 +12445,18 @@ export const INITIAL_PRODUCTS = [
     "name": "WINDOW 2 CANISTER SET OF 3",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 350,
+    "brahmaniCategories": [],
+    "price": 355,
+    "basePrice": 335,
     "piecesPerCarton": 8,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20709/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20709/5f58146c-afc7-457c-b17d-2b458bf40489@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20709/0.jpg",
-      "https://assets.brahmanicrm.com/products/20709/1.jpg",
-      "https://assets.brahmanicrm.com/products/20709/2.jpg",
-      "https://assets.brahmanicrm.com/products/20709/3.jpg"
+      "https://assets.brahmanicrm.com/products/20709/5f58146c-afc7-457c-b17d-2b458bf40489@full.webp",
+      "https://assets.brahmanicrm.com/products/20709/74fbe38a-005e-4342-a331-0a561cff503b@full.webp",
+      "https://assets.brahmanicrm.com/products/20709/615f0119-4eb0-4318-b14d-b1b45de1190a@full.webp"
     ],
-    "description": "Set of 3, 350 ML, 580 ML and 850 ML Airtight Glass Jar Food Storage Container with Stainless Steel Cover Window Visible Canister Set Glass & Airtight Lid Combo of 3 Pieces, Silver",
+    "description": "Special Features: Airtight Seal, Bottom Transparent Window, Rust-Proof Body",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11021,34 +12469,153 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
-    "id": "be5d25b4-2fb6-4a5e-95fa-3080bba53c40",
-    "itemCode": "21673",
-    "aliasName": "EJ6345",
-    "name": "WINE GLASS PLAIN 510ML 6PCS DELI",
-    "category": "drinkware",
-    "categoryName": "Drinkware & Barware",
-    "price": 440,
-    "piecesPerCarton": 4,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21673/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/21673/0.jpg",
-      "https://assets.brahmanicrm.com/products/21673/1.jpg",
-      "https://assets.brahmanicrm.com/products/21673/2.jpg",
-      "https://assets.brahmanicrm.com/products/21673/3.jpg"
+    "id": "f2201c33-d959-4deb-812c-41926370e9fa",
+    "itemCode": "23083",
+    "aliasName": "GDN81-3",
+    "name": "WINDOW CANISTER 305ML BOX PACK",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
     ],
-    "description": "4 SET CTN\nElevate any gathering with this elegant, 510 ml plain wine glass set. Crafted from clear, high-quality glass, it features a classic stem design that enhances both the presentation and taste of your favorite beverages.",
-    "capacity": "510ML",
+    "price": 100,
+    "basePrice": 80,
+    "piecesPerCarton": 48,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23083/867db83c-938b-46ca-8169-304c238ebec5@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23083/867db83c-938b-46ca-8169-304c238ebec5@full.webp",
+      "https://assets.brahmanicrm.com/products/23083/44676a6a-91c5-4cff-a295-59613efb7b84@full.webp",
+      "https://assets.brahmanicrm.com/products/23083/16a881a2-3db8-4c9b-ab9d-5a0f8e5da8de@full.webp",
+      "https://assets.brahmanicrm.com/products/23083/10d27681-6f21-42e1-90ad-6ac35cc4acc0@full.webp"
+    ],
+    "description": "Special Features: See-Through Window, Airtight Seal, Rust-Proof, Compact Design",
+    "capacity": "305ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
     "inStock": true,
     "featured": false,
     "tags": [
-      "WINE",
-      "GLASS",
-      "PLAIN",
-      "510ML",
-      "6PCS"
+      "WINDOW",
+      "CANISTER",
+      "305ML",
+      "BOX",
+      "PACK",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "bb2d0a2a-e9db-444c-af93-474428a249fa",
+    "itemCode": "20100",
+    "aliasName": "H4081-3",
+    "name": "WINDOW CANISTER 350ML GK",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 100,
+    "basePrice": 80,
+    "piecesPerCarton": 48,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20100/45741914-98fc-448f-ab7a-8a6605ebbf05@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20100/45741914-98fc-448f-ab7a-8a6605ebbf05@full.webp",
+      "https://assets.brahmanicrm.com/products/20100/34f712da-7627-41e9-8efd-6b378e9283f1@full.webp",
+      "https://assets.brahmanicrm.com/products/20100/1ca6e12e-7489-460d-b28f-56b2b65df139@full.webp",
+      "https://assets.brahmanicrm.com/products/20100/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20100/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20100/3@full.webp",
+      "https://assets.brahmanicrm.com/products/20100/4@full.webp",
+      "https://assets.brahmanicrm.com/products/20100/5@full.webp",
+      "https://assets.brahmanicrm.com/products/20100/6@full.webp"
+    ],
+    "description": "Special Features: Transparent Viewing Window, Airtight Seal, Rust-Resistant",
+    "capacity": "350ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "WINDOW",
+      "CANISTER",
+      "350ML"
+    ]
+  },
+  {
+    "id": "9f40938c-7724-4cb6-94d5-48db654a8e27",
+    "itemCode": "23081",
+    "aliasName": "GDN81-1",
+    "name": "WINDOW CANISTER 800ML 1 PCS BOX PACK",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 140,
+    "basePrice": 120,
+    "piecesPerCarton": 36,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23081/0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23081/0@full.webp",
+      "https://assets.brahmanicrm.com/products/23081/1@full.webp",
+      "https://assets.brahmanicrm.com/products/23081/2@full.webp",
+      "https://assets.brahmanicrm.com/products/23081/3@full.webp",
+      "https://assets.brahmanicrm.com/products/23081/4@full.webp",
+      "https://assets.brahmanicrm.com/products/23081/5@full.webp",
+      "https://assets.brahmanicrm.com/products/23081/6@full.webp"
+    ],
+    "description": "Featuring an optimal 800ml capacity, this storage canister is perfectly sized for storing tea, sugar, pulses, dry fruits, spices, or snacks.",
+    "capacity": "800ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "WINDOW",
+      "CANISTER",
+      "800ML",
+      "PCS",
+      "BOX",
+      "PACK",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "24150bbe-36dd-4158-ae36-b44b92d9af58",
+    "itemCode": "23082",
+    "aliasName": "GDN81-2",
+    "name": "WINODW CANISTER 550ML 1 PCS BOX PACK",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 125,
+    "basePrice": 105,
+    "piecesPerCarton": 36,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23082/2b44f1e1-b809-4dec-84c9-fcc290381382@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23082/2b44f1e1-b809-4dec-84c9-fcc290381382@full.webp",
+      "https://assets.brahmanicrm.com/products/23082/e01c0fec-aa7d-438b-87a5-d5d86e9292b3@full.webp",
+      "https://assets.brahmanicrm.com/products/23082/f725e543-bd9f-4d89-ab23-68123059ea69@full.webp",
+      "https://assets.brahmanicrm.com/products/23082/5c29c533-40cb-4b83-ae52-09e26244a46d@full.webp",
+      "https://assets.brahmanicrm.com/products/23082/f09ee2bf-4c36-4cd7-a8e1-da5581f5204f@full.webp"
+    ],
+    "description": "Featuring an ideal 550ml capacity, this canister is perfectly sized for storing tea, coffee, sugar, spices, dry fruits, or pulses.",
+    "capacity": "550ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "WINODW",
+      "CANISTER",
+      "550ML",
+      "PCS",
+      "BOX",
+      "PACK",
+      "CHINA"
     ]
   },
   {
@@ -11058,16 +12625,20 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN HANDLE MUG SHAKER",
     "category": "drinkware",
     "categoryName": "Drinkware & Barware",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 295,
+    "basePrice": 275,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22682/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22682/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22682/0.jpg",
-      "https://assets.brahmanicrm.com/products/22682/1.jpg",
-      "https://assets.brahmanicrm.com/products/22682/2.jpg"
+      "https://assets.brahmanicrm.com/products/22682/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22682/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22682/2@full.webp"
     ],
-    "description": "The automatic mixing cup is made of food-grade high borosilicate glass. Long press to begin stirring various liquids. This electric stirring coffee cup can withstand both hot and cold water (direct freezing is not recommended, it can be",
+    "description": "Features a unique press-pump mechanism on the lid, making it extremely convenient to quickly mix coffee, protein shakes, milkshakes, or beverages.",
     "capacity": "Standard Trade Spec",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11077,7 +12648,8 @@ export const INITIAL_PRODUCTS = [
       "WOODEN",
       "HANDLE",
       "MUG",
-      "SHAKER"
+      "SHAKER",
+      "CHINA"
     ]
   },
   {
@@ -11087,20 +12659,20 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN LID JAR ROUND 1050ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 140,
+    "basePrice": 120,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20148/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20148/30499388-635c-4e02-bbef-ccf71dcc315b@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20148/0.jpg",
-      "https://assets.brahmanicrm.com/products/20148/1.jpg",
-      "https://assets.brahmanicrm.com/products/20148/2.jpg",
-      "https://assets.brahmanicrm.com/products/20148/3.jpg",
-      "https://assets.brahmanicrm.com/products/20148/4.jpg",
-      "https://assets.brahmanicrm.com/products/20148/5.jpg",
-      "https://assets.brahmanicrm.com/products/20148/6.jpg"
+      "https://assets.brahmanicrm.com/products/20148/30499388-635c-4e02-bbef-ccf71dcc315b@full.webp",
+      "https://assets.brahmanicrm.com/products/20148/dd10765f-f82a-47d6-8912-bfd88a99e321@full.webp",
+      "https://assets.brahmanicrm.com/products/20148/2a285a28-27c2-44b6-b22d-552d6555228b@full.webp",
+      "https://assets.brahmanicrm.com/products/20148/cf1cbd3e-58ec-438e-b9f5-5c9469b5e4a9@full.webp",
+      "https://assets.brahmanicrm.com/products/20148/7a183d00-b6fa-4bc1-955f-c84a3f48e410@full.webp"
     ],
-    "description": "Delight Borosilicate Airtight Glass Storage Jar with Bamboo Wooden Lid Container (1050 ml)",
+    "description": "Sleek Cylindrical Design: Crafted with a smooth, classic rounded profile that optimizes counter space and complements any home decor style.",
     "capacity": "1050ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11115,22 +12687,62 @@ export const INITIAL_PRODUCTS = [
     ]
   },
   {
+    "id": "49f34d63-8b5e-493b-8847-bfd38c037f87",
+    "itemCode": "22473",
+    "aliasName": null,
+    "name": "WOODEN LID JAR ROUND 1050ML 7010",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 140,
+    "basePrice": 120,
+    "piecesPerCarton": 48,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22473/c60d451e-f01d-474e-98f3-3f86ad168277@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22473/c60d451e-f01d-474e-98f3-3f86ad168277@full.webp",
+      "https://assets.brahmanicrm.com/products/22473/e0d3791c-0364-49e1-9402-fbfe389d15b0@full.webp",
+      "https://assets.brahmanicrm.com/products/22473/8f3d9db1-4f2f-46d2-81f4-d1ff68658079@full.webp",
+      "https://assets.brahmanicrm.com/products/22473/6ec623e0-6036-47b7-8ae9-b5e257a00b76@full.webp"
+    ],
+    "description": "Featuring a large 1050ml capacity, this round glass jar is perfectly sized for storing bulk quantities of dry fruits, pulses, pasta, coffee beans, sugar, or snacks.",
+    "capacity": "1050ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "WOODEN",
+      "LID",
+      "JAR",
+      "ROUND",
+      "1050ML",
+      "CHINA"
+    ]
+  },
+  {
     "id": "2f9d30a6-3b4b-43a9-96ea-e19c1a1d5284",
     "itemCode": "22327",
     "aliasName": "GPG10-1200-BB",
     "name": "WOODEN LID JAR ROUND 1200ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 130,
+    "basePrice": 110,
     "piecesPerCarton": 60,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22327/1.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22327/1@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22327/1.jpg",
-      "https://assets.brahmanicrm.com/products/22327/0ea964da-0a71-4fa4-a70b-3639d703a23a.jpg",
-      "https://assets.brahmanicrm.com/products/22327/b633634c-9b71-494a-b98a-6b4ad92a180d.jpg"
+      "https://assets.brahmanicrm.com/products/22327/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22327/0ea964da-0a71-4fa4-a70b-3639d703a23a@full.webp",
+      "https://assets.brahmanicrm.com/products/22327/b633634c-9b71-494a-b98a-6b4ad92a180d@full.webp"
     ],
-    "description": "Premium Glass Cylinder Airtight Food Storage Container Jar with Bamboo Lid and Silicone Sealing Ring (SET OF 1).",
+    "description": "Features a large 1200ml capacity, making it perfect for storing pulses, grains, sugar, tea, or dry fruits.",
     "capacity": "1200ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11141,29 +12753,32 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "ROUND",
-      "1200ML"
+      "1200ML",
+      "CHINA"
     ]
   },
   {
-    "id": "2d7ca542-7270-43a0-b384-2ffa5b61b59e",
-    "itemCode": "22441",
-    "aliasName": "GPG10-1400",
-    "name": "WOODEN LID JAR ROUND 1400ML 36CTN",
+    "id": "1923d8eb-97f4-4581-8d69-db669fcb75d1",
+    "itemCode": "20149",
+    "aliasName": null,
+    "name": "WOODEN LID JAR ROUND 1400ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 140,
+    "basePrice": 120,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22441/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20149/bd110a43-6ce4-4c00-bd9c-6c455f31bc72@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22441/0.jpg",
-      "https://assets.brahmanicrm.com/products/22441/1.jpg",
-      "https://assets.brahmanicrm.com/products/22441/2.jpg",
-      "https://assets.brahmanicrm.com/products/22441/3.jpg",
-      "https://assets.brahmanicrm.com/products/22441/4.jpg",
-      "https://assets.brahmanicrm.com/products/22441/5.jpg"
+      "https://assets.brahmanicrm.com/products/20149/bd110a43-6ce4-4c00-bd9c-6c455f31bc72@full.webp",
+      "https://assets.brahmanicrm.com/products/20149/f333b594-d6b9-49ac-bb66-01e3891ac9d5@full.webp",
+      "https://assets.brahmanicrm.com/products/20149/d1441adf-d66e-408a-bc09-180c9ac31fcc@full.webp",
+      "https://assets.brahmanicrm.com/products/20149/20228d9e-eb37-498c-a5a3-37bb630a5502@full.webp"
     ],
-    "description": "50 PCS CTN\nWooden Lid Glass Containers for Storage 1400 Ml Glass Jar with Wooden Lid Containers for Kitchen Storage Set Masala Container Spice Jar for Pickle Jars for Kitchen.",
+    "description": "Featuring a generous 1400ml capacity, this round glass jar is perfectly sized for storing pulses, rice, sugar, pasta, dry fruits, or snacks in bulk",
     "capacity": "1400ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11174,7 +12789,8 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "ROUND",
-      "1400ML"
+      "1400ML",
+      "CHINA"
     ]
   },
   {
@@ -11184,19 +12800,20 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN LID JAR ROUND 220ML 1PC",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
     "price": 55,
-    "piecesPerCarton": 120,
+    "basePrice": 35,
+    "piecesPerCarton": 100,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20464/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20464/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20464/0.jpg",
-      "https://assets.brahmanicrm.com/products/20464/1.jpg",
-      "https://assets.brahmanicrm.com/products/20464/2.jpg",
-      "https://assets.brahmanicrm.com/products/20464/3.jpg",
-      "https://assets.brahmanicrm.com/products/20464/4.jpg",
-      "https://assets.brahmanicrm.com/products/20464/5.jpg"
+      "https://assets.brahmanicrm.com/products/20464/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20464/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20464/2@full.webp",
+      "https://assets.brahmanicrm.com/products/20464/7f1c9f5b-d6c6-41f7-9ab5-90762ea11714@full.webp",
+      "https://assets.brahmanicrm.com/products/20464/fe320735-3c30-42f8-8b30-0da1f71a9eeb@full.webp"
     ],
-    "description": "200 PCS CTN\nWOODEN LID JAR 220ML 3PCS || Glass Jar Wooden Lid For Food Containers Set, Airtight Jar With Lids, are Transparent.",
+    "description": "Sleek Cylindrical Design: Crafted with a smooth, classic rounded profile that saves space and looks stunning on any kitchen counter or pantry shelf.",
     "capacity": "220ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11207,7 +12824,45 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "ROUND",
-      "220ML"
+      "220ML",
+      "1PC"
+    ]
+  },
+  {
+    "id": "0747f44e-3b2d-4b8d-99b1-5edab3015e51",
+    "itemCode": "23321",
+    "aliasName": null,
+    "name": "WOODEN LID JAR ROUND 220ML 1PCS 7010",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 55,
+    "basePrice": 35,
+    "piecesPerCarton": 120,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/23321/c737dcff-391e-4285-b018-1181348b2964@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/23321/c737dcff-391e-4285-b018-1181348b2964@full.webp",
+      "https://assets.brahmanicrm.com/products/23321/a02213cd-e3c8-4155-9ddd-84d525fb9ada@full.webp",
+      "https://assets.brahmanicrm.com/products/23321/c0911fdf-2fbf-40a7-aca0-f1596bcaca8c@full.webp",
+      "https://assets.brahmanicrm.com/products/23321/8f81881e-4326-4333-8ba8-6cbc0f901ae0@full.webp"
+    ],
+    "description": "Featuring a compact 220ml capacity, this round glass jar is perfectly sized for storing spices, dry fruits, tea leaves, mouth fresheners, or herbs.",
+    "capacity": "220ML",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "WOODEN",
+      "LID",
+      "JAR",
+      "ROUND",
+      "220ML",
+      "1PCS",
+      "CHINA"
     ]
   },
   {
@@ -11217,16 +12872,20 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN LID JAR ROUND 270ML 1PC",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 60,
+    "basePrice": 40,
     "piecesPerCarton": 120,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20465/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20465/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20465/0.jpg",
-      "https://assets.brahmanicrm.com/products/20465/1.jpg",
-      "https://assets.brahmanicrm.com/products/20465/2.jpg"
+      "https://assets.brahmanicrm.com/products/20465/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20465/1@full.webp",
+      "https://assets.brahmanicrm.com/products/20465/2@full.webp"
     ],
-    "description": "Glass Storage Containers with Airtight Seal Acacia Wood Lids, 270ml Clear Glass Food Storage Jars for Kitchen, Glass Pantry Canister for Spaghetti Pasta, Coffee, Beans.",
+    "description": "Featuring a compact 270ml capacity, this round glass jar is perfectly sized for storing mouth fresheners, spices, dry fruits, tea leaves, or herbs.",
     "capacity": "270ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11237,7 +12896,9 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "ROUND",
-      "270ML"
+      "270ML",
+      "1PC",
+      "CHINA"
     ]
   },
   {
@@ -11247,18 +12908,22 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN LID JAR ROUND 320ML 1PC",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 65,
+    "basePrice": 45,
     "piecesPerCarton": 120,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22472/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22472/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22472/0.jpg",
-      "https://assets.brahmanicrm.com/products/22472/1.jpg",
-      "https://assets.brahmanicrm.com/products/22472/2.jpg",
-      "https://assets.brahmanicrm.com/products/22472/3.jpg",
-      "https://assets.brahmanicrm.com/products/22472/4.jpg"
+      "https://assets.brahmanicrm.com/products/22472/0@full.webp",
+      "https://assets.brahmanicrm.com/products/22472/1@full.webp",
+      "https://assets.brahmanicrm.com/products/22472/2@full.webp",
+      "https://assets.brahmanicrm.com/products/22472/3@full.webp",
+      "https://assets.brahmanicrm.com/products/22472/4@full.webp"
     ],
-    "description": "Premium Wooden Lid: Natural, heat-resistant wooden lid ensures a secure seal and adds a rustic, stylish look.",
+    "description": "Features an ideal 320ml capacity, making it perfect for storing spices, tea, coffee, dry fruits, or other small food items.",
     "capacity": "320ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11269,7 +12934,9 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "ROUND",
-      "320ML"
+      "320ML",
+      "1PC",
+      "CHINA"
     ]
   },
   {
@@ -11279,18 +12946,22 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN LID JAR ROUND 500ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 100,
+    "basePrice": 80,
     "piecesPerCarton": 100,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21161/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21161/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21161/0.jpg",
-      "https://assets.brahmanicrm.com/products/21161/1.jpg",
-      "https://assets.brahmanicrm.com/products/21161/2.jpg",
-      "https://assets.brahmanicrm.com/products/21161/3.jpg",
-      "https://assets.brahmanicrm.com/products/21161/4.jpg"
+      "https://assets.brahmanicrm.com/products/21161/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21161/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21161/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21161/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21161/4@full.webp"
     ],
-    "description": "These efficient containers come with 500 ml size for edibles or baking materials of all shapes and volumes.\nDishwasher Safe without the Bamboo Wooden lid. Suggested cleaning method is manually with warm water to rinse and dry before use.",
+    "description": "Featuring an ideal 500ml capacity, this short round glass jar is perfectly sized for storing pickles, spices, dry fruits, mouth fresheners, or small snacks.",
     "capacity": "500ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11301,7 +12972,8 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "ROUND",
-      "500ML"
+      "500ML",
+      "CHINA"
     ]
   },
   {
@@ -11311,21 +12983,22 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN LID JAR ROUND 700ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 110,
+    "basePrice": 90,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20147/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20147/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20147/0.jpg",
-      "https://assets.brahmanicrm.com/products/20147/1.jpg",
-      "https://assets.brahmanicrm.com/products/20147/2.jpg",
-      "https://assets.brahmanicrm.com/products/20147/3.jpg",
-      "https://assets.brahmanicrm.com/products/20147/4.jpg",
-      "https://assets.brahmanicrm.com/products/20147/5.jpg",
-      "https://assets.brahmanicrm.com/products/20147/6.jpg",
-      "https://assets.brahmanicrm.com/products/20147/7.jpg"
+      "https://assets.brahmanicrm.com/products/20147/0@full.webp",
+      "https://assets.brahmanicrm.com/products/20147/5dc74e34-a615-4e60-b2fe-2af48ba669fd@full.webp",
+      "https://assets.brahmanicrm.com/products/20147/bac933f7-c644-4bbd-8a04-93a00178eca0@full.webp",
+      "https://assets.brahmanicrm.com/products/20147/05bcd669-65b1-4a89-8544-288caf9da058@full.webp",
+      "https://assets.brahmanicrm.com/products/20147/19fb90cd-783e-4d17-845a-f789ebc393b0@full.webp"
     ],
-    "description": "100 PCS CTN\nGlass Jar with Airtight Wooden Lid for Home and Kitchen Storage Container Set, 685 ml",
+    "description": "Featuring an ideal 700ml capacity, this round glass jar is perfectly sized for storing pulses, tea, sugar, dry fruits, snacks, or pantry essentials.",
     "capacity": "700ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11336,37 +13009,8 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "ROUND",
-      "700ML"
-    ]
-  },
-  {
-    "id": "12d4845b-3f65-4456-9aee-697f0630be69",
-    "itemCode": "23281",
-    "aliasName": null,
-    "name": "WOODEN LID JAR ROUND WITH SPOON 1100ML",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 160,
-    "piecesPerCarton": 60,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/23281/a9149bba-e783-4750-92ed-5bd5936ce20d.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/23281/a9149bba-e783-4750-92ed-5bd5936ce20d.jpg",
-      "https://assets.brahmanicrm.com/products/23281/e7a47d78-6d5f-42d3-8d76-ce65942d3c5a.jpg",
-      "https://assets.brahmanicrm.com/products/23281/3466b996-7f09-4ea9-b10d-81b705ab70b5.jpg"
-    ],
-    "description": "Elevate your kitchen organization and home decor with this beautifully crafted Premium Glass Storage Jar. Designed with a minimalist and aesthetic appeal, this 1100 ML multi-purpose canister perfectly balances style and functionality. It features a natural bamboo lid with an airtight seal to keep your ingredients fresh for longer, while the uniquely designed side loop conveniently holds the included wooden spoon.\n\nWhether you are organizing your pantry, storing daily essentials, or looking for an elegant corporate or festive gift, this premium glass jar adds a touch of modern sophistication to any space.",
-    "capacity": "1100ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "WOODEN",
-      "LID",
-      "JAR",
-      "ROUND",
-      "WITH"
+      "700ML",
+      "CHINA"
     ]
   },
   {
@@ -11376,19 +13020,21 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN LID JAR SQUARE 1200ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 140,
-    "piecesPerCarton": 36,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20461/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/20461/0.jpg",
-      "https://assets.brahmanicrm.com/products/20461/1.jpg",
-      "https://assets.brahmanicrm.com/products/20461/2.jpg",
-      "https://assets.brahmanicrm.com/products/20461/3.jpg",
-      "https://assets.brahmanicrm.com/products/20461/4.jpg",
-      "https://assets.brahmanicrm.com/products/20461/5.jpg"
+    "brahmaniCategories": [
+      "CHINA"
     ],
-    "description": "Square Glass Jar Container With Airtight Rust Proof Bamboo Wooden Lid Canister For Spice Jam Grocery Pickle Dry Fruit 1200 Ml.",
+    "price": 140,
+    "basePrice": 120,
+    "piecesPerCarton": 48,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/20461/0c81a928-3465-48da-a5f8-6a7de8c12db0@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/20461/0c81a928-3465-48da-a5f8-6a7de8c12db0@full.webp",
+      "https://assets.brahmanicrm.com/products/20461/6df8cb2b-8589-4729-90d9-4c7130cea553@full.webp",
+      "https://assets.brahmanicrm.com/products/20461/a1f20c38-e751-444e-9601-8e5ca4be480d@full.webp",
+      "https://assets.brahmanicrm.com/products/20461/4c23c8b5-3e10-46ec-8234-acf1d4bfa35a@full.webp"
+    ],
+    "description": "Featuring an ideal 1200ml storage capacity, this jar is perfect for storing coffee beans, tea leaves, pulses, dry fruits, or other dry food items.",
     "capacity": "1200ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11399,7 +13045,8 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "SQUARE",
-      "1200ML"
+      "1200ML",
+      "CHINA"
     ]
   },
   {
@@ -11409,17 +13056,20 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN LID JAR SQUARE 1580ML 7010",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 160,
+    "basePrice": 140,
     "piecesPerCarton": 36,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22474/5947f5db-8c71-4b79-b66b-2bf996434995.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22474/7a7506cf-9ec4-4cee-8ce6-32f3ccd0cebd@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22474/5947f5db-8c71-4b79-b66b-2bf996434995.jpg",
-      "https://assets.brahmanicrm.com/products/22474/320e0a57-e22f-44a9-af9d-be20025c32ca.jpg",
-      "https://assets.brahmanicrm.com/products/22474/6338437d-3595-4536-a7f1-c6df0effc29d.jpg",
-      "https://assets.brahmanicrm.com/products/22474/f2a9fe0c-4710-40a0-ac05-3c7826dec0db.jpg"
+      "https://assets.brahmanicrm.com/products/22474/7a7506cf-9ec4-4cee-8ce6-32f3ccd0cebd@full.webp",
+      "https://assets.brahmanicrm.com/products/22474/dd23aa6e-82d7-472c-b902-6048d945e92f@full.webp",
+      "https://assets.brahmanicrm.com/products/22474/95641be6-6728-4a27-a87e-2b674c07c176@full.webp"
     ],
-    "description": "Premium Borosilicate Glass: Crafted from high-quality, durable borosilicate glass that is resistant to thermal shock and ensures clear visibility of contents.\n\nTall & Rectangular Design: Features a sleek, space-saving, and stackable rectangular shape with rounded corners, perfect for optimizing pantry and countertop space.\n\nAirtight Bamboo Lid: Comes with a fitted, natural bamboo lid featuring a silicone seal to maintain freshness and provide an airtight barrier against moisture and pests.\n\nAmple Storage Capacity: Designed as an extra-tall canister, offering generous volume to store large quantities of pasta, grains, legumes, or baking ingredients.\n\nMinimalist Kitchen Aesthetic: Provides an elegant and organized look that complements modern, rustic, or farmhouse kitchen decor.\n\nEasy Maintenance: The wide-mouth opening allows for easy scooping and cleaning; the glass body is dishwasher safe (hand wash lid recommended).",
+    "description": "Spacious 1580ml capacity, perfect for storing flour, grains, snacks, pasta, coffee, or daily kitchen essentials.",
     "capacity": "1580ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11430,7 +13080,8 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "SQUARE",
-      "1580ML"
+      "1580ML",
+      "CHINA"
     ]
   },
   {
@@ -11440,18 +13091,22 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN LID JAR SQUARE 230ML 1PCS",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 65,
+    "basePrice": 45,
     "piecesPerCarton": 120,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21780/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21780/0@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21780/0.jpg",
-      "https://assets.brahmanicrm.com/products/21780/1.jpg",
-      "https://assets.brahmanicrm.com/products/21780/2.jpg",
-      "https://assets.brahmanicrm.com/products/21780/3.jpg",
-      "https://assets.brahmanicrm.com/products/21780/4.jpg"
+      "https://assets.brahmanicrm.com/products/21780/0@full.webp",
+      "https://assets.brahmanicrm.com/products/21780/1@full.webp",
+      "https://assets.brahmanicrm.com/products/21780/2@full.webp",
+      "https://assets.brahmanicrm.com/products/21780/3@full.webp",
+      "https://assets.brahmanicrm.com/products/21780/4@full.webp"
     ],
-    "description": "You can put different spice in the mason jars set, and you can easily add labels to help identify what's inside. Then hanging on the wall and you are no longer searching through the cabinet to find what you need",
+    "description": "Featuring a compact 230ml capacity, this square glass jar is perfectly sized for storing dry fruits, spices, mouth fresheners, tea leaves, or herbs.  2. Airtight Wooden Lid with Silicone Seal:",
     "capacity": "230ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11462,7 +13117,9 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "SQUARE",
-      "230ML"
+      "230ML",
+      "1PCS",
+      "CHINA"
     ]
   },
   {
@@ -11472,18 +13129,20 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN LID JAR SQUARE 270ML",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 70,
+    "basePrice": 50,
     "piecesPerCarton": 120,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21781/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/21781/67926a26-4014-45d9-91e3-af69d52f1b03@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21781/0.jpg",
-      "https://assets.brahmanicrm.com/products/21781/1.jpg",
-      "https://assets.brahmanicrm.com/products/21781/2.jpg",
-      "https://assets.brahmanicrm.com/products/21781/3.jpg",
-      "https://assets.brahmanicrm.com/products/21781/4.jpg"
+      "https://assets.brahmanicrm.com/products/21781/67926a26-4014-45d9-91e3-af69d52f1b03@full.webp",
+      "https://assets.brahmanicrm.com/products/21781/dfc3462c-9212-44ef-90ec-7d5df6cbf105@full.webp",
+      "https://assets.brahmanicrm.com/products/21781/1163367f-119c-466f-b9f9-b0110b16349e@full.webp"
     ],
-    "description": "Airtight Glass Storage Canister with Wood Lid, Clear Food Storage Container Jar with Sealing Bamboo Lid for Noodles Flour Cereal Rice Sugar Tea Coffee Beans.",
+    "description": "Featuring a compact 270ml capacity, this square glass jar is perfectly sized for storing spices, dry fruits, mouth fresheners, herbs, or tea leaves.",
     "capacity": "270ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11494,30 +13153,32 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "SQUARE",
-      "270ML"
+      "270ML",
+      "CHINA"
     ]
   },
   {
-    "id": "6f4104ff-c8af-45ba-bca4-e78f6f8fa169",
-    "itemCode": "22203",
-    "aliasName": "SMG14",
-    "name": "WOODEN LID JAR SQUARE 330ML 1PCS",
+    "id": "d644c5eb-9599-455f-a584-8f19edb0b5a9",
+    "itemCode": "22877",
+    "aliasName": null,
+    "name": "WOODEN LID JAR SQUARE 330ML 7010",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 75,
+    "basePrice": 55,
     "piecesPerCarton": 120,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22203/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22877/d6263dea-f14c-4714-bdea-43e29c6e690c@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/22203/0.jpg",
-      "https://assets.brahmanicrm.com/products/22203/1.jpg",
-      "https://assets.brahmanicrm.com/products/22203/2.jpg",
-      "https://assets.brahmanicrm.com/products/22203/3.jpg",
-      "https://assets.brahmanicrm.com/products/22203/4.jpg",
-      "https://assets.brahmanicrm.com/products/22203/5.jpg",
-      "https://assets.brahmanicrm.com/products/22203/6.jpg"
+      "https://assets.brahmanicrm.com/products/22877/d6263dea-f14c-4714-bdea-43e29c6e690c@full.webp",
+      "https://assets.brahmanicrm.com/products/22877/d51d6f5c-a1a9-42f2-baa9-342de8fd29b6@full.webp",
+      "https://assets.brahmanicrm.com/products/22877/4367e6e3-70b4-4fb2-9f24-836bcadfbcde@full.webp",
+      "https://assets.brahmanicrm.com/products/22877/8b856bd9-727a-432b-aa0f-cfd1046b59d1@full.webp"
     ],
-    "description": "Borosilicate Glass Jars 330ML with Silcone Seal Airtight Bamboo Lids Tea Container | Clear Kitchen Canister Storage Jar with Bamboo Shelf Kitchen.",
+    "description": "Overview: 330ml aesthetic square glass jar with a natural bamboo lid.",
     "capacity": "330ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11528,27 +13189,32 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "SQUARE",
-      "330ML"
+      "330ML",
+      "CHINA"
     ]
   },
   {
-    "id": "c28cd20f-7445-4b6b-9ff1-525daf373c35",
-    "itemCode": "21160",
-    "aliasName": "GPG16-750",
-    "name": "WOODEN LID JAR SQUARE 750ML",
+    "id": "e4e8d8df-0ec5-4e7a-9451-b87f49015f7c",
+    "itemCode": "22878",
+    "aliasName": null,
+    "name": "WOODEN LID JAR SQUARE 750ML 7010",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [
+      "CHINA"
+    ],
     "price": 115,
+    "basePrice": 95,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/21160/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/22878/136e48ba-0965-4097-b8b3-2099db0eee96@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/21160/0.jpg",
-      "https://assets.brahmanicrm.com/products/21160/1.jpg",
-      "https://assets.brahmanicrm.com/products/21160/2.jpg",
-      "https://assets.brahmanicrm.com/products/21160/3.jpg"
+      "https://assets.brahmanicrm.com/products/22878/136e48ba-0965-4097-b8b3-2099db0eee96@full.webp",
+      "https://assets.brahmanicrm.com/products/22878/fed4abdb-6d3d-4b10-9889-4bd869c21719@full.webp",
+      "https://assets.brahmanicrm.com/products/22878/5e3795b9-510a-4207-b167-f1e04b6fe966@full.webp",
+      "https://assets.brahmanicrm.com/products/22878/b7d7217d-ca44-4b65-bbbf-90f1370be562@full.webp"
     ],
-    "description": "100 PCS CTN\nWOODEN LID JAR SQUARE 750ML || Glass Jar Wooden Lid For Food Containers Set, Airtight Jar With Lids,ars Transparent",
+    "description": "Ideal 750ml capacity, perfect for storing pickles (achaar), dry fruits, spices, snacks, sugar, tea, or daily kitchen essentials.",
     "capacity": "750ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11559,38 +13225,8 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "SQUARE",
-      "750ML"
-    ]
-  },
-  {
-    "id": "caace2b6-6ba8-4677-b104-ebbd3d8b377e",
-    "itemCode": "22525",
-    "aliasName": "GPG16-950",
-    "name": "WOODEN LID JAR SQUARE 950ML",
-    "category": "jars",
-    "categoryName": "Glass Jars & Storage",
-    "price": 120,
-    "piecesPerCarton": 36,
-    "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/22525/0.jpg",
-    "images": [
-      "https://assets.brahmanicrm.com/products/22525/0.jpg",
-      "https://assets.brahmanicrm.com/products/22525/1.jpg",
-      "https://assets.brahmanicrm.com/products/22525/2.jpg",
-      "https://assets.brahmanicrm.com/products/22525/3.jpg"
-    ],
-    "description": "36 PCS CTN\nWOODEN LID JAR SQUARE 950ML || Glass Jar Wooden Lid For Food Containers Set, Airtight Jar With Lids,ars Transparent",
-    "capacity": "950ML",
-    "mouthSize": "Standard Fit",
-    "material": "Clear Soda Lime Flint Glass",
-    "inStock": true,
-    "featured": false,
-    "tags": [
-      "WOODEN",
-      "LID",
-      "JAR",
-      "SQUARE",
-      "950ML"
+      "750ML",
+      "CHINA"
     ]
   },
   {
@@ -11600,17 +13236,19 @@ export const INITIAL_PRODUCTS = [
     "name": "WOODEN LID JAR SQUARE 950ML 7010",
     "category": "jars",
     "categoryName": "Glass Jars & Storage",
-    "price": 130,
+    "brahmaniCategories": [
+      "CHINA"
+    ],
+    "price": 140,
+    "basePrice": 120,
     "piecesPerCarton": 48,
     "moqCartons": 1,
-    "image": "https://assets.brahmanicrm.com/products/20274/0.jpg",
+    "image": "https://assets.brahmanicrm.com/products/20274/82daac99-d8c2-4dda-989b-4f38bb0016b7@full.webp",
     "images": [
-      "https://assets.brahmanicrm.com/products/20274/0.jpg",
-      "https://assets.brahmanicrm.com/products/20274/1.jpg",
-      "https://assets.brahmanicrm.com/products/20274/2.jpg",
-      "https://assets.brahmanicrm.com/products/20274/3.jpg"
+      "https://assets.brahmanicrm.com/products/20274/82daac99-d8c2-4dda-989b-4f38bb0016b7@full.webp",
+      "https://assets.brahmanicrm.com/products/20274/6f289ae6-d78f-418f-a216-748c91e0ce24@full.webp"
     ],
-    "description": "Airtight Glass Storage Canister with Wood Lid, Clear Food Storage Container Jar with Sealing Bamboo Lid for Noodles Flour Cereal Rice Sugar Tea Coffee Beans.",
+    "description": "Designed with a space-saving square shape that fits neatly and efficiently on kitchen shelves or inside cabinets.",
     "capacity": "950ML",
     "mouthSize": "Standard Fit",
     "material": "Clear Soda Lime Flint Glass",
@@ -11621,7 +13259,41 @@ export const INITIAL_PRODUCTS = [
       "LID",
       "JAR",
       "SQUARE",
-      "950ML"
+      "950ML",
+      "CHINA"
+    ]
+  },
+  {
+    "id": "0162c118-77e6-46d0-867a-face7d60f630",
+    "itemCode": "22791",
+    "aliasName": "H2153-BAM",
+    "name": "WOODEN LID STORAGE JAR SQ 3PCS SET",
+    "category": "jars",
+    "categoryName": "Glass Jars & Storage",
+    "brahmaniCategories": [],
+    "price": 480,
+    "basePrice": 460,
+    "piecesPerCarton": 12,
+    "moqCartons": 1,
+    "image": "https://assets.brahmanicrm.com/products/22791/f1cb586b-0972-45e3-a735-555dcb7dcae4@full.webp",
+    "images": [
+      "https://assets.brahmanicrm.com/products/22791/f1cb586b-0972-45e3-a735-555dcb7dcae4@full.webp",
+      "https://assets.brahmanicrm.com/products/22791/91c2bace-86da-4e9d-a242-6fd75138ccc2@full.webp",
+      "https://assets.brahmanicrm.com/products/22791/64d74b64-3513-4d6d-9cc8-5e5129f97b89@full.webp"
+    ],
+    "description": "Special Features: Multiple Sizes, Airtight Leak-Proof Seal, Food-Grade Safe",
+    "capacity": "3PCS",
+    "mouthSize": "Standard Fit",
+    "material": "Clear Soda Lime Flint Glass",
+    "inStock": true,
+    "featured": false,
+    "tags": [
+      "WOODEN",
+      "LID",
+      "STORAGE",
+      "JAR",
+      "3PCS",
+      "SET"
     ]
   }
 ];
